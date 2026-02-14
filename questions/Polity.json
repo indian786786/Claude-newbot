@@ -1,0 +1,133 @@
+{
+  "Important Parts and Schedules": [
+    {
+      "question": "How many Schedules are there in the Indian Constitution at present?",
+      "options": ["8", "10", "12", "14"],
+      "correct": 2,
+      "explanation": "The Indian Constitution currently contains 12 Schedules after various amendments."
+    },
+    {
+      "question": "Which Schedule deals with the allocation of seats in the Rajya Sabha?",
+      "options": ["Fourth Schedule", "Fifth Schedule", "Sixth Schedule", "Seventh Schedule"],
+      "correct": 0,
+      "explanation": "The Fourth Schedule deals with allocation of seats in the Rajya Sabha."
+    },
+    {
+      "question": "The Seventh Schedule of the Constitution deals with:",
+      "options": ["Fundamental Rights", "Distribution of Powers", "Amendment Procedure", "Official Languages"],
+      "correct": 1,
+      "explanation": "The Seventh Schedule divides powers between Union and State through Union, State and Concurrent Lists."
+    },
+    {
+      "question": "Which Schedule contains provisions relating to anti-defection law?",
+      "options": ["Ninth Schedule", "Tenth Schedule", "Eleventh Schedule", "Twelfth Schedule"],
+      "correct": 1,
+      "explanation": "The Tenth Schedule contains provisions related to the Anti-Defection Law."
+    },
+    {
+      "question": "The Eleventh Schedule is related to:",
+      "options": ["Municipalities", "Panchayats", "Judiciary", "Finance Commission"],
+      "correct": 1,
+      "explanation": "The Eleventh Schedule deals with powers and responsibilities of Panchayats."
+    }
+  ],
+
+  "Fundamental Rights": [
+    {
+      "question": "Which Article guarantees Right to Equality?",
+      "options": ["Article 12", "Article 14", "Article 19", "Article 21"],
+      "correct": 1,
+      "explanation": "Article 14 guarantees equality before law and equal protection of laws."
+    },
+    {
+      "question": "Abolition of untouchability is provided under which Article?",
+      "options": ["Article 15", "Article 16", "Article 17", "Article 18"],
+      "correct": 2,
+      "explanation": "Article 17 abolishes untouchability and forbids its practice in any form."
+    },
+    {
+      "question": "Right to Freedom is covered under Articles:",
+      "options": ["19-22", "14-18", "23-24", "25-28"],
+      "correct": 0,
+      "explanation": "Articles 19 to 22 deal with Right to Freedom."
+    },
+    {
+      "question": "Right to Constitutional Remedies is under:",
+      "options": ["Article 21", "Article 25", "Article 32", "Article 44"],
+      "correct": 2,
+      "explanation": "Article 32 provides the Right to Constitutional Remedies."
+    },
+    {
+      "question": "Which writ is issued to produce a person before the court?",
+      "options": ["Mandamus", "Certiorari", "Habeas Corpus", "Quo Warranto"],
+      "correct": 2,
+      "explanation": "Habeas Corpus is issued to produce a detained person before the court."
+    }
+  ],
+
+  "President of India": [
+    {
+      "question": "The President of India is elected by:",
+      "options": ["Lok Sabha only", "Rajya Sabha only", "Electoral College", "Prime Minister"],
+      "correct": 2,
+      "explanation": "The President is elected by an Electoral College consisting of elected MPs and MLAs."
+    },
+    {
+      "question": "The term of office of the President is:",
+      "options": ["4 years", "5 years", "6 years", "7 years"],
+      "correct": 1,
+      "explanation": "The President holds office for a term of 5 years."
+    },
+    {
+      "question": "The President can be removed by:",
+      "options": ["Prime Minister", "Impeachment", "Supreme Court", "Lok Sabha"],
+      "correct": 1,
+      "explanation": "The President can be removed by impeachment process."
+    },
+    {
+      "question": "The power to declare Emergency rests with:",
+      "options": ["Prime Minister", "Cabinet", "President", "Chief Justice"],
+      "correct": 2,
+      "explanation": "The President declares Emergency under Article 352."
+    },
+    {
+      "question": "Who administers oath to the President?",
+      "options": ["Prime Minister", "Chief Justice of India", "Vice President", "Speaker"],
+      "correct": 1,
+      "explanation": "The Chief Justice of India administers the oath to the President."
+    }
+  ],
+
+  "Parliament": [
+    {
+      "question": "Parliament of India consists of:",
+      "options": ["Lok Sabha only", "Rajya Sabha only", "President and two Houses", "Council of Ministers"],
+      "correct": 2,
+      "explanation": "Parliament consists of President, Lok Sabha and Rajya Sabha."
+    },
+    {
+      "question": "Maximum strength of Lok Sabha is:",
+      "options": ["500", "545", "552", "560"],
+      "correct": 2,
+      "explanation": "The maximum strength of Lok Sabha is 552."
+    },
+    {
+      "question": "Money Bill can be introduced only in:",
+      "options": ["Rajya Sabha", "Lok Sabha", "Joint Session", "Supreme Court"],
+      "correct": 1,
+      "explanation": "Money Bills can be introduced only in Lok Sabha."
+    },
+    {
+      "question": "Rajya Sabha is a:",
+      "options": ["Permanent House", "Temporary House", "Advisory Body", "Judicial Body"],
+      "correct": 0,
+      "explanation": "Rajya Sabha is a permanent House and cannot be dissolved."
+    },
+    {
+      "question": "Joint sitting of Parliament is presided over by:",
+      "options": ["President", "Vice President", "Speaker of Lok Sabha", "Prime Minister"],
+      "correct": 2,
+      "explanation": "Speaker of Lok Sabha presides over joint sitting."
+    }
+  ]
+}
