@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Which Article declares India as a Union of States?",
+    "options": ["Article 1", "Article 2", "Article 3", "Article 4"],
+    "correct": 0,
+    "explanation": "Article 1 describes India as a 'Union of States' and its territory."
+  },
+  {
+    "question": "Article 3 deals with:",
+    "options": ["Citizenship", "Formation of new states", "Fundamental Rights", "Union Territories"],
+    "correct": 1,
+    "explanation": "Article 3 empowers Parliament to form new states and alter boundaries of existing states."
+  },
+  {
+    "question": "Which Article defines 'State' for the purpose of Part III?",
+    "options": ["Article 12", "Article 13", "Article 14", "Article 15"],
+    "correct": 0,
+    "explanation": "Article 12 defines 'State' to include Government, Parliament, State Legislatures and local authorities."
+  },
+  {
+    "question": "Article 13 deals with:",
+    "options": ["Right to Equality", "Laws inconsistent with Fundamental Rights", "Right to Freedom", "Untouchability"],
+    "correct": 1,
+    "explanation": "Article 13 declares that laws inconsistent with Fundamental Rights shall be void."
+  },
+  {
+    "question": "Which Article guarantees equality before law?",
+    "options": ["Article 14", "Article 15", "Article 16", "Article 17"],
+    "correct": 0,
+    "explanation": "Article 14 guarantees equality before law and equal protection of laws."
+  },
+  {
+    "question": "Article 15 prohibits discrimination on grounds of:",
+    "options": ["Religion only", "Race and caste only", "Religion, race, caste, sex or place of birth", "Caste only"],
+    "correct": 2,
+    "explanation": "Article 15 prohibits discrimination on five grounds."
+  },
+  {
+    "question": "Which Article deals with equality of opportunity in public employment?",
+    "options": ["Article 14", "Article 15", "Article 16", "Article 17"],
+    "correct": 2,
+    "explanation": "Article 16 guarantees equality of opportunity in matters of public employment."
+  },
+  {
+    "question": "Article 17 abolishes:",
+    "options": ["Titles", "Untouchability", "Forced labour", "Child labour"],
+    "correct": 1,
+    "explanation": "Article 17 abolishes untouchability and forbids its practice in any form."
+  },
+  {
+    "question": "Which Article abolishes titles?",
+    "options": ["Article 15", "Article 16", "Article 17", "Article 18"],
+    "correct": 3,
+    "explanation": "Article 18 abolishes titles except military and academic distinctions."
+  },
+  {
+    "question": "Article 19 guarantees how many freedoms?",
+    "options": ["Five", "Six", "Seven", "Eight"],
+    "correct": 1,
+    "explanation": "Article 19 guarantees six freedoms to all citizens."
+  },
+  {
+    "question": "Which Article provides protection in respect of conviction for offences?",
+    "options": ["Article 19", "Article 20", "Article 21", "Article 22"],
+    "correct": 1,
+    "explanation": "Article 20 protects against ex post facto laws, double jeopardy and self-incrimination."
+  },
+  {
+    "question": "Article 21 protects:",
+    "options": ["Right to property", "Life and personal liberty", "Right to education", "Freedom of speech"],
+    "correct": 1,
+    "explanation": "Article 21 states no person shall be deprived of life or personal liberty except by procedure established by law."
+  },
+  {
+    "question": "Which Article was inserted by the 86th Amendment for Right to Education?",
+    "options": ["Article 21", "Article 21A", "Article 45", "Article 46"],
+    "correct": 1,
+    "explanation": "Article 21A was inserted by 86th Amendment making education a fundamental right for children aged 6-14."
+  },
+  {
+    "question": "Article 22 provides protection against:",
+    "options": ["Untouchability", "Arrest and detention", "Forced labour", "Traffic in human beings"],
+    "correct": 1,
+    "explanation": "Article 22 provides protection against arrest and detention in certain cases."
+  },
+  {
+    "question": "Which Article prohibits traffic in human beings and forced labour?",
+    "options": ["Article 21", "Article 22", "Article 23", "Article 24"],
+    "correct": 2,
+    "explanation": "Article 23 prohibits traffic in human beings and forced labour."
+  },
+  {
+    "question": "Article 24 prohibits employment of children below the age of:",
+    "options": ["12 years", "14 years", "16 years", "18 years"],
+    "correct": 1,
+    "explanation": "Article 24 prohibits employment of children below 14 years in factories and hazardous work."
+  },
+  {
+    "question": "Which Article guarantees freedom of conscience and religion?",
+    "options": ["Article 23", "Article 24", "Article 25", "Article 26"],
+    "correct": 2,
+    "explanation": "Article 25 guarantees freedom of conscience and free profession, practice and propagation of religion."
+  },
+  {
+    "question": "Article 26 deals with:",
+    "options": ["Religious instruction", "Freedom to manage religious affairs", "Payment of taxes for religion", "Right to property"],
+    "correct": 1,
+    "explanation": "Article 26 provides freedom to manage religious affairs."
+  },
+  {
+    "question": "Which Article prohibits compulsion to pay taxes for promotion of any religion?",
+    "options": ["Article 25", "Article 26", "Article 27", "Article 28"],
+    "correct": 2,
+    "explanation": "Article 27 prohibits taxation for promotion of any particular religion."
+  },
+  {
+    "question": "Article 29 protects interests of:",
+    "options": ["Religious groups", "Minorities", "Scheduled Castes", "Women"],
+    "correct": 1,
+    "explanation": "Article 29 protects the interests of minorities and their right to conserve culture."
+  },
+  {
+    "question": "Which Article gives minorities right to establish educational institutions?",
+    "options": ["Article 28", "Article 29", "Article 30", "Article 31"],
+    "correct": 2,
+    "explanation": "Article 30 gives all minorities the right to establish and administer educational institutions."
+  },
+  {
+    "question": "Article 32 is known as:",
+    "options": ["Soul of Constitution", "Heart of Constitution", "Heart and Soul of Constitution", "Cornerstone of Constitution"],
+    "correct": 2,
+    "explanation": "Dr. Ambedkar called Article 32 the 'Heart and Soul' of the Constitution."
+  },
+  {
+    "question": "Which Article empowers Supreme Court to issue writs?",
+    "options": ["Article 31", "Article 32", "Article 136", "Article 226"],
+    "correct": 1,
+    "explanation": "Article 32 empowers Supreme Court to issue writs for enforcement of Fundamental Rights."
+  },
+  {
+    "question": "Article 44 directs the state to secure:",
+    "options": ["Free education", "Uniform Civil Code", "Right to work", "Living wage"],
+    "correct": 1,
+    "explanation": "Article 44 directs the state to secure a Uniform Civil Code for all citizens."
+  },
+  {
+    "question": "Which Article contains Fundamental Duties?",
+    "options": ["Article 50A", "Article 51", "Article 51A", "Article 52"],
+    "correct": 2,
+    "explanation": "Article 51A contains 11 Fundamental Duties of citizens."
+  },
+  {
+    "question": "Article 52 deals with:",
+    "options": ["Prime Minister", "President of India", "Vice President", "Speaker"],
+    "correct": 1,
+    "explanation": "Article 52 states there shall be a President of India."
+  },
+  {
+    "question": "Which Article deals with election of President?",
+    "options": ["Article 52", "Article 54", "Article 56", "Article 58"],
+    "correct": 1,
+    "explanation": "Article 54 provides for election of President by an Electoral College."
+  },
+  {
+    "question": "Article 61 deals with:",
+    "options": ["Election of President", "Impeachment of President", "Powers of President", "Oath of President"],
+    "correct": 1,
+    "explanation": "Article 61 provides the procedure for impeachment of the President."
+  },
+  {
+    "question": "Which Article states Vice President shall be ex-officio Chairman of Rajya Sabha?",
+    "options": ["Article 63", "Article 64", "Article 65", "Article 66"],
+    "correct": 1,
+    "explanation": "Article 64 states the Vice President shall be ex-officio Chairman of Rajya Sabha."
+  },
+  {
+    "question": "Article 72 deals with:",
+    "options": ["President's veto", "President's pardoning power", "President's ordinance power", "President's emergency power"],
+    "correct": 1,
+    "explanation": "Article 72 gives the President power to grant pardons, reprieves, and commutations."
+  },
+  {
+    "question": "Which Article deals with Council of Ministers?",
+    "options": ["Article 74", "Article 75", "Article 76", "Article 77"],
+    "correct": 1,
+    "explanation": "Article 75 deals with appointment and tenure of Council of Ministers."
+  },
+  {
+    "question": "Article 76 deals with:",
+    "options": ["Solicitor General", "Attorney General", "Advocate General", "Law Minister"],
+    "correct": 1,
+    "explanation": "Article 76 provides for the office of Attorney General of India."
+  },
+  {
+    "question": "Which Article empowers President to promulgate ordinances?",
+    "options": ["Article 72", "Article 85", "Article 123", "Article 213"],
+    "correct": 2,
+    "explanation": "Article 123 empowers the President to promulgate ordinances when Parliament is not in session."
+  },
+  {
+    "question": "Article 110 defines:",
+    "options": ["Ordinary Bill", "Money Bill", "Constitutional Amendment Bill", "Finance Bill"],
+    "correct": 1,
+    "explanation": "Article 110 defines what constitutes a Money Bill."
+  },
+  {
+    "question": "Which Article deals with joint sitting of Parliament?",
+    "options": ["Article 107", "Article 108", "Article 109", "Article 110"],
+    "correct": 1,
+    "explanation": "Article 108 provides for joint sitting of both Houses in case of deadlock."
+  },
+  {
+    "question": "Article 112 deals with:",
+    "options": ["Money Bill", "Annual Financial Statement", "Finance Commission", "Consolidated Fund"],
+    "correct": 1,
+    "explanation": "Article 112 deals with the Annual Financial Statement (Budget)."
+  },
+  {
+    "question": "Which Article establishes Supreme Court of India?",
+    "options": ["Article 124", "Article 125", "Article 126", "Article 127"],
+    "correct": 0,
+    "explanation": "Article 124 provides for establishment and constitution of Supreme Court."
+  },
+  {
+    "question": "Article 143 empowers President to seek advice from:",
+    "options": ["Parliament", "Supreme Court", "Election Commission", "Attorney General"],
+    "correct": 1,
+    "explanation": "Article 143 empowers President to seek advisory opinion from Supreme Court."
+  },
+  {
+    "question": "Which Article deals with Governor of a State?",
+    "options": ["Article 153", "Article 154", "Article 155", "Article 156"],
+    "correct": 0,
+    "explanation": "Article 153 states there shall be a Governor for each State."
+  },
+  {
+    "question": "Article 161 deals with:",
+    "options": ["Powers of Governor", "Pardoning power of Governor", "Oath of Governor", "Salary of Governor"],
+    "correct": 1,
+    "explanation": "Article 161 gives the Governor power to grant pardons and commutations."
+  },
+  {
+    "question": "Which Article deals with High Courts?",
+    "options": ["Article 214", "Article 215", "Article 216", "Article 217"],
+    "correct": 0,
+    "explanation": "Article 214 provides that there shall be a High Court for each State."
+  },
+  {
+    "question": "Article 226 empowers High Courts to issue:",
+    "options": ["Ordinances", "Writs", "Notifications", "Orders"],
+    "correct": 1,
+    "explanation": "Article 226 empowers High Courts to issue writs for enforcement of rights and for any other purpose."
+  },
+  {
+    "question": "Which Article deals with Panchayats?",
+    "options": ["Article 40", "Article 243", "Article 243P", "Article 246"],
+    "correct": 1,
+    "explanation": "Article 243 onwards (Part IX) deal with Panchayats."
+  },
+  {
+    "question": "Article 280 deals with:",
+    "options": ["Election Commission", "Finance Commission", "UPSC", "CAG"],
+    "correct": 1,
+    "explanation": "Article 280 provides for constitution of Finance Commission."
+  },
+  {
+    "question": "Which Article establishes Election Commission?",
+    "options": ["Article 320", "Article 324", "Article 325", "Article 326"],
+    "correct": 1,
+    "explanation": "Article 324 provides for Election Commission to superintend elections."
+  },
+  {
+    "question": "Article 343 deals with:",
+    "options": ["National language", "Official language of Union", "Regional languages", "Classical languages"],
+    "correct": 1,
+    "explanation": "Article 343 declares Hindi in Devanagari script as the Official Language of the Union."
+  },
+  {
+    "question": "Which Article deals with National Emergency?",
+    "options": ["Article 350", "Article 352", "Article 356", "Article 360"],
+    "correct": 1,
+    "explanation": "Article 352 deals with proclamation of National Emergency."
+  },
+  {
+    "question": "Article 356 deals with:",
+    "options": ["National Emergency", "State Emergency", "Financial Emergency", "War Emergency"],
+    "correct": 1,
+    "explanation": "Article 356 provides for imposition of President's Rule in a State."
+  },
+  {
+    "question": "Which Article deals with Financial Emergency?",
+    "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+    "correct": 2,
+    "explanation": "Article 360 deals with Financial Emergency."
+  },
+  {
+    "question": "Article 368 deals with:",
+    "options": ["Emergency provisions", "Amendment of Constitution", "Finance Commission", "Election Commission"],
+    "correct": 1,
+    "explanation": "Article 368 provides the procedure for amendment of the Constitution."
+  }
+]

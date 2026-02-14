@@ -1,0 +1,296 @@
+[
+  {
+    "question": "The 1st Amendment Act, 1951 added which Schedule?",
+    "options": ["Eighth Schedule", "Ninth Schedule", "Tenth Schedule", "Eleventh Schedule"],
+    "correct": 1,
+    "explanation": "The 1st Amendment added the Ninth Schedule to protect land reform laws from judicial review."
+  },
+  {
+    "question": "The 7th Amendment Act, 1956 reorganized states on the basis of:",
+    "options": ["Religion", "Language", "Population", "Area"],
+    "correct": 1,
+    "explanation": "The 7th Amendment reorganized states on linguistic basis following States Reorganisation Act."
+  },
+  {
+    "question": "Which Amendment lowered the voting age from 21 to 18 years?",
+    "options": ["42nd Amendment", "44th Amendment", "61st Amendment", "86th Amendment"],
+    "correct": 2,
+    "explanation": "The 61st Amendment Act, 1988 reduced the voting age to 18 years."
+  },
+  {
+    "question": "The 42nd Amendment is known as:",
+    "options": ["Emergency Amendment", "Mini Constitution", "Anti-Defection Amendment", "Education Amendment"],
+    "correct": 1,
+    "explanation": "The 42nd Amendment, 1976 is called 'Mini Constitution' due to its extensive changes."
+  },
+  {
+    "question": "Which Amendment added 'Socialist', 'Secular' and 'Integrity' to the Preamble?",
+    "options": ["40th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+    "correct": 1,
+    "explanation": "The 42nd Amendment added these words to the Preamble in 1976."
+  },
+  {
+    "question": "Fundamental Duties were added by which Amendment?",
+    "options": ["40th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+    "correct": 1,
+    "explanation": "The 42nd Amendment added Part IV-A containing Fundamental Duties."
+  },
+  {
+    "question": "The 44th Amendment removed which Fundamental Right?",
+    "options": ["Right to Education", "Right to Property", "Right to Freedom", "Right to Equality"],
+    "correct": 1,
+    "explanation": "The 44th Amendment, 1978 removed Right to Property from Fundamental Rights."
+  },
+  {
+    "question": "Anti-Defection Law was added by which Amendment?",
+    "options": ["42nd Amendment", "44th Amendment", "52nd Amendment", "61st Amendment"],
+    "correct": 2,
+    "explanation": "The 52nd Amendment, 1985 added the Tenth Schedule containing Anti-Defection Law."
+  },
+  {
+    "question": "Which Amendment reduced the voting age for Lok Sabha and Assembly elections?",
+    "options": ["52nd Amendment", "61st Amendment", "73rd Amendment", "86th Amendment"],
+    "correct": 1,
+    "explanation": "The 61st Amendment, 1989 reduced voting age from 21 to 18 years."
+  },
+  {
+    "question": "The 73rd Amendment deals with:",
+    "options": ["Municipalities", "Panchayati Raj", "Anti-Defection", "Right to Education"],
+    "correct": 1,
+    "explanation": "The 73rd Amendment, 1992 gave constitutional status to Panchayati Raj institutions."
+  },
+  {
+    "question": "Which Amendment gave constitutional status to Municipalities?",
+    "options": ["73rd Amendment", "74th Amendment", "86th Amendment", "97th Amendment"],
+    "correct": 1,
+    "explanation": "The 74th Amendment, 1992 provided constitutional status to urban local bodies."
+  },
+  {
+    "question": "The 86th Amendment made education a Fundamental Right for children aged:",
+    "options": ["5-14 years", "6-14 years", "6-16 years", "5-16 years"],
+    "correct": 1,
+    "explanation": "The 86th Amendment, 2002 inserted Article 21A for children aged 6-14 years."
+  },
+  {
+    "question": "Which Amendment added four languages to the Eighth Schedule?",
+    "options": ["71st Amendment", "92nd Amendment", "100th Amendment", "101st Amendment"],
+    "correct": 1,
+    "explanation": "The 92nd Amendment, 2003 added Bodo, Dogri, Maithili and Santhali."
+  },
+  {
+    "question": "The 97th Amendment deals with:",
+    "options": ["Panchayats", "Municipalities", "Co-operative Societies", "Education"],
+    "correct": 2,
+    "explanation": "The 97th Amendment, 2011 added Part IX-B for Co-operative Societies."
+  },
+  {
+    "question": "GST was introduced by which Amendment?",
+    "options": ["100th Amendment", "101st Amendment", "102nd Amendment", "103rd Amendment"],
+    "correct": 1,
+    "explanation": "The 101st Amendment, 2016 introduced Goods and Services Tax (GST)."
+  },
+  {
+    "question": "Which Amendment provided 10% reservation for economically weaker sections?",
+    "options": ["101st Amendment", "102nd Amendment", "103rd Amendment", "104th Amendment"],
+    "correct": 2,
+    "explanation": "The 103rd Amendment, 2019 provided 10% quota for EWS in general category."
+  },
+  {
+    "question": "The 24th Amendment empowered Parliament to amend:",
+    "options": ["Fundamental Rights", "Directive Principles", "Emergency Provisions", "All Parts"],
+    "correct": 0,
+    "explanation": "The 24th Amendment, 1971 affirmed Parliament's power to amend any part including Fundamental Rights."
+  },
+  {
+    "question": "Which Amendment extended reservation for SC/ST in Lok Sabha and Assemblies?",
+    "options": ["95th Amendment", "100th Amendment", "104th Amendment", "105th Amendment"],
+    "correct": 2,
+    "explanation": "The 104th Amendment, 2020 extended reservation by 10 years till 2030."
+  },
+  {
+    "question": "The 21st Amendment added which language to the Eighth Schedule?",
+    "options": ["Konkani", "Sindhi", "Nepali", "Manipuri"],
+    "correct": 1,
+    "explanation": "The 21st Amendment, 1967 added Sindhi to the Eighth Schedule."
+  },
+  {
+    "question": "Which Amendment added Konkani, Manipuri and Nepali to Eighth Schedule?",
+    "options": ["61st Amendment", "71st Amendment", "92nd Amendment", "100th Amendment"],
+    "correct": 1,
+    "explanation": "The 71st Amendment, 1992 added these three languages."
+  },
+  {
+    "question": "The 91st Amendment limits the size of Council of Ministers to:",
+    "options": ["10% of total members", "15% of total members", "20% of total members", "25% of total members"],
+    "correct": 1,
+    "explanation": "The 91st Amendment, 2003 capped ministers at 15% of the House strength."
+  },
+  {
+    "question": "Which Amendment made Delhi a National Capital Territory?",
+    "options": ["61st Amendment", "69th Amendment", "70th Amendment", "74th Amendment"],
+    "correct": 1,
+    "explanation": "The 69th Amendment, 1991 made Delhi a National Capital Territory."
+  },
+  {
+    "question": "The 84th Amendment froze seats in Lok Sabha and Assemblies till which year?",
+    "options": ["2001", "2011", "2026", "2031"],
+    "correct": 2,
+    "explanation": "The 84th Amendment, 2001 froze delimitation till 2026."
+  },
+  {
+    "question": "Which Amendment inserted 11th Fundamental Duty?",
+    "options": ["42nd Amendment", "61st Amendment", "86th Amendment", "97th Amendment"],
+    "correct": 2,
+    "explanation": "The 86th Amendment, 2002 added duty of parents to provide education."
+  },
+  {
+    "question": "The 87th Amendment deals with:",
+    "options": ["Delimitation", "Panchayats", "Reservation", "Education"],
+    "correct": 0,
+    "explanation": "The 87th Amendment, 2003 dealt with delimitation based on 2001 census."
+  },
+  {
+    "question": "Which Amendment provided constitutional status to National Commission for Backward Classes?",
+    "options": ["100th Amendment", "101st Amendment", "102nd Amendment", "103rd Amendment"],
+    "correct": 2,
+    "explanation": "The 102nd Amendment, 2018 gave constitutional status to NCBC."
+  },
+  {
+    "question": "The 93rd Amendment allows special provisions for admission in:",
+    "options": ["Government jobs", "Educational institutions", "Sports quota", "All of above"],
+    "correct": 1,
+    "explanation": "The 93rd Amendment, 2005 enabled reservation in private educational institutions."
+  },
+  {
+    "question": "Which Amendment inserted Article 21A for Right to Education?",
+    "options": ["73rd Amendment", "86th Amendment", "93rd Amendment", "103rd Amendment"],
+    "correct": 1,
+    "explanation": "The 86th Amendment, 2002 inserted Article 21A making education a fundamental right."
+  },
+  {
+    "question": "The 88th Amendment deals with:",
+    "options": ["Service Tax", "Education Cess", "GST", "Income Tax"],
+    "correct": 1,
+    "explanation": "The 88th Amendment, 2003 imposed service tax for financing education."
+  },
+  {
+    "question": "Which Amendment enhanced retirement age of High Court judges?",
+    "options": ["15th Amendment", "20th Amendment", "25th Amendment", "30th Amendment"],
+    "correct": 0,
+    "explanation": "The 15th Amendment, 1963 increased retirement age to 62 years."
+  },
+  {
+    "question": "The 39th Amendment placed election disputes of PM and Speaker beyond judicial review. It was repealed by:",
+    "options": ["42nd Amendment", "43rd Amendment", "44th Amendment", "45th Amendment"],
+    "correct": 2,
+    "explanation": "The 44th Amendment, 1978 repealed provisions of 39th Amendment."
+  },
+  {
+    "question": "Which Amendment provided for Union Territories to have Legislative Assemblies?",
+    "options": ["7th Amendment", "14th Amendment", "27th Amendment", "70th Amendment"],
+    "correct": 1,
+    "explanation": "The 14th Amendment, 1962 enabled creation of Legislative Assemblies for UTs."
+  },
+  {
+    "question": "The 42nd Amendment added Part IVA to the Constitution. This Part deals with:",
+    "options": ["Fundamental Rights", "Fundamental Duties", "Emergency Provisions", "Panchayats"],
+    "correct": 1,
+    "explanation": "Part IV-A contains Fundamental Duties added by 42nd Amendment."
+  },
+  {
+    "question": "Which Amendment provided for special provisions for Arunachal Pradesh?",
+    "options": ["55th Amendment", "56th Amendment", "57th Amendment", "58th Amendment"],
+    "correct": 0,
+    "explanation": "The 55th Amendment, 1986 extended special provisions to Arunachal Pradesh."
+  },
+  {
+    "question": "The 76th Amendment extended reservation for SC/ST till which year?",
+    "options": ["2000", "2005", "2010", "2020"],
+    "correct": 2,
+    "explanation": "The 76th Amendment, 1994 extended reservation for 10 years till 2010."
+  },
+  {
+    "question": "Which Amendment added words 'or a Sikh' after 'Hindu' in Article 25?",
+    "options": ["25th Amendment", "27th Amendment", "42nd Amendment", "44th Amendment"],
+    "correct": 0,
+    "explanation": "The 25th Amendment, 1971 clarified that Sikhs are included in Hindu reference."
+  },
+  {
+    "question": "The 96th Amendment substituted 'Odia' for which language in Eighth Schedule?",
+    "options": ["Oriya", "Assamese", "Bengali", "Telugu"],
+    "correct": 0,
+    "explanation": "The 96th Amendment, 2011 replaced 'Oriya' with 'Odia'."
+  },
+  {
+    "question": "Which Amendment made Goa a full state?",
+    "options": ["10th Amendment", "12th Amendment", "56th Amendment", "69th Amendment"],
+    "correct": 2,
+    "explanation": "The 56th Amendment, 1987 made Goa a full-fledged state."
+  },
+  {
+    "question": "The 98th Amendment empowered Governor to appoint:",
+    "options": ["Chief Minister", "Advocate General", "Additional judges in Karnataka HC", "Chief Secretary"],
+    "correct": 2,
+    "explanation": "The 98th Amendment, 2013 dealt with appointment of additional judges in Karnataka."
+  },
+  {
+    "question": "Which Amendment removed Anglo-Indian reservation in Lok Sabha and Assemblies?",
+    "options": ["100th Amendment", "102nd Amendment", "104th Amendment", "105th Amendment"],
+    "correct": 2,
+    "explanation": "The 104th Amendment, 2020 removed nomination of Anglo-Indians."
+  },
+  {
+    "question": "The 95th Amendment extended reservation for SC/ST in Lok Sabha till:",
+    "options": ["2010", "2020", "2030", "2040"],
+    "correct": 1,
+    "explanation": "The 95th Amendment, 2009 extended reservation till 2020."
+  },
+  {
+    "question": "Which Amendment inserted Fundamental Duty to protect environment?",
+    "options": ["42nd Amendment", "44th Amendment", "51st Amendment", "86th Amendment"],
+    "correct": 0,
+    "explanation": "The 42nd Amendment, 1976 added duty to protect environment as clause (g) of Article 51A."
+  },
+  {
+    "question": "The 99th Amendment deals with:",
+    "options": ["GST", "NJAC", "Land Boundary Agreement", "NEET"],
+    "correct": 1,
+    "explanation": "The 99th Amendment, 2014 established National Judicial Appointments Commission (struck down by SC)."
+  },
+  {
+    "question": "Which Amendment gave effect to India-Bangladesh Land Boundary Agreement?",
+    "options": ["99th Amendment", "100th Amendment", "101st Amendment", "102nd Amendment"],
+    "correct": 1,
+    "explanation": "The 100th Amendment, 2015 operationalized Land Boundary Agreement with Bangladesh."
+  },
+  {
+    "question": "The 94th Amendment excluded which state from reservation provisions?",
+    "options": ["Sikkim", "Arunachal Pradesh", "Meghalaya", "Jharkhand"],
+    "correct": 1,
+    "explanation": "The 94th Amendment, 2006 excluded Arunachal Pradesh from Article 332."
+  },
+  {
+    "question": "Which Amendment was related to Ministers' salaries?",
+    "options": ["25th Amendment", "27th Amendment", "42nd Amendment", "44th Amendment"],
+    "correct": 1,
+    "explanation": "The 27th Amendment, 1971 dealt with reorganization of North-East and Ministers' salaries."
+  },
+  {
+    "question": "The 106th Amendment extended reservation for women in Panchayats in:",
+    "options": ["Puducherry", "Delhi", "Jammu and Kashmir", "All UTs"],
+    "correct": 0,
+    "explanation": "The 106th Amendment, 2023 extended one-third reservation for women in Puducherry Panchayats."
+  },
+  {
+    "question": "Which Amendment introduced the term 'Internal Disturbance' in Article 352?",
+    "options": ["38th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+    "correct": 1,
+    "explanation": "The 42nd Amendment replaced 'Internal Disturbance' but 44th Amendment changed it to 'Armed Rebellion'."
+  },
+  {
+    "question": "The 89th Amendment separated National Commission for SC from:",
+    "options": ["BC", "ST", "Minorities", "Women"],
+    "correct": 1,
+    "explanation": "The 89th Amendment, 2003 created separate National Commission for Scheduled Castes."
+  }
+]

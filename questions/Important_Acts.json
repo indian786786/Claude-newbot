@@ -1,0 +1,302 @@
+[
+  {
+    "question": "The Government of India Act was passed in which year?",
+    "options": ["1909", "1919", "1935", "1947"],
+    "correct": 2,
+    "explanation": "The Government of India Act, 1935 was the longest Act passed by British Parliament."
+  },
+  {
+    "question": "Which Act introduced dyarchy in provinces?",
+    "options": ["Act of 1909", "Act of 1919", "Act of 1935", "Indian Councils Act"],
+    "correct": 1,
+    "explanation": "The Government of India Act, 1919 introduced dyarchy in provinces."
+  },
+  {
+    "question": "The Indian Councils Act of 1909 is also known as:",
+    "options": ["Morley-Minto Reforms", "Montagu-Chelmsford Reforms", "Cripps Mission", "Cabinet Mission"],
+    "correct": 0,
+    "explanation": "The Act of 1909 is known as Morley-Minto Reforms after the Secretary of State and Viceroy."
+  },
+  {
+    "question": "Which Act introduced separate electorates for Muslims?",
+    "options": ["Act of 1892", "Act of 1909", "Act of 1919", "Act of 1935"],
+    "correct": 1,
+    "explanation": "The Indian Councils Act, 1909 introduced separate electorates for Muslims."
+  },
+  {
+    "question": "The Regulating Act was passed in:",
+    "options": ["1773", "1784", "1813", "1833"],
+    "correct": 0,
+    "explanation": "The Regulating Act of 1773 was the first step towards centralized administration in India."
+  },
+  {
+    "question": "Pitt's India Act was enacted in:",
+    "options": ["1773", "1784", "1813", "1833"],
+    "correct": 1,
+    "explanation": "Pitt's India Act of 1784 established dual government by Company and British Crown."
+  },
+  {
+    "question": "The Charter Act of 1833 made the Governor-General of Bengal as:",
+    "options": ["Viceroy", "Governor-General of India", "Commander-in-Chief", "President"],
+    "correct": 1,
+    "explanation": "The Charter Act of 1833 made Governor-General of Bengal the Governor-General of India."
+  },
+  {
+    "question": "Which Act ended the East India Company's monopoly over trade in India?",
+    "options": ["Charter Act of 1793", "Charter Act of 1813", "Charter Act of 1833", "Charter Act of 1853"],
+    "correct": 1,
+    "explanation": "The Charter Act of 1813 ended the Company's trade monopoly except tea and trade with China."
+  },
+  {
+    "question": "The Charter Act of 1853 introduced:",
+    "options": ["Open competition for civil services", "Dyarchy", "Provincial autonomy", "Separate electorates"],
+    "correct": 0,
+    "explanation": "The Charter Act of 1853 introduced open competition for Indian Civil Services."
+  },
+  {
+    "question": "The Government of India Act 1858 transferred power from Company to:",
+    "options": ["Parliament", "British Crown", "Viceroy", "Secretary of State"],
+    "correct": 1,
+    "explanation": "The Act of 1858 transferred administration of India from Company to British Crown."
+  },
+  {
+    "question": "Which Act abolished the post of Governor-General and created Viceroy?",
+    "options": ["Act of 1833", "Act of 1853", "Act of 1858", "Act of 1909"],
+    "correct": 2,
+    "explanation": "The Government of India Act, 1858 replaced Governor-General with Viceroy."
+  },
+  {
+    "question": "The Indian Councils Act of 1861 introduced:",
+    "options": ["Separate electorates", "Portfolio system", "Dyarchy", "Federal structure"],
+    "correct": 1,
+    "explanation": "The Act of 1861 introduced portfolio system in the Executive Council."
+  },
+  {
+    "question": "Which Act is known as Montagu-Chelmsford Reforms?",
+    "options": ["Act of 1909", "Act of 1919", "Act of 1935", "Act of 1947"],
+    "correct": 1,
+    "explanation": "The Government of India Act, 1919 is known as Montagu-Chelmsford Reforms."
+  },
+  {
+    "question": "Provincial autonomy was introduced by:",
+    "options": ["Act of 1919", "Act of 1935", "Act of 1947", "Indian Independence Act"],
+    "correct": 1,
+    "explanation": "The Government of India Act, 1935 introduced provincial autonomy."
+  },
+  {
+    "question": "The Government of India Act 1935 provided for:",
+    "options": ["Unitary government", "Federal structure", "Parliamentary system", "Presidential system"],
+    "correct": 1,
+    "explanation": "The Act of 1935 provided for establishment of an All-India Federation."
+  },
+  {
+    "question": "Which Act abolished dyarchy and introduced it at the Centre?",
+    "options": ["Act of 1909", "Act of 1919", "Act of 1935", "Act of 1947"],
+    "correct": 2,
+    "explanation": "The Act of 1935 abolished dyarchy in provinces and introduced it at the Centre."
+  },
+  {
+    "question": "The Indian Independence Act was passed on:",
+    "options": ["15 August 1947", "18 July 1947", "26 January 1950", "15 June 1947"],
+    "correct": 1,
+    "explanation": "The Indian Independence Act, 1947 was passed by British Parliament on 18 July 1947."
+  },
+  {
+    "question": "The Indian Independence Act provided for partition into:",
+    "options": ["Two dominions", "Three dominions", "Four dominions", "Five dominions"],
+    "correct": 0,
+    "explanation": "The Act provided for partition of India into two independent dominions - India and Pakistan."
+  },
+  {
+    "question": "The Representation of People Act was enacted in:",
+    "options": ["1947", "1950", "1951", "1952"],
+    "correct": 2,
+    "explanation": "The Representation of the People Act, 1951 deals with election laws in India."
+  },
+  {
+    "question": "The Right to Information Act was passed in:",
+    "options": ["2000", "2002", "2005", "2007"],
+    "correct": 2,
+    "explanation": "The Right to Information Act, 2005 gives citizens right to access government information."
+  },
+  {
+    "question": "The Protection of Human Rights Act was enacted in:",
+    "options": ["1991", "1993", "1995", "1997"],
+    "correct": 1,
+    "explanation": "The Protection of Human Rights Act, 1993 established National Human Rights Commission."
+  },
+  {
+    "question": "The Lokpal and Lokayuktas Act was passed in:",
+    "options": ["2011", "2013", "2014", "2016"],
+    "correct": 1,
+    "explanation": "The Lokpal and Lokayuktas Act, 2013 provides for establishment of Lokpal."
+  },
+  {
+    "question": "The Official Languages Act was enacted in:",
+    "options": ["1950", "1956", "1963", "1967"],
+    "correct": 2,
+    "explanation": "The Official Languages Act, 1963 provides for use of Hindi and English in official purposes."
+  },
+  {
+    "question": "The Citizenship Act was passed in:",
+    "options": ["1950", "1952", "1955", "1960"],
+    "correct": 2,
+    "explanation": "The Citizenship Act, 1955 provides for acquisition and determination of Indian citizenship."
+  },
+  {
+    "question": "The Prevention of Corruption Act was enacted in:",
+    "options": ["1947", "1952", "1988", "2005"],
+    "correct": 2,
+    "explanation": "The Prevention of Corruption Act, 1988 deals with prevention of corruption by public servants."
+  },
+  {
+    "question": "The Unlawful Activities Prevention Act was passed in:",
+    "options": ["1947", "1967", "1985", "2004"],
+    "correct": 1,
+    "explanation": "The Unlawful Activities (Prevention) Act, 1967 aims to prevent unlawful activities."
+  },
+  {
+    "question": "The National Security Act was enacted in:",
+    "options": ["1975", "1980", "1985", "1990"],
+    "correct": 1,
+    "explanation": "The National Security Act, 1980 provides for preventive detention in certain cases."
+  },
+  {
+    "question": "The Armed Forces Special Powers Act was passed in:",
+    "options": ["1947", "1950", "1958", "1962"],
+    "correct": 2,
+    "explanation": "The Armed Forces (Special Powers) Act, 1958 gives special powers to armed forces in disturbed areas."
+  },
+  {
+    "question": "The Consumer Protection Act was enacted in:",
+    "options": ["1980", "1986", "1991", "1995"],
+    "correct": 1,
+    "explanation": "The Consumer Protection Act, 1986 provides for protection of consumer rights."
+  },
+  {
+    "question": "The Environment Protection Act was passed in:",
+    "options": ["1972", "1980", "1986", "1991"],
+    "correct": 2,
+    "explanation": "The Environment (Protection) Act, 1986 provides for protection of environment."
+  },
+  {
+    "question": "The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act was enacted in:",
+    "options": ["1985", "1989", "1995", "2000"],
+    "correct": 1,
+    "explanation": "The SC/ST (Prevention of Atrocities) Act, 1989 prevents atrocities against SC/ST."
+  },
+  {
+    "question": "The Right of Children to Free and Compulsory Education Act was passed in:",
+    "options": ["2002", "2005", "2009", "2011"],
+    "correct": 2,
+    "explanation": "The RTE Act, 2009 operationalized Article 21A making education a fundamental right."
+  },
+  {
+    "question": "The Food Safety and Standards Act was enacted in:",
+    "options": ["2000", "2006", "2010", "2013"],
+    "correct": 1,
+    "explanation": "The Food Safety and Standards Act, 2006 regulates food safety standards in India."
+  },
+  {
+    "question": "The Companies Act was passed in:",
+    "options": ["1956", "2013", "Both 1956 and 2013", "1947"],
+    "correct": 2,
+    "explanation": "The Companies Act was first passed in 1956 and replaced by the Companies Act, 2013."
+  },
+  {
+    "question": "The Sexual Harassment of Women at Workplace Act was enacted in:",
+    "options": ["2010", "2013", "2015", "2017"],
+    "correct": 1,
+    "explanation": "The Sexual Harassment of Women at Workplace Act, 2013 provides protection to women at workplace."
+  },
+  {
+    "question": "The National Food Security Act was passed in:",
+    "options": ["2011", "2013", "2015", "2017"],
+    "correct": 1,
+    "explanation": "The National Food Security Act, 2013 aims to provide food and nutritional security."
+  },
+  {
+    "question": "The Land Acquisition Act was enacted in:",
+    "options": ["1894", "1947", "2013", "Both 1894 and 2013"],
+    "correct": 3,
+    "explanation": "The Land Acquisition Act, 1894 was replaced by the Right to Fair Compensation Act, 2013."
+  },
+  {
+    "question": "The Aadhaar Act was passed in:",
+    "options": ["2009", "2012", "2016", "2018"],
+    "correct": 2,
+    "explanation": "The Aadhaar (Targeted Delivery of Financial Subsidies) Act, 2016 provides legal backing to Aadhaar."
+  },
+  {
+    "question": "The Goods and Services Tax Act was enacted in:",
+    "options": ["2014", "2016", "2017", "2018"],
+    "correct": 2,
+    "explanation": "The GST Act, 2017 implemented Goods and Services Tax in India."
+  },
+  {
+    "question": "The Insolvency and Bankruptcy Code was passed in:",
+    "options": ["2014", "2016", "2018", "2020"],
+    "correct": 1,
+    "explanation": "The Insolvency and Bankruptcy Code, 2016 consolidates laws relating to insolvency."
+  },
+  {
+    "question": "The Motor Vehicles Act was enacted in:",
+    "options": ["1939", "1988", "Both 1939 and 1988", "2019"],
+    "correct": 2,
+    "explanation": "The Motor Vehicles Act was passed in 1988, replacing the earlier 1939 Act."
+  },
+  {
+    "question": "The Muslim Women (Protection of Rights on Divorce) Act was passed in:",
+    "options": ["1986", "1990", "1995", "2000"],
+    "correct": 0,
+    "explanation": "The Act of 1986 was passed after the Shah Bano case."
+  },
+  {
+    "question": "The Benami Transactions (Prohibition) Act was enacted in:",
+    "options": ["1988", "1995", "2002", "2016"],
+    "correct": 0,
+    "explanation": "The Benami Transactions (Prohibition) Act, 1988 prohibits benami transactions."
+  },
+  {
+    "question": "The Prevention of Money Laundering Act was passed in:",
+    "options": ["2000", "2002", "2005", "2010"],
+    "correct": 1,
+    "explanation": "The Prevention of Money Laundering Act, 2002 aims to prevent money laundering."
+  },
+  {
+    "question": "The Real Estate (Regulation and Development) Act was enacted in:",
+    "options": ["2013", "2016", "2018", "2020"],
+    "correct": 1,
+    "explanation": "The RERA Act, 2016 regulates the real estate sector."
+  },
+  {
+    "question": "The National Investigation Agency Act was passed in:",
+    "options": ["2005", "2008", "2010", "2013"],
+    "correct": 1,
+    "explanation": "The NIA Act, 2008 was passed after 26/11 Mumbai attacks."
+  },
+  {
+    "question": "The Protection of Women from Domestic Violence Act was enacted in:",
+    "options": ["2002", "2005", "2008", "2010"],
+    "correct": 1,
+    "explanation": "The Act of 2005 provides protection to women from domestic violence."
+  },
+  {
+    "question": "The Juvenile Justice Act was passed in:",
+    "options": ["1986", "2000", "2015", "Both 2000 and 2015"],
+    "correct": 3,
+    "explanation": "The Juvenile Justice Act was passed in 2000 and amended in 2015."
+  },
+  {
+    "question": "The Mental Healthcare Act was enacted in:",
+    "options": ["2010", "2013", "2017", "2019"],
+    "correct": 2,
+    "explanation": "The Mental Healthcare Act, 2017 provides mental healthcare and services."
+  },
+  {
+    "question": "The Transgender Persons (Protection of Rights) Act was passed in:",
+    "options": ["2014", "2016", "2019", "2021"],
+    "correct": 2,
+    "explanation": "The Act of 2019 protects rights of transgender persons."
+  }
+]

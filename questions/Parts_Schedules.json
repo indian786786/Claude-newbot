@@ -1,0 +1,302 @@
+[
+  {
+    "question": "How many Parts are there in the Indian Constitution currently?",
+    "options": ["22", "24", "25", "26"],
+    "correct": 2,
+    "explanation": "The Indian Constitution currently has 25 Parts after various amendments added new parts."
+  },
+  {
+    "question": "Which Part of the Constitution deals with Fundamental Rights?",
+    "options": ["Part II", "Part III", "Part IV", "Part V"],
+    "correct": 1,
+    "explanation": "Part III (Articles 12-35) contains provisions related to Fundamental Rights."
+  },
+  {
+    "question": "Directive Principles of State Policy are contained in which Part?",
+    "options": ["Part III", "Part IV", "Part V", "Part VI"],
+    "correct": 1,
+    "explanation": "Part IV (Articles 36-51) contains the Directive Principles of State Policy."
+  },
+  {
+    "question": "Which Part deals with the Union Government?",
+    "options": ["Part IV", "Part V", "Part VI", "Part VII"],
+    "correct": 1,
+    "explanation": "Part V (Articles 52-151) deals with the Union Government including President, Parliament, and Supreme Court."
+  },
+  {
+    "question": "How many Schedules are there in the Indian Constitution currently?",
+    "options": ["8", "10", "12", "14"],
+    "correct": 2,
+    "explanation": "Currently, there are 12 Schedules in the Indian Constitution."
+  },
+  {
+    "question": "The First Schedule of the Constitution deals with:",
+    "options": ["Languages", "States and Union Territories", "Forms of Oaths", "Land reforms"],
+    "correct": 1,
+    "explanation": "The First Schedule lists the States and Union Territories of India."
+  },
+  {
+    "question": "Which Schedule contains the list of recognized languages?",
+    "options": ["Seventh Schedule", "Eighth Schedule", "Ninth Schedule", "Tenth Schedule"],
+    "correct": 1,
+    "explanation": "The Eighth Schedule lists 22 officially recognized languages of India."
+  },
+  {
+    "question": "How many languages were originally in the Eighth Schedule?",
+    "options": ["14", "15", "18", "22"],
+    "correct": 0,
+    "explanation": "Originally, there were 14 languages in the Eighth Schedule."
+  },
+  {
+    "question": "The Ninth Schedule was added by which Amendment?",
+    "options": ["1st Amendment", "4th Amendment", "24th Amendment", "42nd Amendment"],
+    "correct": 0,
+    "explanation": "The Ninth Schedule was added by the 1st Constitutional Amendment Act, 1951."
+  },
+  {
+    "question": "Which Schedule contains the Anti-Defection Law?",
+    "options": ["Ninth Schedule", "Tenth Schedule", "Eleventh Schedule", "Twelfth Schedule"],
+    "correct": 1,
+    "explanation": "The Tenth Schedule contains provisions for disqualification on grounds of defection."
+  },
+  {
+    "question": "The Tenth Schedule was added by which Amendment?",
+    "options": ["42nd Amendment", "44th Amendment", "52nd Amendment", "61st Amendment"],
+    "correct": 2,
+    "explanation": "The 52nd Constitutional Amendment Act, 1985 added the Tenth Schedule."
+  },
+  {
+    "question": "Which Schedule deals with distribution of powers between Union and States?",
+    "options": ["Fifth Schedule", "Sixth Schedule", "Seventh Schedule", "Eighth Schedule"],
+    "correct": 2,
+    "explanation": "The Seventh Schedule contains Union List, State List, and Concurrent List."
+  },
+  {
+    "question": "How many subjects are in the Union List currently?",
+    "options": ["97", "100", "61", "52"],
+    "correct": 1,
+    "explanation": "Currently, the Union List contains 100 subjects."
+  },
+  {
+    "question": "How many subjects are in the State List?",
+    "options": ["52", "61", "66", "47"],
+    "correct": 1,
+    "explanation": "The State List currently has 61 subjects."
+  },
+  {
+    "question": "How many subjects are in the Concurrent List?",
+    "options": ["47", "52", "38", "44"],
+    "correct": 0,
+    "explanation": "The Concurrent List currently has 47 subjects."
+  },
+  {
+    "question": "Which Schedule deals with administration of Scheduled Areas and Scheduled Tribes?",
+    "options": ["Fourth Schedule", "Fifth Schedule", "Sixth Schedule", "Seventh Schedule"],
+    "correct": 1,
+    "explanation": "The Fifth Schedule deals with administration of Scheduled Areas and Scheduled Tribes."
+  },
+  {
+    "question": "The Sixth Schedule applies to which states?",
+    "options": ["All tribal areas", "Assam, Meghalaya, Tripura and Mizoram", "Jharkhand and Chhattisgarh", "All North-Eastern states"],
+    "correct": 1,
+    "explanation": "The Sixth Schedule applies to tribal areas of Assam, Meghalaya, Tripura, and Mizoram."
+  },
+  {
+    "question": "Which Part contains Fundamental Duties?",
+    "options": ["Part III", "Part IV", "Part IVA", "Part V"],
+    "correct": 2,
+    "explanation": "Part IV-A (Article 51A) contains Fundamental Duties."
+  },
+  {
+    "question": "The Second Schedule deals with:",
+    "options": ["Languages", "Emoluments of officials", "Land reforms", "Union Territories"],
+    "correct": 1,
+    "explanation": "The Second Schedule contains provisions for emoluments and allowances of constitutional functionaries."
+  },
+  {
+    "question": "Forms of oaths and affirmations are in which Schedule?",
+    "options": ["Second Schedule", "Third Schedule", "Fourth Schedule", "Fifth Schedule"],
+    "correct": 1,
+    "explanation": "The Third Schedule contains forms of oaths or affirmations."
+  },
+  {
+    "question": "The Fourth Schedule deals with:",
+    "options": ["Languages", "Allocation of seats in Rajya Sabha", "Land reforms", "Panchayati Raj"],
+    "correct": 1,
+    "explanation": "The Fourth Schedule contains allocation of seats in Rajya Sabha to states and UTs."
+  },
+  {
+    "question": "Which Schedule was added by the 73rd Amendment?",
+    "options": ["Ninth Schedule", "Tenth Schedule", "Eleventh Schedule", "Twelfth Schedule"],
+    "correct": 2,
+    "explanation": "The Eleventh Schedule was added by the 73rd Amendment Act, 1992."
+  },
+  {
+    "question": "How many functional items are in the Eleventh Schedule?",
+    "options": ["18", "22", "29", "35"],
+    "correct": 2,
+    "explanation": "The Eleventh Schedule lists 29 functional items of Panchayats."
+  },
+  {
+    "question": "The Twelfth Schedule was added by which Amendment?",
+    "options": ["73rd Amendment", "74th Amendment", "86th Amendment", "93rd Amendment"],
+    "correct": 1,
+    "explanation": "The 74th Amendment Act, 1992 added the Twelfth Schedule."
+  },
+  {
+    "question": "How many functional items are in the Twelfth Schedule?",
+    "options": ["12", "18", "22", "29"],
+    "correct": 1,
+    "explanation": "The Twelfth Schedule lists 18 functional items of Municipalities."
+  },
+  {
+    "question": "Part IX of the Constitution deals with:",
+    "options": ["Union Territories", "Panchayats", "Municipalities", "Emergency Provisions"],
+    "correct": 1,
+    "explanation": "Part IX (Articles 243-243O) deals with Panchayats."
+  },
+  {
+    "question": "Part IXA deals with:",
+    "options": ["Panchayats", "Municipalities", "Co-operative Societies", "Tribunals"],
+    "correct": 1,
+    "explanation": "Part IX-A (Articles 243P-243ZG) deals with Municipalities."
+  },
+  {
+    "question": "Part IXB was added by which Amendment?",
+    "options": ["86th Amendment", "91st Amendment", "97th Amendment", "100th Amendment"],
+    "correct": 2,
+    "explanation": "Part IX-B relating to Co-operative Societies was added by the 97th Amendment Act, 2011."
+  },
+  {
+    "question": "Emergency Provisions are in which Part?",
+    "options": ["Part XVI", "Part XVII", "Part XVIII", "Part XIX"],
+    "correct": 2,
+    "explanation": "Part XVIII (Articles 352-360) contains Emergency Provisions."
+  },
+  {
+    "question": "Which Part deals with Elections?",
+    "options": ["Part XIV", "Part XV", "Part XVI", "Part XVII"],
+    "correct": 1,
+    "explanation": "Part XV (Articles 324-329) deals with Elections and Election Commission."
+  },
+  {
+    "question": "Union Territories are dealt with in which Part?",
+    "options": ["Part VII", "Part VIII", "Part IX", "Part X"],
+    "correct": 1,
+    "explanation": "Part VIII (Articles 239-242) deals with Union Territories."
+  },
+  {
+    "question": "Which Part contains Official Language provisions?",
+    "options": ["Part XVI", "Part XVII", "Part XVIII", "Part XIX"],
+    "correct": 1,
+    "explanation": "Part XVII (Articles 343-351) deals with Official Language."
+  },
+  {
+    "question": "Tribunals are dealt with under which Part?",
+    "options": ["Part XIII", "Part XIVA", "Part XV", "Part XVI"],
+    "correct": 1,
+    "explanation": "Part XIV-A (Articles 323A-323B) deals with Tribunals."
+  },
+  {
+    "question": "Which Schedule protects laws from judicial review?",
+    "options": ["Eighth Schedule", "Ninth Schedule", "Tenth Schedule", "Eleventh Schedule"],
+    "correct": 1,
+    "explanation": "The Ninth Schedule contains laws protected from judicial review."
+  },
+  {
+    "question": "Relations between Union and States are in which Part?",
+    "options": ["Part X", "Part XI", "Part XII", "Part XIII"],
+    "correct": 1,
+    "explanation": "Part XI (Articles 245-263) deals with relations between Union and States."
+  },
+  {
+    "question": "Finance, Property, Contracts are in which Part?",
+    "options": ["Part XI", "Part XII", "Part XIII", "Part XIV"],
+    "correct": 1,
+    "explanation": "Part XII (Articles 264-300) deals with Finance, Property, Contracts and Suits."
+  },
+  {
+    "question": "Trade and Commerce provisions are in which Part?",
+    "options": ["Part XII", "Part XIII", "Part XIV", "Part XV"],
+    "correct": 1,
+    "explanation": "Part XIII (Articles 301-307) deals with Trade, Commerce and Intercourse."
+  },
+  {
+    "question": "Services under Union and States are in which Part?",
+    "options": ["Part XIII", "Part XIV", "Part XV", "Part XVI"],
+    "correct": 1,
+    "explanation": "Part XIV (Articles 308-323) deals with Services."
+  },
+  {
+    "question": "Special Provisions for certain classes are in which Part?",
+    "options": ["Part XIV", "Part XV", "Part XVI", "Part XVII"],
+    "correct": 2,
+    "explanation": "Part XVI (Articles 330-342) has Special Provisions relating to certain classes."
+  },
+  {
+    "question": "Amendment procedure is in which Part?",
+    "options": ["Part XVIII", "Part XIX", "Part XX", "Part XXI"],
+    "correct": 2,
+    "explanation": "Part XX (Article 368) deals with amendment of the Constitution."
+  },
+  {
+    "question": "Temporary and Transitional Provisions are in which Part?",
+    "options": ["Part XIX", "Part XX", "Part XXI", "Part XXII"],
+    "correct": 2,
+    "explanation": "Part XXI (Articles 369-392) has Temporary, Transitional and Special Provisions."
+  },
+  {
+    "question": "Short title and commencement are in which Part?",
+    "options": ["Part XXI", "Part XXII", "Part XXIII", "Part XXIV"],
+    "correct": 1,
+    "explanation": "Part XXII (Articles 393-395) deals with Short title, commencement and repeals."
+  },
+  {
+    "question": "Which Amendment added Bodo, Dogri, Maithili and Santhali to Eighth Schedule?",
+    "options": ["71st Amendment", "92nd Amendment", "100th Amendment", "101st Amendment"],
+    "correct": 1,
+    "explanation": "The 92nd Amendment Act, 2003 added these four languages."
+  },
+  {
+    "question": "How many languages were added by the 71st Amendment?",
+    "options": ["1", "2", "3", "4"],
+    "correct": 2,
+    "explanation": "The 71st Amendment Act, 1992 added Konkani, Manipuri and Nepali."
+  },
+  {
+    "question": "Sindhi was added to Eighth Schedule by which Amendment?",
+    "options": ["15th Amendment", "21st Amendment", "71st Amendment", "92nd Amendment"],
+    "correct": 1,
+    "explanation": "The 21st Amendment Act, 1967 added Sindhi language."
+  },
+  {
+    "question": "Which Part was added by the 42nd Amendment?",
+    "options": ["Part IVA only", "Part XIVA only", "Both Part IVA and XIVA", "Part IXB"],
+    "correct": 2,
+    "explanation": "The 42nd Amendment added Part IV-A (Fundamental Duties) and Part XIV-A (Tribunals)."
+  },
+  {
+    "question": "Part I deals with:",
+    "options": ["Citizenship", "Union and its Territory", "Fundamental Rights", "Union Government"],
+    "correct": 1,
+    "explanation": "Part I (Articles 1-4) deals with the Union and its Territory."
+  },
+  {
+    "question": "Citizenship provisions are in which Part?",
+    "options": ["Part I", "Part II", "Part III", "Part IV"],
+    "correct": 1,
+    "explanation": "Part II (Articles 5-11) contains Citizenship provisions."
+  },
+  {
+    "question": "State Governments are covered in which Part?",
+    "options": ["Part V", "Part VI", "Part VII", "Part VIII"],
+    "correct": 1,
+    "explanation": "Part VI (Articles 152-237) deals with State Governments."
+  },
+  {
+    "question": "Which Schedule deals with validation of certain acts?",
+    "options": ["Eighth Schedule", "Ninth Schedule", "Tenth Schedule", "Eleventh Schedule"],
+    "correct": 1,
+    "explanation": "The Ninth Schedule validates certain acts and regulations from being challenged."
+  }
+]
