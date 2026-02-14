@@ -1,13 +1,156 @@
 [
   {
-    "question": "The concept of Secularism in India means:",
-    "options": [
-      "State religion",
-      "No religion",
-      "Equal respect for all religions",
-      "Only Hinduism"
-    ],
+    "question": "India is described as a 'Union of States' in which Article?",
+    "options": ["Article 1", "Article 2", "Article 3", "Article 4"],
+    "correct": 0,
+    "explanation": "Article 1 describes India as a Union of States."
+  },
+  {
+    "question": "The Indian political system is based on:",
+    "options": ["Presidential system", "Parliamentary system", "Monarchy", "Military rule"],
+    "correct": 1,
+    "explanation": "India follows a Parliamentary system of government."
+  },
+  {
+    "question": "India is a:",
+    "options": ["Unitary State", "Federal State with Unitary bias", "Confederation", "Dictatorship"],
+    "correct": 1,
+    "explanation": "India is federal in structure with strong unitary features."
+  },
+  {
+    "question": "The concept of 'Secularism' was added by which Amendment?",
+    "options": ["42nd Amendment", "44th Amendment", "52nd Amendment", "73rd Amendment"],
+    "correct": 0,
+    "explanation": "The 42nd Amendment (1976) added the word 'Secular'."
+  },
+  {
+    "question": "Universal Adult Franchise means:",
+    "options": ["Voting only by educated citizens", "Voting rights to all adults", "Voting by MPs only", "Voting by Ministers only"],
+    "correct": 1,
+    "explanation": "Universal Adult Franchise gives voting rights to all adult citizens."
+  },
+
+  {
+    "question": "The term 'Socialist' was added to the Preamble in:",
+    "options": ["1950", "1976", "1986", "1991"],
+    "correct": 1,
+    "explanation": "The 42nd Amendment Act, 1976 added the word 'Socialist'."
+  },
+  {
+    "question": "Political parties in India are registered by:",
+    "options": ["President", "Prime Minister", "Election Commission", "Supreme Court"],
     "correct": 2,
-    "explanation": "Indian Secularism means equal respect for all religions."
+    "explanation": "Election Commission registers political parties."
+  },
+  {
+    "question": "The Anti-Defection Law was introduced by:",
+    "options": ["44th Amendment", "52nd Amendment", "73rd Amendment", "86th Amendment"],
+    "correct": 1,
+    "explanation": "The 52nd Amendment Act introduced Anti-Defection Law."
+  },
+  {
+    "question": "India has how many recognized national parties (approx)?",
+    "options": ["3-4", "6-8", "15-20", "25+"],
+    "correct": 1,
+    "explanation": "India generally has around 6-8 national parties."
+  },
+  {
+    "question": "Coalition government means:",
+    "options": ["Single party rule", "Alliance of multiple parties", "Military rule", "Governor rule"],
+    "correct": 1,
+    "explanation": "Coalition government is formed by alliance of multiple parties."
+  },
+
+  {
+    "question": "The Indian Constitution provides for:",
+    "options": ["Two-party system", "Multi-party system", "Single party system", "No party system"],
+    "correct": 1,
+    "explanation": "India follows a multi-party political system."
+  },
+  {
+    "question": "The Prime Minister is leader of:",
+    "options": ["Rajya Sabha", "Lok Sabha majority party", "President's Office", "Supreme Court"],
+    "correct": 1,
+    "explanation": "PM is leader of the majority party in Lok Sabha."
+  },
+  {
+    "question": "Vote of No Confidence is moved in:",
+    "options": ["Rajya Sabha", "Lok Sabha", "President Office", "Supreme Court"],
+    "correct": 1,
+    "explanation": "No-confidence motion is moved in Lok Sabha."
+  },
+  {
+    "question": "Regional parties mainly operate in:",
+    "options": ["Whole India", "One or few states", "Foreign countries", "Union Territories only"],
+    "correct": 1,
+    "explanation": "Regional parties mainly operate in one or few states."
+  },
+  {
+    "question": "The Speaker of Lok Sabha belongs to:",
+    "options": ["Opposition party", "Ruling party", "Judiciary", "Governor office"],
+    "correct": 1,
+    "explanation": "Generally, Speaker belongs to the ruling party."
+  },
+
+  {
+    "question": "India adopted parliamentary democracy from:",
+    "options": ["USA", "France", "UK", "Russia"],
+    "correct": 2,
+    "explanation": "India adopted parliamentary system from UK."
+  },
+  {
+    "question": "Emergency provisions strengthen:",
+    "options": ["Federalism", "Unitary system", "Judiciary", "Local bodies"],
+    "correct": 1,
+    "explanation": "Emergency provisions strengthen unitary features."
+  },
+  {
+    "question": "Political equality means:",
+    "options": ["Equal wealth", "Equal voting rights", "Equal jobs", "Equal taxes"],
+    "correct": 1,
+    "explanation": "Political equality ensures equal voting rights."
+  },
+  {
+    "question": "Electoral bonds are related to:",
+    "options": ["Defense", "Political funding", "Judiciary", "Tax system"],
+    "correct": 1,
+    "explanation": "Electoral bonds are related to political funding."
+  },
+  {
+    "question": "Model Code of Conduct is enforced by:",
+    "options": ["Supreme Court", "Election Commission", "President", "Cabinet"],
+    "correct": 1,
+    "explanation": "Election Commission enforces the Model Code of Conduct."
+  },
+
+  {
+    "question": "Indian democracy is based on:",
+    "options": ["Direct democracy", "Indirect democracy", "Monarchy", "Dictatorship"],
+    "correct": 1,
+    "explanation": "India follows indirect democracy."
+  },
+  {
+    "question": "A hung Parliament means:",
+    "options": ["Clear majority", "No party has majority", "President rule", "Military rule"],
+    "correct": 1,
+    "explanation": "Hung Parliament means no party has clear majority."
+  },
+  {
+    "question": "The political executive consists of:",
+    "options": ["Judges", "Ministers", "Governor only", "MPs only"],
+    "correct": 1,
+    "explanation": "Political executive includes Ministers."
+  },
+  {
+    "question": "The real executive power in India lies with:",
+    "options": ["President", "Prime Minister and Council of Ministers", "Supreme Court", "Governor"],
+    "correct": 1,
+    "explanation": "Real executive power lies with PM and Council of Ministers."
+  },
+  {
+    "question": "The opposition party’s role is to:",
+    "options": ["Support blindly", "Criticize and check government", "Dissolve Parliament", "Control judiciary"],
+    "correct": 1,
+    "explanation": "Opposition checks and criticizes government."
   }
 ]
