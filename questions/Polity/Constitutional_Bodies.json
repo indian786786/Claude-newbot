@@ -1,0 +1,13 @@
+[
+  {
+    "question": "The Election Commission is a:",
+    "options": [
+      "Statutory Body",
+      "Constitutional Body",
+      "Advisory Body",
+      "Judicial Body"
+    ],
+    "correct": 1,
+    "explanation": "The Election Commission is a Constitutional Body under Article 324."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "The Governor is appointed by:",
+    "options": [
+      "Chief Minister",
+      "President",
+      "Prime Minister",
+      "State Legislature"
+    ],
+    "correct": 1,
+    "explanation": "The Governor is appointed by the President of India."
+  },
+  {
+    "question": "Article 153 deals with:",
+    "options": [
+      "President",
+      "Governor",
+      "Parliament",
+      "Judiciary"
+    ],
+    "correct": 1,
+    "explanation": "Article 153 provides for a Governor for each state."
+  }
+]

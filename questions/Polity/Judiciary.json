@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which Article establishes the Supreme Court of India?",
+    "options": [
+      "Article 124",
+      "Article 214",
+      "Article 32",
+      "Article 368"
+    ],
+    "correct": 0,
+    "explanation": "Article 124 provides for the establishment of the Supreme Court."
+  },
+  {
+    "question": "The retirement age of a Supreme Court judge is:",
+    "options": [
+      "60 years",
+      "62 years",
+      "65 years",
+      "70 years"
+    ],
+    "correct": 2,
+    "explanation": "Supreme Court judges retire at 65 years."
+  }
+]

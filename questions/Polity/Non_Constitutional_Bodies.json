@@ -1,0 +1,13 @@
+[
+  {
+    "question": "NITI Aayog is a:",
+    "options": [
+      "Constitutional Body",
+      "Statutory Body",
+      "Non-Constitutional Body",
+      "Judicial Body"
+    ],
+    "correct": 2,
+    "explanation": "NITI Aayog is a Non-Constitutional advisory body."
+  }
+]

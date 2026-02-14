@@ -1,0 +1,13 @@
+[
+  {
+    "question": "A state legislature can be:",
+    "options": [
+      "Unicameral",
+      "Bicameral",
+      "Both A and B",
+      "None"
+    ],
+    "correct": 2,
+    "explanation": "Some states have unicameral and some have bicameral legislatures."
+  }
+]
