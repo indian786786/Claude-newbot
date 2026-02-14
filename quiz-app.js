@@ -1,110 +1,328 @@
-// SSC PYQ Quiz Application - Main Logic
-// Professional implementation with pagination, offline loading, and clean architecture
+// ===========================================
+// SSC QUIZ ENGINE - TELEGRAM OPTIMIZED V3
+// Professional + Smart Preload + Offline Cache
+// ===========================================
 
 class SSCQuizApp {
+
     constructor() {
-        // State management
+
         this.state = {
-            allQuestions: [],           // All 50 questions from JSON
-            currentBatchQuestions: [],  // Current 5 questions being displayed
-            currentQuestionIndex: 0,    // Index within current batch (0-4)
-            currentBatchNumber: 0,      // Which batch of 5 (0-9 for 50 questions)
-            score: 0,
-            correctAnswers: 0,
-            wrongAnswers: 0,
-            answered: false,
+            subjectData: null,
+            topicQuestions: [],
+            currentBatch: [],
+            currentQuestionIndex: 0,
+            batchNumber: 0,
+            correct: 0,
+            wrong: 0,
             selectedSubject: null,
             selectedTopic: null,
-            topicFilePath: null
         };
 
-        // DOM elements
-        this.elements = {
-            // Selection section
-            selectionSection: document.getElementById('selectionSection'),
-            subjectSelect: document.getElementById('subjectSelect'),
-            topicSelect: document.getElementById('topicSelect'),
-            startQuizBtn: document.getElementById('startQuizBtn'),
-            errorMessage: document.getElementById('errorMessage'),
-            loading: document.getElementById('loading'),
-
-            // Quiz section
-            quizSection: document.getElementById('quizSection'),
-            quizProgress: document.getElementById('quizProgress'),
-            quizScore: document.getElementById('quizScore'),
-            questionNumber: document.getElementById('questionNumber'),
-            questionText: document.getElementById('questionText'),
-            optionsContainer: document.getElementById('optionsContainer'),
-            explanationBox: document.getElementById('explanationBox'),
-            explanationContent: document.getElementById('explanationContent'),
-            explanationFact: document.getElementById('explanationFact'),
-            quizActions: document.getElementById('quizActions'),
-            nextQuestionBtn: document.getElementById('nextQuestionBtn'),
-            paginationInfo: document.getElementById('paginationInfo'),
-            paginationActions: document.getElementById('paginationActions'),
-            loadMoreBtn: document.getElementById('loadMoreBtn'),
-
-            // Results section
-            resultsSection: document.getElementById('resultsSection'),
-            resultsIcon: document.getElementById('resultsIcon'),
-            resultsScore: document.getElementById('resultsScore'),
-            resultsMessage: document.getElementById('resultsMessage'),
-            statCorrect: document.getElementById('statCorrect'),
-            statWrong: document.getElementById('statWrong'),
-            statPercentage: document.getElementById('statPercentage'),
-            restartBtn: document.getElementById('restartBtn')
-        };
+        this.cache = {}; // In-memory cache
 
         this.init();
     }
 
+    // ================= INIT =================
+
     init() {
-        this.initializeTelegram();
-        this.populateSubjects();
-        this.attachEventListeners();
-        console.log('[INIT] SSC Quiz App initialized');
+        this.initTelegram();
+        this.attachEvents();
+        console.log("SSC Quiz Engine Initialized");
     }
 
-    initializeTelegram() {
-        if (window.Telegram && window.Telegram.WebApp) {
+    initTelegram() {
+        if (window.Telegram?.WebApp) {
             const tg = window.Telegram.WebApp;
             tg.ready();
             tg.expand();
-            console.log('[TELEGRAM] WebApp initialized');
+            tg.disableVerticalSwipes();
+            console.log("Telegram optimized mode enabled");
         }
     }
 
-    populateSubjects() {
-        const subjects = getAllSubjects();
-        
-        // Clear existing options except first
-        this.elements.subjectSelect.innerHTML = '<option value="">Choose a subject...</option>';
-        
-        // Add all subjects
-        subjects.forEach(subject => {
-            const option = document.createElement('option');
-            option.value = subject.value;
-            option.textContent = subject.label;
-            this.elements.subjectSelect.appendChild(option);
-        });
-
-        console.log(`[SUBJECTS] Loaded ${subjects.length} subjects`);
+    attachEvents() {
+        document.getElementById("startQuizBtn").addEventListener("click", () => this.startQuiz());
+        document.getElementById("loadMoreBtn").addEventListener("click", () => this.loadNextBatch());
+        document.getElementById("nextQuestionBtn").addEventListener("click", () => this.nextQuestion());
+        document.getElementById("restartBtn").addEventListener("click", () => this.resetApp());
     }
 
-    attachEventListeners() {
-        // Subject selection
-        this.elements.subjectSelect.addEventListener('change', (e) => {
-            this.onSubjectChange(e.target.value);
+    // ================= SUBJECT LOAD =================
+
+    async loadSubject(subjectName) {
+
+        if (this.cache[subjectName]) {
+            console.log("Loaded from memory cache");
+            return this.cache[subjectName];
+        }
+
+        // LocalStorage cache
+        const localCache = localStorage.getItem(subjectName);
+        if (localCache) {
+            console.log("Loaded from localStorage");
+            const parsed = JSON.parse(localCache);
+            this.cache[subjectName] = parsed;
+            return parsed;
+        }
+
+        // Fetch from server
+        const path = `./questions/${subjectName}.json`;
+
+        const response = await fetch(path);
+        if (!response.ok) throw new Error("Failed to load subject file");
+
+        const data = await response.json();
+
+        // Save to cache
+        this.cache[subjectName] = data;
+        localStorage.setItem(subjectName, JSON.stringify(data));
+
+        console.log("Loaded from server and cached");
+        return data;
+    }
+
+    // ================= START QUIZ =================
+
+    async startQuiz() {
+
+        const subject = document.getElementById("subjectSelect").value;
+        const topic = document.getElementById("topicSelect").value;
+
+        if (!subject || !topic) {
+            alert("Select subject and topic");
+            return;
+        }
+
+        this.state.selectedSubject = subject;
+        this.state.selectedTopic = topic;
+
+        document.getElementById("loading").classList.add("show");
+
+        try {
+
+            const subjectData = await this.loadSubject(subject);
+
+            if (!subjectData[topic]) {
+                throw new Error("Topic not found in subject file");
+            }
+
+            this.state.topicQuestions = this.shuffle(subjectData[topic]);
+
+            this.state.correct = 0;
+            this.state.wrong = 0;
+            this.state.batchNumber = 0;
+
+            this.loadBatch();
+
+            document.getElementById("selectionSection").classList.add("hidden");
+            document.getElementById("quizSection").classList.add("active");
+
+        } catch (err) {
+            alert(err.message);
+        }
+
+        document.getElementById("loading").classList.remove("show");
+    }
+
+    // ================= BATCH SYSTEM =================
+
+    loadBatch() {
+
+        const start = this.state.batchNumber * 5;
+        const end = start + 5;
+
+        this.state.currentBatch = this.state.topicQuestions.slice(start, end);
+        this.state.currentQuestionIndex = 0;
+
+        this.displayQuestion();
+    }
+
+    loadNextBatch() {
+        this.state.batchNumber++;
+        this.loadBatch();
+    }
+
+    // ================= DISPLAY =================
+
+    displayQuestion() {
+
+        if (this.state.currentQuestionIndex >= this.state.currentBatch.length) {
+            this.showBatchEnd();
+            return;
+        }
+
+        const q = this.state.currentBatch[this.state.currentQuestionIndex];
+
+        document.getElementById("questionText").textContent = q.question;
+
+        const container = document.getElementById("optionsContainer");
+        container.innerHTML = "";
+
+        q.options.forEach((opt, index) => {
+            const btn = document.createElement("button");
+            btn.className = "option-btn";
+            btn.textContent = opt;
+            btn.onclick = () => this.handleAnswer(index);
+            container.appendChild(btn);
         });
 
-        // Topic selection
-        this.elements.topicSelect.addEventListener('change', (e) => {
-            this.onTopicChange(e.target.value);
+        document.getElementById("explanationBox").classList.remove("show");
+    }
+
+    // ================= ANSWER =================
+
+    handleAnswer(index) {
+
+        const q = this.state.currentBatch[this.state.currentQuestionIndex];
+        const buttons = document.querySelectorAll(".option-btn");
+
+        buttons.forEach((btn, i) => {
+            btn.disabled = true;
+            if (i === q.correct) btn.classList.add("correct");
+            if (i === index && i !== q.correct) btn.classList.add("wrong");
         });
 
-        // Start quiz
-        this.elements.startQuizBtn.addEventListener('click', () => {
-            this.startQuiz();
+        if (index === q.correct) this.state.correct++;
+        else this.state.wrong++;
+
+        this.showExplanation(q);
+    }
+
+    showExplanation(q) {
+
+        document.getElementById("explanationContent").textContent = q.explanation;
+        document.getElementById("explanationFact").textContent =
+            "Related Concept: Revise this topic for SSC memory retention.";
+
+        document.getElementById("explanationBox").classList.add("show");
+    }
+
+    nextQuestion() {
+        this.state.currentQuestionIndex++;
+        this.displayQuestion();
+    }
+
+    showBatchEnd() {
+        document.getElementById("paginationActions").style.display = "block";
+    }
+
+    // ================= RESET =================
+
+    resetApp() {
+        location.reload();
+    }
+
+    // ================= UTILITY =================
+
+    shuffle(arr) {
+        return arr.sort(() => Math.random() - 0.5);
+    }
+}
+
+// Init
+document.addEventListener("DOMContentLoaded", () => {
+    window.quizApp = new SSCQuizApp();
+});    // ================= BATCH SYSTEM =================
+
+    loadBatch() {
+
+        const start = this.state.batchNumber * 5;
+        const end = start + 5;
+
+        this.state.currentBatch = this.state.topicQuestions.slice(start, end);
+        this.state.currentQuestionIndex = 0;
+
+        this.displayQuestion();
+    }
+
+    loadNextBatch() {
+        this.state.batchNumber++;
+        this.loadBatch();
+    }
+
+    // ================= DISPLAY =================
+
+    displayQuestion() {
+
+        if (this.state.currentQuestionIndex >= this.state.currentBatch.length) {
+            this.showBatchEnd();
+            return;
+        }
+
+        const q = this.state.currentBatch[this.state.currentQuestionIndex];
+
+        document.getElementById("questionText").textContent = q.question;
+
+        const container = document.getElementById("optionsContainer");
+        container.innerHTML = "";
+
+        q.options.forEach((opt, index) => {
+            const btn = document.createElement("button");
+            btn.className = "option-btn";
+            btn.textContent = opt;
+            btn.onclick = () => this.handleAnswer(index);
+            container.appendChild(btn);
+        });
+
+        document.getElementById("explanationBox").classList.remove("show");
+    }
+
+    // ================= ANSWER =================
+
+    handleAnswer(index) {
+
+        const q = this.state.currentBatch[this.state.currentQuestionIndex];
+        const buttons = document.querySelectorAll(".option-btn");
+
+        buttons.forEach((btn, i) => {
+            btn.disabled = true;
+            if (i === q.correct) btn.classList.add("correct");
+            if (i === index && i !== q.correct) btn.classList.add("wrong");
+        });
+
+        if (index === q.correct) this.state.correct++;
+        else this.state.wrong++;
+
+        this.showExplanation(q);
+    }
+
+    showExplanation(q) {
+
+        document.getElementById("explanationContent").textContent = q.explanation;
+        document.getElementById("explanationFact").textContent =
+            "Related Concept: Revise this topic for SSC memory retention.";
+
+        document.getElementById("explanationBox").classList.add("show");
+    }
+
+    nextQuestion() {
+        this.state.currentQuestionIndex++;
+        this.displayQuestion();
+    }
+
+    showBatchEnd() {
+        document.getElementById("paginationActions").style.display = "block";
+    }
+
+    // ================= RESET =================
+
+    resetApp() {
+        location.reload();
+    }
+
+    // ================= UTILITY =================
+
+    shuffle(arr) {
+        return arr.sort(() => Math.random() - 0.5);
+    }
+}
+
+// Init
+document.addEventListener("DOMContentLoaded", () => {
+    window.quizApp = new SSCQuizApp();
+});            this.startQuiz();
         });
 
         // Next question
