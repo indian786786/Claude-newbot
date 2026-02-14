@@ -1,13 +1,218 @@
 [
   {
-    "question": "The 73rd Constitutional Amendment relates to:",
-    "options": [
-      "Municipalities",
-      "Panchayats",
-      "Judiciary",
-      "Emergency"
-    ],
+    "question": "The 73rd Constitutional Amendment Act relates to:",
+    "options": ["Municipalities", "Panchayats", "Fundamental Rights", "Emergency"],
     "correct": 1,
-    "explanation": "The 73rd Amendment deals with Panchayati Raj Institutions."
+    "explanation": "The 73rd Amendment Act, 1992 gave constitutional status to Panchayati Raj Institutions."
+  },
+  {
+    "question": "The 74th Constitutional Amendment Act relates to:",
+    "options": ["High Courts", "Municipalities", "Finance Commission", "Governor"],
+    "correct": 1,
+    "explanation": "The 74th Amendment Act, 1992 provided constitutional status to Municipalities."
+  },
+  {
+    "question": "Panchayati Raj system is mentioned in which Part of Constitution?",
+    "options": ["Part IX", "Part X", "Part VIII", "Part XI"],
+    "correct": 0,
+    "explanation": "Part IX deals with Panchayats."
+  },
+  {
+    "question": "Municipalities are covered under which Part?",
+    "options": ["Part VIII", "Part IX", "Part IX-A", "Part X"],
+    "correct": 2,
+    "explanation": "Part IX-A deals with Municipalities."
+  },
+  {
+    "question": "The three-tier Panchayati Raj system includes:",
+    "options": ["Village, District", "Village, Block, District", "City, State, Union", "None"],
+    "correct": 1,
+    "explanation": "The three tiers are Gram Panchayat, Panchayat Samiti, Zila Parishad."
+  },
+
+  {
+    "question": "The Gram Sabha consists of:",
+    "options": ["Elected members only", "All voters of village", "Sarpanch only", "MPs"],
+    "correct": 1,
+    "explanation": "Gram Sabha includes all registered voters of the village."
+  },
+  {
+    "question": "The head of Gram Panchayat is called:",
+    "options": ["Mayor", "Chairman", "Sarpanch", "Governor"],
+    "correct": 2,
+    "explanation": "Sarpanch is the elected head of Gram Panchayat."
+  },
+  {
+    "question": "Zila Parishad functions at:",
+    "options": ["Village level", "Block level", "District level", "State level"],
+    "correct": 2,
+    "explanation": "Zila Parishad functions at district level."
+  },
+  {
+    "question": "Reservation in Panchayats for women is:",
+    "options": ["10%", "25%", "33%", "50% minimum"],
+    "correct": 2,
+    "explanation": "Minimum one-third seats are reserved for women."
+  },
+  {
+    "question": "The term of Panchayat is:",
+    "options": ["3 years", "4 years", "5 years", "6 years"],
+    "correct": 2,
+    "explanation": "Panchayat term is 5 years."
+  },
+
+  {
+    "question": "Elections to Panchayats are conducted by:",
+    "options": ["President", "Governor", "State Election Commission", "ECI"],
+    "correct": 2,
+    "explanation": "State Election Commission conducts Panchayat elections."
+  },
+  {
+    "question": "The Eleventh Schedule contains subjects related to:",
+    "options": ["Municipalities", "Panchayats", "Parliament", "Judiciary"],
+    "correct": 1,
+    "explanation": "Eleventh Schedule lists 29 subjects for Panchayats."
+  },
+  {
+    "question": "The Twelfth Schedule relates to:",
+    "options": ["Panchayats", "Municipalities", "Finance", "Education"],
+    "correct": 1,
+    "explanation": "Twelfth Schedule contains 18 subjects for Municipalities."
+  },
+  {
+    "question": "Mayor is head of:",
+    "options": ["Gram Panchayat", "Municipality", "Zila Parishad", "Assembly"],
+    "correct": 1,
+    "explanation": "Mayor heads Municipal Corporation."
+  },
+  {
+    "question": "The Panchayati Raj system was first adopted in:",
+    "options": ["Gujarat", "Rajasthan", "Punjab", "UP"],
+    "correct": 1,
+    "explanation": "Rajasthan was first to adopt Panchayati Raj in 1959."
+  },
+
+  {
+    "question": "Balwant Rai Mehta Committee recommended:",
+    "options": ["Two-tier system", "Three-tier system", "Four-tier system", "No local govt"],
+    "correct": 1,
+    "explanation": "It recommended three-tier Panchayati Raj system."
+  },
+  {
+    "question": "The State Finance Commission reviews finances every:",
+    "options": ["3 years", "4 years", "5 years", "6 years"],
+    "correct": 2,
+    "explanation": "State Finance Commission is constituted every 5 years."
+  },
+  {
+    "question": "Local Government is listed under:",
+    "options": ["Union List", "State List", "Concurrent List", "None"],
+    "correct": 1,
+    "explanation": "Local government is a State List subject."
+  },
+  {
+    "question": "Municipal Corporation is formed in:",
+    "options": ["Villages", "Small towns", "Big cities", "Districts"],
+    "correct": 2,
+    "explanation": "Municipal Corporations are in large cities."
+  },
+  {
+    "question": "Block level body is called:",
+    "options": ["Gram Sabha", "Panchayat Samiti", "Zila Parishad", "Mayor"],
+    "correct": 1,
+    "explanation": "Panchayat Samiti operates at block level."
+  },
+
+  {
+    "question": "Minimum age to contest Panchayat election:",
+    "options": ["18", "21", "25", "30"],
+    "correct": 1,
+    "explanation": "Minimum age is 21 years."
+  },
+  {
+    "question": "Municipal Chairman presides over:",
+    "options": ["Village", "Municipality", "State Assembly", "High Court"],
+    "correct": 1,
+    "explanation": "Chairman presides over Municipality."
+  },
+  {
+    "question": "Gram Panchayat deals mainly with:",
+    "options": ["National issues", "Village administration", "Defense", "Foreign affairs"],
+    "correct": 1,
+    "explanation": "Gram Panchayat handles village level administration."
+  },
+  {
+    "question": "Local Government strengthens:",
+    "options": ["Centralization", "Democracy at grassroots", "Monarchy", "Military"],
+    "correct": 1,
+    "explanation": "It strengthens grassroots democracy."
+  },
+  {
+    "question": "The 73rd Amendment came into force in:",
+    "options": ["1990", "1992", "1993", "1995"],
+    "correct": 2,
+    "explanation": "It came into force in 1993."
+  },
+
+  {
+    "question": "Municipal elections are conducted by:",
+    "options": ["ECI", "State Election Commission", "Governor", "President"],
+    "correct": 1,
+    "explanation": "State Election Commission conducts them."
+  },
+  {
+    "question": "The term of Municipalities is:",
+    "options": ["3 years", "4 years", "5 years", "6 years"],
+    "correct": 2,
+    "explanation": "Municipalities have 5-year term."
+  },
+  {
+    "question": "Panchayats deal with:",
+    "options": ["Defense", "Local development", "Foreign policy", "Currency"],
+    "correct": 1,
+    "explanation": "They handle local development."
+  },
+  {
+    "question": "Urban Local Bodies include:",
+    "options": ["Gram Sabha", "Zila Parishad", "Municipality", "Assembly"],
+    "correct": 2,
+    "explanation": "Municipalities are urban local bodies."
+  },
+  {
+    "question": "Reservation for SC/ST in Panchayats is based on:",
+    "options": ["Religion", "Population proportion", "Income", "Gender"],
+    "correct": 1,
+    "explanation": "Seats are reserved based on population proportion."
+  },
+
+  {
+    "question": "Gram Sabha approves:",
+    "options": ["National Budget", "Village plans", "Foreign policy", "Emergency"],
+    "correct": 1,
+    "explanation": "Gram Sabha approves village development plans."
+  },
+  {
+    "question": "District Planning Committee is related to:",
+    "options": ["State Govt", "Local Govt", "President", "Supreme Court"],
+    "correct": 1,
+    "explanation": "It consolidates district development plans."
+  },
+  {
+    "question": "The Panchayati Raj system promotes:",
+    "options": ["Centralization", "Decentralization", "Dictatorship", "Colonialism"],
+    "correct": 1,
+    "explanation": "It promotes decentralization."
+  },
+  {
+    "question": "Ward Committees are formed in:",
+    "options": ["Village", "Municipality", "Parliament", "Supreme Court"],
+    "correct": 1,
+    "explanation": "Ward Committees exist in municipalities."
+  },
+  {
+    "question": "The Panchayat Secretary is appointed by:",
+    "options": ["President", "State Govt", "Governor", "High Court"],
+    "correct": 1,
+    "explanation": "State Government appoints Panchayat Secretary."
   }
 ]
