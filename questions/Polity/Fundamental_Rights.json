@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which Article of the Constitution guarantees Right to Equality?",
+    "options": [
+      "Article 12",
+      "Article 14",
+      "Article 19",
+      "Article 21"
+    ],
+    "correct": 1,
+    "explanation": "Article 14 ensures equality before law and equal protection of laws."
+  },
+  {
+    "question": "Which Article abolishes Untouchability?",
+    "options": [
+      "Article 15",
+      "Article 16",
+      "Article 17",
+      "Article 18"
+    ],
+    "correct": 2,
+    "explanation": "Article 17 abolishes untouchability and declares it punishable."
+  }
+]
