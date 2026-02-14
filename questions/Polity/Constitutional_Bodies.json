@@ -1,13 +1,187 @@
 [
   {
-    "question": "The Election Commission is a:",
-    "options": [
-      "Statutory Body",
-      "Constitutional Body",
-      "Advisory Body",
-      "Judicial Body"
-    ],
+    "question": "Which body conducts elections in India?",
+    "options": ["UPSC", "Finance Commission", "Election Commission", "CAG"],
+    "correct": 2,
+    "explanation": "The Election Commission of India conducts elections under Article 324."
+  },
+  {
+    "question": "The Election Commission is mentioned in which Article?",
+    "options": ["Article 280", "Article 324", "Article 148", "Article 356"],
     "correct": 1,
-    "explanation": "The Election Commission is a Constitutional Body under Article 324."
+    "explanation": "Article 324 provides for the Election Commission of India."
+  },
+  {
+    "question": "The Comptroller and Auditor General (CAG) is mentioned in:",
+    "options": ["Article 148", "Article 280", "Article 324", "Article 356"],
+    "correct": 0,
+    "explanation": "Article 148 provides for the office of the CAG."
+  },
+  {
+    "question": "Finance Commission is constituted under:",
+    "options": ["Article 280", "Article 148", "Article 324", "Article 370"],
+    "correct": 0,
+    "explanation": "Article 280 provides for the Finance Commission."
+  },
+  {
+    "question": "UPSC is mentioned under:",
+    "options": ["Article 315", "Article 324", "Article 148", "Article 280"],
+    "correct": 0,
+    "explanation": "Article 315 provides for Public Service Commissions."
+  },
+
+  {
+    "question": "The term of CAG is:",
+    "options": ["5 years", "6 years or 65 years of age", "7 years", "Until President's pleasure"],
+    "correct": 1,
+    "explanation": "CAG holds office for 6 years or until 65 years of age."
+  },
+  {
+    "question": "The Chairman of UPSC is appointed by:",
+    "options": ["Prime Minister", "President", "Chief Justice", "Governor"],
+    "correct": 1,
+    "explanation": "The President appoints the Chairman and members of UPSC."
+  },
+  {
+    "question": "National Commission for SCs is mentioned under:",
+    "options": ["Article 338", "Article 340", "Article 356", "Article 280"],
+    "correct": 0,
+    "explanation": "Article 338 provides for National Commission for Scheduled Castes."
+  },
+  {
+    "question": "Attorney General of India is mentioned under:",
+    "options": ["Article 76", "Article 280", "Article 324", "Article 148"],
+    "correct": 0,
+    "explanation": "Article 76 provides for the Attorney General."
+  },
+  {
+    "question": "The Special Officer for Linguistic Minorities is under:",
+    "options": ["Article 350B", "Article 324", "Article 280", "Article 148"],
+    "correct": 0,
+    "explanation": "Article 350B provides for Special Officer for Linguistic Minorities."
+  },
+
+  {
+    "question": "The Election Commission consists of:",
+    "options": ["Only Chief Election Commissioner", "Three members", "Five members", "Two members"],
+    "correct": 1,
+    "explanation": "The Election Commission consists of Chief Election Commissioner and two Election Commissioners."
+  },
+  {
+    "question": "The removal of CAG is similar to removal of:",
+    "options": ["Prime Minister", "President", "Supreme Court Judge", "Governor"],
+    "correct": 2,
+    "explanation": "CAG is removed in the same manner as a Supreme Court Judge."
+  },
+  {
+    "question": "The Finance Commission is appointed every:",
+    "options": ["3 years", "4 years", "5 years", "6 years"],
+    "correct": 2,
+    "explanation": "The Finance Commission is appointed every five years."
+  },
+  {
+    "question": "The UPSC submits its report to:",
+    "options": ["Prime Minister", "President", "Governor", "Parliament directly"],
+    "correct": 1,
+    "explanation": "UPSC submits its annual report to the President."
+  },
+  {
+    "question": "The CAG audits:",
+    "options": ["Private companies", "Government accounts", "NGOs", "Political parties"],
+    "correct": 1,
+    "explanation": "CAG audits the accounts of the Union and State Governments."
+  },
+
+  {
+    "question": "The Chief Election Commissioner can be removed by:",
+    "options": ["President alone", "Prime Minister", "Impeachment process", "Supreme Court"],
+    "correct": 2,
+    "explanation": "CEC can be removed like a Supreme Court judge."
+  },
+  {
+    "question": "The Attorney General has right to:",
+    "options": ["Vote in Parliament", "Speak in Parliament", "Dissolve Parliament", "Appoint judges"],
+    "correct": 1,
+    "explanation": "Attorney General can speak but not vote in Parliament."
+  },
+  {
+    "question": "The National Commission for STs is under:",
+    "options": ["Article 338A", "Article 340", "Article 350B", "Article 280"],
+    "correct": 0,
+    "explanation": "Article 338A provides for National Commission for STs."
+  },
+  {
+    "question": "The CAG is appointed by:",
+    "options": ["Prime Minister", "President", "Chief Justice", "Finance Minister"],
+    "correct": 1,
+    "explanation": "CAG is appointed by the President."
+  },
+  {
+    "question": "The UPSC advises on:",
+    "options": ["Defense matters", "Civil services recruitment", "Foreign policy", "Judiciary"],
+    "correct": 1,
+    "explanation": "UPSC advises on recruitment and service matters."
+  },
+
+  {
+    "question": "The Finance Commission recommends distribution of:",
+    "options": ["Judicial powers", "Taxes between Centre and States", "Defense funds", "Election funds"],
+    "correct": 1,
+    "explanation": "It recommends distribution of tax revenues."
+  },
+  {
+    "question": "The term of Chief Election Commissioner is:",
+    "options": ["6 years or 65 years age", "5 years", "7 years", "Until President's pleasure"],
+    "correct": 0,
+    "explanation": "CEC serves 6 years or until 65 years."
+  },
+  {
+    "question": "The Election Commission ensures:",
+    "options": ["Free and fair elections", "Economic planning", "Defense policy", "Judicial review"],
+    "correct": 0,
+    "explanation": "ECI ensures free and fair elections."
+  },
+  {
+    "question": "The Attorney General must be qualified to be:",
+    "options": ["MP", "Judge of Supreme Court", "Governor", "Minister"],
+    "correct": 1,
+    "explanation": "AG must be qualified to be a Supreme Court judge."
+  },
+  {
+    "question": "The UPSC members hold office for:",
+    "options": ["6 years or 65 years", "5 years", "7 years", "Until President removes"],
+    "correct": 0,
+    "explanation": "UPSC members serve 6 years or till 65 years."
+  },
+
+  {
+    "question": "The CAG reports are submitted to:",
+    "options": ["Prime Minister", "President", "Governor", "Supreme Court"],
+    "correct": 1,
+    "explanation": "CAG submits reports to the President."
+  },
+  {
+    "question": "The Election Commission is an example of:",
+    "options": ["Statutory body", "Constitutional body", "Non-constitutional body", "Advisory body"],
+    "correct": 1,
+    "explanation": "Election Commission is a constitutional body."
+  },
+  {
+    "question": "The Finance Commission consists of:",
+    "options": ["Chairman and four members", "Only Chairman", "Five MPs", "Three judges"],
+    "correct": 0,
+    "explanation": "Finance Commission consists of Chairman and four members."
+  },
+  {
+    "question": "The CAG is independent because:",
+    "options": ["Fixed tenure", "Salary charged on Consolidated Fund", "Removal process strict", "All of these"],
+    "correct": 3,
+    "explanation": "All safeguards ensure independence of CAG."
+  },
+  {
+    "question": "UPSC is an example of:",
+    "options": ["Statutory body", "Constitutional body", "Executive body", "Judicial body"],
+    "correct": 1,
+    "explanation": "UPSC is a constitutional body."
   }
-]
+    ]
