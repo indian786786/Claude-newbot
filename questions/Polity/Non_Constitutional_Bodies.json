@@ -1,13 +1,187 @@
 [
   {
-    "question": "NITI Aayog is a:",
-    "options": [
-      "Constitutional Body",
-      "Statutory Body",
-      "Non-Constitutional Body",
-      "Judicial Body"
-    ],
+    "question": "NITI Aayog was established in which year?",
+    "options": ["2012", "2014", "2015", "2016"],
     "correct": 2,
-    "explanation": "NITI Aayog is a Non-Constitutional advisory body."
+    "explanation": "NITI Aayog was established in 2015 replacing the Planning Commission."
+  },
+  {
+    "question": "Planning Commission was replaced by:",
+    "options": ["Finance Commission", "NITI Aayog", "UPSC", "Election Commission"],
+    "correct": 1,
+    "explanation": "Planning Commission was replaced by NITI Aayog in 2015."
+  },
+  {
+    "question": "National Development Council was:",
+    "options": ["Constitutional body", "Statutory body", "Non-constitutional body", "Judicial body"],
+    "correct": 2,
+    "explanation": "NDC was a non-constitutional and non-statutory body."
+  },
+  {
+    "question": "NITI Aayog functions as:",
+    "options": ["Financial regulator", "Policy think tank", "Election body", "Judicial authority"],
+    "correct": 1,
+    "explanation": "NITI Aayog acts as the policy think tank of the Government."
+  },
+  {
+    "question": "The Chairman of NITI Aayog is:",
+    "options": ["President", "Prime Minister", "Finance Minister", "Chief Justice"],
+    "correct": 1,
+    "explanation": "The Prime Minister is the ex-officio Chairman of NITI Aayog."
+  },
+
+  {
+    "question": "The Vice Chairman of NITI Aayog is appointed by:",
+    "options": ["President", "Prime Minister", "Parliament", "Supreme Court"],
+    "correct": 1,
+    "explanation": "The Vice Chairman is appointed by the Prime Minister."
+  },
+  {
+    "question": "Central Vigilance Commission (CVC) was established by:",
+    "options": ["Constitution", "Executive resolution", "Judicial order", "State government"],
+    "correct": 1,
+    "explanation": "CVC was established by executive resolution in 1964."
+  },
+  {
+    "question": "Central Bureau of Investigation (CBI) derives power from:",
+    "options": ["Constitution", "Delhi Special Police Establishment Act", "Article 324", "Article 356"],
+    "correct": 1,
+    "explanation": "CBI derives its power from the DSPE Act, 1946."
+  },
+  {
+    "question": "National Human Rights Commission (NHRC) was established under:",
+    "options": ["Protection of Human Rights Act, 1993", "Constitution", "RTI Act", "Lokpal Act"],
+    "correct": 0,
+    "explanation": "NHRC was established under the Protection of Human Rights Act, 1993."
+  },
+  {
+    "question": "NITI Aayog promotes:",
+    "options": ["Centralized planning", "Cooperative federalism", "Judicial activism", "Emergency rule"],
+    "correct": 1,
+    "explanation": "NITI Aayog promotes cooperative federalism."
+  },
+
+  {
+    "question": "The Chief Vigilance Commissioner is appointed by:",
+    "options": ["President", "Prime Minister", "Governor", "Supreme Court"],
+    "correct": 0,
+    "explanation": "The President appoints the Chief Vigilance Commissioner."
+  },
+  {
+    "question": "CBI headquarters is located in:",
+    "options": ["Mumbai", "Kolkata", "New Delhi", "Chennai"],
+    "correct": 2,
+    "explanation": "CBI headquarters is in New Delhi."
+  },
+  {
+    "question": "NHRC Chairperson must be:",
+    "options": ["Former CJI", "Governor", "MP", "Attorney General"],
+    "correct": 0,
+    "explanation": "NHRC Chairperson must be a former Chief Justice of India."
+  },
+  {
+    "question": "NITI Aayog has replaced which body?",
+    "options": ["Finance Commission", "Planning Commission", "UPSC", "CAG"],
+    "correct": 1,
+    "explanation": "Planning Commission was replaced by NITI Aayog."
+  },
+  {
+    "question": "Lokpal was established under:",
+    "options": ["RTI Act", "Lokpal and Lokayuktas Act, 2013", "Human Rights Act", "DSPE Act"],
+    "correct": 1,
+    "explanation": "Lokpal was established under the Lokpal and Lokayuktas Act, 2013."
+  },
+
+  {
+    "question": "NITI Aayog includes:",
+    "options": ["Chief Ministers of States", "Judges only", "MPs only", "Army Chiefs"],
+    "correct": 0,
+    "explanation": "Chief Ministers are part of NITI Aayog Governing Council."
+  },
+  {
+    "question": "CVC supervises:",
+    "options": ["Defense forces", "CBI in corruption cases", "Supreme Court", "Election Commission"],
+    "correct": 1,
+    "explanation": "CVC supervises CBI in corruption cases."
+  },
+  {
+    "question": "National Commission for Women (NCW) is:",
+    "options": ["Constitutional body", "Statutory body", "Non-constitutional body", "Judicial body"],
+    "correct": 1,
+    "explanation": "NCW is a statutory body established in 1992."
+  },
+  {
+    "question": "Lokayukta functions at:",
+    "options": ["Central level", "State level", "International level", "District level"],
+    "correct": 1,
+    "explanation": "Lokayukta works at the state level."
+  },
+  {
+    "question": "NITI Aayog prepares:",
+    "options": ["Five-Year Plans", "Policy recommendations", "Election schedule", "Budget"],
+    "correct": 1,
+    "explanation": "NITI Aayog provides policy recommendations."
+  },
+
+  {
+    "question": "The Planning Commission was established in:",
+    "options": ["1950", "1947", "1952", "1960"],
+    "correct": 0,
+    "explanation": "Planning Commission was established in 1950."
+  },
+  {
+    "question": "The Lokpal deals with:",
+    "options": ["Corruption cases", "Defense policy", "Elections", "Judiciary"],
+    "correct": 0,
+    "explanation": "Lokpal deals with corruption cases."
+  },
+  {
+    "question": "National Commission for Minorities was established in:",
+    "options": ["1992", "2000", "1985", "1970"],
+    "correct": 0,
+    "explanation": "National Commission for Minorities was established in 1992."
+  },
+  {
+    "question": "NITI Aayog emphasizes:",
+    "options": ["Top-down planning", "Bottom-up approach", "Judicial review", "Emergency powers"],
+    "correct": 1,
+    "explanation": "It emphasizes bottom-up planning."
+  },
+  {
+    "question": "Central Information Commission is related to:",
+    "options": ["RTI Act", "Lokpal Act", "CVC Act", "NHRC Act"],
+    "correct": 0,
+    "explanation": "CIC was established under the RTI Act."
+  },
+
+  {
+    "question": "CBI was established in:",
+    "options": ["1963", "1950", "1947", "1975"],
+    "correct": 0,
+    "explanation": "CBI was established in 1963."
+  },
+  {
+    "question": "NHRC is headquartered in:",
+    "options": ["Mumbai", "Delhi", "Chennai", "Kolkata"],
+    "correct": 1,
+    "explanation": "NHRC headquarters is in New Delhi."
+  },
+  {
+    "question": "Lokpal Chairperson is appointed by:",
+    "options": ["President", "Prime Minister alone", "Selection Committee", "Chief Justice"],
+    "correct": 2,
+    "explanation": "Lokpal Chairperson is appointed by a selection committee."
+  },
+  {
+    "question": "NITI Aayog replaced Five-Year Plans with:",
+    "options": ["Annual plans", "Strategy documents", "Defense plans", "Judicial plans"],
+    "correct": 1,
+    "explanation": "NITI Aayog introduced strategy and action agenda documents."
+  },
+  {
+    "question": "CVC was made statutory in:",
+    "options": ["2003", "1993", "1985", "2010"],
+    "correct": 0,
+    "explanation": "CVC was given statutory status in 2003."
   }
 ]
