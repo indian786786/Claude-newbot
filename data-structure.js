@@ -69,7 +69,7 @@ const SUBJECT_TOPICS = {
     "Polity": {
         displayName: "📜 Polity",
         topics: {
-            "Important Parts & Schedules": "Polity/Parts_Schedules.json",
+            "Important Parts and Schedules": "Polity/Parts_Schedules.json",
             "Important Articles": "Polity/Important_Articles.json",
             "Important Acts": "Polity/Important_Acts.json",
             "Important Amendments": "Polity/Important_Amendments.json",
