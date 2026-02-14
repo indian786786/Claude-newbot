@@ -20,5 +20,186 @@
     ],
     "correct": 2,
     "explanation": "Supreme Court judges retire at 65 years."
+  },
+  {
+    "question": "The retirement age of a Supreme Court judge is:",
+    "options": ["60 years", "62 years", "65 years", "68 years"],
+    "correct": 2,
+    "explanation": "Supreme Court judges retire at the age of 65 years."
+  },
+  {
+    "question": "High Court judges retire at the age of:",
+    "options": ["60 years", "62 years", "65 years", "68 years"],
+    "correct": 1,
+    "explanation": "High Court judges retire at 62 years."
+  },
+  {
+    "question": "Judicial Review in India is borrowed from:",
+    "options": ["Britain", "USA", "France", "Ireland"],
+    "correct": 1,
+    "explanation": "Judicial Review is borrowed from the U.S. Constitution."
+  },
+  {
+    "question": "Article 32 is related to:",
+    "options": ["High Court", "Judicial Review", "Right to Constitutional Remedies", "President"],
+    "correct": 2,
+    "explanation": "Article 32 provides the Right to Constitutional Remedies."
+  },
+  {
+    "question": "The Supreme Court is a court of record under which Article?",
+    "options": ["Article 129", "Article 131", "Article 143", "Article 368"],
+    "correct": 0,
+    "explanation": "Article 129 declares Supreme Court as a Court of Record."
+  },
+  {
+    "question": "Who appoints the Chief Justice of India?",
+    "options": ["Prime Minister", "President", "Parliament", "Vice President"],
+    "correct": 1,
+    "explanation": "The President appoints the Chief Justice of India."
+  },
+  {
+    "question": "Original jurisdiction of the Supreme Court is under:",
+    "options": ["Article 131", "Article 32", "Article 226", "Article 124"],
+    "correct": 0,
+    "explanation": "Article 131 defines original jurisdiction of Supreme Court."
+  },
+  {
+    "question": "The advisory jurisdiction of Supreme Court is under:",
+    "options": ["Article 131", "Article 143", "Article 226", "Article 32"],
+    "correct": 1,
+    "explanation": "Article 143 provides advisory jurisdiction."
+  },
+  {
+    "question": "Public Interest Litigation (PIL) started in:",
+    "options": ["1970s", "1980s", "1990s", "2000s"],
+    "correct": 1,
+    "explanation": "PIL concept started in India during the 1980s."
+  },
+  {
+    "question": "Which writ is issued to prevent lower court from exceeding jurisdiction?",
+    "options": ["Mandamus", "Prohibition", "Certiorari", "Habeas Corpus"],
+    "correct": 1,
+    "explanation": "Prohibition prevents lower court from exceeding jurisdiction."
+  },
+  {
+    "question": "Certiorari is issued to:",
+    "options": ["Transfer case", "Quash order", "Release person", "Appoint judge"],
+    "correct": 1,
+    "explanation": "Certiorari is issued to quash an order of lower court."
+  },
+  {
+    "question": "Mandamus means:",
+    "options": ["To command", "To prohibit", "To release", "To remove"],
+    "correct": 0,
+    "explanation": "Mandamus means 'we command'."
+  },
+  {
+    "question": "Quo Warranto means:",
+    "options": ["By what authority", "To command", "To release", "To prohibit"],
+    "correct": 0,
+    "explanation": "Quo Warranto means 'by what authority'."
+  },
+  {
+    "question": "The power of Judicial Review is mentioned in:",
+    "options": ["Article 13", "Article 19", "Article 21", "Article 52"],
+    "correct": 0,
+    "explanation": "Article 13 provides for Judicial Review."
+  },
+  {
+    "question": "The concept of Basic Structure was established in:",
+    "options": ["Golaknath Case", "Kesavananda Bharati Case", "Minerva Mills Case", "Shah Bano Case"],
+    "correct": 1,
+    "explanation": "Basic Structure doctrine was laid down in 1973 Kesavananda Bharati case."
+  },
+  {
+    "question": "High Courts are established under:",
+    "options": ["Article 214", "Article 124", "Article 368", "Article 356"],
+    "correct": 0,
+    "explanation": "Article 214 provides for High Courts in states."
+  },
+  {
+    "question": "The salary of Supreme Court judges is decided by:",
+    "options": ["President", "Prime Minister", "Parliament", "Supreme Court"],
+    "correct": 2,
+    "explanation": "Parliament determines salary of Supreme Court judges."
+  },
+  {
+    "question": "Impeachment of Supreme Court judge is done by:",
+    "options": ["President", "Prime Minister", "Parliament", "CJI"],
+    "correct": 2,
+    "explanation": "Parliament can remove a judge through impeachment."
+  },
+  {
+    "question": "Which case introduced the concept of PIL?",
+    "options": ["Maneka Gandhi Case", "Hussainara Khatoon Case", "Kesavananda Case", "Indira Gandhi Case"],
+    "correct": 1,
+    "explanation": "Hussainara Khatoon case is linked with early PIL development."
+  },
+  {
+    "question": "High Courts have writ jurisdiction under:",
+    "options": ["Article 32", "Article 226", "Article 143", "Article 131"],
+    "correct": 1,
+    "explanation": "Article 226 gives writ power to High Courts."
+  },
+
+  {
+    "question": "Supreme Court can review its own judgment under:",
+    "options": ["Article 137", "Article 131", "Article 143", "Article 226"],
+    "correct": 0,
+    "explanation": "Article 137 provides review power."
+  },
+  {
+    "question": "Contempt of Court power is under:",
+    "options": ["Article 129", "Article 143", "Article 226", "Article 352"],
+    "correct": 0,
+    "explanation": "Article 129 gives contempt power to Supreme Court."
+  },
+  {
+    "question": "Lok Adalat deals with:",
+    "options": ["Criminal trials", "Civil disputes settlement", "Election disputes", "Constitutional amendments"],
+    "correct": 1,
+    "explanation": "Lok Adalat helps in settlement of civil disputes."
+  },
+  {
+    "question": "The independence of judiciary is protected by:",
+    "options": ["Written Constitution", "Judicial Review", "Security of tenure", "All of these"],
+    "correct": 3,
+    "explanation": "All these factors protect judicial independence."
+  },
+  {
+    "question": "Who administers oath to High Court judge?",
+    "options": ["President", "Governor", "CJI", "Prime Minister"],
+    "correct": 1,
+    "explanation": "Governor administers oath to High Court judge."
+  },
+  {
+    "question": "Judges of Supreme Court are removed by:",
+    "options": ["Resignation", "Impeachment", "Retirement", "All of these"],
+    "correct": 3,
+    "explanation": "Judges can retire, resign or be impeached."
+  },
+  {
+    "question": "Supreme Court sits in:",
+    "options": ["Mumbai", "Delhi", "Kolkata", "Chennai"],
+    "correct": 1,
+    "explanation": "Supreme Court is located in New Delhi."
+  },
+  {
+    "question": "Minimum age to become Supreme Court judge is:",
+    "options": ["35", "40", "45", "No minimum age specified"],
+    "correct": 3,
+    "explanation": "No minimum age is specified in Constitution."
+  },
+  {
+    "question": "Judicial activism is related to:",
+    "options": ["Legislature power", "Executive power", "Active judiciary role", "Emergency"],
+    "correct": 2,
+    "explanation": "Judicial activism refers to proactive judicial decisions."
+  },
+  {
+    "question": "Fast Track Courts are meant for:",
+    "options": ["Minor disputes", "Speedy trial", "Parliament cases", "Constitution amendment"],
+    "correct": 1,
+    "explanation": "Fast Track Courts ensure speedy disposal of cases."
   }
-{ "question": "The Supreme Court of India was established in which year?", "options": ["1947", "1950", "1952", "1935"], "correct": 1, "explanation": "The Supreme Court was established on 28 January 1950." }, { "question": "Article 124 deals with:", "options": ["High Courts", "Supreme Court", "President", "Parliament"], "correct": 1, "explanation": "Article 124 provides for the establishment and constitution of the Supreme Court." }, { "question": "The Chief Justice of India is appointed by:", "options": ["Prime Minister", "President", "Parliament", "Law Minister"], "correct": 1, "explanation": "The President appoints the Chief Justice of India." }, { "question": "The retirement age of a Supreme Court judge is:", "options": ["60 years", "62 years", "65 years", "68 years"], "correct": 2, "explanation": "Supreme Court judges retire at the age of 65 years." }, { "question": "Judicial Review in India is based on:", "options": ["British Constitution", "American Constitution", "French Constitution", "Irish Constitution"], "correct": 1, "explanation": "The concept of Judicial Review is borrowed from the U.S. Constitution." }, { "question": "The Supreme Court is a court of:", "options": ["Appeal only", "Record", "Advisory only", "Civil matters only"], "correct": 1, "explanation": "The Supreme Court is a Court of Record under Article 129." }, { "question": "Original jurisdiction of the Supreme Court is mentioned in:", "options": ["Article 131", "Article 32", "Article 226", "Article 368"], "correct": 0, "explanation": "Article 131 defines the original jurisdiction of the Supreme Court." }, { "question": "Writ jurisdiction of the Supreme Court is under:", "options": ["Article 32", "Article 226", "Article 131", "Article 368"], "correct": 0, "explanation": "Article 32 provides writ jurisdiction to the Supreme Court." }, { "question": "High Court judges retire at the age of:", "options": ["60", "62", "65", "68"], "correct": 1, "explanation": "High Court judges retire at 62 years." }, { "question": "Which Article deals with High Courts?", "options": ["214", "124", "356", "368"], "correct": 0, "explanation": "Article 214 provides for High Courts in states." }, { "question": "Public Interest Litigation (PIL) was introduced by:", "options": ["Judiciary", "Parliament", "President", "State Legislature"], "correct": 0, "explanation": "PIL was introduced by judicial activism in India." }, { "question": "Advisory jurisdiction of Supreme Court is under:", "options": ["Article 131", "Article 143", "Article 226", "Article 32"], "correct": 1, "explanation": "Article 143 gives advisory powers to the Supreme Court." }, { "question": "Which writ means 'to have the body'?", "options": ["Mandamus", "Certiorari", "Habeas Corpus", "Quo Warranto"], "correct": 2, "explanation": "Habeas Corpus means 'to have the body'." }, { "question": "Judicial activism refers to:", "options": ["Strict interpretation", "Active role of judiciary", "Executive control", "Legislative supremacy"], "correct": 1, "explanation": "Judicial activism means proactive role of judiciary in protecting rights." }, { "question": "The Supreme Court can transfer cases under:", "options": ["Article 139A", "Article 356", "Article 226", "Article 32"], "correct": 0, "explanation": "Article 139A allows transfer of cases." }, { "question": "Removal of Supreme Court judge is by:", "options": ["President alone", "Parliament by impeachment", "Prime Minister", "CJI"], "correct": 1, "explanation": "Judges are removed by impeachment by Parliament." }, { "question": "Which body recommends judges under collegium system?", "options": ["Parliament", "Executive", "Supreme Court collegium", "President"], "correct": 2, "explanation": "Judges are recommended by the Supreme Court collegium." }, { "question": "High Courts have writ jurisdiction under:", "options": ["Article 32", "Article 226", "Article 131", "Article 143"], "correct": 1, "explanation": "Article 226 grants writ powers to High Courts." }, { "question": "Contempt of Court is punishable because Supreme Court is a:", "options": ["Advisory body", "Court of Record", "Civil court", "Trial court"], "correct": 1, "explanation": "As a Court of Record, it can punish for contempt." }, { "question": "The First female judge of Supreme Court was:", "options": ["Fathima Beevi", "Indu Malhotra", "Ruma Pal", "Leila Seth"], "correct": 0, "explanation": "Justice Fathima Beevi was the first female Supreme Court judge." }, { "question": "The concept of Basic Structure was established in:", "options": ["Golaknath Case", "Kesavananda Bharati Case", "Minerva Mills Case", "Shah Bano Case"], "correct": 1, "explanation": "Basic Structure doctrine was laid down in 1973 Kesavananda Bharati case." }, { "question": "Judicial Review ensures:", "options": ["Executive supremacy", "Legislative supremacy", "Constitutional supremacy", "Presidential rule"], "correct": 2, "explanation": "Judicial review ensures supremacy of Constitution." }, { "question": "The Supreme Court has how many maximum judges?", "options": ["31", "34", "26", "30"], "correct": 1, "explanation": "The sanctioned strength is 34 judges including CJI." }, { "question": "Which writ commands public authority to perform duty?", "options": ["Mandamus", "Certiorari", "Habeas Corpus", "Prohibition"], "correct": 0, "explanation": "Mandamus directs authority to perform legal duty." }, { "question": "Certiorari is issued to:", "options": ["Transfer cases", "Quash order of lower court", "Arrest person", "Release detainee"], "correct": 1, "explanation": "Certiorari quashes order of inferior court." }, { "question": "Prohibition writ is issued:", "options": ["Before judgment", "After judgment", "To legislature", "To President"], "correct": 0, "explanation": "Prohibition is issued before lower court gives judgment." }, { "question": "Quo Warranto means:", "options": ["By what authority", "Produce body", "Stop proceedings", "Perform duty"], "correct": 0, "explanation": "Quo Warranto questions authority of a person holding office." }, { "question": "The Supreme Court sits in:", "options": ["Mumbai", "Delhi", "Chennai", "Kolkata"], "correct": 1, "explanation": "The Supreme Court is located in New Delhi." }, { "question": "Appeals from High Court go to:", "options": ["President", "Parliament", "Supreme Court", "Governor"], "correct": 2, "explanation": "Supreme Court hears appeals from High Courts." }, { "question": "Which Article provides for independence of judiciary?", "options": ["50", "356", "370", "123"], "correct": 0, "explanation": "Article 50 directs separation of judiciary from executive." }, { "question": "Judicial activism increased after:", "options": ["1970s", "1950s", "1990s", "2000s"], "correct": 0, "explanation": "Judicial activism expanded significantly after 1970s." }, { "question": "The power of Judicial Review extends to:", "options": ["Executive only", "Legislature only", "Both Executive and Legislature", "None"], "correct": 2, "explanation": "Judicial review covers both executive and legislative actions." }, { "question": "Supreme Court judges take oath before:", "options": ["Prime Minister", "President", "CJI", "Speaker"], "correct": 1, "explanation": "Judges take oath before the President." }, { "question": "High Court judges are appointed by:", "options": ["Governor", "President", "Prime Minister", "Chief Minister"], "correct": 1, "explanation": "High Court judges are appointed by the President." }, { "question": "Transfer of High Court judges is done by:", "options": ["President after consultation", "Governor", "CM", "Parliament"], "correct": 0, "explanation": "President transfers judges after consultation with CJI." }, { "question": "The Supreme Court can review its judgment under:", "options": ["Article 137", "Article 143", "Article 131", "Article 226"], "correct": 0, "explanation": "Article 137 allows Supreme Court to review its judgments." }, { "question": "Judicial overreach means:", "options": ["Excess intervention", "Limited role", "Legislative control", "Executive control"], "correct": 0, "explanation": "Judicial overreach refers to excessive interference by judiciary." }, { "question": "Lok Adalat is related to:", "options": ["Judicial settlement", "Parliament", "President", "Election"], "correct": 0, "explanation": "Lok Adalat provides alternative dispute resolution." }, { "question": "Gram Nyayalayas Act was passed in:", "options": ["2005", "2008", "2010", "2002"], "correct": 1, "explanation": "Gram Nyayalayas Act was passed in 2008." }, { "question": "Fast Track Courts are set up to:", "options": ["Delay cases", "Speed up cases", "Control executive", "Review laws"], "correct": 1, "explanation": "Fast Track Courts speed up disposal of pending cases." }, { "question": "Judicial independence ensures:", "options": ["Political control", "Executive control", "Fair justice", "Military control"], "correct": 2, "explanation": "Independence ensures fair and unbiased justice." }, { "question": "Which case declared Parliament cannot amend basic structure?", "options": ["Minerva Mills", "Kesavananda Bharati", "Golaknath", "Shah Bano"], "correct": 1, "explanation": "Kesavananda Bharati case established basic structure doctrine." }, { "question": "The Supreme Court can punish for contempt under:", "options": ["Article 129", "Article 32", "Article 226", "Article 356"], "correct": 0, "explanation": "Article 129 grants contempt powers." }, { "question": "Which court has supervisory jurisdiction over lower courts?", "options": ["Supreme Court", "High Court", "District Court", "Session Court"], "correct": 1, "explanation": "High Courts supervise subordinate courts." }, { "question": "The power of issuing writs is called:", "options": ["Original Jurisdiction", "Appellate Jurisdiction", "Writ Jurisdiction", "Advisory Jurisdiction"], "correct": 2, "explanation": "Issuing writs is known as writ jurisdiction." }, { "question": "The doctrine of separation of powers includes:", "options": ["Judiciary independence", "Legislative supremacy", "Executive control", "None"], "correct": 0, "explanation": "Judicial independence is part of separation of powers." }, { "question": "Subordinate courts are under control of:", "options": ["President", "High Court", "Governor", "Parliament"], "correct": 1, "explanation": "High Courts control subordinate courts." }, { "question": "Which Article empowers High Courts to issue writs?", "options": ["226", "32", "131", "124"], "correct": 0, "explanation": "Article 226 empowers High Courts to issue writs." }, { "question": "Judicial Review was explicitly mentioned in:", "options": ["Indian Constitution", "British Constitution", "U.S. Constitution", "French Constitution"], "correct": 0, "explanation": "Judicial review is provided under Indian Constitution." }, { "question": "The concept of PIL was first introduced in India by:", "options": ["Justice P.N. Bhagwati", "Justice H.R. Khanna", "Justice Sikri", "Justice Ruma Pal"], "correct": 0, "explanation": "Justice P.N. Bhagwati played key role in introducing PIL." } ] }
+]
