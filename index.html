@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC PYQ Quiz - Professional Platform</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #6C63FF;
+            --primary-dark: #5548E8;
+            --success-color: #2ECC71;
+            --danger-color: #E74C3C;
+            --warning-color: #F39C12;
+            --text-dark: #2C3E50;
+            --text-light: #7F8C8D;
+            --bg-light: #F8F9FA;
+            --bg-white: #FFFFFF;
+            --border-color: #E1E8ED;
+            --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 16px;
+            color: var(--text-dark);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.95;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--bg-white);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Selection Section */
+        .selection-section {
+            display: block;
+        }
+
+        .selection-section.hidden {
+            display: none;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 14px;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .form-group select {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            font-size: 15px;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236C63FF' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            padding-right: 48px;
+        }
+
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+        }
+
+        .form-group select:disabled {
+            background-color: var(--bg-light);
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: white;
+            box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(108, 99, 255, 0.4);
+        }
+
+        .btn-primary:active:not(:disabled) {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Quiz Section */
+        .quiz-section {
+            display: none;
+        }
+
+        .quiz-section.active {
+            display: block;
+        }
+
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .quiz-progress {
+            font-size: 14px;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .quiz-score {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .question-number {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .question-text {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin-bottom: 24px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .option-btn {
+            padding: 16px 20px;
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            background: var(--bg-white);
+            text-align: left;
+            font-size: 15px;
+            color: var(--text-dark);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--primary-color);
+            background: rgba(108, 99, 255, 0.05);
+            transform: translateX(4px);
+        }
+
+        .option-btn:disabled {
+            cursor: not-allowed;
+        }
+
+        .option-btn.correct {
+            background: linear-gradient(135deg, #d4edda, #c3e6cb);
+            border-color: var(--success-color);
+            color: #155724;
+            font-weight: 600;
+        }
+
+        .option-btn.wrong {
+            background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+            border-color: var(--danger-color);
+            color: #721c24;
+            font-weight: 600;
+        }
+
+        .option-btn.correct::before {
+            content: "✓";
+            position: absolute;
+            right: 20px;
+            font-size: 20px;
+            color: var(--success-color);
+            font-weight: bold;
+        }
+
+        .option-btn.wrong::before {
+            content: "✗";
+            position: absolute;
+            right: 20px;
+            font-size: 20px;
+            color: var(--danger-color);
+            font-weight: bold;
+        }
+
+        /* Explanation Box - Large and Highlighted */
+        .explanation-box {
+            display: none;
+            margin-top: 24px;
+            padding: 24px;
+            background: linear-gradient(135deg, #fff3cd, #fff8e1);
+            border-left: 6px solid var(--warning-color);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        .explanation-box.show {
+            display: block;
+            animation: slideDown 0.4s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .explanation-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #856404;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .explanation-title::before {
+            content: "💡";
+            font-size: 20px;
+        }
+
+        .explanation-content {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #533f03;
+            margin-bottom: 16px;
+        }
+
+        .explanation-fact {
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .explanation-fact-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .explanation-fact-content {
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--text-dark);
+        }
+
+        /* Navigation Buttons */
+        .quiz-actions {
+            display: none;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .quiz-actions.show {
+            display: flex;
+        }
+
+        .btn-secondary {
+            background: var(--bg-light);
+            color: var(--text-dark);
+            border: 2px solid var(--border-color);
+        }
+
+        .btn-secondary:hover:not(:disabled) {
+            background: var(--border-color);
+        }
+
+        /* Pagination */
+        .pagination-info {
+            text-align: center;
+            margin-top: 24px;
+            padding: 16px;
+            background: var(--bg-light);
+            border-radius: 10px;
+            font-size: 14px;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .pagination-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        /* Results Section */
+        .results-section {
+            display: none;
+            text-align: center;
+        }
+
+        .results-section.active {
+            display: block;
+        }
+
+        .results-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+
+        .results-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .results-score {
+            font-size: 48px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 16px;
+        }
+
+        .results-message {
+            font-size: 16px;
+            color: var(--text-light);
+            margin-bottom: 24px;
+        }
+
+        .results-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stat-item {
+            padding: 16px;
+            background: var(--bg-light);
+            border-radius: 10px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 4px;
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            display: none;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid var(--bg-light);
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 14px;
+            color: var(--text-light);
+        }
+
+        /* Error Message */
+        .error-message {
+            display: none;
+            padding: 16px;
+            background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+            border-left: 4px solid var(--danger-color);
+            border-radius: 10px;
+            color: #721c24;
+            margin-bottom: 16px;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .question-text {
+                font-size: 16px;
+            }
+
+            .results-score {
+                font-size: 40px;
+            }
+
+            .results-stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📚 SSC PYQ Quiz</h1>
+            <p>Professional Practice Platform</p>
+        </div>
+
+        <!-- Selection Section -->
+        <div class="card selection-section" id="selectionSection">
+            <div class="error-message" id="errorMessage"></div>
+
+            <div class="form-group">
+                <label for="subjectSelect">Select Subject</label>
+                <select id="subjectSelect">
+                    <option value="">Choose a subject...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="topicSelect">Select Topic</label>
+                <select id="topicSelect" disabled>
+                    <option value="">Select subject first...</option>
+                </select>
+            </div>
+
+            <button class="btn btn-primary" id="startQuizBtn" disabled>
+                Start Quiz
+            </button>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <div class="loading-text">Loading questions...</div>
+            </div>
+        </div>
+
+        <!-- Quiz Section -->
+        <div class="card quiz-section" id="quizSection">
+            <div class="quiz-header">
+                <div class="quiz-progress" id="quizProgress">Question 1 of 5</div>
+                <div class="quiz-score" id="quizScore">Score: 0/5</div>
+            </div>
+
+            <div class="question-number" id="questionNumber">Question 1</div>
+            <div class="question-text" id="questionText"></div>
+
+            <div class="options" id="optionsContainer"></div>
+
+            <div class="explanation-box" id="explanationBox">
+                <div class="explanation-title">Explanation</div>
+                <div class="explanation-content" id="explanationContent"></div>
+                <div class="explanation-fact">
+                    <div class="explanation-fact-title">📌 Key Fact</div>
+                    <div class="explanation-fact-content" id="explanationFact"></div>
+                </div>
+            </div>
+
+            <div class="quiz-actions" id="quizActions">
+                <button class="btn btn-primary" id="nextQuestionBtn">
+                    Next Question →
+                </button>
+            </div>
+
+            <div class="pagination-info" id="paginationInfo">
+                Showing questions 1-5 of 50
+            </div>
+
+            <div class="pagination-actions" id="paginationActions">
+                <button class="btn btn-secondary" id="loadMoreBtn">
+                    Load Next 5 Questions
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="card results-section" id="resultsSection">
+            <div class="results-icon" id="resultsIcon">🎉</div>
+            <div class="results-title">Quiz Completed!</div>
+            <div class="results-score" id="resultsScore">0/5</div>
+            <div class="results-message" id="resultsMessage"></div>
+
+            <div class="results-stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="statCorrect">0</div>
+                    <div class="stat-label">Correct</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="statWrong">0</div>
+                    <div class="stat-label">Wrong</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="statPercentage">0%</div>
+                    <div class="stat-label">Accuracy</div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" id="restartBtn">
+                Take Another Quiz
+            </button>
+        </div>
+    </div>
+
+    <script src="data-structure.js"></script>
+    <script src="quiz-app.js"></script>
+</body>
+                  </html>
