@@ -1,0 +1,167 @@
+[
+  {
+    "question": "In which city is the headquarters of the 'Sahitya Akademi' located?",
+    "options": [
+      "Kolkata",
+      "Mumbai",
+      "New Delhi",
+      "Chennai"
+    ],
+    "correct": 2,
+    "explanation": "Sahitya Akademi, India's National Academy of Letters, is situated at Rabindra Bhavan in New Delhi."
+  },
+  {
+    "question": "The 'Sangeet Natak Akademi', the national academy for music, dance, and drama, was established in which year?",
+    "options": [
+      "1950",
+      "1953",
+      "1956",
+      "1960"
+    ],
+    "correct": 1,
+    "explanation": "It was the first of the three national academies of culture to be set up by the Government of India in 1953."
+  },
+  {
+    "question": "Which institution is responsible for the 'Archaeological Survey of India' (ASI)?",
+    "options": [
+      "Ministry of Tourism",
+      "Ministry of Culture",
+      "NITI Aayog",
+      "Ministry of Education"
+    ],
+    "correct": 1,
+    "explanation": "ASI, an attached office of the Ministry of Culture, is the premier organization for archaeological research and protection of cultural heritage."
+  },
+  {
+    "question": "The 'Lalit Kala Akademi' is the national academy for:",
+    "options": [
+      "Performing Arts",
+      "Fine Arts",
+      "Literature",
+      "Cinematography"
+    ],
+    "correct": 1,
+    "explanation": "Established in 1954, it promotes and propagates understanding of Indian art, both within and outside the country."
+  },
+  {
+    "question": "Where is the 'National Museum' of India located?",
+    "options": [
+      "New Delhi",
+      "Kolkata",
+      "Hyderabad",
+      "Mumbai"
+    ],
+    "correct": 0,
+    "explanation": "The National Museum in New Delhi is one of the largest museums in India, holding over 200,000 works of art."
+  },
+  {
+    "question": "The 'Indian Council for Cultural Relations' (ICCR) was founded by whom?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Maulana Abul Kalam Azad",
+      "Indira Gandhi",
+      "Sarojini Naidu"
+    ],
+    "correct": 1,
+    "explanation": "Maulana Abul Kalam Azad founded ICCR in 1950 to strengthen cultural relations between India and other countries."
+  },
+  {
+    "question": "In which city is the 'Indian Museum', the oldest and largest multi-purpose museum in the Asia-Pacific region, located?",
+    "options": [
+      "Kolkata",
+      "Chennai",
+      "Patna",
+      "Varanasi"
+    ],
+    "correct": 0,
+    "explanation": "Established in 1814, the Indian Museum in Kolkata is also known as 'Jadu Ghar'."
+  },
+  {
+    "question": "The 'National Archives of India' is located in:",
+    "options": [
+      "New Delhi",
+      "Mumbai",
+      "Pune",
+      "Kolkata"
+    ],
+    "correct": 0,
+    "explanation": "It is the custodian of the non-current records of the Government of India and is located at the intersection of Janpath and Rajpath."
+  },
+  {
+    "question": "Which organization manages and maintains the 'National Library of India'?",
+    "options": [
+      "Ministry of Culture",
+      "UGC",
+      "CSIR",
+      "Ministry of Information and Broadcasting"
+    ],
+    "correct": 0,
+    "explanation": "The National Library of India, located in Belvedere Estate, Kolkata, is the largest library in India by volume."
+  },
+  {
+    "question": "The 'Indira Gandhi National Centre for the Arts' (IGNCA) was established in memory of Indira Gandhi in:",
+    "options": [
+      "1985",
+      "1987",
+      "1990",
+      "1992"
+    ],
+    "correct": 1,
+    "explanation": "IGNCA is a premier government-funded arts organization in India, launched in 1987."
+  },
+  {
+    "question": "The 'National School of Drama' (NSD), one of the foremost theatre training institutions in the world, is an autonomous body under:",
+    "options": [
+      "Ministry of Culture",
+      "Sangeet Natak Akademi",
+      "Sahitya Akademi",
+      "Ministry of Skill Development"
+    ],
+    "correct": 0,
+    "explanation": "Formerly a part of the Sangeet Natak Akademi, it became an independent entity in 1975 under the Ministry of Culture."
+  },
+  {
+    "question": "In which city is the 'Salar Jung Museum' located?",
+    "options": [
+      "Hyderabad",
+      "Lucknow",
+      "Mysuru",
+      "Jaipur"
+    ],
+    "correct": 0,
+    "explanation": "The Salar Jung Museum is an art museum located on the southern bank of the Musi River in Hyderabad."
+  },
+  {
+    "question": "The 'Film and Television Institute of India' (FTII) is located in:",
+    "options": [
+      "Mumbai",
+      "Pune",
+      "Chennai",
+      "Kolkata"
+    ],
+    "correct": 1,
+    "explanation": "FTII is a premier institute for film and television training, situated on the premises of the former Prabhat Studio in Pune."
+  },
+  {
+    "question": "The 'Kalakshetra Foundation', an important center for Bharatnatyam and traditional arts, was founded by:",
+    "options": [
+      "Rukmini Devi Arundale",
+      "Mrinalini Sarabhai",
+      "Balasaraswati",
+      "Padma Subrahmanyam"
+    ],
+    "correct": 0,
+    "explanation": "Founded in 1936 in Chennai, Kalakshetra is an 'Institution of National Importance'."
+  },
+  {
+    "question": "Which institution is responsible for preserving the cinematic heritage of India?",
+    "options": [
+      "National Film Archive of India (NFAI)",
+      "Prasar Bharati",
+      "NFDC",
+      "Censor Board"
+    ],
+    "correct": 0,
+    "explanation": "NFAI, headquartered in Pune, was established to trace, acquire, and preserve Indian cinema."
+  }
+]

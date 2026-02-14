@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The famous Hornbill Festival is celebrated in which Indian state?",
+    "options": [
+      "Mizoram",
+      "Nagaland",
+      "Arunachal Pradesh",
+      "Meghalaya"
+    ],
+    "correct": 1,
+    "explanation": "Known as the 'Festival of Festivals', the Hornbill Festival is held annually from December 1st to 10th in Nagaland."
+  },
+  {
+    "question": "In which state is the 'Ambubachi Mela' held annually?",
+    "options": [
+      "West Bengal",
+      "Odisha",
+      "Assam",
+      "Sikkim"
+    ],
+    "correct": 2,
+    "explanation": "The Ambubachi Mela is held at the Kamakhya Temple in Guwahati, Assam, during the monsoon season."
+  },
+  {
+    "question": "Onam is a harvest festival primarily celebrated in which state?",
+    "options": [
+      "Karnataka",
+      "Andhra Pradesh",
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "correct": 2,
+    "explanation": "Onam is the most popular festival in Kerala, commemorating the home-coming of King Mahabali."
+  },
+  {
+    "question": "The 'Pushkar Camel Fair' is a major cultural event held in which state?",
+    "options": [
+      "Gujarat",
+      "Rajasthan",
+      "Haryana",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Pushkar Fair is one of the world's largest camel and livestock fairs, held in the town of Pushkar, Rajasthan."
+  },
+  {
+    "question": "Which festival is known as the 'Mahakumbh of the East'?",
+    "options": [
+      "Ambubachi Mela",
+      "Sonepur Mela",
+      "Gangasagar Mela",
+      "Baneshwar Fair"
+    ],
+    "correct": 0,
+    "explanation": "The Ambubachi Mela in Assam is often referred to as the Mahakumbh of the East due to its large gathering of devotees."
+  },
+  {
+    "question": "The harvest festival 'Pongal' is celebrated for four days in which state?",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Andhra Pradesh",
+      "Telangana"
+    ],
+    "correct": 0,
+    "explanation": "Pongal is a multi-day Hindu harvest festival of South India, particularly in the Tamil community."
+  },
+  {
+    "question": "Which state celebrates the 'Sangai Festival' to promote tourism?",
+    "options": [
+      "Manipur",
+      "Mizoram",
+      "Tripura",
+      "Nagaland"
+    ],
+    "correct": 0,
+    "explanation": "The Sangai Festival is named after the state animal, the Sangai deer, and is the largest tourism festival in Manipur."
+  },
+  {
+    "question": "The 'Surajkund International Crafts Mela' is organized every year in which state?",
+    "options": [
+      "Rajasthan",
+      "Haryana",
+      "Uttar Pradesh",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "This world-renowned crafts fair is held in Surajkund, Faridabad (Haryana), showcasing Indian handicrafts and handlooms."
+  },
+  {
+    "question": "Which of the following festivals is dedicated to the Sun God and his wife Usha?",
+    "options": [
+      "Chhath Puja",
+      "Baisakhi",
+      "Makar Sankranti",
+      "Lohri"
+    ],
+    "correct": 0,
+    "explanation": "Chhath Puja is an ancient Hindu Vedic festival historical to the Indian subcontinent, notably Bihar and Uttar Pradesh."
+  },
+  {
+    "question": "The 'Chapchar Kut' festival is the most significant festival of which state?",
+    "options": [
+      "Nagaland",
+      "Mizoram",
+      "Meghalaya",
+      "Sikkim"
+    ],
+    "correct": 1,
+    "explanation": "Chapchar Kut is a harvest festival celebrated in Mizoram after the completion of the arduous task of Jhum operation."
+  },
+  {
+    "question": "In which city is the 'Kumbh Mela' NOT held?",
+    "options": [
+      "Ujjain",
+      "Haridwar",
+      "Varanasi",
+      "Nashik"
+    ],
+    "correct": 2,
+    "explanation": "Kumbh Mela is held at four locations: Prayagraj, Haridwar, Ujjain, and Nashik. Varanasi is not one of the sites."
+  },
+  {
+    "question": "The 'Losar' festival is the New Year celebration of which community?",
+    "options": [
+      "Sikh",
+      "Parsi",
+      "Tibetan Buddhist",
+      "Jain"
+    ],
+    "correct": 2,
+    "explanation": "Losar is the Tibetan New Year, celebrated in Ladakh, Himachal Pradesh, and Arunachal Pradesh."
+  },
+  {
+    "question": "Which state celebrates 'Gudi Padwa' as its New Year?",
+    "options": [
+      "Gujarat",
+      "Maharashtra",
+      "Karnataka",
+      "Goa"
+    ],
+    "correct": 1,
+    "explanation": "Gudi Padwa marks the beginning of the New Year for Marathi and Konkani Hindus in Maharashtra and Goa."
+  },
+  {
+    "question": "The 'Bathukamma' festival is a colorful floral festival celebrated by women in:",
+    "options": [
+      "Telangana",
+      "Odisha",
+      "Karnataka",
+      "Kerala"
+    ],
+    "correct": 0,
+    "explanation": "Bathukamma is a flower festival celebrated predominantly in Telangana and some parts of Andhra Pradesh."
+  },
+  {
+    "question": "Which festival marks the birth anniversary of Guru Nanak Dev Ji?",
+    "options": [
+      "Hola Mohalla",
+      "Baisakhi",
+      "Gurpurab",
+      "Lohri"
+    ],
+    "correct": 2,
+    "explanation": "Gurpurab, also known as Guru Nanak Jayanti, celebrates the birth of the first Sikh Guru."
+  },
+  {
+    "question": "The 'Losoong' festival is primarily celebrated in which Indian state?",
+    "options": [
+      "Sikkim",
+      "Arunachal Pradesh",
+      "Nagaland",
+      "Manipur"
+    ],
+    "correct": 0,
+    "explanation": "Losoong is the Sikkimese New Year, celebrated by the Bhutia and Lepcha tribes at the end of the harvest season."
+  },
+  {
+    "question": "The 'Sonepur Mela', one of Asia's largest cattle fairs, is held in:",
+    "options": [
+      "Bihar",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "correct": 0,
+    "explanation": "Sonepur Mela is held on Kartik Poornima at the confluence of the rivers Ganges and Gandak in Bihar."
+  },
+  {
+    "question": "Which of the following is a harvest festival of Uttarakhand?",
+    "options": [
+      "Phool Dei",
+      "Nuakhai",
+      "Vishu",
+      "Bihu"
+    ],
+    "correct": 0,
+    "explanation": "Phool Dei is a spring festival celebrated in the Kumaon and Garhwal regions of Uttarakhand."
+  },
+  {
+    "question": "The 'Wangala' festival, also known as the 100 Drums Festival, belongs to which tribe?",
+    "options": [
+      "Garo",
+      "Khasi",
+      "Jaintia",
+      "Bodo"
+    ],
+    "correct": 0,
+    "explanation": "Wangala is the most important harvest festival of the Garo tribe in Meghalaya."
+  },
+  {
+    "question": "Which state celebrates 'Nuakhai', an important agricultural festival?",
+    "options": [
+      "Odisha",
+      "West Bengal",
+      "Jharkhand",
+      "Chhattisgarh"
+    ],
+    "correct": 0,
+    "explanation": "Nuakhai is an agricultural festival observed by people of Western Odisha to welcome the new rice of the season."
+  },
+  {
+    "question": "The 'Hemis Festival' is celebrated in Ladakh to commemorate the birth anniversary of:",
+    "options": [
+      "Gautama Buddha",
+      "Guru Padmasambhava",
+      "Dalai Lama",
+      "Ashoka"
+    ],
+    "correct": 1,
+    "explanation": "The Hemis Festival is dedicated to Lord Padmasambhava (Guru Rinpoche), the founder of Tibetan Buddhism."
+  },
+  {
+    "question": "Which festival is known as 'Navreh' in Jammu and Kashmir?",
+    "options": [
+      "Lunar New Year",
+      "Harvest Festival",
+      "Spring Festival",
+      "Kashmiri Pandit New Year"
+    ],
+    "correct": 3,
+    "explanation": "Navreh is the celebration of the first day of the Kashmiri New Year by the Kashmiri Pandit community."
+  },
+  {
+    "question": "The 'Tarnetar Mela' is a famous fair based on the legend of Draupadi\u2019s Swayamvar, held in:",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Tarnetar Mela is held in Surendranagar, Gujarat, and is famous for its folk dances and match-making traditions."
+  },
+  {
+    "question": "Which festival is celebrated as the Parsi New Year?",
+    "options": [
+      "Navroz",
+      "Pateti",
+      "Khordad Sal",
+      "Zarthost No Diso"
+    ],
+    "correct": 0,
+    "explanation": "Navroz is the Persian New Year, celebrated by the Parsi community in India with great fervor."
+  },
+  {
+    "question": "The 'Kharchi Puja' is a traditional festival where 14 deities are worshipped in which state?",
+    "options": [
+      "Tripura",
+      "Assam",
+      "Manipur",
+      "Mizoram"
+    ],
+    "correct": 0,
+    "explanation": "Kharchi Puja is one of the most popular festivals in Tripura, involving the worship of the fourteen gods of the royal dynasty."
+  },
+  {
+    "question": "Which state celebrates 'Ugadi' as its New Year's Day?",
+    "options": [
+      "Karnataka and Andhra Pradesh",
+      "Kerala and Tamil Nadu",
+      "Maharashtra and Goa",
+      "Punjab and Haryana"
+    ],
+    "correct": 0,
+    "explanation": "Ugadi is the New Year's Day for the people of Andhra Pradesh, Telangana, and Karnataka."
+  },
+  {
+    "question": "The 'Behdienkhlam' festival is a major event for the Pnar tribe in which state?",
+    "options": [
+      "Meghalaya",
+      "Nagaland",
+      "Sikkim",
+      "Arunachal Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Behdienkhlam is celebrated annually in July after the sowing period in Jowai, Meghalaya."
+  },
+  {
+    "question": "Which festival is celebrated by the Ahom people of Assam on January 31st every year in memory of the departed?",
+    "options": [
+      "Me-Dam-Me-Phi",
+      "Bihu",
+      "Ali-Aye-Ligang",
+      "Baishagu"
+    ],
+    "correct": 0,
+    "explanation": "Me-Dam-Me-Phi is an ancestor worship festival celebrated by the Ahom community in Assam."
+  },
+  {
+    "question": "The 'Bonalu' festival is dedicated to Goddess Mahakali in which city?",
+    "options": [
+      "Hyderabad",
+      "Chennai",
+      "Mysuru",
+      "Bengaluru"
+    ],
+    "correct": 0,
+    "explanation": "Bonalu is a traditional Hindu festival centered on the Goddess Mahakali, celebrated in Hyderabad and Secunderabad."
+  },
+  {
+    "question": "Which state hosts the 'Madhavpur Ghed Fair' to celebrate the marriage of Krishna and Rukmini?",
+    "options": [
+      "Gujarat",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "The Madhavpur Mela is held in the village of Madhavpur, Gujarat, and has cultural links to Northeast India."
+  },
+  {
+    "question": "The 'Saga Dawa' festival, associated with Buddha's birth, enlightenment, and death, is celebrated in:",
+    "options": [
+      "Sikkim",
+      "Arunachal Pradesh",
+      "Bihar",
+      "Uttar Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Saga Dawa is the most sacred Buddhist festival in Sikkim, celebrated during the full moon of the fourth Tibetan month."
+  },
+  {
+    "question": "Which festival is popularly known as the 'Festival of Break-up of Winter' in Himachal Pradesh?",
+    "options": [
+      "Halda",
+      "Phagli",
+      "Lohri",
+      "Losar"
+    ],
+    "correct": 1,
+    "explanation": "Phagli is a traditional festival in the Kullu and Lahaul-Spiti districts of Himachal Pradesh, marking the end of winter."
+  },
+  {
+    "question": "The 'Bali Jatra' (Voyage to Bali) festival is celebrated on the banks of which river?",
+    "options": [
+      "Mahanadi",
+      "Ganges",
+      "Godavari",
+      "Krishna"
+    ],
+    "correct": 0,
+    "explanation": "Bali Jatra is held in Cuttack, Odisha, on the banks of the Mahanadi to commemorate the ancient maritime history of Kalinga."
+  },
+  {
+    "question": "Which state celebrates 'Yaoshang', its version of Holi, for five days?",
+    "options": [
+      "Manipur",
+      "Mizoram",
+      "Nagaland",
+      "Tripura"
+    ],
+    "correct": 0,
+    "explanation": "Yaoshang is the premier festival of Manipur, celebrated by the Meitei community during the full moon of Phalguna."
+  },
+  {
+    "question": "The 'Desert Festival' is an annual event held in which city?",
+    "options": [
+      "Jodhpur",
+      "Jaisalmer",
+      "Bikaner",
+      "Ajmer"
+    ],
+    "correct": 1,
+    "explanation": "The Jaisalmer Desert Festival showcases Rajasthani folk culture with camel races, turban tying, and folk music."
+  },
+  {
+    "question": "In which state is the 'Lathmar Holi' traditionally celebrated?",
+    "options": [
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Haryana"
+    ],
+    "correct": 0,
+    "explanation": "Lathmar Holi is famously celebrated in the towns of Barsana and Nandgaon in Uttar Pradesh."
+  },
+  {
+    "question": "The 'Anthirium Festival' is a popular tourism festival of which state?",
+    "options": [
+      "Mizoram",
+      "Sikkim",
+      "Meghalaya",
+      "Nagaland"
+    ],
+    "correct": 0,
+    "explanation": "This festival is organized in Reiek, Mizoram, to promote the cultivation of Anthurium flowers and local tourism."
+  },
+  {
+    "question": "Which of the following is a harvest festival of Goa?",
+    "options": [
+      "Novidade",
+      "Shigmo",
+      "Sao Joao",
+      "Carnival"
+    ],
+    "correct": 0,
+    "explanation": "Novidade is a harvest festival in Goa where the first sheaves of rice are offered to the church or temple."
+  },
+  {
+    "question": "The 'Moatsu' festival is celebrated by the Ao tribe of which state?",
+    "options": [
+      "Nagaland",
+      "Arunachal Pradesh",
+      "Manipur",
+      "Mizoram"
+    ],
+    "correct": 0,
+    "explanation": "Moatsu is a post-sowing festival celebrated by the Ao Naga people in early May."
+  },
+  {
+    "question": "Which festival is celebrated in Odisha to mark the period when Mother Earth menstruates?",
+    "options": [
+      "Raja Parba",
+      "Nuakhai",
+      "Bali Jatra",
+      "Pana Sankranti"
+    ],
+    "correct": 0,
+    "explanation": "Raja Parba is a three-day long festival in Odisha celebrating womanhood and the fertility of the soil."
+  },
+  {
+    "question": "The 'Kila Raipur Sports Festival' is also known as the:",
+    "options": [
+      "Rural Olympics",
+      "Punjab Games",
+      "Desert Sports",
+      "Folk Games"
+    ],
+    "correct": 0,
+    "explanation": "Held annually near Ludhiana, Punjab, Kila Raipur is world-famous as the Rural Olympics of India."
+  },
+  {
+    "question": "Which festival is celebrated in Ladakh to mark the end of the harvest season and the beginning of winter?",
+    "options": [
+      "Ladakh Festival",
+      "Losar",
+      "Hemis",
+      "Sindhu Darshan"
+    ],
+    "correct": 0,
+    "explanation": "The Ladakh Festival is held in September to showcase the region's rich cultural heritage through dance and sports."
+  },
+  {
+    "question": "The 'Sekrenyi' festival is the major festival of the Angami tribe in:",
+    "options": [
+      "Nagaland",
+      "Manipur",
+      "Mizoram",
+      "Arunachal Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Sekrenyi is a purification festival of the Angami Nagas, intended to renew and purify the body and soul."
+  },
+  {
+    "question": "Which state celebrates 'Vishu' as its astronomical New Year?",
+    "options": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu",
+      "Odisha"
+    ],
+    "correct": 0,
+    "explanation": "Vishu is a Hindu festival celebrated in Kerala, marking the first day of the Medam month in the Malayalam calendar."
+  },
+  {
+    "question": "The 'Baneshwar Fair' is a major tribal fair held in which state?",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Chhattisgarh"
+    ],
+    "correct": 0,
+    "explanation": "The Baneshwar Fair is held in Dungarpur, Rajasthan, and is a significant gathering for the Bhil tribe."
+  },
+  {
+    "question": "In which state is the 'Gangaur' festival primarily celebrated by women?",
+    "options": [
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "correct": 0,
+    "explanation": "Gangaur is one of the most important festivals of Rajasthan, where Gauri (Parvati) is worshipped."
+  },
+  {
+    "question": "The 'Mopin' festival is a harvest festival celebrated in which state?",
+    "options": [
+      "Arunachal Pradesh",
+      "Sikkim",
+      "Nagaland",
+      "Meghalaya"
+    ],
+    "correct": 0,
+    "explanation": "Mopin is the main festival of the Galo tribe of Arunachal Pradesh to drive away evil spirits and seek prosperity."
+  },
+  {
+    "question": "Which festival is known as the 'Boat Race Festival' of Kerala?",
+    "options": [
+      "Vallam Kali",
+      "Onam",
+      "Vishu",
+      "Thiruvathira"
+    ],
+    "correct": 0,
+    "explanation": "Vallam Kali (Snake Boat Race) is a major attraction during the Onam festival in Kerala."
+  },
+  {
+    "question": "The 'Hola Mohalla' is a Sikh festival celebrated a day after which Hindu festival?",
+    "options": [
+      "Holi",
+      "Diwali",
+      "Dussehra",
+      "Baisakhi"
+    ],
+    "correct": 0,
+    "explanation": "Hola Mohalla was started by Guru Gobind Singh to demonstrate the martial skills of the Sikhs, held at Anandpur Sahib."
+  },
+  {
+    "question": "Which state celebrates 'Khajuraho Dance Festival' annually in February?",
+    "options": [
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Maharashtra",
+      "Uttar Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Organized by the MP Tourism, the Khajuraho Dance Festival showcases various Indian classical dance forms against the backdrop of ancient temples."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The famous prehistoric rock paintings of Bhimbetka are located in which state?",
+    "options": [
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Chhattisgarh"
+    ],
+    "correct": 1,
+    "explanation": "Bhimbetka Caves in Madhya Pradesh house some of the oldest rock paintings in India, dating back to the Mesolithic era."
+  },
+  {
+    "question": "Which school of painting is famous for using 'natural colors' made from minerals, plants, and conch shells, specifically in Bihar?",
+    "options": [
+      "Madhubani",
+      "Pattachitra",
+      "Kalamkari",
+      "Warli"
+    ],
+    "correct": 0,
+    "explanation": "Madhubani or Mithila painting is a traditional art form from Bihar, characterized by geometric patterns and vibrant natural dyes."
+  },
+  {
+    "question": "The Ajanta Cave paintings primarily depict scenes from which of the following?",
+    "options": [
+      "The Ramayana",
+      "Jataka Tales",
+      "The Mahabharata",
+      "Rig Veda"
+    ],
+    "correct": 1,
+    "explanation": "The Ajanta paintings, dating from the 2nd century BCE to the 5th century CE, primarily depict the life of Buddha and Jataka stories."
+  },
+  {
+    "question": "In which state did the 'Warli' folk painting originate?",
+    "options": [
+      "Gujarat",
+      "Maharashtra",
+      "Odisha",
+      "Karnataka"
+    ],
+    "correct": 1,
+    "explanation": "Warli painting is a tribal art form from the North Sahyadri Range in Maharashtra, using basic geometric shapes to depict daily life."
+  },
+  {
+    "question": "The 'Pattachitra' style of painting is a traditional art form of which state?",
+    "options": [
+      "West Bengal",
+      "Odisha",
+      "Andhra Pradesh",
+      "Tamil Nadu"
+    ],
+    "correct": 1,
+    "explanation": "Pattachitra is a cloth-based scroll painting from Odisha, known for its intricate details and mythological narratives."
+  },
+  {
+    "question": "Which Mughal Emperor is known as the 'Prince of Painters' for his great interest in the art of painting?",
+    "options": [
+      "Akbar",
+      "Humayun",
+      "Jahangir",
+      "Shah Jahan"
+    ],
+    "correct": 2,
+    "explanation": "Mughal painting reached its zenith under Jahangir, who was a keen naturalist and established a specialized atelier."
+  },
+  {
+    "question": "The 'Kalamkari' painting refers to a hand-painted or block-printed cotton textile produced in:",
+    "options": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka"
+    ],
+    "correct": 0,
+    "explanation": "Kalamkari (meaning 'pen-work') is an ancient style of hand-painting done on cotton fabric, primarily in Srikalahasti and Machilipatnam."
+  },
+  {
+    "question": "Which style of painting is known for its use of gold leaf and semi-precious stones, originating in a Tamil Nadu city?",
+    "options": [
+      "Tanjore Painting",
+      "Mysore Painting",
+      "Cheriyal Painting",
+      "Phad Painting"
+    ],
+    "correct": 0,
+    "explanation": "Tanjore (Thanjavur) paintings are characterized by rich colors, surface relief, and the liberal use of gold foils."
+  },
+  {
+    "question": "The 'Bani Thani' painting belongs to which school of Rajasthani art?",
+    "options": [
+      "Mewar School",
+      "Kishangarh School",
+      "Bikaner School",
+      "Jaipur School"
+    ],
+    "correct": 1,
+    "explanation": "Often called the 'Mona Lisa of India', Bani Thani was painted by Nihal Chand of the Kishangarh school."
+  },
+  {
+    "question": "In which of the following regions is the 'Thangka' painting tradition most prominent?",
+    "options": [
+      "Rajasthan",
+      "Sikkim and Ladakh",
+      "Kerala",
+      "Bengal"
+    ],
+    "correct": 1,
+    "explanation": "Thangka is a Tibetan Buddhist painting on cotton or silk applique, usually depicting a Buddhist deity or scene."
+  },
+  {
+    "question": "The 'Phad' painting, a long scroll painting that depicts folk deities, belongs to:",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Haryana",
+      "Madhya Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Phad paintings are traditional religious scroll paintings found in the Bhilwara district of Rajasthan."
+  },
+  {
+    "question": "Who among the following is considered the 'Father of Modern Indian Art' and founded the Bengal School of Art?",
+    "options": [
+      "Raja Ravi Varma",
+      "Abanindranath Tagore",
+      "Nandlal Bose",
+      "Jamini Roy"
+    ],
+    "correct": 1,
+    "explanation": "Abanindranath Tagore founded the Bengal School of Art to counter British influence and revive Indian traditional styles."
+  },
+  {
+    "question": "The 'Cheriyal Scroll' paintings are a stylized version of Nakashi art, native to which state?",
+    "options": [
+      "Andhra Pradesh",
+      "Telangana",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "correct": 1,
+    "explanation": "Cheriyal scrolls are traditional narrative paintings from Telangana, used by storytellers to illustrate folk legends."
+  },
+  {
+    "question": "Which artist is famous for his 'Bharat Mata' painting (1905)?",
+    "options": [
+      "Nandlal Bose",
+      "Abanindranath Tagore",
+      "Raja Ravi Varma",
+      "Amrita Sher-Gil"
+    ],
+    "correct": 1,
+    "explanation": "Abanindranath Tagore depicted Bharat Mata as a four-armed deity wearing saffron robes, symbolizing the Swadeshi movement."
+  },
+  {
+    "question": "The 'Kalighat' paintings originated in the 19th century near the Kalighat Temple in:",
+    "options": [
+      "Varanasi",
+      "Kolkata",
+      "Puri",
+      "Guwahati"
+    ],
+    "correct": 1,
+    "explanation": "Kalighat paintings evolved as a distinct genre in Kolkata, characterized by bold outlines and broad washes of color."
+  },
+  {
+    "question": "Which style of painting is unique for its use of 'Soot' (lamp black) and cow dung to create tribal art in Odisha?",
+    "options": [
+      "Sura Painting",
+      "Saura Painting",
+      "Pattachitra",
+      "Gond Painting"
+    ],
+    "correct": 1,
+    "explanation": "Saura paintings are wall-mounted icons (Ikons) found among the Saura tribe of Odisha, similar to Warli art."
+  },
+  {
+    "question": "Raja Ravi Varma, the famous painter, belonged to the princely state of:",
+    "options": [
+      "Mysore",
+      "Travancore",
+      "Hyderabad",
+      "Gwalior"
+    ],
+    "correct": 1,
+    "explanation": "Raja Ravi Varma of Travancore (Kerala) is known for fusing European academic art with Indian iconography."
+  },
+  {
+    "question": "The 'Basohli' school of painting is the earliest school of which region?",
+    "options": [
+      "Pahari Art",
+      "Rajasthani Art",
+      "Mughal Art",
+      "Deccan Art"
+    ],
+    "correct": 0,
+    "explanation": "Basohli, located in Jammu and Kashmir, is the oldest school of Pahari miniature painting, known for its bold colors."
+  },
+  {
+    "question": "Which painting style uses a 'Pointillism' like technique with dots and is famous among the Gond tribe?",
+    "options": [
+      "Gond Painting",
+      "Bhil Painting",
+      "Pithora Painting",
+      "Warli Painting"
+    ],
+    "correct": 0,
+    "explanation": "Gond art is characterized by the use of dots and lines to create a sense of movement and detail."
+  },
+  {
+    "question": "The 'Pithora' painting is a ritualistic wall painting tradition of which tribe?",
+    "options": [
+      "Bhil and Rathwa",
+      "Gond",
+      "Santhal",
+      "Munda"
+    ],
+    "correct": 0,
+    "explanation": "Pithora paintings are performed by the Bhil and Rathwa tribes of Gujarat and Madhya Pradesh to thank God."
+  },
+  {
+    "question": "In which city is the 'National Gallery of Modern Art' (NGMA) headquartered?",
+    "options": [
+      "Kolkata",
+      "Mumbai",
+      "New Delhi",
+      "Bengaluru"
+    ],
+    "correct": 2,
+    "explanation": "The NGMA was established in 1954 at Jaipur House, New Delhi, to preserve and showcase modern Indian art."
+  },
+  {
+    "question": "Which of the following is a characteristic feature of 'Kangra' paintings?",
+    "options": [
+      "Bold and loud colors",
+      "Soft colors and lyrical treatment",
+      "Geometric patterns",
+      "Gold leaf work"
+    ],
+    "correct": 1,
+    "explanation": "Kangra paintings, a later phase of Pahari art, are known for their delicate lines and use of cool, fresh colors."
+  },
+  {
+    "question": "The 'Chitrakathi' painting tradition, which narrates stories from epics, belongs to which state?",
+    "options": [
+      "Maharashtra",
+      "Karnataka",
+      "Kerala",
+      "Goa"
+    ],
+    "correct": 0,
+    "explanation": "Chitrakathi is a tribal folk art from the Pinguli village of Maharashtra, using single-sheet paintings to tell stories."
+  },
+  {
+    "question": "Amrita Sher-Gil, a pioneer of modern Indian art, was of which dual heritage?",
+    "options": [
+      "Indian and British",
+      "Indian and Hungarian",
+      "Indian and French",
+      "Indian and German"
+    ],
+    "correct": 1,
+    "explanation": "Born to a Punjabi Sikh father and a Hungarian mother, she is often called India's Frida Kahlo."
+  },
+  {
+    "question": "Which style of painting is specifically associated with the 'Manjusha' art of Bhagalpur, Bihar?",
+    "options": [
+      "Angika Art",
+      "Snake Painting",
+      "Mithila Painting",
+      "Jadopatia Painting"
+    ],
+    "correct": 1,
+    "explanation": "Manjusha art is also known as snake painting, as it revolves around the folklore of the serpent goddess Bihula."
+  },
+  {
+    "question": "The 'Roghan' painting, a rare art involving castor oil and natural pigments, is found in which region?",
+    "options": [
+      "Kutch, Gujarat",
+      "Bikaner, Rajasthan",
+      "Leh, Ladakh",
+      "Mysuru, Karnataka"
+    ],
+    "correct": 0,
+    "explanation": "Roghan art is a form of textile painting practiced by a single family in Nirona village, Kutch."
+  },
+  {
+    "question": "Which painting style is known as the 'Scroll Painting of Jharkhand'?",
+    "options": [
+      "Paitkar",
+      "Santhal",
+      "Jadopatia",
+      "Both Paitkar and Jadopatia"
+    ],
+    "correct": 3,
+    "explanation": "Paitkar and Jadopatia are both traditional scroll painting styles found among the tribes of Jharkhand."
+  },
+  {
+    "question": "The 'Nirmal' paintings, which use gold-colored lacquers, belong to which state?",
+    "options": [
+      "Andhra Pradesh",
+      "Telangana",
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "correct": 1,
+    "explanation": "Nirmal paintings are done on wood in the town of Nirmal, Telangana, influenced by Mughal miniature styles."
+  },
+  {
+    "question": "Who painted the famous 'Shakuntala' (looking back for Dushyanta)?",
+    "options": [
+      "Abanindranath Tagore",
+      "Nandlal Bose",
+      "Raja Ravi Varma",
+      "M.F. Husain"
+    ],
+    "correct": 2,
+    "explanation": "Raja Ravi Varma's 'Shakuntala' is one of his most celebrated works, blending Indian themes with Western realism."
+  },
+  {
+    "question": "The 'Aipan' ritualistic folk art is associated with which state?",
+    "options": [
+      "Uttarakhand",
+      "Himachal Pradesh",
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "correct": 0,
+    "explanation": "Aipan is a traditional decorative art form of the Kumaon region of Uttarakhand, usually made on floors and walls."
+  },
+  {
+    "question": "Which of the following artists is known for his 'Horse' paintings?",
+    "options": [
+      "S.H. Raza",
+      "Tyeb Mehta",
+      "M.F. Husain",
+      "F.N. Souza"
+    ],
+    "correct": 2,
+    "explanation": "Maqbool Fida Husain (M.F. Husain) was famous for his vigorous and bold depictions of horses."
+  },
+  {
+    "question": "The 'Bagh' cave paintings, similar to Ajanta, are located in which state?",
+    "options": [
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "correct": 1,
+    "explanation": "Bagh Caves in the Dhar district of Madhya Pradesh contain Buddhist mural paintings from the Gupta period."
+  },
+  {
+    "question": "Which painting school flourished under the patronage of the 'Adil Shahi' rulers?",
+    "options": [
+      "Bijapur School",
+      "Golconda School",
+      "Ahmadnagar School",
+      "Hyderabad School"
+    ],
+    "correct": 0,
+    "explanation": "The Bijapur School was a major part of the Deccan school of painting, influenced by Persian and European styles."
+  },
+  {
+    "question": "The 'Hase Chittara' folk painting is practiced by the Deewaru community in:",
+    "options": [
+      "Karnataka",
+      "Kerala",
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Hase Chittara is a traditional art form of the Shimoga district in Karnataka, depicting birds, flowers, and daily life."
+  },
+  {
+    "question": "Which Indian artist was awarded the 'Chevalier de la L\u00e9gion d'Honneur' by France?",
+    "options": [
+      "S.H. Raza",
+      "Amrita Sher-Gil",
+      "M.F. Husain",
+      "Satish Gujral"
+    ],
+    "correct": 0,
+    "explanation": "Sayed Haider Raza (S.H. Raza) was a prominent Indian artist who lived in France for decades and was famous for his 'Bindu' series."
+  },
+  {
+    "question": "The 'Lepakshi' temple in Andhra Pradesh is famous for which type of paintings?",
+    "options": [
+      "Oil Paintings",
+      "Miniature Paintings",
+      "Vijayanagara Murals",
+      "Glass Paintings"
+    ],
+    "correct": 2,
+    "explanation": "The ceiling of the Veerabhadra Temple at Lepakshi contains some of the best-preserved murals of the Vijayanagara era."
+  },
+  {
+    "question": "Which style of painting is characterized by its large canvas 'Pichwai', used as backdrops in temples?",
+    "options": [
+      "Nathdwara School",
+      "Jaipur School",
+      "Kota School",
+      "Jodhpur School"
+    ],
+    "correct": 0,
+    "explanation": "Pichwai paintings from Nathdwara, Rajasthan, are large cloth paintings depicting Lord Shrinathji."
+  },
+  {
+    "question": "In 'Madhubani' paintings, which of the following tools is traditionally NOT used?",
+    "options": [
+      "Fingers",
+      "Twigs",
+      "Matchsticks",
+      "Airbrushes"
+    ],
+    "correct": 3,
+    "explanation": "Traditional Madhubani art is done by hand using twigs, fingers, and brushes made of bamboo and cotton."
+  },
+  {
+    "question": "The 'Soherai and Khovar' paintings, which received a GI tag, belong to which state?",
+    "options": [
+      "Bihar",
+      "Jharkhand",
+      "Odisha",
+      "Chhattisgarh"
+    ],
+    "correct": 1,
+    "explanation": "Sohrai and Khovar are traditional mural arts practiced by tribal women in the Hazaribagh region of Jharkhand."
+  },
+  {
+    "question": "The 'Guler' school of painting is the birthplace of which other famous style?",
+    "options": [
+      "Kangra",
+      "Basohli",
+      "Kullu",
+      "Chamba"
+    ],
+    "correct": 0,
+    "explanation": "Guler is often considered the 'cradle of Kangra paintings', providing the foundation for its refined style."
+  },
+  {
+    "question": "Which painting style is known for depicting the 'Ganjifa' playing cards?",
+    "options": [
+      "Sawantwadi Painting",
+      "Mysore Painting",
+      "Tanjore Painting",
+      "Pattachitra"
+    ],
+    "correct": 0,
+    "explanation": "Sawantwadi (Maharashtra) is world-famous for its traditional hand-painted Ganjifa cards."
+  },
+  {
+    "question": "Who was the first Indian artist to use oil colors?",
+    "options": [
+      "Raja Ravi Varma",
+      "Nandlal Bose",
+      "Abanindranath Tagore",
+      "Jamini Roy"
+    ],
+    "correct": 0,
+    "explanation": "Raja Ravi Varma is credited with introducing oil painting techniques and lithographic printing to the Indian masses."
+  },
+  {
+    "question": "The 'Bundu' or 'Bindu' motif is the signature element of which artist's work?",
+    "options": [
+      "S.H. Raza",
+      "F.N. Souza",
+      "M.F. Husain",
+      "Ram Kumar"
+    ],
+    "correct": 0,
+    "explanation": "S.H. Raza focused his entire later career on the 'Bindu' (The Dot), representing the center of the universe."
+  },
+  {
+    "question": "The 'Warli' painting traditionally uses which color for the base?",
+    "options": [
+      "White",
+      "Red/Brown (Earth)",
+      "Black",
+      "Blue"
+    ],
+    "correct": 1,
+    "explanation": "Warli paintings are done on an ochre or red clay background, using a white paste made from rice flour."
+  },
+  {
+    "question": "Which Mughal Emperor invited the Persian masters Mir Sayyid Ali and Abdus Samad to India?",
+    "options": [
+      "Babur",
+      "Humayun",
+      "Akbar",
+      "Jahangir"
+    ],
+    "correct": 1,
+    "explanation": "Humayun brought these masters from Persia, laying the foundation for the Mughal school of painting."
+  },
+  {
+    "question": "The 'Kavad' is a portable wooden shrine that acts as a storytelling device in:",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Karnataka"
+    ],
+    "correct": 0,
+    "explanation": "Kavad is a unique 3D storytelling art from Rajasthan, featuring painted wooden boxes with multiple doors."
+  },
+  {
+    "question": "Which style of painting is famous for depicting the 'Ten Avatars of Vishnu' (Dashavatara) on cloth in Bengal?",
+    "options": [
+      "Pattachitra",
+      "Kalighat",
+      "Santhal",
+      "Batik"
+    ],
+    "correct": 0,
+    "explanation": "The Bengal version of Pattachitra is a traditional scroll-painting art found in the districts of Purulia and Midnapore."
+  },
+  {
+    "question": "Who is the artist behind the painting 'The Last Supper' in an Indian style?",
+    "options": [
+      "Jamini Roy",
+      "F.N. Souza",
+      "Krishen Khanna",
+      "M.F. Husain"
+    ],
+    "correct": 1,
+    "explanation": "Francis Newton Souza (F.N. Souza) created several provocative works, including his own interpretations of Christian themes."
+  },
+  {
+    "question": "The 'Mandana' paintings are traditionally made on the floors and walls of houses in:",
+    "options": [
+      "Rajasthan and Madhya Pradesh",
+      "Kerala and Tamil Nadu",
+      "Punjab and Haryana",
+      "Assam and Meghalaya"
+    ],
+    "correct": 0,
+    "explanation": "Mandana art is a form of decorative tribal painting used to welcome gods and mark festive occasions."
+  },
+  {
+    "question": "Which artist is known for his 'Flat style' inspired by Kalighat and folk art?",
+    "options": [
+      "Jamini Roy",
+      "Nandlal Bose",
+      "Amrita Sher-Gil",
+      "S.H. Raza"
+    ],
+    "correct": 0,
+    "explanation": "Jamini Roy abandoned his Western training to adopt a simpler, two-dimensional style based on Bengali folk traditions."
+  }
+]

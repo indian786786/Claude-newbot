@@ -1,0 +1,277 @@
+[
+  {
+    "question": "The 'Nyaya' school of Hindu philosophy is primarily concerned with which of the following?",
+    "options": [
+      "Ethics",
+      "Logic and Epistemology",
+      "Rituals",
+      "Atomism"
+    ],
+    "correct": 1,
+    "explanation": "Founded by Sage Gautama, the Nyaya school focuses on logic and the means of obtaining valid knowledge."
+  },
+  {
+    "question": "Who is the founder of the 'Advaita Vedanta' school of philosophy?",
+    "options": [
+      "Ramanuja",
+      "Madhvacharya",
+      "Adi Shankaracharya",
+      "Vallabhacharya"
+    ],
+    "correct": 2,
+    "explanation": "Adi Shankaracharya advocated for the Non-dualism (Advaita) philosophy, suggesting that Brahman and Atman are one."
+  },
+  {
+    "question": "The 'Sankhya' school, one of the oldest in Indian philosophy, was founded by:",
+    "options": [
+      "Sage Kapila",
+      "Sage Patanjali",
+      "Sage Kanada",
+      "Sage Jaimini"
+    ],
+    "correct": 0,
+    "explanation": "Sage Kapila is the traditional founder of Sankhya, which explains the universe through Purusha (consciousness) and Prakriti (matter)."
+  },
+  {
+    "question": "The 'Charvaka' school is also known as:",
+    "options": [
+      "Lokayata",
+      "Mimamsa",
+      "Vaisheshika",
+      "Ajivika"
+    ],
+    "correct": 0,
+    "explanation": "Charvaka or Lokayata is a materialistic and atheistic school of thought that rejects the authority of the Vedas."
+  },
+  {
+    "question": "Which philosophy is associated with the concept of 'Syadvada' (theory of conditioned predication)?",
+    "options": [
+      "Buddhism",
+      "Jainism",
+      "Sikhism",
+      "Vaishnavism"
+    ],
+    "correct": 1,
+    "explanation": "Syadvada is a key Jain doctrine stating that all judgments are conditional and relative."
+  },
+  {
+    "question": "The 'Eightfold Path' (Ashtangika Marga) is a core teaching of:",
+    "options": [
+      "Hinduism",
+      "Jainism",
+      "Buddhism",
+      "Sufism"
+    ],
+    "correct": 2,
+    "explanation": "The Noble Eightfold Path is the fourth of Buddha's Four Noble Truths, designed to end suffering."
+  },
+  {
+    "question": "Who founded the 'Vaisheshika' school, known for its atomic theory?",
+    "options": [
+      "Sage Kanada",
+      "Sage Gautama",
+      "Sage Jaimini",
+      "Sage Vyasa"
+    ],
+    "correct": 0,
+    "explanation": "Sage Kanada (also known as Uluka) proposed that all physical objects are composed of atoms (Anu)."
+  },
+  {
+    "question": "The 'Bhakti Movement' in South India was led by the Alvars and Nayanars. Who did the Nayanars worship?",
+    "options": [
+      "Vishnu",
+      "Shiva",
+      "Shakti",
+      "Ganesha"
+    ],
+    "correct": 1,
+    "explanation": "The Nayanars were a group of 63 saints devoted to Lord Shiva, while the 12 Alvars were devoted to Lord Vishnu."
+  },
+  {
+    "question": "Which of the following is the sacred scripture of the Parsis (Zoroastrians)?",
+    "options": [
+      "Torah",
+      "Zend Avesta",
+      "Tripitaka",
+      "Guru Granth Sahib"
+    ],
+    "correct": 1,
+    "explanation": "The Zend Avesta is a collection of religious texts of Zoroastrianism, written in the Avestan language."
+  },
+  {
+    "question": "The 'Purva Mimamsa' school focuses on the interpretation of which part of the Vedas?",
+    "options": [
+      "Upanishads",
+      "Brahmanas (Rituals)",
+      "Aranyakas",
+      "Samhitas"
+    ],
+    "correct": 1,
+    "explanation": "Founded by Jaimini, it emphasizes the importance of Vedic rituals (Dharma) for achieving liberation."
+  },
+  {
+    "question": "Who propounded the 'Vishishtadvaita' (Qualified Non-dualism) philosophy?",
+    "options": [
+      "Ramanuja",
+      "Madhva",
+      "Nimbarka",
+      "Chaitanya"
+    ],
+    "correct": 0,
+    "explanation": "Ramanuja argued that while Brahman is the supreme reality, individual souls and matter are also real as attributes of Brahman."
+  },
+  {
+    "question": "The 'Ajivika' sect, a contemporary of early Buddhism and Jainism, was founded by:",
+    "options": [
+      "Makkhali Gosala",
+      "Ajita Kesakambali",
+      "Pakudha Kaccayana",
+      "Purana Kassapa"
+    ],
+    "correct": 0,
+    "explanation": "Ajivikas believed in 'Niyati' (Fate) and that human effort has no power over destiny."
+  },
+  {
+    "question": "The concept of 'Tri-Ratna' (Three Jewels) - Right Faith, Right Knowledge, and Right Conduct - belongs to:",
+    "options": [
+      "Buddhism",
+      "Jainism",
+      "Hinduism",
+      "Sikhism"
+    ],
+    "correct": 1,
+    "explanation": "These three principles are considered the path to liberation in Jainism."
+  },
+  {
+    "question": "In Sufism, the term 'Silsila' refers to:",
+    "options": [
+      "A musical instrument",
+      "A spiritual lineage or chain",
+      "A religious tax",
+      "A place of worship"
+    ],
+    "correct": 1,
+    "explanation": "A Silsila represents the genealogy of Sufi masters reaching back to the Prophet Muhammad."
+  },
+  {
+    "question": "Which Sikh Guru founded the 'Khalsa' Panth?",
+    "options": [
+      "Guru Nanak",
+      "Guru Arjan Dev",
+      "Guru Teg Bahadur",
+      "Guru Gobind Singh"
+    ],
+    "correct": 3,
+    "explanation": "Guru Gobind Singh established the Khalsa in 1699 to protect the innocent from religious persecution."
+  },
+  {
+    "question": "The 'Shramana' tradition includes which of the following?",
+    "options": [
+      "Buddhism and Jainism",
+      "Vedic Hinduism",
+      "Sufism",
+      "Vaishnavism"
+    ],
+    "correct": 0,
+    "explanation": "Shramana was a non-Vedic ascetic movement that gave rise to Buddhism, Jainism, and Ajivika."
+  },
+  {
+    "question": "The 'Dwadasha Jyotirlinga' refers to twelve sacred shrines dedicated to:",
+    "options": [
+      "Lord Vishnu",
+      "Lord Shiva",
+      "Goddess Durga",
+      "Lord Rama"
+    ],
+    "correct": 1,
+    "explanation": "Jyotirlingas are representative shrines where Lord Shiva is worshipped as a 'Linga of Light'."
+  },
+  {
+    "question": "The 'Pushti Marg' (Path of Grace) was founded by:",
+    "options": [
+      "Vallabhacharya",
+      "Surdas",
+      "Tulsidas",
+      "Kabir"
+    ],
+    "correct": 0,
+    "explanation": "Vallabhacharya founded this Vaishnava sect, which emphasizes total devotion to Krishna."
+  },
+  {
+    "question": "Which of the following is NOT one of the 'Four Noble Truths' of Buddhism?",
+    "options": [
+      "Dukkha (Suffering)",
+      "Samudaya (Cause)",
+      "Nirodha (Cessation)",
+      "Ahinsa (Non-violence)"
+    ],
+    "correct": 3,
+    "explanation": "While Ahinsa is a Buddhist value, it is not one of the specific Four Noble Truths formulated by Buddha."
+  },
+  {
+    "question": "The 'Lingayat' movement in Karnataka was led by:",
+    "options": [
+      "Basavanna",
+      "Allama Prabhu",
+      "Akka Mahadevi",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "Basavanna and his contemporaries founded the Lingayat sect, which rejected caste and ritualism in favor of personal worship of Shiva."
+  },
+  {
+    "question": "The 'Dvaita' (Dualism) school of Vedanta was founded by:",
+    "options": [
+      "Madhvacharya",
+      "Shankaracharya",
+      "Ramanuja",
+      "Nimbarka"
+    ],
+    "correct": 0,
+    "explanation": "Madhvacharya taught that God (Vishnu) and the individual soul are eternally distinct entities."
+  },
+  {
+    "question": "The religious festival 'Paryushana' is the most important annual event for:",
+    "options": [
+      "Sikhs",
+      "Jains",
+      "Buddhists",
+      "Sindhis"
+    ],
+    "correct": 1,
+    "explanation": "Paryushana is a period of fasting and repentance for Jains, focusing on spiritual purification."
+  },
+  {
+    "question": "Who is the author of the 'Yoga Sutras'?",
+    "options": [
+      "Sage Patanjali",
+      "Sage Kapila",
+      "Sage Vyasa",
+      "Sage Bharata"
+    ],
+    "correct": 0,
+    "explanation": "Patanjali compiled the Yoga Sutras, which form the foundation of classical Yoga philosophy."
+  },
+  {
+    "question": "The 'Sufi' saint Moinuddin Chishti's dargah is located in:",
+    "options": [
+      "Delhi",
+      "Ajmer",
+      "Gulbarga",
+      "Agra"
+    ],
+    "correct": 1,
+    "explanation": "The Ajmer Sharif Dargah is a major pilgrimage site for people of all faiths."
+  },
+  {
+    "question": "Which Hindu text is often described as the 'Synthesis of Indian Philosophy'?",
+    "options": [
+      "The Bhagavad Gita",
+      "The Rig Veda",
+      "The Ramayana",
+      "The Manusmriti"
+    ],
+    "correct": 0,
+    "explanation": "The Gita harmonizes the paths of Karma (action), Bhakti (devotion), and Jnana (knowledge)."
+  }
+]

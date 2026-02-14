@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The 'Great Bath' is one of the most famous structures of which ancient city?",
+    "options": [
+      "Harappa",
+      "Mohenjo-daro",
+      "Lothal",
+      "Kalibangan"
+    ],
+    "correct": 1,
+    "explanation": "The Great Bath of Mohenjo-daro is one of the earliest examples of public water tank architecture."
+  },
+  {
+    "question": "Which site contains the earliest evidence of a 'Dockyard' in India?",
+    "options": [
+      "Mohenjo-daro",
+      "Lothal",
+      "Dholavira",
+      "Ropar"
+    ],
+    "correct": 1,
+    "explanation": "Lothal in Gujarat had a massive brick basin that served as a dockyard for maritime trade."
+  },
+  {
+    "question": "The 'Lion Capital' at Sarnath was built by which emperor?",
+    "options": [
+      "Chandragupta Maurya",
+      "Ashoka",
+      "Samudragupta",
+      "Harsha"
+    ],
+    "correct": 1,
+    "explanation": "Emperor Ashoka erected the pillar to mark the site where Buddha first preached."
+  },
+  {
+    "question": "The 'Barabar Caves' in Bihar represent the oldest surviving examples of:",
+    "options": [
+      "Hindu Temples",
+      "Rock-cut Caves",
+      "Jain Stupas",
+      "Mughal Architecture"
+    ],
+    "correct": 1,
+    "explanation": "Dating to the Mauryan period, these were built for the Ajivika sect."
+  },
+  {
+    "question": "The Sanchi Stupa's hemispherical dome is known as the:",
+    "options": [
+      "Harmika",
+      "Anda",
+      "Chattra",
+      "Torana"
+    ],
+    "correct": 1,
+    "explanation": "The 'Anda' represents the mound of the universe."
+  },
+  {
+    "question": "Which temple architecture style is also known as the 'Mountain style'?",
+    "options": [
+      "Dravida",
+      "Nagara",
+      "Vesara",
+      "Hoysala"
+    ],
+    "correct": 1,
+    "explanation": "Nagara style towers (Shikharas) are intended to look like mountain peaks."
+  },
+  {
+    "question": "The 'Kailasa Temple' at Ellora was commissioned by which dynasty?",
+    "options": [
+      "Pallavas",
+      "Rashtrakutas",
+      "Cholas",
+      "Chalukyas"
+    ],
+    "correct": 1,
+    "explanation": "King Krishna I of the Rashtrakuta dynasty commissioned this monolithic marvel."
+  },
+  {
+    "question": "Which temple is famous for its 'Star-shaped' ground plan?",
+    "options": [
+      "Brihadisvara",
+      "Chennakesava Temple, Belur",
+      "Kandariya Mahadev",
+      "Lingaraja"
+    ],
+    "correct": 1,
+    "explanation": "Hoysala temples are unique for their stellate (star-shaped) platforms."
+  },
+  {
+    "question": "The 'Shore Temple' at Mahabalipuram was built by which Pallava king?",
+    "options": [
+      "Mahendravarman I",
+      "Narasimhavarman II",
+      "Rajendra Chola",
+      "Simhavishnu"
+    ],
+    "correct": 1,
+    "explanation": "Also known as Rajasimha, he built this structural stone temple."
+  },
+  {
+    "question": "The 'Vesara' style of architecture is a hybrid of which two styles?",
+    "options": [
+      "Nagara and Greek",
+      "Nagara and Dravida",
+      "Dravida and Roman",
+      "Islamic and Hindu"
+    ],
+    "correct": 1,
+    "explanation": "Vesara combined the North and South Indian styles, popular under the Chalukyas."
+  },
+  {
+    "question": "Which ruler built the 'Sun Temple' at Konark?",
+    "options": [
+      "Narasimhadeva I",
+      "Anantavarman Chodaganga",
+      "Raja Raja I",
+      "Ashoka"
+    ],
+    "correct": 0,
+    "explanation": "King Narasimhadeva I of the Eastern Ganga Dynasty built it in the 13th century."
+  },
+  {
+    "question": "The 'Meenakshi Amman Temple' in Madurai is famous for its massive gateways called:",
+    "options": [
+      "Vimanas",
+      "Gopurams",
+      "Shikharas",
+      "Toranas"
+    ],
+    "correct": 1,
+    "explanation": "Gopurams are the trademark of the Pandya and Nayaka architectural phases."
+  },
+  {
+    "question": "The 'Lingaraja Temple' in Bhubaneswar represents the peak of which school?",
+    "options": [
+      "Kalinga School",
+      "Solanki School",
+      "Chandela School",
+      "Pallava School"
+    ],
+    "correct": 0,
+    "explanation": "Kalinga architecture is a sub-style of the Nagara school found in Odisha."
+  },
+  {
+    "question": "Which city is known as the 'City of Temples' and features the Mukteshvara Temple?",
+    "options": [
+      "Varanasi",
+      "Bhubaneswar",
+      "Madurai",
+      "Kanchipuram"
+    ],
+    "correct": 1,
+    "explanation": "Bhubaneswar is home to hundreds of ancient Kalinga temples."
+  },
+  {
+    "question": "The 'Virupaksha Temple' at Hampi is dedicated to which deity?",
+    "options": [
+      "Lord Vishnu",
+      "Lord Shiva",
+      "Lord Ganesha",
+      "Lord Surya"
+    ],
+    "correct": 1,
+    "explanation": "It is one of the most significant monuments of the Vijayanagara Empire."
+  },
+  {
+    "question": "The 'Buland Darwaza' was built to commemorate the victory over Gujarat. In which city is it located?",
+    "options": [
+      "Agra",
+      "Delhi",
+      "Fatehpur Sikri",
+      "Lucknow"
+    ],
+    "correct": 2,
+    "explanation": "It serves as the main entrance to the Jama Masjid at Fatehpur Sikri."
+  },
+  {
+    "question": "Which tomb introduced the 'Charbagh' layout to India?",
+    "options": [
+      "Tomb of Akbar",
+      "Tomb of Humayun",
+      "Taj Mahal",
+      "Itmad-ud-Daula"
+    ],
+    "correct": 1,
+    "explanation": "Humayun's tomb set the template for subsequent Mughal garden-tombs."
+  },
+  {
+    "question": "The 'Gol Gumbaz' has a unique acoustic feature known as the:",
+    "options": [
+      "Thunder Hall",
+      "Whispering Gallery",
+      "Echo Chamber",
+      "Silent Dome"
+    ],
+    "correct": 1,
+    "explanation": "Sounds are reflected 7 to 10 times in this gallery."
+  },
+  {
+    "question": "Who was the architect of the Taj Mahal?",
+    "options": [
+      "Ustad Ahmad Lahori",
+      "Mirak Mirza Ghiyath",
+      "Bibi Ka Maqbara",
+      "Inayat Khan"
+    ],
+    "correct": 0,
+    "explanation": "Ustad Ahmad Lahori is credited as the chief architect of the Taj Mahal."
+  },
+  {
+    "question": "The 'Pietra Dura' technique is most visible in which marble structure?",
+    "options": [
+      "Red Fort",
+      "Taj Mahal",
+      "Qutub Minar",
+      "Safdarjung Tomb"
+    ],
+    "correct": 1,
+    "explanation": "It involves inlaying semi-precious stones into white marble."
+  },
+  {
+    "question": "Which Sultan started the construction of the Qutub Minar?",
+    "options": [
+      "Iltutmish",
+      "Qutub-ud-din Aibak",
+      "Alauddin Khilji",
+      "Firoz Shah Tughlaq"
+    ],
+    "correct": 1,
+    "explanation": "Aibak built the first story; Iltutmish added three more."
+  },
+  {
+    "question": "The 'Double Dome' feature was first used in which Indian monument?",
+    "options": [
+      "Taj Mahal",
+      "Humayun's Tomb",
+      "Lodi Gardens",
+      "Gol Gumbaz"
+    ],
+    "correct": 1,
+    "explanation": "The double dome allowed for a high exterior and a lower interior ceiling."
+  },
+  {
+    "question": "The 'Alai Darwaza' was built by which ruler?",
+    "options": [
+      "Iltutmish",
+      "Alauddin Khilji",
+      "Balban",
+      "Razia Sultan"
+    ],
+    "correct": 1,
+    "explanation": "It is the entrance to the Quwwat-ul-Islam Mosque in Delhi."
+  },
+  {
+    "question": "Which Mughal Emperor built the Moti Masjid in the Agra Fort?",
+    "options": [
+      "Akbar",
+      "Jahangir",
+      "Shah Jahan",
+      "Aurangzeb"
+    ],
+    "correct": 2,
+    "explanation": "Shah Jahan built this 'Pearl Mosque' entirely out of white marble."
+  },
+  {
+    "question": "The 'Bibi Ka Maqbara' in Aurangabad is a replica of which monument?",
+    "options": [
+      "Red Fort",
+      "Taj Mahal",
+      "Humayun's Tomb",
+      "Gol Gumbaz"
+    ],
+    "correct": 1,
+    "explanation": "Built by Azam Shah, it is often called the 'Taj of the Deccan'."
+  },
+  {
+    "question": "The 'Victoria Memorial' in Kolkata was designed by:",
+    "options": [
+      "William Emerson",
+      "Edwin Lutyens",
+      "Herbert Baker",
+      "Charles Correa"
+    ],
+    "correct": 0,
+    "explanation": "It was designed in the Indo-Saracenic revivalist style."
+  },
+  {
+    "question": "Who designed the city of Chandigarh?",
+    "options": [
+      "Edwin Lutyens",
+      "Le Corbusier",
+      "B.V. Doshi",
+      "Laurie Baker"
+    ],
+    "correct": 1,
+    "explanation": "Le Corbusier was the master planner of Chandigarh."
+  },
+  {
+    "question": "The 'Chhatrapati Shivaji Maharaj Terminus' (CSMT) is an example of which architecture?",
+    "options": [
+      "Neoclassical",
+      "Victorian Gothic",
+      "Art Deco",
+      "Modernist"
+    ],
+    "correct": 1,
+    "explanation": "It was designed by F.W. Stevens in the Gothic Revival style."
+  },
+  {
+    "question": "The 'Gateway of India' in Mumbai was built to commemorate the visit of:",
+    "options": [
+      "Queen Victoria",
+      "King George V",
+      "Prince of Wales",
+      "Queen Elizabeth"
+    ],
+    "correct": 1,
+    "explanation": "It was built for the 1911 visit of King George V and Queen Mary."
+  },
+  {
+    "question": "The 'Vidhana Soudha' in Bengaluru is built in which style?",
+    "options": [
+      "Neo-Dravidian",
+      "Mughal",
+      "Gothic",
+      "Modern"
+    ],
+    "correct": 0,
+    "explanation": "It is a grand example of Neo-Dravidian architecture, completed in 1956."
+  },
+  {
+    "question": "The 'Sun Temple' at Modhera was built during the reign of which dynasty?",
+    "options": [
+      "Chaulukya (Solanki)",
+      "Chandela",
+      "Rashtrakuta",
+      "Ganga"
+    ],
+    "correct": 0,
+    "explanation": "It was built by King Bhima I of the Solanki dynasty in Gujarat."
+  },
+  {
+    "question": "Which cave is famous for the 'Trimurti' sculpture of Lord Shiva?",
+    "options": [
+      "Ajanta",
+      "Ellora",
+      "Elephanta",
+      "Kanheri"
+    ],
+    "correct": 2,
+    "explanation": "The Elephanta Caves house the iconic three-headed Shiva sculpture."
+  },
+  {
+    "question": "The 'Dilwara Jain Temples' in Rajasthan are made entirely of:",
+    "options": [
+      "Red Sandstone",
+      "White Marble",
+      "Granite",
+      "Soapstone"
+    ],
+    "correct": 1,
+    "explanation": "Located at Mount Abu, they are famous for their intricate marble carvings."
+  },
+  {
+    "question": "The 'Hawa Mahal' in Jaipur was built by:",
+    "options": [
+      "Sawai Jai Singh",
+      "Maharaja Pratap Singh",
+      "Maharaja Mansingh",
+      "Raja Bharamal"
+    ],
+    "correct": 1,
+    "explanation": "Built in 1799, it has 953 small windows called Jharokhas."
+  },
+  {
+    "question": "The 'Jantar Mantar' in Jaipur is a collection of nineteen architectural:",
+    "options": [
+      "Temples",
+      "Palaces",
+      "Astronomical instruments",
+      "Military forts"
+    ],
+    "correct": 2,
+    "explanation": "Built by Sawai Jai Singh II, it includes the world's largest stone sundial."
+  },
+  {
+    "question": "Which fort is known for its 'Victory Tower' (Vijay Stambha)?",
+    "options": [
+      "Kumbhalgarh",
+      "Chittorgarh",
+      "Amer Fort",
+      "Mehrangarh"
+    ],
+    "correct": 1,
+    "explanation": "Rana Kumbha built it to celebrate victory over the Sultan of Malwa."
+  },
+  {
+    "question": "The 'Panch Mahal' in Fatehpur Sikri is a five-story structure inspired by:",
+    "options": [
+      "Buddhist Monasteries",
+      "Persian Palaces",
+      "Hindu Temples",
+      "Greek Agora"
+    ],
+    "correct": 0,
+    "explanation": "Its design reflects the layout of a Buddhist Vihara."
+  },
+  {
+    "question": "The 'Tomb of Itmad-ud-Daula' is often called the:",
+    "options": [
+      "Mini Taj",
+      "Jewel Box",
+      "Silver Tomb",
+      "Deccan Taj"
+    ],
+    "correct": 1,
+    "explanation": "It was the first Mughal structure to use white marble extensively before the Taj Mahal."
+  },
+  {
+    "question": "The 'Sanchi Stupa' gateways (Toranas) face which directions?",
+    "options": [
+      "North and South",
+      "East and West",
+      "All four cardinal directions",
+      "Only East"
+    ],
+    "correct": 2,
+    "explanation": "There are four gateways representing the four cardinal directions."
+  },
+  {
+    "question": "The 'Kandariya Mahadev' temple is the largest in which complex?",
+    "options": [
+      "Khajuraho",
+      "Hampi",
+      "Pattadakal",
+      "Aihole"
+    ],
+    "correct": 0,
+    "explanation": "It is the most developed example of the Chandela temple style."
+  },
+  {
+    "question": "The 'Shore Temple' at Mahabalipuram is part of which UNESCO site?",
+    "options": [
+      "Group of Monuments at Pattadakal",
+      "Group of Monuments at Mahabalipuram",
+      "Great Living Chola Temples",
+      "Western Ghats"
+    ],
+    "correct": 1,
+    "explanation": "It is a structural temple built near the sea."
+  },
+  {
+    "question": "The 'Dharmarajika Stupa' is located at which site?",
+    "options": [
+      "Sarnath",
+      "Taxila",
+      "Sanchi",
+      "Amaravati"
+    ],
+    "correct": 1,
+    "explanation": "It is a major Buddhist stupa located in Taxila (now in Pakistan)."
+  },
+  {
+    "question": "The 'Lomas Rishi Cave' has an entrance that mimics:",
+    "options": [
+      "A wooden hut",
+      "A lion's mouth",
+      "A lotus",
+      "A mountain"
+    ],
+    "correct": 0,
+    "explanation": "The stone carving replicates contemporary wooden architecture."
+  },
+  {
+    "question": "The 'Dashavatara Temple' at Deogarh belongs to which period?",
+    "options": [
+      "Mauryan",
+      "Gupta",
+      "Kushan",
+      "Satavahana"
+    ],
+    "correct": 1,
+    "explanation": "It is one of the earliest Hindu stone temples of the Gupta period."
+  },
+  {
+    "question": "Which architectural feature is a 'false arch' created by layers of stone?",
+    "options": [
+      "Corbelled Arch",
+      "True Arch",
+      "Pointed Arch",
+      "Horseshoe Arch"
+    ],
+    "correct": 0,
+    "explanation": "Ancient Indian temples used corbelling before the introduction of the true arch by Islamic rulers."
+  },
+  {
+    "question": "The 'Iron Pillar' of Delhi is located in which complex?",
+    "options": [
+      "Red Fort",
+      "Qutub Minar Complex",
+      "Humayun's Tomb",
+      "Purana Qila"
+    ],
+    "correct": 1,
+    "explanation": "Known for its rust-resistant composition, it dates back to the Gupta period."
+  },
+  {
+    "question": "The 'Chand Minar' is a famous tower located in which fort?",
+    "options": [
+      "Golconda",
+      "Daulatabad",
+      "Bidar",
+      "Gulbarga"
+    ],
+    "correct": 1,
+    "explanation": "Built in the 15th century, it is one of the finest examples of Indo-Islamic architecture in the Deccan."
+  },
+  {
+    "question": "The 'Lotus Mahal' is a secular structure found in:",
+    "options": [
+      "Hampi",
+      "Mysuru",
+      "Bidar",
+      "Bijapur"
+    ],
+    "correct": 0,
+    "explanation": "It is a beautiful example of Indo-Islamic influence within the Vijayanagara Empire."
+  },
+  {
+    "question": "Which city features 'Art Deco' buildings that are a UNESCO World Heritage site?",
+    "options": [
+      "Kolkata",
+      "Mumbai",
+      "Chennai",
+      "Delhi"
+    ],
+    "correct": 1,
+    "explanation": "Mumbai has the second largest ensemble of Art Deco buildings in the world after Miami."
+  },
+  {
+    "question": "The 'Rani ki Vav' stepwell is designed as an inverted:",
+    "options": [
+      "Pyramid",
+      "Temple",
+      "Stupa",
+      "Mountain"
+    ],
+    "correct": 1,
+    "explanation": "It is designed as an inverted temple highlighting the sanctity of water."
+  }
+]

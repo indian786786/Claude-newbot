@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which of the following classical dance forms originated in the state of Kerala?",
+    "options": [
+      "Bharatnatyam",
+      "Kathakali",
+      "Kuchipudi",
+      "Sattriya"
+    ],
+    "correct": 1,
+    "explanation": "Kathakali is a major classical dance form from Kerala, known for its elaborate makeup and costumes."
+  },
+  {
+    "question": "Pandit Birju Maharaj, who passed away in 2022, was a legendary exponent of which dance form?",
+    "options": [
+      "Kathak",
+      "Odissi",
+      "Manipuri",
+      "Kathakali"
+    ],
+    "correct": 0,
+    "explanation": "Pandit Birju Maharaj was a doyen of the Lucknow 'Kalka-Bindadin' Gharana of Kathak dance."
+  },
+  {
+    "question": "The 'Sattriya' dance form was introduced in the 15th century by which great Vaishnava saint?",
+    "options": [
+      "Chaitanya Mahaprabhu",
+      "Sankaradeva",
+      "Tulsidas",
+      "Kabir"
+    ],
+    "correct": 1,
+    "explanation": "Mahapurush Sankaradeva introduced Sattriya in Assam as a medium for propagation of the Vaishnava faith."
+  },
+  {
+    "question": "Which dance form is famous for its 'Mudras' and expressions, and is traditionally performed by Devadasis in temples of Tamil Nadu?",
+    "options": [
+      "Mohiniyattam",
+      "Bharatnatyam",
+      "Kuchipudi",
+      "Odissi"
+    ],
+    "correct": 1,
+    "explanation": "Bharatnatyam originated in the temples of Tamil Nadu and was formerly known as Sadir Attam."
+  },
+  {
+    "question": "In which dance form do performers wear a large, bell-shaped skirt called 'Kumil'?",
+    "options": [
+      "Manipuri",
+      "Kathak",
+      "Sattriya",
+      "Kuchipudi"
+    ],
+    "correct": 0,
+    "explanation": "Manipuri dancers wear a unique stiff, bell-shaped skirt called Kumil, often decorated with mirrors and embroidery."
+  },
+  {
+    "question": "Which classical dance form is based on the 'Yakshagana' tradition and originates from Andhra Pradesh?",
+    "options": [
+      "Kathakali",
+      "Kuchipudi",
+      "Mohiniyattam",
+      "Bharatnatyam"
+    ],
+    "correct": 1,
+    "explanation": "Kuchipudi originated in the village of the same name in Andhra Pradesh and shares roots with the Yakshagana tradition."
+  },
+  {
+    "question": "Kelucharan Mohapatra was a prominent name in which classical dance form?",
+    "options": [
+      "Odissi",
+      "Kathak",
+      "Bharatnatyam",
+      "Manipuri"
+    ],
+    "correct": 0,
+    "explanation": "Guru Kelucharan Mohapatra was instrumental in the revival of Odissi dance in the 20th century."
+  },
+  {
+    "question": "Which of the following is a folk dance of Rajasthan?",
+    "options": [
+      "Ghoomar",
+      "Garba",
+      "Lavani",
+      "Bihu"
+    ],
+    "correct": 0,
+    "explanation": "Ghoomar is a traditional folk dance of the Bhil tribe, later adopted by other Rajasthani communities."
+  },
+  {
+    "question": "The 'Thang-Ta' is a traditional martial art dance form of which state?",
+    "options": [
+      "Mizoram",
+      "Nagaland",
+      "Manipur",
+      "Sikkim"
+    ],
+    "correct": 2,
+    "explanation": "Thang-Ta is an ancient Manipuri martial art that combines the use of a sword (Thang) and spear (Ta)."
+  },
+  {
+    "question": "Which dance form is known as the 'Dance of the Enchantress'?",
+    "options": [
+      "Mohiniyattam",
+      "Bharatnatyam",
+      "Kathakali",
+      "Kuchipudi"
+    ],
+    "correct": 0,
+    "explanation": "Mohiniyattam is derived from 'Mohini' (the enchantress avatar of Vishnu) and 'Attam' (dance)."
+  },
+  {
+    "question": "Yakshagana is a traditional theater-dance form associated with which state?",
+    "options": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Kerala"
+    ],
+    "correct": 0,
+    "explanation": "Yakshagana is a traditional folk dance-drama popular in the coastal districts of Karnataka."
+  },
+  {
+    "question": "The 'Rouf' dance is primarily associated with which region of India?",
+    "options": [
+      "Himachal Pradesh",
+      "Jammu and Kashmir",
+      "Uttarakhand",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Rouf is a popular folk dance of the Kashmir Valley, performed by women during the spring season and festivals like Eid."
+  },
+  {
+    "question": "Which dance form features 'Chhau' and is performed in Jharkhand, West Bengal, and Odisha?",
+    "options": [
+      "Sattriya",
+      "Chhau",
+      "Goti Pua",
+      "Bidesiya"
+    ],
+    "correct": 1,
+    "explanation": "Chhau is a semi-classical Indian dance with martial, tribal, and folk traditions. It has three distinct styles named after regions."
+  },
+  {
+    "question": "Which of the following is the folk dance of Gujarat performed during Navratri?",
+    "options": [
+      "Ghoomar",
+      "Garba",
+      "Kalbelia",
+      "Tamasha"
+    ],
+    "correct": 1,
+    "explanation": "Garba is a high-energy folk dance from Gujarat performed in circles around a lamp or a statue of Goddess Shakti."
+  },
+  {
+    "question": "Lavani is a popular folk dance of which Indian state?",
+    "options": [
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "correct": 1,
+    "explanation": "Lavani is a combination of traditional song and dance, particularly performed to the beats of Dholki in Maharashtra."
+  },
+  {
+    "question": "The 'Kalbelia' dance is often referred to as the 'Snake Charmer' dance of which state?",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Haryana",
+      "Punjab"
+    ],
+    "correct": 0,
+    "explanation": "Kalbelia is a folk dance of the Rajasthan tribe of the same name. It is recognized by UNESCO as Intangible Cultural Heritage."
+  },
+  {
+    "question": "Which classical dance form uses heavy facial makeup and large headgears called 'Kiritam'?",
+    "options": [
+      "Kathakali",
+      "Mohiniyattam",
+      "Odissi",
+      "Sattriya"
+    ],
+    "correct": 0,
+    "explanation": "Kathakali is famous for its elaborate 'Aharya' (costume and makeup) where green color represents noble characters."
+  },
+  {
+    "question": "Bihu is the most popular folk dance of which North-Eastern state?",
+    "options": [
+      "Meghalaya",
+      "Assam",
+      "Arunachal Pradesh",
+      "Nagaland"
+    ],
+    "correct": 1,
+    "explanation": "Bihu is a celebratory dance performed by both men and women in Assam during the Bihu festival."
+  },
+  {
+    "question": "The 'Nautanki' is a popular folk theater and dance form of:",
+    "options": [
+      "Bihar",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Haryana"
+    ],
+    "correct": 1,
+    "explanation": "Nautanki is a popular form of operatic theater in North India, especially in the state of Uttar Pradesh."
+  },
+  {
+    "question": "Sonal Mansingh is a distinguished dancer of which two classical dance forms?",
+    "options": [
+      "Bharatnatyam and Odissi",
+      "Kathak and Manipuri",
+      "Kuchipudi and Kathakali",
+      "Sattriya and Mohiniyattam"
+    ],
+    "correct": 0,
+    "explanation": "Sonal Mansingh is a world-renowned dancer and choreographer of Bharatnatyam and Odissi styles."
+  },
+  {
+    "question": "Which dance form is characterized by its 'Bramari' (pirouettes) and footwork known as 'Tatkar'?",
+    "options": [
+      "Kathak",
+      "Bharatnatyam",
+      "Odissi",
+      "Kuchipudi"
+    ],
+    "correct": 0,
+    "explanation": "Kathak is unique for its complex footwork (Tatkar) and fast-paced spins or pirouettes."
+  },
+  {
+    "question": "The 'Buta Kola' or 'Spirit Worship' dance is a ritualistic tradition of which state?",
+    "options": [
+      "Kerala",
+      "Karnataka",
+      "Tamil Nadu",
+      "Odisha"
+    ],
+    "correct": 1,
+    "explanation": "Buta Kola is a ritual dance-performance practiced by the Tulu-speaking community in coastal Karnataka."
+  },
+  {
+    "question": "Which dance is performed with colorful sticks and is popular in Gujarat and Rajasthan?",
+    "options": [
+      "Dandiya Raas",
+      "Garba",
+      "Ghoomar",
+      "Chari"
+    ],
+    "correct": 0,
+    "explanation": "Dandiya Raas is a folk dance performed using polished sticks (dandiyas), representing a mock-fight between Durga and Mahishasura."
+  },
+  {
+    "question": "The 'Sidhi Dhamal' is a unique folk dance of which state?",
+    "options": [
+      "Gujarat",
+      "Maharashtra",
+      "Goa",
+      "Karnataka"
+    ],
+    "correct": 0,
+    "explanation": "Sidhi Dhamal is performed by the Sidhi community (of African descent) living in Gujarat."
+  },
+  {
+    "question": "Which classical dance form's music is based on the Odissi music tradition?",
+    "options": [
+      "Odissi",
+      "Sattriya",
+      "Manipuri",
+      "Bharatnatyam"
+    ],
+    "correct": 0,
+    "explanation": "Odissi dance is accompanied by Odissi music, which is one of the oldest classical music traditions of India."
+  },
+  {
+    "question": "The 'Cheraw' dance, also known as the Bamboo Dance, belongs to which state?",
+    "options": [
+      "Mizoram",
+      "Tripura",
+      "Nagaland",
+      "Manipur"
+    ],
+    "correct": 0,
+    "explanation": "Cheraw is a traditional dance of Mizoram where dancers move between horizontally placed bamboo poles."
+  },
+  {
+    "question": "Which dance form was popularized by the poet Vallathol Narayana Menon?",
+    "options": [
+      "Kathakali",
+      "Mohiniyattam",
+      "Bharatnatyam",
+      "Both Kathakali and Mohiniyattam"
+    ],
+    "correct": 3,
+    "explanation": "Vallathol Narayana Menon established the Kerala Kalamandalam and is credited with reviving Kathakali and Mohiniyattam."
+  },
+  {
+    "question": "The 'Koli' dance is a popular folk dance of the fishing community of which state?",
+    "options": [
+      "Maharashtra",
+      "Kerala",
+      "West Bengal",
+      "Andhra Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Koli is the dance of the Koli fishermen of Maharashtra, depicting the rhythm of the waves and fishing activities."
+  },
+  {
+    "question": "Which of the following is NOT a classical dance recognized by the Sangeet Natak Akademi?",
+    "options": [
+      "Sattriya",
+      "Odissi",
+      "Bhangra",
+      "Manipuri"
+    ],
+    "correct": 2,
+    "explanation": "Bhangra is a folk dance of Punjab, while the others are among the eight primary classical dances recognized by the Akademi."
+  },
+  {
+    "question": "The 'Goti Pua' dance is the precursor to which classical dance form?",
+    "options": [
+      "Odissi",
+      "Sattriya",
+      "Kuchipudi",
+      "Kathak"
+    ],
+    "correct": 0,
+    "explanation": "Goti Pua is a traditional dance in Odisha where young boys dress as women to praise Jagannath. It is the root of modern Odissi."
+  },
+  {
+    "question": "Mallika Sarabhai is an accomplished dancer in which two forms?",
+    "options": [
+      "Bharatnatyam and Kuchipudi",
+      "Kathak and Odissi",
+      "Kathakali and Mohiniyattam",
+      "Manipuri and Sattriya"
+    ],
+    "correct": 0,
+    "explanation": "Mallika Sarabhai, daughter of Vikram Sarabhai, is a renowned performer of both Bharatnatyam and Kuchipudi."
+  },
+  {
+    "question": "The 'Fugdi' is a folk dance generally performed by women in which state?",
+    "options": [
+      "Goa",
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka"
+    ],
+    "correct": 0,
+    "explanation": "Fugdi is a Goan folk dance performed by women during Hindu festivals like Ganesh Chaturthi."
+  },
+  {
+    "question": "Which dance form is dedicated to Lord Krishna and is based on the 'Raslila' theme?",
+    "options": [
+      "Manipuri",
+      "Kathak",
+      "Sattriya",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "Manipuri, Kathak, and Sattriya all have strong historical and thematic links to the life and stories of Lord Krishna (Raslila)."
+  },
+  {
+    "question": "The 'Hojagiri' dance is a folk dance performed in which state?",
+    "options": [
+      "Tripura",
+      "Meghalaya",
+      "Sikkim",
+      "Assam"
+    ],
+    "correct": 0,
+    "explanation": "Hojagiri is a folk dance of the Reang community in Tripura, involving balancing props on the head while dancing."
+  },
+  {
+    "question": "Which classical dance form uses the 'Tribhanga' posture (three-fold bending of the body)?",
+    "options": [
+      "Odissi",
+      "Bharatnatyam",
+      "Kathak",
+      "Manipuri"
+    ],
+    "correct": 0,
+    "explanation": "The Tribhanga posture is a signature element of Odissi, where the body bends at the neck, torso, and knees."
+  },
+  {
+    "question": "The 'Dollu Kunitha' is a popular drum dance of which state?",
+    "options": [
+      "Karnataka",
+      "Andhra Pradesh",
+      "Telangana",
+      "Tamil Nadu"
+    ],
+    "correct": 0,
+    "explanation": "Dollu Kunitha is a traditional dance form accompanied by the beats of the Dollu, a large drum, in Karnataka."
+  },
+  {
+    "question": "Which dance form's name literally translates to 'storyteller'?",
+    "options": [
+      "Kathak",
+      "Kathakali",
+      "Katha",
+      "None of the above"
+    ],
+    "correct": 0,
+    "explanation": "The word Kathak is derived from 'Katha', meaning story, and 'Kathakar', meaning storyteller."
+  },
+  {
+    "question": "The 'Karkattam' is an ancient folk dance of Tamil Nadu performed in praise of which Goddess?",
+    "options": [
+      "Mariamman",
+      "Lakshmi",
+      "Saraswati",
+      "Parvati"
+    ],
+    "correct": 0,
+    "explanation": "Karkattam is a ritual dance where dancers balance a pot (Karaka) on their head, usually dedicated to the Rain Goddess Mariamman."
+  },
+  {
+    "question": "The 'Dhangari Gaja' dance is associated with the shepherds of which state?",
+    "options": [
+      "Maharashtra",
+      "Gujarat",
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Dhangari Gaja is a vibrant folk dance performed by the Dhangars (shepherds) of Maharashtra."
+  },
+  {
+    "question": "Who among the following is a famous Kathakali dancer?",
+    "options": [
+      "Kalamandalam Gopi",
+      "Birju Maharaj",
+      "Yamini Krishnamurthy",
+      "Kelucharan Mohapatra"
+    ],
+    "correct": 0,
+    "explanation": "Kalamandalam Gopi is one of the most distinguished Kathakali artists from Kerala."
+  },
+  {
+    "question": "The 'Bagurumba' is a folk dance of which community in Assam?",
+    "options": [
+      "Bodo",
+      "Mising",
+      "Karbi",
+      "Dimasa"
+    ],
+    "correct": 0,
+    "explanation": "Bagurumba is a traditional dance of the Bodo people in Assam, often called the 'Butterfly Dance' due to its movement."
+  },
+  {
+    "question": "Which of the following classical dances is performed on a brass plate?",
+    "options": [
+      "Kuchipudi",
+      "Bharatnatyam",
+      "Kathak",
+      "Odissi"
+    ],
+    "correct": 0,
+    "explanation": "A unique feature of Kuchipudi is the 'Tarangam', where the dancer performs on the edges of a brass plate."
+  },
+  {
+    "question": "The 'Kummi' and 'Kolattam' are folk dances of which state?",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Kummi is a folk dance performed by women in Tamil Nadu and Kerala, while Kolattam involves dancing with sticks."
+  },
+  {
+    "question": "Which dance form is known for the use of 'Lasya' (graceful) and 'Tandava' (vigorous) elements?",
+    "options": [
+      "Bharatnatyam",
+      "Kathakali",
+      "Kathak",
+      "All Classical Dances"
+    ],
+    "correct": 3,
+    "explanation": "Most Indian classical dances incorporate Lasya (symbolizing feminine grace) and Tandava (symbolizing masculine vigor)."
+  },
+  {
+    "question": "The 'Giddha' is a popular folk dance performed by women in which state?",
+    "options": [
+      "Punjab",
+      "Haryana",
+      "Himachal Pradesh",
+      "Rajasthan"
+    ],
+    "correct": 0,
+    "explanation": "Giddha is the female counterpart to the Bhangra dance in Punjab, characterized by rhythmic clapping and singing."
+  },
+  {
+    "question": "Samyukta Panigrahi was a legendary exponent of which dance form?",
+    "options": [
+      "Odissi",
+      "Manipuri",
+      "Kathak",
+      "Bharatnatyam"
+    ],
+    "correct": 0,
+    "explanation": "Samyukta Panigrahi was a foremost exponent of Odissi and played a huge role in its global popularization."
+  },
+  {
+    "question": "The 'Garadi' dance is a popular folk dance of which Union Territory?",
+    "options": [
+      "Puducherry",
+      "Lakshadweep",
+      "Ladakh",
+      "Chandigarh"
+    ],
+    "correct": 0,
+    "explanation": "Garadi is a popular folk dance in Puducherry, believed to have originated from the Ramayana."
+  },
+  {
+    "question": "Which classical dance form originated in the temples of Odisha and is known for its lyrical movements?",
+    "options": [
+      "Odissi",
+      "Kuchipudi",
+      "Manipuri",
+      "Sattriya"
+    ],
+    "correct": 0,
+    "explanation": "Odissi is characterized by its grace, sensuousness, and focus on the 'Bhangas' or body positions."
+  },
+  {
+    "question": "The 'Bardo Chham' is a folk dance performed in which state?",
+    "options": [
+      "Arunachal Pradesh",
+      "Sikkim",
+      "Nagaland",
+      "Meghalaya"
+    ],
+    "correct": 0,
+    "explanation": "Bardo Chham is a traditional folk dance of the Sherdukpen community of Arunachal Pradesh, depicting the fight between good and evil."
+  },
+  {
+    "question": "Yamini Krishnamurthy is a famous exponent of which two classical dance forms?",
+    "options": [
+      "Bharatnatyam and Kuchipudi",
+      "Odissi and Kathak",
+      "Kathakali and Mohiniyattam",
+      "Manipuri and Sattriya"
+    ],
+    "correct": 0,
+    "explanation": "Yamini Krishnamurthy is an eminent dancer of both Bharatnatyam and Kuchipudi."
+  }
+]

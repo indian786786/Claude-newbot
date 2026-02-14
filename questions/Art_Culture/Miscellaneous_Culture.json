@@ -1,0 +1,277 @@
+[
+  {
+    "question": "In which state is the ancient martial art 'Kalaripayattu' traditionally practiced?",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "correct": 1,
+    "explanation": "Kalaripayattu is considered one of the oldest surviving martial arts in the world, originating in Kerala."
+  },
+  {
+    "question": "The martial art 'Silambam', which primarily uses a bamboo staff, belongs to which state?",
+    "options": [
+      "Kerala",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Silambam is a weapon-based Indian martial art from Tamil Nadu, mentioned in Sangam literature."
+  },
+  {
+    "question": "Which of the following is a traditional martial art of Manipur involving the use of a sword and spear?",
+    "options": [
+      "Thang-Ta",
+      "Gatka",
+      "Mardani Khel",
+      "Musti Yuddha"
+    ],
+    "correct": 0,
+    "explanation": "Thang-Ta (The Art of the Sword and Spear) is the traditional martial art of the Meitei people of Manipur."
+  },
+  {
+    "question": "The martial art 'Gatka' is associated with which community?",
+    "options": [
+      "Naga",
+      "Sikh",
+      "Maratha",
+      "Rajput"
+    ],
+    "correct": 1,
+    "explanation": "Gatka is a traditional martial art associated with the Sikhs of Punjab, often performed during festivals."
+  },
+  {
+    "question": "How many Indian sites are currently listed as UNESCO World Heritage Sites (as of early 2024)?",
+    "options": [
+      "32",
+      "38",
+      "40",
+      "42"
+    ],
+    "correct": 3,
+    "explanation": "With the inclusion of Santiniketan and the Sacred Ensembles of the Hoysalas in 2023, India has 42 UNESCO World Heritage Sites."
+  },
+  {
+    "question": "Which Indian city was the first to be inscribed as a UNESCO World Heritage City?",
+    "options": [
+      "Jaipur",
+      "Ahmedabad",
+      "Varanasi",
+      "Mumbai"
+    ],
+    "correct": 1,
+    "explanation": "The Historic City of Ahmedabad was declared a UNESCO World Heritage City in 2017."
+  },
+  {
+    "question": "The 'Vedic Chanting' and 'Ramlila' are part of which UNESCO list?",
+    "options": [
+      "World Heritage Sites",
+      "Intangible Cultural Heritage",
+      "Memory of the World",
+      "Creative Cities Network"
+    ],
+    "correct": 1,
+    "explanation": "These traditions are inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity."
+  },
+  {
+    "question": "Which state's 'Garba' dance was the latest (15th) addition to the UNESCO Intangible Cultural Heritage list in 2023?",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Garba of Gujarat was inscribed on the UNESCO Intangible Cultural Heritage list in December 2023."
+  },
+  {
+    "question": "The 'Great Living Chola Temples' are located in which state?",
+    "options": [
+      "Tamil Nadu",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Kerala"
+    ],
+    "correct": 0,
+    "explanation": "This UNESCO site includes the Brihadisvara Temple at Thanjavur, Gangaikonda Cholapuram, and the Airavatesvara Temple at Darasuram."
+  },
+  {
+    "question": "The 'Hampi' monuments, a UNESCO World Heritage site, were the capital of which empire?",
+    "options": [
+      "Chola",
+      "Vijayanagara",
+      "Maratha",
+      "Bahmani"
+    ],
+    "correct": 1,
+    "explanation": "Hampi was the capital of the Vijayanagara Empire in the 14th century and is located in Karnataka."
+  },
+  {
+    "question": "In which state is the UNESCO site 'Rani ki Vav' (The Queen's Stepwell) located?",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "correct": 1,
+    "explanation": "Located in Patan, Gujarat, this intricate stepwell was built in the 11th century and is featured on the 100-rupee note."
+  },
+  {
+    "question": "Which UNESCO World Heritage site is known as the 'Black Pagoda'?",
+    "options": [
+      "Sun Temple, Konark",
+      "Jagannath Temple, Puri",
+      "Lingaraja Temple",
+      "Shore Temple"
+    ],
+    "correct": 0,
+    "explanation": "The Konark Sun Temple in Odisha was called the Black Pagoda by European sailors because of its dark color."
+  },
+  {
+    "question": "The 'Mountain Railways of India' UNESCO site includes which of the following?",
+    "options": [
+      "Darjeeling Himalayan Railway",
+      "Nilgiri Mountain Railway",
+      "Kalka-Shimla Railway",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "These three railways are collectively recognized as a UNESCO World Heritage site for their engineering and cultural value."
+  },
+  {
+    "question": "The 'Nalanda Mahavihara' (Nalanda University) ruins are located in which state?",
+    "options": [
+      "Bihar",
+      "West Bengal",
+      "Uttar Pradesh",
+      "Odisha"
+    ],
+    "correct": 0,
+    "explanation": "Nalanda was a world-renowned ancient Buddhist monastery and university located in the kingdom of Magadha (modern-day Bihar)."
+  },
+  {
+    "question": "Which of the following sites is NOT part of the 'Hill Forts of Rajasthan' UNESCO inscription?",
+    "options": [
+      "Amer Fort",
+      "Chittorgarh Fort",
+      "Mehrangarh Fort",
+      "Kumbhalgarh Fort"
+    ],
+    "correct": 2,
+    "explanation": "The six forts are Chittorgarh, Kumbhalgarh, Ranthambore, Gagron, Amer, and Jaisalmer. Mehrangarh is not on the list."
+  },
+  {
+    "question": "The 'Rock Shelters of Bhimbetka' are famous for what?",
+    "options": [
+      "Ancient Sculptures",
+      "Mural Paintings",
+      "Prehistoric Cave Paintings",
+      "Terracotta art"
+    ],
+    "correct": 2,
+    "explanation": "Bhimbetka in Madhya Pradesh showcases some of the earliest traces of human life on the Indian subcontinent."
+  },
+  {
+    "question": "Which city is known as the 'Yoga Capital of the World'?",
+    "options": [
+      "Varanasi",
+      "Rishikesh",
+      "Haridwar",
+      "Mysuru"
+    ],
+    "correct": 1,
+    "explanation": "Rishikesh in Uttarakhand is globally recognized as the center for yoga and meditation."
+  },
+  {
+    "question": "The 'Kumbh Mela' was inscribed on the UNESCO Intangible Cultural Heritage list in which year?",
+    "options": [
+      "2015",
+      "2017",
+      "2019",
+      "2021"
+    ],
+    "correct": 1,
+    "explanation": "The world's largest peaceful religious gathering was recognized by UNESCO in 2017."
+  },
+  {
+    "question": "Which of the following is a UNESCO 'Mixed' World Heritage Site in India?",
+    "options": [
+      "Kaziranga National Park",
+      "Khangchendzonga National Park",
+      "Nanda Devi National Park",
+      "Western Ghats"
+    ],
+    "correct": 1,
+    "explanation": "Khangchendzonga National Park in Sikkim is India's only 'mixed' site, recognized for both natural and cultural criteria."
+  },
+  {
+    "question": "The 'Sun Temple' at Modhera is located in which state?",
+    "options": [
+      "Odisha",
+      "Gujarat",
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "correct": 1,
+    "explanation": "The Modhera Sun Temple was built during the reign of Bhima I of the Chaulukya dynasty on the banks of the Pushpavati River."
+  },
+  {
+    "question": "The traditional dance form 'Chhau' belongs to which states?",
+    "options": [
+      "Odisha, West Bengal, and Jharkhand",
+      "Assam, Manipur, and Nagaland",
+      "Kerala, Tamil Nadu, and Karnataka",
+      "Gujarat, Rajasthan, and Haryana"
+    ],
+    "correct": 0,
+    "explanation": "Chhau is a semi-classical Indian dance with martial, tribal, and folk traditions, inscribed in UNESCO's ICH list."
+  },
+  {
+    "question": "Which Indian city joined the UNESCO Creative Cities Network (UCCN) in 2023 for 'Literature'?",
+    "options": [
+      "Kozhikode",
+      "Gwalior",
+      "Varanasi",
+      "Kolkata"
+    ],
+    "correct": 0,
+    "explanation": "Kozhikode in Kerala was named a UNESCO City of Literature in 2023, the first in India."
+  },
+  {
+    "question": "Which Indian city joined the UNESCO Creative Cities Network (UCCN) in 2023 for 'Music'?",
+    "options": [
+      "Kozhikode",
+      "Gwalior",
+      "Chennai",
+      "Jaipur"
+    ],
+    "correct": 1,
+    "explanation": "Gwalior in Madhya Pradesh was designated a UNESCO City of Music in 2023."
+  },
+  {
+    "question": "The 'Sacred Ensembles of the Hoysalas' includes temples in which cities?",
+    "options": [
+      "Belur and Halebidu",
+      "Hampi and Badami",
+      "Thanjavur and Madurai",
+      "Mysuru and Bengaluru"
+    ],
+    "correct": 0,
+    "explanation": "The Hoysala temples in Belur, Halebidu, and Somanathapura were added to the UNESCO list in 2023."
+  },
+  {
+    "question": "The 'Kuttiyattam' is a UNESCO-recognized Sanskrit theatre tradition from:",
+    "options": [
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Kuttiyattam is the only surviving form of Sanskrit theatre in India, performed in temple theaters (Koothambalams)."
+  }
+]

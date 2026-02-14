@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Who is the author of the ancient Sanskrit grammar book 'Ashtadhyayi'?",
+    "options": [
+      "Kalidasa",
+      "Panini",
+      "Patanjali",
+      "Bhasa"
+    ],
+    "correct": 1,
+    "explanation": "Panini wrote Ashtadhyayi in the 4th century BCE, which is the foundational text of Sanskrit grammar."
+  },
+  {
+    "question": "The famous book 'Arthashastra' was written by whom?",
+    "options": [
+      "Chanakya",
+      "Chandragupta Maurya",
+      "Megasthenes",
+      "Ashoka"
+    ],
+    "correct": 0,
+    "explanation": "Chanakya, also known as Kautilya or Vishnugupta, wrote Arthashastra as a treatise on statecraft and economic policy."
+  },
+  {
+    "question": "Who wrote the historical book 'Rajatarangini', which chronicles the history of Kashmir?",
+    "options": [
+      "Banabhatta",
+      "Bilhana",
+      "Kalhana",
+      "Somadeva"
+    ],
+    "correct": 2,
+    "explanation": "Kalhana wrote Rajatarangini in the 12th century, and it is considered one of the earliest reliable historical accounts of India."
+  },
+  {
+    "question": "Which of the following was the first Indian language to be granted the status of a 'Classical Language'?",
+    "options": [
+      "Sanskrit",
+      "Tamil",
+      "Kannada",
+      "Telugu"
+    ],
+    "correct": 1,
+    "explanation": "Tamil was the first language in India to be accorded classical status in 2004."
+  },
+  {
+    "question": "The epic 'Silappadikaram' is a masterpiece of which literature?",
+    "options": [
+      "Sangam Literature",
+      "Bhakti Literature",
+      "Sanskrit Literature",
+      "Pali Literature"
+    ],
+    "correct": 0,
+    "explanation": "Silappadikaram is one of the five great epics of Tamil Sangam literature, written by Ilango Adigal."
+  },
+  {
+    "question": "Who is the author of the book 'Gitanjali', for which he won the Nobel Prize in Literature?",
+    "options": [
+      "Bankim Chandra Chattopadhyay",
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Sri Aurobindo"
+    ],
+    "correct": 1,
+    "explanation": "Rabindranath Tagore won the Nobel Prize in 1913, becoming the first non-European to win this honor."
+  },
+  {
+    "question": "The autobiography 'Wings of Fire' was written by:",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Dr. A.P.J. Abdul Kalam",
+      "Sardar Patel"
+    ],
+    "correct": 2,
+    "explanation": "Dr. A.P.J. Abdul Kalam co-authored this autobiography with Arun Tiwari, detailing his journey and India's missile program."
+  },
+  {
+    "question": "Who wrote 'Mudrarakshasa', a Sanskrit play about the rise of Chandragupta Maurya?",
+    "options": [
+      "Vishakhadatta",
+      "Kalidasa",
+      "Sudraka",
+      "Bhasa"
+    ],
+    "correct": 0,
+    "explanation": "Vishakhadatta's Mudrarakshasa is a political drama describing the strategies of Chanakya to install Chandragupta on the throne."
+  },
+  {
+    "question": "The famous novel 'Godan' was written by which legendary author?",
+    "options": [
+      "Sarat Chandra Chattopadhyay",
+      "Munshi Premchand",
+      "Jaishankar Prasad",
+      "Phanishwar Nath Renu"
+    ],
+    "correct": 1,
+    "explanation": "Munshi Premchand, often called Upanyas Samrat, wrote Godan, which reflects the socio-economic deprivations of rural India."
+  },
+  {
+    "question": "Who among the following wrote the 'Humayunnama'?",
+    "options": [
+      "Humayun",
+      "Gulbadan Begum",
+      "Abul Fazl",
+      "Hamida Banu Begum"
+    ],
+    "correct": 1,
+    "explanation": "Gulbadan Begum was the sister of Humayun and wrote the account of his life at the request of Akbar."
+  },
+  {
+    "question": "The 'Jataka Tales' are associated with the previous births of which figure?",
+    "options": [
+      "Mahavira",
+      "Gautama Buddha",
+      "Guru Nanak",
+      "Rishabhanatha"
+    ],
+    "correct": 1,
+    "explanation": "The Jataka tales are a voluminous body of literature native to India concerning the previous incarnations of Gautama Buddha."
+  },
+  {
+    "question": "Who is the author of 'Abhigyan Shakuntalam'?",
+    "options": [
+      "Bhavabhuti",
+      "Kalidasa",
+      "Bharavi",
+      "Magha"
+    ],
+    "correct": 1,
+    "explanation": "Kalidasa is considered the greatest Sanskrit poet and dramatist, and Abhigyan Shakuntalam is his most famous work."
+  },
+  {
+    "question": "The 'Panchatantra' stories were originally written by:",
+    "options": [
+      "Vishnu Sharma",
+      "Narayana Pandit",
+      "Valmiki",
+      "Vyasa"
+    ],
+    "correct": 0,
+    "explanation": "Vishnu Sharma is credited with writing the Panchatantra to teach worldly wisdom to three young princes."
+  },
+  {
+    "question": "Which of the following is the oldest Veda?",
+    "options": [
+      "Sama Veda",
+      "Yajur Veda",
+      "Rig Veda",
+      "Atharva Veda"
+    ],
+    "correct": 2,
+    "explanation": "The Rig Veda is the oldest of the four Vedas and one of the oldest extant texts in any Indo-European language."
+  },
+  {
+    "question": "The book 'The Discovery of India' was written by Jawaharlal Nehru in which jail?",
+    "options": [
+      "Yerwada Jail",
+      "Alipore Jail",
+      "Ahmednagar Fort",
+      "Cellular Jail"
+    ],
+    "correct": 2,
+    "explanation": "Nehru wrote this influential book during his imprisonment (1942\u20131945) at Ahmednagar Fort."
+  },
+  {
+    "question": "Who is the author of 'Ramcharitmanas'?",
+    "options": [
+      "Tulsidas",
+      "Valmiki",
+      "Kabir",
+      "Surdas"
+    ],
+    "correct": 0,
+    "explanation": "Tulsidas wrote the Ramcharitmanas in Awadhi language, making the story of Rama accessible to the common man."
+  },
+  {
+    "question": "The 'Akbarnama' was written in which language?",
+    "options": [
+      "Arabic",
+      "Persian",
+      "Chagatai Turkic",
+      "Urdu"
+    ],
+    "correct": 1,
+    "explanation": "Persian was the official language of the Mughal court, and Abul Fazl wrote the Akbarnama in Persian."
+  },
+  {
+    "question": "Which award is the highest literary honor in India?",
+    "options": [
+      "Sahitya Akademi Award",
+      "Jnanpith Award",
+      "Saraswati Samman",
+      "Vyas Samman"
+    ],
+    "correct": 1,
+    "explanation": "The Jnanpith Award is presented annually by the Bharatiya Jnanpith to an author for their outstanding contribution towards literature."
+  },
+  {
+    "question": "Who was the first woman to win the Jnanpith Award?",
+    "options": [
+      "Mahasweta Devi",
+      "Amrita Pritam",
+      "Ashapoorna Devi",
+      "Krishna Sobti"
+    ],
+    "correct": 2,
+    "explanation": "Bengali novelist Ashapoorna Devi won the Jnanpith Award in 1976 for her novel 'Pratham Pratishruti'."
+  },
+  {
+    "question": "The 'Kitab-ul-Hind' was written by which famous traveler?",
+    "options": [
+      "Ibn Battuta",
+      "Al-Biruni",
+      "Marco Polo",
+      "Francois Bernier"
+    ],
+    "correct": 1,
+    "explanation": "Al-Biruni accompanied Mahmud of Ghazni to India and wrote this detailed account of Indian culture and science."
+  },
+  {
+    "question": "Which book is known as the 'Bible of Tamil Land'?",
+    "options": [
+      "Kural (Tirukkural)",
+      "Silappadikaram",
+      "Manimekalai",
+      "Aingurunuru"
+    ],
+    "correct": 0,
+    "explanation": "Tirukkural, written by Thiruvalluvar, is a classic Tamil text consisting of 1,330 couplets on ethics and morality."
+  },
+  {
+    "question": "Who is the author of 'Harshacharita', the biography of King Harshavardhana?",
+    "options": [
+      "Banabhatta",
+      "Hiuen Tsang",
+      "Harsha himself",
+      "Ravikirti"
+    ],
+    "correct": 0,
+    "explanation": "Banabhatta was the court poet (Asthana Kavi) of King Harshavardhana and also wrote Kadambari."
+  },
+  {
+    "question": "The 'Geet Govind' was composed by which poet?",
+    "options": [
+      "Jayadeva",
+      "Chaitanya",
+      "Vidyapati",
+      "Chandidas"
+    ],
+    "correct": 0,
+    "explanation": "Jayadeva was a 12th-century poet who wrote Geet Govind, describing the relationship between Krishna and Radha."
+  },
+  {
+    "question": "Which script was used in the majority of Ashokan inscriptions?",
+    "options": [
+      "Brahmi",
+      "Kharosthi",
+      "Greek",
+      "Aramaic"
+    ],
+    "correct": 0,
+    "explanation": "While Ashoka used various scripts depending on the region, the majority of his edicts in India were in the Brahmi script."
+  },
+  {
+    "question": "The famous play 'Mrichchhakatika' (The Little Clay Cart) was written by:",
+    "options": [
+      "Bhasa",
+      "Sudraka",
+      "Kalidasa",
+      "Bhavabhuti"
+    ],
+    "correct": 1,
+    "explanation": "Sudraka's Mrichchhakatika is a Sanskrit drama set in Ujjayini, depicting the love story of Charudatta and Vasantasena."
+  },
+  {
+    "question": "Who wrote 'India Wins Freedom'?",
+    "options": [
+      "Maulana Abul Kalam Azad",
+      "Mahatma Gandhi",
+      "Subhash Chandra Bose",
+      "Rajendra Prasad"
+    ],
+    "correct": 0,
+    "explanation": "Maulana Azad, India's first Education Minister, wrote this book providing an insider's view of the Indian independence movement."
+  },
+  {
+    "question": "Which of the following is NOT a classical language of India?",
+    "options": [
+      "Malayalam",
+      "Odia",
+      "Marathi",
+      "Bengali"
+    ],
+    "correct": 3,
+    "explanation": "As of current official lists, Tamil, Sanskrit, Kannada, Telugu, Malayalam, and Odia are the six classical languages."
+  },
+  {
+    "question": "The book 'Anandamath', which contains our national song 'Vande Mataram', was written by:",
+    "options": [
+      "Rabindranath Tagore",
+      "Bankim Chandra Chattopadhyay",
+      "Madhusudan Dutt",
+      "Sarat Chandra"
+    ],
+    "correct": 1,
+    "explanation": "Bankim Chandra Chattopadhyay wrote this Bengali novel in 1882, set against the backdrop of the Sannyasi Rebellion."
+  },
+  {
+    "question": "Who is the author of 'The God of Small Things'?",
+    "options": [
+      "Arundhati Roy",
+      "Kiran Desai",
+      "Anita Desai",
+      "Jhumpa Lahiri"
+    ],
+    "correct": 0,
+    "explanation": "Arundhati Roy won the Man Booker Prize in 1997 for her debut novel, 'The God of Small Things'."
+  },
+  {
+    "question": "The 'Padmavat', an epic poem about Rani Padmini, was written by:",
+    "options": [
+      "Amir Khusrau",
+      "Malik Muhammad Jayasi",
+      "Abul Fazl",
+      "Faizi"
+    ],
+    "correct": 1,
+    "explanation": "Jayasi wrote Padmavat in the Awadhi language in 1540 CE."
+  },
+  {
+    "question": "Who is known as the 'Father of Modern Hindi Literature'?",
+    "options": [
+      "Bharatendu Harishchandra",
+      "Mahavir Prasad Dwivedi",
+      "Premchand",
+      "Ramachandra Shukla"
+    ],
+    "correct": 0,
+    "explanation": "Bharatendu Harishchandra is credited with bringing a modern outlook to Hindi literature in the 19th century."
+  },
+  {
+    "question": "The 'Satyarth Prakash' was written by:",
+    "options": [
+      "Swami Dayananda Saraswati",
+      "Swami Vivekananda",
+      "Raja Ram Mohan Roy",
+      "Ishwar Chandra Vidyasagar"
+    ],
+    "correct": 0,
+    "explanation": "Satyarth Prakash is the core text of the Arya Samaj, advocating for the return to Vedic values."
+  },
+  {
+    "question": "Who wrote 'Malgudi Days', a collection of short stories set in a fictional town?",
+    "options": [
+      "R.K. Narayan",
+      "Raja Rao",
+      "Mulk Raj Anand",
+      "Vikram Seth"
+    ],
+    "correct": 0,
+    "explanation": "R.K. Narayan is one of the early pioneers of Indian literature in English, famous for his works set in Malgudi."
+  },
+  {
+    "question": "The 'Tripitakas' are the sacred texts of which religion?",
+    "options": [
+      "Jainism",
+      "Buddhism",
+      "Sikhism",
+      "Hinduism"
+    ],
+    "correct": 1,
+    "explanation": "The Tripitakas (Three Baskets) are the traditional term for the Buddhist scriptures, written in Pali."
+  },
+  {
+    "question": "Who is the author of 'Train to Pakistan'?",
+    "options": [
+      "Khushwant Singh",
+      "Kuldip Nayar",
+      "Amitav Ghosh",
+      "Shashi Tharoor"
+    ],
+    "correct": 0,
+    "explanation": "Khushwant Singh's 'Train to Pakistan' is a classic novel about the partition of India in 1947."
+  },
+  {
+    "question": "The book 'Gulamgiri' was written by which social reformer?",
+    "options": [
+      "Dr. B.R. Ambedkar",
+      "Jyotirao Phule",
+      "Periyar E.V. Ramasamy",
+      "Narayana Guru"
+    ],
+    "correct": 1,
+    "explanation": "Jyotiba Phule wrote Gulamgiri in 1873, dedicated to the American movement to abolish slavery."
+  },
+  {
+    "question": "Who wrote 'Prithviraj Raso', an epic poem on the life of Prithviraj Chauhan?",
+    "options": [
+      "Chand Bardai",
+      "Amir Khusrau",
+      "Al-Biruni",
+      "Nayanachandra Suri"
+    ],
+    "correct": 0,
+    "explanation": "Chand Bardai was the court poet of Prithviraj Chauhan and his work is considered one of the earliest works in Hindi/Braj."
+  },
+  {
+    "question": "Which Mughal Emperor wrote his autobiography titled 'Tuzuk-i-Baburi'?",
+    "options": [
+      "Akbar",
+      "Babur",
+      "Jahangir",
+      "Humayun"
+    ],
+    "correct": 1,
+    "explanation": "Babur, the founder of the Mughal Empire, wrote his memoirs in his native Chagatai Turkic language."
+  },
+  {
+    "question": "The 'Vikramacharitmanas' (not Ramcharitmanas) or 'Vikramankadevacharita' was written by:",
+    "options": [
+      "Bilhana",
+      "Kalhana",
+      "Hemachandra",
+      "Jayanaka"
+    ],
+    "correct": 0,
+    "explanation": "Bilhana wrote the Vikramankadevacharita in honor of his patron, the Western Chalukya King Vikramaditya VI."
+  },
+  {
+    "question": "Who wrote the famous Urdu poem 'Sare Jahan Se Achha'?",
+    "options": [
+      "Mirza Ghalib",
+      "Muhammad Iqbal",
+      "Faiz Ahmed Faiz",
+      "Josh Malihabadi"
+    ],
+    "correct": 1,
+    "explanation": "Muhammad Iqbal, also known as Allama Iqbal, wrote this patriotic song in 1904."
+  },
+  {
+    "question": "The 'Ratnavali' is a Sanskrit drama attributed to which King?",
+    "options": [
+      "Harshavardhana",
+      "Chandragupta II",
+      "Samudragupta",
+      "Pulakeshin II"
+    ],
+    "correct": 0,
+    "explanation": "King Harshavardhana of Kannauj is credited with writing three Sanskrit plays: Ratnavali, Priyadarshika, and Nagananda."
+  },
+  {
+    "question": "Who is the author of 'A Suitable Boy'?",
+    "options": [
+      "Vikram Seth",
+      "Upamanyu Chatterjee",
+      "Arvind Adiga",
+      "Rohinton Mistry"
+    ],
+    "correct": 0,
+    "explanation": "Published in 1993, 'A Suitable Boy' by Vikram Seth is one of the longest novels ever published in a single volume in English."
+  },
+  {
+    "question": "The 'Kalpa Sutra', a text on Jain rituals, was written by:",
+    "options": [
+      "Bhadrabahu",
+      "Sthulabhadra",
+      "Mahavira",
+      "Hemachandra"
+    ],
+    "correct": 0,
+    "explanation": "Bhadrabahu is traditionally credited with the authorship of the Kalpa Sutra."
+  },
+  {
+    "question": "Which of the following is the author of 'The Midnight's Children'?",
+    "options": [
+      "Salman Rushdie",
+      "V.S. Naipaul",
+      "Ruskin Bond",
+      "Chetan Bhagat"
+    ],
+    "correct": 0,
+    "explanation": "Salman Rushdie won the Booker Prize for this novel in 1981, which deals with India's transition from British colonialism to independence."
+  },
+  {
+    "question": "The 'Puranas' are a genre of important Indian literature. How many Mahapuranas are there?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "108"
+    ],
+    "correct": 1,
+    "explanation": "There are 18 major Puranas, known as Mahapuranas, which contain mythologies and history of the Hindu universe."
+  },
+  {
+    "question": "Who is the author of 'Devdas', a famous Bengali novel that has been adapted into several films?",
+    "options": [
+      "Sarat Chandra Chattopadhyay",
+      "Rabindranath Tagore",
+      "Tarashankar Bandyopadhyay",
+      "Bibhutibhushan Bandyopadhyay"
+    ],
+    "correct": 0,
+    "explanation": "Sarat Chandra Chattopadhyay wrote Devdas in 1917, and it remains one of the most popular stories in Indian literature."
+  },
+  {
+    "question": "The 'Gita Rahasya', a commentary on the Bhagavad Gita, was written by:",
+    "options": [
+      "Bal Gangadhar Tilak",
+      "Lala Lajpat Rai",
+      "Bipin Chandra Pal",
+      "Aurobindo Ghosh"
+    ],
+    "correct": 0,
+    "explanation": "Tilak wrote Gita Rahasya while he was imprisoned at Mandalay in Burma."
+  },
+  {
+    "question": "The 'Tughlaq Nama' was composed by:",
+    "options": [
+      "Amir Khusrau",
+      "Ziauddin Barani",
+      "Ibn Battuta",
+      "Shams-i-Siraj Afif"
+    ],
+    "correct": 0,
+    "explanation": "Amir Khusrau wrote Tughlaq Nama to commemorate the victory of Ghiyasuddin Tughlaq."
+  },
+  {
+    "question": "Who wrote 'Kamayani', one of the most important works of modern Hindi poetry?",
+    "options": [
+      "Jaishankar Prasad",
+      "Suryakant Tripathi Nirala",
+      "Sumitranandan Pant",
+      "Mahadevi Varma"
+    ],
+    "correct": 0,
+    "explanation": "Jaishankar Prasad's Kamayani is an epic poem that belongs to the Chhayavaad school of Hindi literature."
+  },
+  {
+    "question": "The 'Bible of North India' often refers to which work?",
+    "options": [
+      "Ramcharitmanas",
+      "Bhagavad Gita",
+      "Rig Veda",
+      "Satyarth Prakash"
+    ],
+    "correct": 0,
+    "explanation": "Due to its immense popularity and influence in the Hindi heartland, Ramcharitmanas is sometimes called the Bible of North India."
+  }
+]
