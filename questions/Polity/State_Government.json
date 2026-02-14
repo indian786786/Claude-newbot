@@ -1,13 +1,249 @@
 [
   {
-    "question": "The real executive power in a state lies with:",
-    "options": [
-      "Governor",
-      "Chief Minister",
-      "President",
-      "High Court"
-    ],
+    "question": "The real executive authority in a State rests with:",
+    "options": ["Governor", "Chief Minister", "President", "High Court"],
     "correct": 1,
-    "explanation": "The Chief Minister exercises real executive power."
+    "explanation": "The real executive power in a state is exercised by the Chief Minister and Council of Ministers."
+  },
+  {
+    "question": "The Chief Minister is appointed by:",
+    "options": ["President", "Governor", "Prime Minister", "Speaker"],
+    "correct": 1,
+    "explanation": "The Governor appoints the Chief Minister under Article 164."
+  },
+  {
+    "question": "The Council of Ministers in a State is collectively responsible to:",
+    "options": ["Governor", "President", "Legislative Assembly", "Parliament"],
+    "correct": 2,
+    "explanation": "The Council of Ministers is collectively responsible to the Legislative Assembly."
+  },
+  {
+    "question": "The maximum strength of State Council of Ministers is limited to:",
+    "options": ["10% of Assembly strength", "15% of Assembly strength", "20% of Assembly strength", "No limit"],
+    "correct": 1,
+    "explanation": "The 91st Constitutional Amendment limits it to 15% of Legislative Assembly strength."
+  },
+  {
+    "question": "Which Article deals with Council of Ministers in a State?",
+    "options": ["Article 163", "Article 164", "Article 168", "Article 200"],
+    "correct": 1,
+    "explanation": "Article 164 deals with appointment of Council of Ministers."
+  },
+
+  {
+    "question": "The Governor acts on the advice of:",
+    "options": ["President", "Chief Minister and Council of Ministers", "Prime Minister", "Chief Justice"],
+    "correct": 1,
+    "explanation": "The Governor normally acts on advice of Council of Ministers."
+  },
+  {
+    "question": "The Chief Minister must be a member of State Legislature within:",
+    "options": ["3 months", "6 months", "1 year", "2 years"],
+    "correct": 1,
+    "explanation": "A minister must become a member within 6 months."
+  },
+  {
+    "question": "The Advocate General of State is appointed by:",
+    "options": ["Chief Minister", "Governor", "President", "High Court"],
+    "correct": 1,
+    "explanation": "The Governor appoints the Advocate General."
+  },
+  {
+    "question": "The executive power of the State extends to matters in:",
+    "options": ["Union List", "State List", "Foreign Affairs", "Defense"],
+    "correct": 1,
+    "explanation": "State executive power extends to subjects in State List."
+  },
+  {
+    "question": "The State Legislature consists of:",
+    "options": ["Governor only", "Legislative Assembly only", "Governor and one or two Houses", "High Court"],
+    "correct": 2,
+    "explanation": "State Legislature includes Governor and one or two Houses."
+  },
+
+  {
+    "question": "A State may have a Legislative Council if:",
+    "options": ["Governor wishes", "President approves", "Parliament approves by law", "High Court orders"],
+    "correct": 2,
+    "explanation": "Parliament can create or abolish Legislative Council."
+  },
+  {
+    "question": "The tenure of State Legislative Assembly is:",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "correct": 1,
+    "explanation": "The normal term is 5 years."
+  },
+  {
+    "question": "Money Bill in State can be introduced only in:",
+    "options": ["Legislative Council", "Legislative Assembly", "Rajya Sabha", "Governor’s office"],
+    "correct": 1,
+    "explanation": "Money Bills are introduced only in Legislative Assembly."
+  },
+  {
+    "question": "The State Budget is presented by:",
+    "options": ["Governor", "Chief Minister", "Finance Minister of State", "President"],
+    "correct": 2,
+    "explanation": "The State Finance Minister presents the budget."
+  },
+  {
+    "question": "The Governor can dissolve:",
+    "options": ["Legislative Council", "Legislative Assembly", "High Court", "Parliament"],
+    "correct": 1,
+    "explanation": "The Governor can dissolve Legislative Assembly."
+  },
+
+  {
+    "question": "The Speaker of Legislative Assembly is elected by:",
+    "options": ["Governor", "Chief Minister", "Members of Assembly", "President"],
+    "correct": 2,
+    "explanation": "The Speaker is elected by members of Assembly."
+  },
+  {
+    "question": "The Legislative Council is a:",
+    "options": ["Permanent House", "Temporary House", "Judicial Body", "Executive Body"],
+    "correct": 0,
+    "explanation": "Legislative Council is a permanent House."
+  },
+  {
+    "question": "The State Government is formed by party having majority in:",
+    "options": ["Legislative Council", "Legislative Assembly", "High Court", "Rajya Sabha"],
+    "correct": 1,
+    "explanation": "Majority in Legislative Assembly forms government."
+  },
+  {
+    "question": "The Chief Minister communicates decisions of Council to:",
+    "options": ["President", "Governor", "Prime Minister", "High Court"],
+    "correct": 1,
+    "explanation": "CM communicates decisions to Governor."
+  },
+  {
+    "question": "The State Government works under:",
+    "options": ["Federal System", "Unitary System", "Monarchy", "Dictatorship"],
+    "correct": 0,
+    "explanation": "India follows federal system with state governments."
+  },
+
+  {
+    "question": "The State Public Service Commission is appointed by:",
+    "options": ["President", "Governor", "Chief Minister", "Supreme Court"],
+    "correct": 1,
+    "explanation": "Governor appoints State PSC members."
+  },
+  {
+    "question": "The State Government is responsible for:",
+    "options": ["Defense", "Foreign Affairs", "Police", "Currency"],
+    "correct": 2,
+    "explanation": "Police is a State List subject."
+  },
+  {
+    "question": "The Council of Ministers in State aids and advises:",
+    "options": ["President", "Governor", "Supreme Court", "Speaker"],
+    "correct": 1,
+    "explanation": "Council aids and advises Governor."
+  },
+  {
+    "question": "Who presides over Legislative Council?",
+    "options": ["Chairman", "Governor", "Chief Minister", "Speaker"],
+    "correct": 0,
+    "explanation": "Chairman presides over Legislative Council."
+  },
+  {
+    "question": "The Governor can reserve bill for:",
+    "options": ["Chief Minister", "President", "High Court", "Parliament"],
+    "correct": 1,
+    "explanation": "Governor can reserve bill for President."
+  },
+
+  {
+    "question": "The State Executive consists of:",
+    "options": ["Governor only", "Chief Minister only", "Governor, CM and Council of Ministers", "High Court"],
+    "correct": 2,
+    "explanation": "State executive includes Governor, CM and Council."
+  },
+  {
+    "question": "The Legislative Assembly is also called:",
+    "options": ["Vidhan Sabha", "Vidhan Parishad", "Lok Sabha", "Rajya Sabha"],
+    "correct": 0,
+    "explanation": "Legislative Assembly is called Vidhan Sabha."
+  },
+  {
+    "question": "Legislative Council is also called:",
+    "options": ["Vidhan Sabha", "Vidhan Parishad", "Lok Sabha", "Rajya Sabha"],
+    "correct": 1,
+    "explanation": "Legislative Council is called Vidhan Parishad."
+  },
+  {
+    "question": "The minimum age for Legislative Assembly member is:",
+    "options": ["21 years", "25 years", "30 years", "35 years"],
+    "correct": 1,
+    "explanation": "Minimum age is 25 years."
+  },
+  {
+    "question": "Minimum age for Legislative Council member is:",
+    "options": ["25 years", "30 years", "35 years", "40 years"],
+    "correct": 1,
+    "explanation": "Minimum age is 30 years."
+  },
+
+  {
+    "question": "The State Government derives powers from:",
+    "options": ["British Act", "Indian Constitution", "Governor", "High Court"],
+    "correct": 1,
+    "explanation": "State powers are derived from Constitution."
+  },
+  {
+    "question": "The State Government handles subjects in:",
+    "options": ["Union List", "State List", "Defense List", "Foreign List"],
+    "correct": 1,
+    "explanation": "State Government handles State List subjects."
+  },
+  {
+    "question": "The State Cabinet is headed by:",
+    "options": ["Governor", "Chief Minister", "President", "Speaker"],
+    "correct": 1,
+    "explanation": "Chief Minister heads State Cabinet."
+  },
+  {
+    "question": "The Governor can call for information from:",
+    "options": ["Prime Minister", "Chief Minister", "President", "High Court"],
+    "correct": 1,
+    "explanation": "Governor can call information from CM."
+  },
+  {
+    "question": "The State Government forms laws for:",
+    "options": ["Entire India", "State only", "Foreign Countries", "Union Territories only"],
+    "correct": 1,
+    "explanation": "State Government forms laws for the State."
+  },
+
+  {
+    "question": "The State Executive is part of:",
+    "options": ["Judiciary", "Executive", "Legislature only", "None"],
+    "correct": 1,
+    "explanation": "State Executive forms part of executive branch."
+  },
+  {
+    "question": "The Council of Ministers remains in office till:",
+    "options": ["Governor resigns", "President orders", "Confidence of Assembly", "5 years fixed"],
+    "correct": 2,
+    "explanation": "They remain as long as they enjoy majority."
+  },
+  {
+    "question": "The Governor can summon State Legislature under Article:",
+    "options": ["163", "174", "200", "356"],
+    "correct": 1,
+    "explanation": "Article 174 allows Governor to summon."
+  },
+  {
+    "question": "State Ministers are appointed by:",
+    "options": ["President", "Governor on CM advice", "High Court", "Parliament"],
+    "correct": 1,
+    "explanation": "Governor appoints ministers on CM advice."
+  },
+  {
+    "question": "The State Government operates under:",
+    "options": ["Parliamentary System", "Presidential System", "Monarchy", "Military Rule"],
+    "correct": 0,
+    "explanation": "States follow parliamentary system."
   }
 ]
