@@ -1,13 +1,244 @@
 [
   {
-    "question": "A state legislature can be:",
-    "options": [
-      "Unicameral",
-      "Bicameral",
-      "Both A and B",
-      "None"
-    ],
+    "question": "The State Legislature consists of:",
+    "options": ["Governor only", "Legislative Assembly only", "Governor and one or two Houses", "Chief Minister and Assembly"],
     "correct": 2,
-    "explanation": "Some states have unicameral and some have bicameral legislatures."
+    "explanation": "The State Legislature consists of the Governor and either one House (Assembly) or two Houses (Assembly and Council)."
+  },
+  {
+    "question": "The Legislative Assembly is also known as:",
+    "options": ["Rajya Sabha", "Vidhan Sabha", "Lok Sabha", "Vidhan Parishad"],
+    "correct": 1,
+    "explanation": "The Legislative Assembly of a state is called Vidhan Sabha."
+  },
+  {
+    "question": "The Legislative Council is known as:",
+    "options": ["Vidhan Sabha", "Rajya Sabha", "Vidhan Parishad", "Lok Sabha"],
+    "correct": 2,
+    "explanation": "The Legislative Council of a state is called Vidhan Parishad."
+  },
+  {
+    "question": "The maximum strength of a Legislative Assembly is:",
+    "options": ["400", "450", "500", "550"],
+    "correct": 2,
+    "explanation": "The Constitution fixes the maximum strength of a Legislative Assembly at 500 members."
+  },
+  {
+    "question": "The minimum strength of a Legislative Assembly is:",
+    "options": ["30", "40", "50", "60"],
+    "correct": 3,
+    "explanation": "The minimum strength of a Legislative Assembly is 60 members except for small states."
+  },
+  {
+    "question": "The maximum strength of a Legislative Council cannot exceed:",
+    "options": ["Half of Assembly", "One-third of Assembly", "Equal to Assembly", "Two-thirds of Assembly"],
+    "correct": 1,
+    "explanation": "The strength of the Legislative Council cannot exceed one-third of the Assembly."
+  },
+  {
+    "question": "The minimum strength of a Legislative Council is:",
+    "options": ["20", "30", "40", "50"],
+    "correct": 2,
+    "explanation": "The minimum strength of a Legislative Council is 40 members."
+  },
+  {
+    "question": "Members of Legislative Assembly are elected for:",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "correct": 1,
+    "explanation": "MLAs are elected for a term of 5 years."
+  },
+  {
+    "question": "The Legislative Council is a:",
+    "options": ["Temporary House", "Permanent House", "Executive Body", "Judicial Body"],
+    "correct": 1,
+    "explanation": "The Legislative Council is a permanent House and cannot be dissolved."
+  },
+  {
+    "question": "One-third members of Legislative Council retire every:",
+    "options": ["1 year", "2 years", "3 years", "5 years"],
+    "correct": 1,
+    "explanation": "One-third members retire every two years."
+  },
+  {
+    "question": "Minimum age to become an MLA is:",
+    "options": ["21", "25", "30", "35"],
+    "correct": 1,
+    "explanation": "Minimum age required to become MLA is 25 years."
+  },
+  {
+    "question": "Minimum age to become an MLC is:",
+    "options": ["21", "25", "30", "35"],
+    "correct": 2,
+    "explanation": "Minimum age required to become MLC is 30 years."
+  },
+  {
+    "question": "Money Bill in a State can be introduced only in:",
+    "options": ["Legislative Council", "High Court", "Legislative Assembly", "Rajya Sabha"],
+    "correct": 2,
+    "explanation": "Money Bills can be introduced only in the Legislative Assembly."
+  },
+  {
+    "question": "The Speaker of Legislative Assembly is elected by:",
+    "options": ["Governor", "President", "Members of Assembly", "Chief Minister"],
+    "correct": 2,
+    "explanation": "The Speaker is elected by the members of the Legislative Assembly."
+  },
+  {
+    "question": "The Chairman presides over:",
+    "options": ["Legislative Assembly", "Legislative Council", "High Court", "Rajya Sabha"],
+    "correct": 1,
+    "explanation": "The Chairman presides over the Legislative Council."
+  },
+  {
+    "question": "Creation or abolition of Legislative Council is done by:",
+    "options": ["Governor", "Parliament", "State Cabinet", "Supreme Court"],
+    "correct": 1,
+    "explanation": "Parliament creates or abolishes a Legislative Council on recommendation of State Assembly."
+  },
+  {
+    "question": "Quorum in State Legislature is:",
+    "options": ["One-third", "One-fourth", "One-tenth", "Half"],
+    "correct": 2,
+    "explanation": "The quorum is one-tenth of total membership."
+  },
+  {
+    "question": "Joint sitting provision exists in State Legislature?",
+    "options": ["Yes", "No", "Only for Money Bills", "Only for Constitutional Amendments"],
+    "correct": 1,
+    "explanation": "There is no provision for joint sitting in State Legislature."
+  },
+  {
+    "question": "The Legislative Assembly can be dissolved by:",
+    "options": ["Chief Minister", "Governor", "President", "Speaker"],
+    "correct": 1,
+    "explanation": "The Governor can dissolve the Legislative Assembly."
+  },
+  {
+    "question": "MLAs are elected by:",
+    "options": ["Governor", "People of the state", "President", "High Court"],
+    "correct": 1,
+    "explanation": "MLAs are directly elected by the people of the state."
+  },
+
+  {
+    "question": "The Legislative Council members are partly elected and partly nominated by:",
+    "options": ["Governor", "President", "Chief Minister", "Speaker"],
+    "correct": 0,
+    "explanation": "The Governor nominates certain members to the Legislative Council."
+  },
+  {
+    "question": "The State Legislature operates under which part of Constitution?",
+    "options": ["Part V", "Part VI", "Part VII", "Part IV"],
+    "correct": 1,
+    "explanation": "State Legislature provisions are under Part VI of the Constitution."
+  },
+  {
+    "question": "The tenure of Legislative Council members is:",
+    "options": ["5 years", "6 years", "4 years", "Permanent"],
+    "correct": 1,
+    "explanation": "MLCs serve for 6 years."
+  },
+  {
+    "question": "Who summons the session of State Legislature?",
+    "options": ["Chief Minister", "Speaker", "Governor", "President"],
+    "correct": 2,
+    "explanation": "The Governor summons the session of State Legislature."
+  },
+  {
+    "question": "The Governor addresses the State Legislature at:",
+    "options": ["Every month", "First session after general election", "Every 5 years", "Never"],
+    "correct": 1,
+    "explanation": "Governor addresses the first session after each general election."
+  },
+  {
+    "question": "A Bill becomes law after approval of:",
+    "options": ["Chief Minister", "Governor", "Speaker", "President"],
+    "correct": 1,
+    "explanation": "A Bill becomes law after the Governor gives assent."
+  },
+  {
+    "question": "State Legislature can legislate on:",
+    "options": ["Union List", "State List", "International Treaties", "Foreign Affairs"],
+    "correct": 1,
+    "explanation": "State Legislature legislates on subjects in State List."
+  },
+  {
+    "question": "Who decides disqualification of MLAs under Anti-Defection Law?",
+    "options": ["Governor", "Speaker", "President", "Chief Minister"],
+    "correct": 1,
+    "explanation": "Speaker decides disqualification under Anti-Defection Law."
+  },
+  {
+    "question": "The Legislative Council cannot reject a Money Bill beyond:",
+    "options": ["7 days", "14 days", "30 days", "1 month"],
+    "correct": 1,
+    "explanation": "Legislative Council can delay Money Bill for 14 days only."
+  },
+  {
+    "question": "The strength of Legislative Council is determined by:",
+    "options": ["Governor", "Parliament", "State Cabinet", "Election Commission"],
+    "correct": 1,
+    "explanation": "Parliament determines the composition of Legislative Council."
+  },
+
+  {
+    "question": "Which House is more powerful in State Legislature?",
+    "options": ["Council", "Assembly", "Both equal", "Governor"],
+    "correct": 1,
+    "explanation": "Legislative Assembly is more powerful than Legislative Council."
+  },
+  {
+    "question": "A person can be MLA only if he is citizen of:",
+    "options": ["Any country", "India", "Commonwealth", "State only"],
+    "correct": 1,
+    "explanation": "Only Indian citizens can become MLAs."
+  },
+  {
+    "question": "Budget of State is presented in:",
+    "options": ["Legislative Council", "Legislative Assembly", "High Court", "Rajya Sabha"],
+    "correct": 1,
+    "explanation": "State Budget is presented in Legislative Assembly."
+  },
+  {
+    "question": "State Legislature controls State Executive through:",
+    "options": ["Judiciary", "Question Hour", "President", "Supreme Court"],
+    "correct": 1,
+    "explanation": "State Legislature controls executive through Question Hour."
+  },
+  {
+    "question": "No-confidence motion can be moved in:",
+    "options": ["Council", "Assembly", "Both Houses", "Governor House"],
+    "correct": 1,
+    "explanation": "No-confidence motion is moved in Legislative Assembly."
+  },
+  {
+    "question": "State Legislature cannot legislate on:",
+    "options": ["Police", "Public Health", "Defence", "Agriculture"],
+    "correct": 2,
+    "explanation": "Defence is in Union List, so states cannot legislate on it."
+  },
+  {
+    "question": "The Legislative Assembly is dissolved by:",
+    "options": ["Chief Minister", "Governor", "President", "Speaker"],
+    "correct": 1,
+    "explanation": "The Governor dissolves Legislative Assembly."
+  },
+  {
+    "question": "The first session of State Legislature is addressed by:",
+    "options": ["Chief Minister", "Governor", "Speaker", "President"],
+    "correct": 1,
+    "explanation": "The Governor addresses the first session."
+  },
+  {
+    "question": "The Legislative Council has how much role in Money Bill?",
+    "options": ["Full control", "Advisory only", "No role", "Judicial role"],
+    "correct": 1,
+    "explanation": "Council has advisory role and can delay for 14 days."
+  },
+  {
+    "question": "State Legislature is subject to judicial review by:",
+    "options": ["High Court and Supreme Court", "Governor", "Chief Minister", "Speaker"],
+    "correct": 0,
+    "explanation": "State laws can be reviewed by High Court and Supreme Court."
   }
 ]
