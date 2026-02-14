@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which of the following is the oldest style of Hindustani Classical music?",
+    "options": [
+      "Khayal",
+      "Dhrupad",
+      "Thumri",
+      "Tappa"
+    ],
+    "correct": 1,
+    "explanation": "Dhrupad is the oldest surviving form of Hindustani classical music, traditionally performed by male singers."
+  },
+  {
+    "question": "Pandit Ravi Shankar was a world-renowned maestro of which instrument?",
+    "options": [
+      "Sitar",
+      "Sarod",
+      "Santoor",
+      "Violin"
+    ],
+    "correct": 0,
+    "explanation": "Pandit Ravi Shankar was a legendary Sitar player who popularized Indian classical music globally."
+  },
+  {
+    "question": "The 'Gwalior Gharana' is one of the oldest gharanas of which musical style?",
+    "options": [
+      "Carnatic",
+      "Khayal",
+      "Dhrupad",
+      "Thumri"
+    ],
+    "correct": 1,
+    "explanation": "The Gwalior Gharana is considered the mother of all Khayal gharanas in Hindustani classical music."
+  },
+  {
+    "question": "Ustad Bismillah Khan was famous for playing which musical instrument?",
+    "options": [
+      "Flute",
+      "Shehnai",
+      "Sarangi",
+      "Nadaswaram"
+    ],
+    "correct": 1,
+    "explanation": "Ustad Bismillah Khan was a Bharat Ratna awardee who brought the Shehnai to the classical stage."
+  },
+  {
+    "question": "Which of the following is considered the 'Trinity of Carnatic Music'?",
+    "options": [
+      "Tyagaraja, Muthuswami Dikshitar, Syama Sastri",
+      "Purandara Dasa, Kanaka Dasa, Vyasatirtha",
+      "Swathi Thirunal, Annamacharya, Bhadrachala Ramadasu",
+      "Jayadeva, Tansen, Amir Khusrau"
+    ],
+    "correct": 0,
+    "explanation": "These three 18th-century composers are credited with the golden age of Carnatic music."
+  },
+  {
+    "question": "Who among the following is known as the 'Father of Carnatic Music'?",
+    "options": [
+      "Tyagaraja",
+      "Purandara Dasa",
+      "Muthuswami Dikshitar",
+      "Syama Sastri"
+    ],
+    "correct": 1,
+    "explanation": "Purandara Dasa is known as Pitamaha of Carnatic music for systematizing the method of teaching the art form."
+  },
+  {
+    "question": "The 'Baul' folk music is traditionally associated with which state?",
+    "options": [
+      "Odisha",
+      "West Bengal",
+      "Assam",
+      "Bihar"
+    ],
+    "correct": 1,
+    "explanation": "Baul music is a distinct folk tradition of mystic minstrels from West Bengal and Bangladesh."
+  },
+  {
+    "question": "Ustad Amjad Ali Khan is a famous exponent of which instrument?",
+    "options": [
+      "Sarod",
+      "Sitar",
+      "Violin",
+      "Veena"
+    ],
+    "correct": 0,
+    "explanation": "Ustad Amjad Ali Khan is one of the greatest living masters of the Sarod."
+  },
+  {
+    "question": "The 'Thumri' style of music is often associated with which prominent singer?",
+    "options": [
+      "Girija Devi",
+      "Gangubai Hangal",
+      "M.S. Subbulakshmi",
+      "Kishori Amonkar"
+    ],
+    "correct": 0,
+    "explanation": "Girija Devi was known as the 'Queen of Thumri' for her contribution to this semi-classical genre."
+  },
+  {
+    "question": "Which musical instrument did Pandit Shivkumar Sharma play?",
+    "options": [
+      "Santoor",
+      "Sitar",
+      "Sarod",
+      "Tabla"
+    ],
+    "correct": 0,
+    "explanation": "Pandit Shivkumar Sharma was instrumental in making the Santoor (a Kashmiri folk instrument) a classical mainstay."
+  },
+  {
+    "question": "Hariprasad Chaurasia is a renowned master of which instrument?",
+    "options": [
+      "Flute",
+      "Shehnai",
+      "Clarinet",
+      "Saxophone"
+    ],
+    "correct": 0,
+    "explanation": "Pandit Hariprasad Chaurasia is an internationally acclaimed classical flautist (Bansuri)."
+  },
+  {
+    "question": "The 'Sangeet Ratnakara', an important treatise on Indian music, was written by:",
+    "options": [
+      "Bharata Muni",
+      "Sarangadeva",
+      "Matanga Muni",
+      "Dattila"
+    ],
+    "correct": 1,
+    "explanation": "Written in the 13th century, Sangeet Ratnakara is considered the most authoritative text on both Hindustani and Carnatic traditions."
+  },
+  {
+    "question": "Which of the following is a wind instrument?",
+    "options": [
+      "Nadaswaram",
+      "Mridingam",
+      "Ghatam",
+      "Sarangi"
+    ],
+    "correct": 0,
+    "explanation": "The Nadaswaram is a double-reed wind instrument used primarily in South Indian classical music."
+  },
+  {
+    "question": "In Hindustani music, 'Thaat' refers to which of the following?",
+    "options": [
+      "Rhythmic cycle",
+      "Parent scale",
+      "Tempo",
+      "Style of singing"
+    ],
+    "correct": 1,
+    "explanation": "Vishnu Narayan Bhatkhande classified Ragas into ten 'Thaats' or parent scales."
+  },
+  {
+    "question": "Ustad Zakir Hussain is a legendary master of which instrument?",
+    "options": [
+      "Tabla",
+      "Dholak",
+      "Pakhawaj",
+      "Mridangam"
+    ],
+    "correct": 0,
+    "explanation": "Zakir Hussain is a world-famous Tabla virtuoso and the son of Ustad Allah Rakha."
+  },
+  {
+    "question": "The 'Sufi' folk music genre 'Qawwali' was popularized in India by:",
+    "options": [
+      "Amir Khusrau",
+      "Tansen",
+      "Baba Farid",
+      "Bulleh Shah"
+    ],
+    "correct": 0,
+    "explanation": "Amir Khusrau, known as the 'Parrot of India', is credited with fusing Persian and Indian elements to create Qawwali."
+  },
+  {
+    "question": "M.S. Subbulakshmi was a legendary singer of which music tradition?",
+    "options": [
+      "Hindustani",
+      "Carnatic",
+      "Ghazal",
+      "Rabindra Sangeet"
+    ],
+    "correct": 1,
+    "explanation": "M.S. Subbulakshmi was the first musician ever to be awarded the Bharat Ratna."
+  },
+  {
+    "question": "The 'Lavani' folk music belongs to which Indian state?",
+    "options": [
+      "Gujarat",
+      "Rajasthan",
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "correct": 2,
+    "explanation": "Lavani is a popular folk music and dance genre of Maharashtra, usually performed by women."
+  },
+  {
+    "question": "Which instrument is known as the 'Mother of all string instruments' in India?",
+    "options": [
+      "Veena",
+      "Sitar",
+      "Sarod",
+      "Violin"
+    ],
+    "correct": 0,
+    "explanation": "The Veena is one of the oldest Indian string instruments and is associated with Goddess Saraswati."
+  },
+  {
+    "question": "The 'Kirana Gharana' was founded by whom?",
+    "options": [
+      "Abdul Karim Khan",
+      "Bade Ghulam Ali Khan",
+      "Alladiya Khan",
+      "Enayat Khan"
+    ],
+    "correct": 0,
+    "explanation": "Ustad Abdul Karim Khan and Ustad Abdul Wahid Khan are the founders of the Kirana Gharana."
+  },
+  {
+    "question": "Which of the following Ragas is traditionally sung during the early morning?",
+    "options": [
+      "Raga Bhairavi",
+      "Raga Yaman",
+      "Raga Darbari",
+      "Raga Malhar"
+    ],
+    "correct": 0,
+    "explanation": "Raga Bhairavi is a morning raga, though it is often performed at the conclusion of concerts."
+  },
+  {
+    "question": "The 'Pandavani' folk singing style is popular in which state?",
+    "options": [
+      "Chhattisgarh",
+      "Jharkhand",
+      "Odisha",
+      "Madhya Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Pandavani involves narrating stories from the Mahabharata. Teejan Bai is its most famous exponent."
+  },
+  {
+    "question": "Zia Mohiuddin Dagar was a master of which ancient instrument?",
+    "options": [
+      "Rudra Veena",
+      "Saraswati Veena",
+      "Vichitra Veena",
+      "Surbahar"
+    ],
+    "correct": 0,
+    "explanation": "He was a key figure in reviving the Rudra Veena as a concert instrument."
+  },
+  {
+    "question": "The 'Maand' folk music tradition originated in which state?",
+    "options": [
+      "Gujarat",
+      "Rajasthan",
+      "Haryana",
+      "Punjab"
+    ],
+    "correct": 1,
+    "explanation": "Maand is a sophisticated style of folk music from Rajasthan, often sung about the lives of Rajput rulers."
+  },
+  {
+    "question": "Which of the following is a percussion instrument used in Carnatic music?",
+    "options": [
+      "Mridangam",
+      "Tabla",
+      "Sitar",
+      "Flute"
+    ],
+    "correct": 0,
+    "explanation": "The Mridangam is the primary rhythmic accompaniment in Carnatic music performances."
+  },
+  {
+    "question": "Lata Mangeshkar, the legendary playback singer, was awarded the Bharat Ratna in which year?",
+    "options": [
+      "1999",
+      "2001",
+      "2005",
+      "2010"
+    ],
+    "correct": 1,
+    "explanation": "Lata Mangeshkar, known as the 'Nightingale of India', received India's highest civilian honor in 2001."
+  },
+  {
+    "question": "The 'Ghazal' style of singing reached its peak under the patronage of which Mughal Emperor?",
+    "options": [
+      "Akbar",
+      "Shah Jahan",
+      "Bahadur Shah Zafar",
+      "Aurangzeb"
+    ],
+    "correct": 2,
+    "explanation": "Bahadur Shah Zafar was himself a notable poet and a great patron of Urdu ghazals."
+  },
+  {
+    "question": "Tansen, the famous musician, was a courtier in whose palace?",
+    "options": [
+      "Akbar",
+      "Humayun",
+      "Jahangir",
+      "Babur"
+    ],
+    "correct": 0,
+    "explanation": "Tansen was one of the 'Navaratnas' (Nine Jewels) in the court of Mughal Emperor Akbar."
+  },
+  {
+    "question": "The 'Ghatam' is a musical instrument made of:",
+    "options": [
+      "Wood",
+      "Metal",
+      "Clay",
+      "Leather"
+    ],
+    "correct": 2,
+    "explanation": "The Ghatam is a large clay pot used as a percussion instrument in South Indian classical music."
+  },
+  {
+    "question": "Who composed the national song 'Vande Mataram'?",
+    "options": [
+      "Rabindranath Tagore",
+      "Bankim Chandra Chattopadhyay",
+      "Sarojini Naidu",
+      "Sri Aurobindo"
+    ],
+    "correct": 1,
+    "explanation": "Bankim Chandra Chattopadhyay wrote Vande Mataram in his novel Anandamath in 1882."
+  },
+  {
+    "question": "The 'Bhairavi' Thaat in Hindustani music corresponds to which Mela in Carnatic music?",
+    "options": [
+      "Hanumatodi",
+      "Mayamalavagowla",
+      "Kharaharapriya",
+      "Mecha-Kalyani"
+    ],
+    "correct": 0,
+    "explanation": "Bhairavi Thaat uses all flat (komal) notes, similar to the Hanumatodi raga in the Carnatic system."
+  },
+  {
+    "question": "Anoushka Shankar is a famous player of which instrument?",
+    "options": [
+      "Sitar",
+      "Violin",
+      "Sarod",
+      "Santoor"
+    ],
+    "correct": 0,
+    "explanation": "Anoushka Shankar is a Sitar player and the daughter of Pandit Ravi Shankar."
+  },
+  {
+    "question": "The 'Kajari' folk songs are sung during which season in Uttar Pradesh?",
+    "options": [
+      "Spring",
+      "Summer",
+      "Monsoon",
+      "Winter"
+    ],
+    "correct": 2,
+    "explanation": "Kajari is a monsoon song genre often describing the longing of a woman for her lover."
+  },
+  {
+    "question": "Which of the following is a stringed instrument played with a bow?",
+    "options": [
+      "Sarangi",
+      "Sitar",
+      "Sarod",
+      "Veena"
+    ],
+    "correct": 0,
+    "explanation": "The Sarangi is a short-necked string instrument played with a horsehair bow."
+  },
+  {
+    "question": "The 'Tappa' style of singing was popularized by:",
+    "options": [
+      "Shori Miyan",
+      "Amir Khusrau",
+      "Wajid Ali Shah",
+      "Tansen"
+    ],
+    "correct": 0,
+    "explanation": "Shori Miyan (Ghulam Nabi Shori) is credited with refining the Tappa style based on the songs of camel drivers."
+  },
+  {
+    "question": "A 'Gharana' in Indian classical music refers to:",
+    "options": [
+      "A musical instrument",
+      "A specific lineage or school",
+      "A type of Raga",
+      "A rhythm cycle"
+    ],
+    "correct": 1,
+    "explanation": "A Gharana is a system of social organization linking musicians or dancers by lineage or apprenticeship."
+  },
+  {
+    "question": "The 'Villu Paatu' is a folk music tradition of which state?",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Villu Paatu (Bow Song) is an ancient form of musical story-telling in Tamil Nadu using a bow-shaped instrument."
+  },
+  {
+    "question": "Which of the following Ragas is associated with the rainy season?",
+    "options": [
+      "Raga Malhar",
+      "Raga Deepak",
+      "Raga Hindol",
+      "Raga Shree"
+    ],
+    "correct": 0,
+    "explanation": "Legend has it that Raga Malhar is so powerful that it can induce rain when sung correctly."
+  },
+  {
+    "question": "Sultan Khan was a legendary maestro of which instrument?",
+    "options": [
+      "Sarangi",
+      "Tabla",
+      "Sitar",
+      "Flute"
+    ],
+    "correct": 0,
+    "explanation": "Ustad Sultan Khan was a renowned Sarangi player of the Sikar Gharana."
+  },
+  {
+    "question": "The 'Wanawun' is a traditional folk music of which region?",
+    "options": [
+      "Kashmir",
+      "Ladakh",
+      "Punjab",
+      "Himachal Pradesh"
+    ],
+    "correct": 0,
+    "explanation": "Wanawun is a style of choral singing performed by Kashmiri women at weddings and festivals."
+  },
+  {
+    "question": "Which of the following is NOT a component of the Carnatic musical form 'Kriti'?",
+    "options": [
+      "Pallavi",
+      "Anupallavi",
+      "Charanam",
+      "Antara"
+    ],
+    "correct": 3,
+    "explanation": "Antara is a term used in Hindustani music, while Kriti consists of Pallavi, Anupallavi, and Charanam."
+  },
+  {
+    "question": "Pandit Jasraj belonged to which Gharana?",
+    "options": [
+      "Mewati Gharana",
+      "Kirana Gharana",
+      "Patiala Gharana",
+      "Agra Gharana"
+    ],
+    "correct": 0,
+    "explanation": "Pandit Jasraj was a legendary Indian classical vocalist of the Mewati Gharana."
+  },
+  {
+    "question": "The instrument 'Pakhawaj' is primarily used in which style of singing?",
+    "options": [
+      "Dhrupad",
+      "Khayal",
+      "Thumri",
+      "Ghazal"
+    ],
+    "correct": 0,
+    "explanation": "The Pakhawaj is a barrel-shaped drum that is the standard percussion for Dhrupad music."
+  },
+  {
+    "question": "Who is the composer of the famous 'Sare Jahan Se Achha'?",
+    "options": [
+      "Muhammad Iqbal",
+      "Faiz Ahmed Faiz",
+      "Mirza Ghalib",
+      "Gulzar"
+    ],
+    "correct": 0,
+    "explanation": "Muhammad Iqbal wrote the poem 'Tarana-e-Hindi', popularly known as 'Sare Jahan Se Achha', in 1904."
+  },
+  {
+    "question": "The 'Ovi' songs are sung by women in rural areas of which state?",
+    "options": [
+      "Maharashtra",
+      "Gujarat",
+      "Goa",
+      "Karnataka"
+    ],
+    "correct": 0,
+    "explanation": "Ovi is a form of folk poetry and song traditionally sung by Maharashtrian women while grinding grain."
+  },
+  {
+    "question": "Which of the following is a string instrument without frets?",
+    "options": [
+      "Sarod",
+      "Sitar",
+      "Veena",
+      "Tanpura"
+    ],
+    "correct": 0,
+    "explanation": "Unlike the Sitar, the Sarod has a fretless fingerboard made of polished steel."
+  },
+  {
+    "question": "The 'Burrakatha' is a musical storytelling technique from which state?",
+    "options": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Kerala",
+      "Odisha"
+    ],
+    "correct": 0,
+    "explanation": "Burrakatha is a traditional narrative entertainment involving songs, dances, and dialogues in Andhra Pradesh."
+  },
+  {
+    "question": "Begum Akhtar was a famous exponent of which musical forms?",
+    "options": [
+      "Ghazal, Dadra, and Thumri",
+      "Dhrupad and Khayal",
+      "Carnatic Vocal",
+      "Qawwali"
+    ],
+    "correct": 0,
+    "explanation": "Known as 'Mallika-e-Ghazal', Begum Akhtar was an icon of semi-classical Indian music."
+  },
+  {
+    "question": "The 'Ektara' is a common instrument used by which group of musicians?",
+    "options": [
+      "Bauls",
+      "Carnatic musicians",
+      "Ghazal singers",
+      "Hindustani maestros"
+    ],
+    "correct": 0,
+    "explanation": "The Ektara is a simple one-stringed instrument used by wandering bards and Baul singers."
+  },
+  {
+    "question": "What is the time measure or rhythmic cycle in Indian music called?",
+    "options": [
+      "Tala",
+      "Laya",
+      "Matra",
+      "Vibhag"
+    ],
+    "correct": 0,
+    "explanation": "Tala is the term used in Indian classical music for the rhythmic cycle of a composition."
+  }
+]
