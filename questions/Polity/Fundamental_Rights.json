@@ -1,0 +1,302 @@
+[
+  {
+    "question": "How many Fundamental Rights are currently guaranteed in the Indian Constitution?",
+    "options": ["Five", "Six", "Seven", "Eight"],
+    "correct": 1,
+    "explanation": "There are currently six Fundamental Rights after the Right to Property was removed by the 44th Amendment."
+  },
+  {
+    "question": "Fundamental Rights are contained in which Part of the Constitution?",
+    "options": ["Part II", "Part III", "Part IV", "Part V"],
+    "correct": 1,
+    "explanation": "Part III (Articles 12-35) contains Fundamental Rights."
+  },
+  {
+    "question": "Which Article defines 'State' for the purpose of Part III?",
+    "options": ["Article 12", "Article 13", "Article 14", "Article 15"],
+    "correct": 0,
+    "explanation": "Article 12 defines 'State' to include Government, Parliament, State Legislatures and all local authorities."
+  },
+  {
+    "question": "Which Article declares laws inconsistent with Fundamental Rights void?",
+    "options": ["Article 12", "Article 13", "Article 14", "Article 32"],
+    "correct": 1,
+    "explanation": "Article 13 declares that any law inconsistent with Fundamental Rights shall be void."
+  },
+  {
+    "question": "Right to Equality is guaranteed under which Articles?",
+    "options": ["Articles 12-18", "Articles 14-18", "Articles 19-22", "Articles 23-24"],
+    "correct": 1,
+    "explanation": "Articles 14-18 guarantee the Right to Equality."
+  },
+  {
+    "question": "Article 14 guarantees:",
+    "options": ["Freedom of speech", "Equality before law", "Right to education", "Right to property"],
+    "correct": 1,
+    "explanation": "Article 14 guarantees equality before law and equal protection of laws."
+  },
+  {
+    "question": "Article 15 prohibits discrimination on how many grounds?",
+    "options": ["Three", "Four", "Five", "Six"],
+    "correct": 2,
+    "explanation": "Article 15 prohibits discrimination on five grounds: religion, race, caste, sex, or place of birth."
+  },
+  {
+    "question": "Which Article provides for equality of opportunity in public employment?",
+    "options": ["Article 14", "Article 15", "Article 16", "Article 17"],
+    "correct": 2,
+    "explanation": "Article 16 guarantees equality of opportunity in matters of public employment."
+  },
+  {
+    "question": "Article 17 abolishes:",
+    "options": ["Titles", "Untouchability", "Discrimination", "Child labour"],
+    "correct": 1,
+    "explanation": "Article 17 abolishes untouchability and forbids its practice in any form."
+  },
+  {
+    "question": "Which Article abolishes titles?",
+    "options": ["Article 16", "Article 17", "Article 18", "Article 19"],
+    "correct": 2,
+    "explanation": "Article 18 abolishes titles except military and academic distinctions."
+  },
+  {
+    "question": "Can Indian citizens accept titles from foreign states?",
+    "options": ["Yes, freely", "No, not without President's permission", "Yes, with PM's permission", "Only academic titles"],
+    "correct": 1,
+    "explanation": "Article 18 prohibits acceptance of foreign titles without the President's consent."
+  },
+  {
+    "question": "Right to Freedom is guaranteed under which Articles?",
+    "options": ["Articles 14-18", "Articles 19-22", "Articles 23-24", "Articles 25-28"],
+    "correct": 1,
+    "explanation": "Articles 19-22 guarantee six freedoms under Right to Freedom."
+  },
+  {
+    "question": "Article 19 originally guaranteed how many freedoms?",
+    "options": ["Five", "Six", "Seven", "Eight"],
+    "correct": 2,
+    "explanation": "Article 19 originally had seven freedoms; the Right to Property was removed by the 44th Amendment."
+  },
+  {
+    "question": "Currently, Article 19 guarantees how many freedoms?",
+    "options": ["Four", "Five", "Six", "Seven"],
+    "correct": 2,
+    "explanation": "Article 19 currently guarantees six freedoms to all citizens."
+  },
+  {
+    "question": "Which freedom includes freedom of press?",
+    "options": ["Freedom of assembly", "Freedom of speech and expression", "Freedom of movement", "Freedom of residence"],
+    "correct": 1,
+    "explanation": "Freedom of press is part of freedom of speech and expression under Article 19(1)(a)."
+  },
+  {
+    "question": "Article 20 provides protection against:",
+    "options": ["Arrest", "Conviction for offences", "Detention", "Discrimination"],
+    "correct": 1,
+    "explanation": "Article 20 protects against ex post facto laws, double jeopardy and self-incrimination."
+  },
+  {
+    "question": "Which Article protects life and personal liberty?",
+    "options": ["Article 19", "Article 20", "Article 21", "Article 22"],
+    "correct": 2,
+    "explanation": "Article 21 states no person shall be deprived of life or personal liberty except by procedure established by law."
+  },
+  {
+    "question": "Right to Education was added by which Amendment?",
+    "options": ["42nd Amendment", "44th Amendment", "86th Amendment", "93rd Amendment"],
+    "correct": 2,
+    "explanation": "The 86th Amendment, 2002 inserted Article 21A making education a fundamental right."
+  },
+  {
+    "question": "Article 21A provides free and compulsory education to children of age:",
+    "options": ["5-14 years", "6-14 years", "6-16 years", "5-16 years"],
+    "correct": 1,
+    "explanation": "Article 21A provides free and compulsory education to children aged 6-14 years."
+  },
+  {
+    "question": "Article 22 provides protection against:",
+    "options": ["Discrimination", "Arrest and detention", "Exploitation", "Forced labour"],
+    "correct": 1,
+    "explanation": "Article 22 provides protection against arrest and detention in certain cases."
+  },
+  {
+    "question": "An arrested person must be produced before a magistrate within:",
+    "options": ["12 hours", "24 hours excluding journey time", "48 hours including journey time", "72 hours"],
+    "correct": 1,
+    "explanation": "Article 22 mandates production before magistrate within 24 hours excluding journey time."
+  },
+  {
+    "question": "Right against Exploitation is covered under which Articles?",
+    "options": ["Articles 21-22", "Articles 23-24", "Articles 25-28", "Articles 29-30"],
+    "correct": 1,
+    "explanation": "Articles 23 and 24 deal with Right against Exploitation."
+  },
+  {
+    "question": "Article 23 prohibits:",
+    "options": ["Untouchability", "Child labour", "Traffic in human beings and forced labour", "Discrimination"],
+    "correct": 2,
+    "explanation": "Article 23 prohibits traffic in human beings, begar and other forms of forced labour."
+  },
+  {
+    "question": "Article 24 prohibits employment of children below what age?",
+    "options": ["12 years", "14 years", "16 years", "18 years"],
+    "correct": 1,
+    "explanation": "Article 24 prohibits employment of children below 14 years in factories and hazardous work."
+  },
+  {
+    "question": "Right to Freedom of Religion is guaranteed under which Articles?",
+    "options": ["Articles 23-24", "Articles 25-28", "Articles 29-30", "Articles 32-35"],
+    "correct": 1,
+    "explanation": "Articles 25-28 guarantee Right to Freedom of Religion."
+  },
+  {
+    "question": "Article 25 guarantees freedom of conscience and:",
+    "options": ["Practice of religion only", "Propagation of religion only", "Practice and propagation of religion", "Conversion"],
+    "correct": 2,
+    "explanation": "Article 25 guarantees freedom of conscience and free profession, practice and propagation of religion."
+  },
+  {
+    "question": "Article 26 provides freedom to:",
+    "options": ["Practice religion", "Manage religious affairs", "Propagate religion", "Convert religion"],
+    "correct": 1,
+    "explanation": "Article 26 gives religious denominations freedom to manage their own affairs."
+  },
+  {
+    "question": "Article 27 prohibits taxation for promotion of:",
+    "options": ["Any particular religion", "Any caste", "Any political party", "Any language"],
+    "correct": 0,
+    "explanation": "Article 27 prohibits compulsion to pay taxes for promotion of any particular religion."
+  },
+  {
+    "question": "Article 28 prohibits religious instruction in:",
+    "options": ["All schools", "State-funded institutions", "Private schools", "Minority institutions"],
+    "correct": 1,
+    "explanation": "Article 28 prohibits religious instruction in educational institutions wholly maintained by state funds."
+  },
+  {
+    "question": "Cultural and Educational Rights are guaranteed under which Articles?",
+    "options": ["Articles 25-28", "Articles 29-30", "Articles 32-35", "Articles 36-40"],
+    "correct": 1,
+    "explanation": "Articles 29 and 30 protect Cultural and Educational Rights of minorities."
+  },
+  {
+    "question": "Article 29 protects the interests of:",
+    "options": ["All citizens", "Minorities", "Scheduled Castes", "Women"],
+    "correct": 1,
+    "explanation": "Article 29 protects the interests of minorities and their right to conserve culture."
+  },
+  {
+    "question": "Article 30 gives minorities the right to:",
+    "options": ["Practice religion", "Establish educational institutions", "Conserve culture", "Get reservation"],
+    "correct": 1,
+    "explanation": "Article 30 gives all minorities the right to establish and administer educational institutions."
+  },
+  {
+    "question": "Which Article is called the 'Heart and Soul' of the Constitution?",
+    "options": ["Article 19", "Article 21", "Article 32", "Article 356"],
+    "correct": 2,
+    "explanation": "Dr. Ambedkar called Article 32 the 'Heart and Soul' of the Constitution."
+  },
+  {
+    "question": "Article 32 deals with:",
+    "options": ["Right to Equality", "Right to Freedom", "Right to Constitutional Remedies", "Right to Property"],
+    "correct": 2,
+    "explanation": "Article 32 guarantees Right to Constitutional Remedies for enforcement of Fundamental Rights."
+  },
+  {
+    "question": "How many types of writs can the Supreme Court issue under Article 32?",
+    "options": ["Three", "Four", "Five", "Six"],
+    "correct": 2,
+    "explanation": "The Supreme Court can issue five types of writs: Habeas Corpus, Mandamus, Prohibition, Certiorari and Quo Warranto."
+  },
+  {
+    "question": "Which writ means 'to have the body'?",
+    "options": ["Mandamus", "Habeas Corpus", "Certiorari", "Prohibition"],
+    "correct": 1,
+    "explanation": "Habeas Corpus literally means 'to have the body' and is issued to produce a detained person."
+  },
+  {
+    "question": "Mandamus means:",
+    "options": ["We command", "To have the body", "To be certified", "By what authority"],
+    "correct": 0,
+    "explanation": "Mandamus means 'we command' and is issued to command a public authority to perform duty."
+  },
+  {
+    "question": "Certiorari is issued to:",
+    "options": ["Produce a person", "Command duty", "Quash orders of lower courts", "Prevent lower court"],
+    "correct": 2,
+    "explanation": "Certiorari is issued to quash the order of a lower court or tribunal."
+  },
+  {
+    "question": "Prohibition is issued to:",
+    "options": ["Higher court", "Lower court to prevent it from acting", "Public official", "Private person"],
+    "correct": 1,
+    "explanation": "Prohibition is issued to a lower court to prevent it from exceeding its jurisdiction."
+  },
+  {
+    "question": "Quo Warranto means:",
+    "options": ["We command", "To have the body", "By what authority", "To be certified"],
+    "correct": 2,
+    "explanation": "Quo Warranto means 'by what authority' and is issued to inquire into legality of claim to public office."
+  },
+  {
+    "question": "Which Article empowers High Courts to issue writs?",
+    "options": ["Article 32", "Article 136", "Article 226", "Article 227"],
+    "correct": 2,
+    "explanation": "Article 226 empowers High Courts to issue writs for Fundamental Rights and other purposes."
+  },
+  {
+    "question": "The scope of Article 226 is:",
+    "options": ["Narrower than Article 32", "Same as Article 32", "Wider than Article 32", "Limited to Fundamental Rights only"],
+    "correct": 2,
+    "explanation": "Article 226 has wider scope as High Courts can issue writs for any purpose, not just Fundamental Rights."
+  },
+  {
+    "question": "Can Fundamental Rights be suspended during Emergency?",
+    "options": ["Yes, all of them", "No, never", "Yes, except Articles 20 and 21", "Only Article 19"],
+    "correct": 2,
+    "explanation": "During National Emergency, Article 19 can be suspended but Articles 20 and 21 cannot be suspended."
+  },
+  {
+    "question": "Which Fundamental Right cannot be suspended even during Emergency?",
+    "options": ["Article 19", "Articles 20 and 21", "Article 32", "All can be suspended"],
+    "correct": 1,
+    "explanation": "Articles 20 and 21 cannot be suspended even during National Emergency."
+  },
+  {
+    "question": "Right to Property was removed from Fundamental Rights by:",
+    "options": ["42nd Amendment", "44th Amendment", "52nd Amendment", "86th Amendment"],
+    "correct": 1,
+    "explanation": "The 44th Amendment, 1978 removed Right to Property from Fundamental Rights."
+  },
+  {
+    "question": "Right to Property is now a:",
+    "options": ["Fundamental Right", "Legal Right under Article 300A", "Directive Principle", "Fundamental Duty"],
+    "correct": 1,
+    "explanation": "Right to Property is now a constitutional/legal right under Article 300A."
+  },
+  {
+    "question": "Fundamental Rights are primarily enforceable against:",
+    "options": ["State only", "Private individuals only", "Both State and individuals", "Foreign governments"],
+    "correct": 0,
+    "explanation": "Fundamental Rights are primarily enforceable against the State, though Articles 23-24 are also against individuals."
+  },
+  {
+    "question": "Which case established the Basic Structure doctrine?",
+    "options": ["Golaknath case", "Kesavananda Bharati case", "Minerva Mills case", "Maneka Gandhi case"],
+    "correct": 1,
+    "explanation": "Kesavananda Bharati v. State of Kerala (1973) established the Basic Structure doctrine."
+  },
+  {
+    "question": "The doctrine of 'Procedure established by law' is taken from:",
+    "options": ["USA Constitution", "Japanese Constitution", "British Constitution", "Irish Constitution"],
+    "correct": 1,
+    "explanation": "The phrase 'procedure established by law' in Article 21 is derived from Japanese Constitution."
+  },
+  {
+    "question": "Right to Privacy was declared a Fundamental Right under which Article?",
+    "options": ["Article 19", "Article 20", "Article 21", "Article 32"],
+    "correct": 2,
+    "explanation": "In K.S. Puttaswamy case (2017), Right to Privacy was declared intrinsic to Article 21."
+  }
+]

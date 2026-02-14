@@ -1,0 +1,296 @@
+[
+  {
+    "question": "Fundamental Duties were added by which Amendment?",
+    "options": ["40th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+    "correct": 1,
+    "explanation": "Fundamental Duties were added by the 42nd Amendment Act, 1976."
+  },
+  {
+    "question": "Fundamental Duties are contained in which Article?",
+    "options": ["Article 50A", "Article 51", "Article 51A", "Article 52"],
+    "correct": 2,
+    "explanation": "Article 51A contains the Fundamental Duties of citizens."
+  },
+  {
+    "question": "Fundamental Duties are in which Part of the Constitution?",
+    "options": ["Part III", "Part IV", "Part IVA", "Part V"],
+    "correct": 2,
+    "explanation": "Part IV-A contains Fundamental Duties."
+  },
+  {
+    "question": "Fundamental Duties were recommended by:",
+    "options": ["Balwant Rai Mehta Committee", "Swaran Singh Committee", "Santhanam Committee", "Ashok Mehta Committee"],
+    "correct": 1,
+    "explanation": "The Swaran Singh Committee recommended addition of Fundamental Duties."
+  },
+  {
+    "question": "How many Fundamental Duties were originally inserted?",
+    "options": ["8", "10", "11", "12"],
+    "correct": 1,
+    "explanation": "Originally 10 Fundamental Duties were inserted by the 42nd Amendment."
+  },
+  {
+    "question": "Currently, how many Fundamental Duties are there?",
+    "options": ["10", "11", "12", "13"],
+    "correct": 1,
+    "explanation": "Currently there are 11 Fundamental Duties after the 86th Amendment added one more."
+  },
+  {
+    "question": "The 11th Fundamental Duty was added by which Amendment?",
+    "options": ["42nd Amendment", "73rd Amendment", "86th Amendment", "97th Amendment"],
+    "correct": 2,
+    "explanation": "The 86th Amendment, 2002 added the 11th Fundamental Duty."
+  },
+  {
+    "question": "The 11th Fundamental Duty relates to:",
+    "options": ["Environment protection", "Education of children", "National integration", "Scientific temper"],
+    "correct": 1,
+    "explanation": "The 11th duty requires parents/guardians to provide education to children aged 6-14 years."
+  },
+  {
+    "question": "Fundamental Duties were borrowed from the Constitution of:",
+    "options": ["USA", "USSR", "UK", "France"],
+    "correct": 1,
+    "explanation": "The concept of Fundamental Duties was borrowed from the erstwhile USSR Constitution."
+  },
+  {
+    "question": "Are Fundamental Duties enforceable by law?",
+    "options": ["Yes, fully enforceable", "No, not enforceable", "Only some are enforceable", "Depends on Parliament"],
+    "correct": 1,
+    "explanation": "Fundamental Duties are not legally enforceable like Fundamental Rights."
+  },
+  {
+    "question": "Which duty requires citizens to abide by the Constitution?",
+    "options": ["First duty", "Second duty", "Third duty", "Fourth duty"],
+    "correct": 0,
+    "explanation": "The first Fundamental Duty requires citizens to abide by the Constitution and respect its ideals."
+  },
+  {
+    "question": "Which duty mentions respect for the National Flag and National Anthem?",
+    "options": ["Article 51A(a)", "Article 51A(b)", "Article 51A(c)", "Article 51A(d)"],
+    "correct": 0,
+    "explanation": "Article 51A(a) requires respect for the Constitution, National Flag and National Anthem."
+  },
+  {
+    "question": "Which duty promotes the spirit of common brotherhood?",
+    "options": ["Article 51A(c)", "Article 51A(d)", "Article 51A(e)", "Article 51A(f)"],
+    "correct": 2,
+    "explanation": "Article 51A(e) requires promoting harmony and spirit of common brotherhood."
+  },
+  {
+    "question": "The duty to defend the country is mentioned in:",
+    "options": ["Article 51A(a)", "Article 51A(c)", "Article 51A(d)", "Article 51A(e)"],
+    "correct": 2,
+    "explanation": "Article 51A(d) makes it a duty to defend the country and render national service."
+  },
+  {
+    "question": "Protection of environment, forests and wildlife is mentioned in:",
+    "options": ["Article 51A(e)", "Article 51A(f)", "Article 51A(g)", "Article 51A(h)"],
+    "correct": 2,
+    "explanation": "Article 51A(g) requires protection and improvement of environment and compassion for living creatures."
+  },
+  {
+    "question": "Which duty requires development of scientific temper?",
+    "options": ["Article 51A(f)", "Article 51A(g)", "Article 51A(h)", "Article 51A(i)"],
+    "correct": 2,
+    "explanation": "Article 51A(h) requires development of scientific temper, humanism and spirit of inquiry."
+  },
+  {
+    "question": "The duty to safeguard public property is in:",
+    "options": ["Article 51A(g)", "Article 51A(h)", "Article 51A(i)", "Article 51A(j)"],
+    "correct": 2,
+    "explanation": "Article 51A(i) requires safeguarding public property and abjuring violence."
+  },
+  {
+    "question": "Which duty promotes excellence in individual and collective activity?",
+    "options": ["Article 51A(h)", "Article 51A(i)", "Article 51A(j)", "Article 51A(k)"],
+    "correct": 2,
+    "explanation": "Article 51A(j) requires striving towards excellence in all spheres of activity."
+  },
+  {
+    "question": "The duty added by 86th Amendment is:",
+    "options": ["Article 51A(i)", "Article 51A(j)", "Article 51A(k)", "Article 51A(l)"],
+    "correct": 2,
+    "explanation": "Article 51A(k) was added by 86th Amendment regarding education of children."
+  },
+  {
+    "question": "Who has Fundamental Duties according to the Constitution?",
+    "options": ["All persons in India", "Only citizens", "Citizens and residents", "Only adults"],
+    "correct": 1,
+    "explanation": "Fundamental Duties are applicable only to citizens of India, not to non-citizens."
+  },
+  {
+    "question": "Which duty requires cherishing the noble ideals of freedom struggle?",
+    "options": ["Article 51A(a)", "Article 51A(b)", "Article 51A(c)", "Article 51A(d)"],
+    "correct": 1,
+    "explanation": "Article 51A(b) requires cherishing and following noble ideals of the freedom struggle."
+  },
+  {
+    "question": "Upholding and protecting sovereignty, unity and integrity is mentioned in:",
+    "options": ["Article 51A(a)", "Article 51A(b)", "Article 51A(c)", "Article 51A(d)"],
+    "correct": 2,
+    "explanation": "Article 51A(c) requires upholding and protecting sovereignty, unity and integrity of India."
+  },
+  {
+    "question": "Protection of composite culture and heritage is in:",
+    "options": ["Article 51A(e)", "Article 51A(f)", "Article 51A(g)", "Article 51A(h)"],
+    "correct": 1,
+    "explanation": "Article 51A(f) requires valuing and preserving rich heritage of composite culture."
+  },
+  {
+    "question": "The duty to renounce practices derogatory to dignity of women is in:",
+    "options": ["Article 51A(d)", "Article 51A(e)", "Article 51A(f)", "Article 51A(g)"],
+    "correct": 1,
+    "explanation": "Article 51A(e) requires renouncing practices derogatory to the dignity of women."
+  },
+  {
+    "question": "Compassion for living creatures is mentioned in:",
+    "options": ["Article 51A(f)", "Article 51A(g)", "Article 51A(h)", "Article 51A(i)"],
+    "correct": 1,
+    "explanation": "Article 51A(g) requires compassion for living creatures as part of environmental duty."
+  },
+  {
+    "question": "Can Parliament make laws to enforce Fundamental Duties?",
+    "options": ["No, never", "Yes, it can", "Only for some duties", "Only with Presidential approval"],
+    "correct": 1,
+    "explanation": "Parliament has the power to make laws to provide for the enforcement of Fundamental Duties."
+  },
+  {
+    "question": "Which case upheld the validity of Fundamental Duties?",
+    "options": ["Kesavananda Bharati", "AIIMS case", "Minerva Mills", "Maneka Gandhi"],
+    "correct": 1,
+    "explanation": "The AIIMS Students' Union case upheld the validity and importance of Fundamental Duties."
+  },
+  {
+    "question": "Fundamental Duties are applicable to:",
+    "options": ["Only the Government", "Only citizens", "Both Government and citizens", "Only public servants"],
+    "correct": 1,
+    "explanation": "Fundamental Duties under Article 51A are applicable only to citizens."
+  },
+  {
+    "question": "The duty to develop scientific temper was emphasized by:",
+    "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Dr. Ambedkar"],
+    "correct": 1,
+    "explanation": "Jawaharlal Nehru strongly emphasized the development of scientific temper."
+  },
+  {
+    "question": "Which duty is related to national service?",
+    "options": ["Article 51A(c)", "Article 51A(d)", "Article 51A(e)", "Article 51A(f)"],
+    "correct": 1,
+    "explanation": "Article 51A(d) includes the duty to render national service when called upon."
+  },
+  {
+    "question": "The concept of Fundamental Duties emphasizes:",
+    "options": ["Rights only", "Duties only", "Balance between rights and duties", "Neither rights nor duties"],
+    "correct": 2,
+    "explanation": "Fundamental Duties emphasize that rights and duties are correlative and must be balanced."
+  },
+  {
+    "question": "Which Committee recommended codification of Fundamental Duties?",
+    "options": ["Verma Committee", "Rangarajan Committee", "Swaran Singh Committee", "Sarkaria Commission"],
+    "correct": 2,
+    "explanation": "The Swaran Singh Committee in 1976 recommended inclusion of Fundamental Duties."
+  },
+  {
+    "question": "How many duties relate to national symbols and heritage?",
+    "options": ["Two", "Three", "Four", "Five"],
+    "correct": 1,
+    "explanation": "Three duties relate to national symbols, heritage and freedom struggle (clauses a, b, and f)."
+  },
+  {
+    "question": "The duty to promote harmony transcends:",
+    "options": ["Religious diversity only", "Linguistic diversity only", "Regional and sectional diversities", "Caste diversity only"],
+    "correct": 2,
+    "explanation": "Article 51A(e) requires promoting harmony transcending religious, linguistic and regional diversities."
+  },
+  {
+    "question": "Which duty specifically mentions 'humanism'?",
+    "options": ["Article 51A(f)", "Article 51A(g)", "Article 51A(h)", "Article 51A(i)"],
+    "correct": 2,
+    "explanation": "Article 51A(h) requires developing scientific temper, humanism and spirit of inquiry."
+  },
+  {
+    "question": "The duty to abjure violence is in:",
+    "options": ["Article 51A(g)", "Article 51A(h)", "Article 51A(i)", "Article 51A(j)"],
+    "correct": 2,
+    "explanation": "Article 51A(i) requires safeguarding public property and abjuring violence."
+  },
+  {
+    "question": "How many duties relate to environment and living beings?",
+    "options": ["One", "Two", "Three", "Four"],
+    "correct": 0,
+    "explanation": "One duty (Article 51A(g)) specifically relates to environment, forests, wildlife and living creatures."
+  },
+  {
+    "question": "The duty regarding education of children applies to:",
+    "options": ["Parents only", "Guardians only", "Parents or guardians", "Teachers"],
+    "correct": 2,
+    "explanation": "Article 51A(k) applies to parents or guardians to provide education to children aged 6-14."
+  },
+  {
+    "question": "Fundamental Duties promote the idea of:",
+    "options": ["Individualism", "Nationalism and patriotism", "Regionalism", "Casteism"],
+    "correct": 1,
+    "explanation": "Fundamental Duties promote nationalism, patriotism and responsible citizenship."
+  },
+  {
+    "question": "Which duty is directly linked to Article 21A?",
+    "options": ["Article 51A(i)", "Article 51A(j)", "Article 51A(k)", "None"],
+    "correct": 2,
+    "explanation": "Article 51A(k) on education is linked to Article 21A which makes education a Fundamental Right."
+  },
+  {
+    "question": "The duty to respect the National Anthem was emphasized in:",
+    "options": ["Bijoe Emmanuel case", "MC Mehta case", "Vishaka case", "Kesavananda case"],
+    "correct": 0,
+    "explanation": "Bijoe Emmanuel case dealt with the duty to respect the National Anthem."
+  },
+  {
+    "question": "Can Fundamental Duties be enforced through courts?",
+    "options": ["Yes, like Fundamental Rights", "No, they are non-justiciable", "Only through Supreme Court", "Only through High Courts"],
+    "correct": 1,
+    "explanation": "Fundamental Duties are non-justiciable and cannot be directly enforced through courts."
+  },
+  {
+    "question": "Which duty promotes the spirit of inquiry and reform?",
+    "options": ["Article 51A(f)", "Article 51A(g)", "Article 51A(h)", "Article 51A(i)"],
+    "correct": 2,
+    "explanation": "Article 51A(h) requires developing scientific temper and spirit of inquiry and reform."
+  },
+  {
+    "question": "The duty to defend the country includes:",
+    "options": ["Military service only", "National service when called upon", "Police service", "Administrative service"],
+    "correct": 1,
+    "explanation": "Article 51A(d) includes defending the country and rendering national service when called upon."
+  },
+  {
+    "question": "Which duty is most closely related to environmental laws?",
+    "options": ["Article 51A(e)", "Article 51A(f)", "Article 51A(g)", "Article 51A(h)"],
+    "correct": 2,
+    "explanation": "Article 51A(g) on protecting environment is closely related to environmental legislation."
+  },
+  {
+    "question": "The duty to preserve composite culture includes:",
+    "options": ["Religious culture only", "Linguistic culture only", "Rich heritage of composite culture", "Western culture"],
+    "correct": 2,
+    "explanation": "Article 51A(f) requires valuing and preserving the rich heritage of composite culture."
+  },
+  {
+    "question": "Fundamental Duties were added in which year?",
+    "options": ["1975", "1976", "1978", "1985"],
+    "correct": 1,
+    "explanation": "Fundamental Duties were added by the 42nd Amendment in 1976."
+  },
+  {
+    "question": "Which duty relates to excellence and collective activity?",
+    "options": ["Article 51A(h)", "Article 51A(i)", "Article 51A(j)", "Article 51A(k)"],
+    "correct": 2,
+    "explanation": "Article 51A(j) requires striving towards excellence in all spheres of individual and collective activity."
+  },
+  {
+    "question": "The total number of Fundamental Duties is:",
+    "options": ["8", "10", "11", "12"],
+    "correct": 2,
+    "explanation": "There are currently 11 Fundamental Duties in Article 51A."
+  }
+]

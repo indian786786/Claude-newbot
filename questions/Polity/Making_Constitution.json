@@ -1,0 +1,302 @@
+[
+  {
+    "question": "The Constituent Assembly was formed in:",
+    "options": ["1946", "1947", "1948", "1949"],
+    "correct": 0,
+    "explanation": "The Constituent Assembly was formed in November 1946 under the Cabinet Mission Plan."
+  },
+  {
+    "question": "Who was the Chairman of the Drafting Committee?",
+    "options": ["Jawaharlal Nehru", "Dr. B.R. Ambedkar", "Rajendra Prasad", "Vallabhbhai Patel"],
+    "correct": 1,
+    "explanation": "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Constitution."
+  },
+  {
+    "question": "The Constituent Assembly took how many days to frame the Constitution?",
+    "options": ["2 years 11 months 17 days", "2 years 11 months 18 days", "3 years 1 month 10 days", "3 years 2 months 5 days"],
+    "correct": 1,
+    "explanation": "The Constituent Assembly took 2 years, 11 months and 18 days to complete the Constitution."
+  },
+  {
+    "question": "When was the Constitution adopted by the Constituent Assembly?",
+    "options": ["26 January 1950", "26 November 1949", "15 August 1947", "26 January 1949"],
+    "correct": 1,
+    "explanation": "The Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950."
+  },
+  {
+    "question": "Who was the President of the Constituent Assembly?",
+    "options": ["Dr. B.R. Ambedkar", "Dr. Rajendra Prasad", "Jawaharlal Nehru", "C. Rajagopalachari"],
+    "correct": 1,
+    "explanation": "Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly."
+  },
+  {
+    "question": "The first session of the Constituent Assembly was held on:",
+    "options": ["9 December 1946", "26 January 1947", "15 August 1947", "26 November 1949"],
+    "correct": 0,
+    "explanation": "The first session was held on 9 December 1946 in the Constitution Hall, New Delhi."
+  },
+  {
+    "question": "How many members were there in the Constituent Assembly initially?",
+    "options": ["299", "389", "499", "589"],
+    "correct": 1,
+    "explanation": "The Constituent Assembly initially had 389 members from British India and Princely States."
+  },
+  {
+    "question": "After partition, the membership of Constituent Assembly was reduced to:",
+    "options": ["199", "249", "299", "349"],
+    "correct": 2,
+    "explanation": "After partition, the membership was reduced to 299 members."
+  },
+  {
+    "question": "The Objective Resolution was moved by:",
+    "options": ["Dr. Rajendra Prasad", "Jawaharlal Nehru", "Dr. B.R. Ambedkar", "Sardar Patel"],
+    "correct": 1,
+    "explanation": "Jawaharlal Nehru moved the Objective Resolution on 13 December 1946."
+  },
+  {
+    "question": "The Objective Resolution later became the:",
+    "options": ["Fundamental Rights", "Preamble", "Directive Principles", "Emergency Provisions"],
+    "correct": 1,
+    "explanation": "The Objective Resolution laid the foundation and became the Preamble of the Constitution."
+  },
+  {
+    "question": "Who was the Constitutional Advisor to the Constituent Assembly?",
+    "options": ["B.N. Rau", "K.M. Munshi", "Alladi Krishnaswami Ayyar", "T.T. Krishnamachari"],
+    "correct": 0,
+    "explanation": "Sir B.N. Rau was the Constitutional Advisor to the Constituent Assembly."
+  },
+  {
+    "question": "The Drafting Committee had how many members?",
+    "options": ["5", "7", "9", "11"],
+    "correct": 1,
+    "explanation": "The Drafting Committee consisted of 7 members with Dr. Ambedkar as Chairman."
+  },
+  {
+    "question": "The Constituent Assembly held how many sessions?",
+    "options": ["9", "10", "11", "12"],
+    "correct": 2,
+    "explanation": "The Constituent Assembly held 11 sessions over 165 days."
+  },
+  {
+    "question": "The Constitution was signed by how many members?",
+    "options": ["284", "299", "308", "315"],
+    "correct": 0,
+    "explanation": "284 members of the Constituent Assembly signed the Constitution on 24 January 1950."
+  },
+  {
+    "question": "Who was the first temporary President of Constituent Assembly?",
+    "options": ["Dr. Rajendra Prasad", "Dr. Sachchidananda Sinha", "Jawaharlal Nehru", "Maulana Azad"],
+    "correct": 1,
+    "explanation": "Dr. Sachchidananda Sinha was the temporary President on 9 December 1946."
+  },
+  {
+    "question": "The Cabinet Mission Plan was announced in:",
+    "options": ["1945", "1946", "1947", "1948"],
+    "correct": 1,
+    "explanation": "The Cabinet Mission Plan was announced in May 1946."
+  },
+  {
+    "question": "How many women members were there in the Constituent Assembly?",
+    "options": ["12", "15", "18", "21"],
+    "correct": 1,
+    "explanation": "There were 15 women members in the Constituent Assembly."
+  },
+  {
+    "question": "The demand for Constituent Assembly was first made in:",
+    "options": ["1922", "1934", "1935", "1940"],
+    "correct": 0,
+    "explanation": "The demand was first made by M.N. Roy in 1922 and later adopted by Congress in 1934."
+  },
+  {
+    "question": "The lengthiest written Constitution at adoption was of:",
+    "options": ["USA", "India", "Canada", "Australia"],
+    "correct": 1,
+    "explanation": "The Indian Constitution was the lengthiest written constitution at the time of adoption."
+  },
+  {
+    "question": "How many Articles were there originally in the Constitution?",
+    "options": ["395", "397", "399", "400"],
+    "correct": 0,
+    "explanation": "The Constitution originally had 395 Articles in 22 Parts and 8 Schedules."
+  },
+  {
+    "question": "The Constitution originally had how many Schedules?",
+    "options": ["8", "10", "12", "14"],
+    "correct": 0,
+    "explanation": "The Constitution originally had 8 Schedules which have now increased to 12."
+  },
+  {
+    "question": "Who designed the calligraphy of the Constitution?",
+    "options": ["Nandalal Bose", "Prem Behari Narain Raizada", "Beohar Rammanohar Sinha", "Abanindranath Tagore"],
+    "correct": 1,
+    "explanation": "Prem Behari Narain Raizada did the calligraphy of the original Constitution."
+  },
+  {
+    "question": "Who illuminated and decorated the Constitution?",
+    "options": ["Nandalal Bose", "M.F. Husain", "Raja Ravi Varma", "Jamini Roy"],
+    "correct": 0,
+    "explanation": "The illustrations in the Constitution were done by artists from Shantiniketan led by Nandalal Bose."
+  },
+  {
+    "question": "The Constitution was handwritten in which language?",
+    "options": ["English only", "Hindi only", "Both English and Hindi", "Sanskrit"],
+    "correct": 2,
+    "explanation": "The Constitution was handwritten in both Hindi and English."
+  },
+  {
+    "question": "The idea of Fundamental Rights was borrowed from:",
+    "options": ["USA", "UK", "USSR", "Ireland"],
+    "correct": 0,
+    "explanation": "The concept of Fundamental Rights was borrowed from the US Constitution."
+  },
+  {
+    "question": "The concept of Directive Principles was borrowed from:",
+    "options": ["USA", "UK", "Irish Constitution", "Canadian Constitution"],
+    "correct": 2,
+    "explanation": "Directive Principles of State Policy were borrowed from the Irish Constitution."
+  },
+  {
+    "question": "Parliamentary system of government was borrowed from:",
+    "options": ["USA", "UK", "France", "Switzerland"],
+    "correct": 1,
+    "explanation": "The Parliamentary system was adopted from the British Constitution."
+  },
+  {
+    "question": "The federal structure with strong Centre was borrowed from:",
+    "options": ["USA", "Canada", "Australia", "Switzerland"],
+    "correct": 1,
+    "explanation": "The federal structure with a strong Centre was inspired by the Canadian Constitution."
+  },
+  {
+    "question": "The concept of Judicial Review was borrowed from:",
+    "options": ["UK", "USA", "France", "Ireland"],
+    "correct": 1,
+    "explanation": "Judicial Review was borrowed from the American Constitution."
+  },
+  {
+    "question": "Emergency Provisions were borrowed from:",
+    "options": ["USA", "Weimar Constitution of Germany", "UK", "French Constitution"],
+    "correct": 1,
+    "explanation": "Emergency provisions were borrowed from the Weimar Constitution of Germany."
+  },
+  {
+    "question": "The procedure for amendment was borrowed from:",
+    "options": ["USA", "UK", "South Africa", "Canada"],
+    "correct": 2,
+    "explanation": "The amendment procedure was borrowed from the South African Constitution."
+  },
+  {
+    "question": "The concept of Concurrent List was borrowed from:",
+    "options": ["USA", "Canada", "Australia", "Ireland"],
+    "correct": 2,
+    "explanation": "The Concurrent List was borrowed from the Australian Constitution."
+  },
+  {
+    "question": "The idea of single citizenship was borrowed from:",
+    "options": ["USA", "UK", "France", "Canada"],
+    "correct": 1,
+    "explanation": "Single citizenship was borrowed from the British Constitution."
+  },
+  {
+    "question": "The Constitution of India came into force on:",
+    "options": ["26 November 1949", "15 August 1947", "26 January 1950", "26 January 1949"],
+    "correct": 2,
+    "explanation": "The Constitution came into force on 26 January 1950, celebrated as Republic Day."
+  },
+  {
+    "question": "Which Articles came into force on 26 November 1949 itself?",
+    "options": ["5, 6, 7, 8, 9, 60, 324, 366, 367, 379, 380, 388, 391, 392, 393", "All Articles", "Only Fundamental Rights", "Only Emergency Provisions"],
+    "correct": 0,
+    "explanation": "These provisional Articles came into force on 26 November 1949 itself."
+  },
+  {
+    "question": "How many times was the draft Constitution considered?",
+    "options": ["Once", "Twice", "Thrice", "Four times"],
+    "correct": 2,
+    "explanation": "The draft Constitution was considered three times by the Constituent Assembly."
+  },
+  {
+    "question": "The Indian Constitution is a combination of:",
+    "options": ["Federal and Unitary", "Rigid and Flexible", "Written and Unwritten", "All of the above"],
+    "correct": 3,
+    "explanation": "The Indian Constitution has features of federal and unitary, rigid and flexible systems."
+  },
+  {
+    "question": "Who described the Indian Constitution as a 'bag of borrowings'?",
+    "options": ["Ivor Jennings", "Lord Bryce", "K.C. Wheare", "A.V. Dicey"],
+    "correct": 0,
+    "explanation": "Ivor Jennings described it as a 'bag of borrowings' due to features borrowed from various constitutions."
+  },
+  {
+    "question": "The total expenditure on making the Constitution was approximately:",
+    "options": ["Rs. 50 lakhs", "Rs. 64 lakhs", "Rs. 1 crore", "Rs. 2 crores"],
+    "correct": 1,
+    "explanation": "The total cost of making the Constitution was approximately Rs. 64 lakhs."
+  },
+  {
+    "question": "How many amendments were made to the draft Constitution before adoption?",
+    "options": ["1000", "2000", "2473", "3000"],
+    "correct": 2,
+    "explanation": "About 2473 amendments were moved, of which 1000+ were actually discussed."
+  },
+  {
+    "question": "The Constitution was typed on:",
+    "options": ["Typewriter", "Computer", "Handwritten only", "Printing press"],
+    "correct": 0,
+    "explanation": "The Constitution was typed on a typewriter and then handwritten for the final copy."
+  },
+  {
+    "question": "The doctrine of Basic Structure was established in:",
+    "options": ["Golaknath case", "Kesavananda Bharati case", "Minerva Mills case", "Maneka Gandhi case"],
+    "correct": 1,
+    "explanation": "The Basic Structure doctrine was established in Kesavananda Bharati v. State of Kerala (1973)."
+  },
+  {
+    "question": "Who among the following was NOT a member of the Drafting Committee?",
+    "options": ["K.M. Munshi", "Alladi Krishnaswami Ayyar", "Jawaharlal Nehru", "N. Gopalaswami Ayyangar"],
+    "correct": 2,
+    "explanation": "Jawaharlal Nehru was not a member of the Drafting Committee."
+  },
+  {
+    "question": "The idea of residuary powers vesting with Centre was borrowed from:",
+    "options": ["USA", "Canada", "Australia", "Ireland"],
+    "correct": 1,
+    "explanation": "Residuary powers with the Centre was borrowed from the Canadian Constitution."
+  },
+  {
+    "question": "The term 'Union' instead of 'Federation' was used because:",
+    "options": ["India is not federal", "To emphasize indestructibility of Union", "British preference", "Cabinet Mission suggestion"],
+    "correct": 1,
+    "explanation": "The term 'Union' was used to emphasize the indestructible nature of the Indian Union."
+  },
+  {
+    "question": "Which feature is unique to the Indian Constitution?",
+    "options": ["Fundamental Rights", "Fundamental Duties", "Judicial Review", "Bill of Rights"],
+    "correct": 1,
+    "explanation": "Fundamental Duties are a unique feature added by the 42nd Amendment."
+  },
+  {
+    "question": "The Constitution declares India as:",
+    "options": ["Federation of States", "Union of States", "Confederation", "Unitary State"],
+    "correct": 1,
+    "explanation": "Article 1 declares India as a 'Union of States' rather than Federation."
+  },
+  {
+    "question": "How many Committees were set up by the Constituent Assembly?",
+    "options": ["8", "10", "13", "16"],
+    "correct": 2,
+    "explanation": "The Constituent Assembly set up 13 committees including the Drafting Committee."
+  },
+  {
+    "question": "The original Constitution had how many words approximately?",
+    "options": ["1,17,369", "1,45,000", "2,00,000", "80,000"],
+    "correct": 0,
+    "explanation": "The original Constitution had approximately 1,17,369 words in English version."
+  },
+  {
+    "question": "Who called Article 32 the 'Heart and Soul' of the Constitution?",
+    "options": ["Jawaharlal Nehru", "Dr. B.R. Ambedkar", "Dr. Rajendra Prasad", "Sardar Patel"],
+    "correct": 1,
+    "explanation": "Dr. B.R. Ambedkar described Article 32 (Right to Constitutional Remedies) as the heart and soul."
+  }
+]

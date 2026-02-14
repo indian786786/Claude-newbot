@@ -1,0 +1,296 @@
+[
+  {
+    "question": "DPSP stands for:",
+    "options": ["Directive Policies of State Principles", "Directive Principles of State Policy", "Democratic Principles of State Policy", "Developmental Principles of State"],
+    "correct": 1,
+    "explanation": "DPSP stands for Directive Principles of State Policy contained in Part IV."
+  },
+  {
+    "question": "DPSPs are contained in which Part of the Constitution?",
+    "options": ["Part III", "Part IV", "Part IVA", "Part V"],
+    "correct": 1,
+    "explanation": "Part IV (Articles 36-51) contains Directive Principles of State Policy."
+  },
+  {
+    "question": "DPSPs were borrowed from which country's Constitution?",
+    "options": ["USA", "UK", "Ireland", "Canada"],
+    "correct": 2,
+    "explanation": "Directive Principles were borrowed from the Irish Constitution."
+  },
+  {
+    "question": "Are DPSPs justiciable?",
+    "options": ["Yes, fully", "No, they are not", "Only some are", "Yes, with conditions"],
+    "correct": 1,
+    "explanation": "DPSPs are not justiciable, meaning they cannot be enforced by courts."
+  },
+  {
+    "question": "Which Article states that DPSPs are not enforceable by courts?",
+    "options": ["Article 36", "Article 37", "Article 38", "Article 39"],
+    "correct": 1,
+    "explanation": "Article 37 declares that DPSPs are not enforceable by any court."
+  },
+  {
+    "question": "Article 38 directs the state to promote:",
+    "options": ["Economic equality", "Social justice", "Welfare of the people", "Political justice"],
+    "correct": 2,
+    "explanation": "Article 38 directs the state to promote the welfare of the people by securing social order."
+  },
+  {
+    "question": "Article 39 provides for:",
+    "options": ["Right to work", "Equal pay for equal work", "Certain principles of policy", "Free legal aid"],
+    "correct": 2,
+    "explanation": "Article 39 lays down certain principles of policy including equal pay and protection of children."
+  },
+  {
+    "question": "Equal pay for equal work for men and women is mentioned in:",
+    "options": ["Article 14", "Article 38", "Article 39(d)", "Article 41"],
+    "correct": 2,
+    "explanation": "Article 39(d) provides for equal pay for equal work for both men and women."
+  },
+  {
+    "question": "Article 40 directs the state to organize:",
+    "options": ["Cooperative societies", "Village Panchayats", "Urban local bodies", "Trade unions"],
+    "correct": 1,
+    "explanation": "Article 40 directs the state to organize village panchayats."
+  },
+  {
+    "question": "Article 41 provides for:",
+    "options": ["Free education", "Right to work and education", "Public health", "Living wage"],
+    "correct": 1,
+    "explanation": "Article 41 directs the state to secure right to work, education and public assistance."
+  },
+  {
+    "question": "Article 42 directs the state to make provision for:",
+    "options": ["Free education", "Just and humane conditions of work", "Living wage", "Public health"],
+    "correct": 1,
+    "explanation": "Article 42 provides for just and humane conditions of work and maternity relief."
+  },
+  {
+    "question": "Living wage for workers is mentioned in:",
+    "options": ["Article 39", "Article 41", "Article 42", "Article 43"],
+    "correct": 3,
+    "explanation": "Article 43 directs the state to secure living wage and decent standard of life for workers."
+  },
+  {
+    "question": "Article 43A was inserted by which Amendment?",
+    "options": ["40th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+    "correct": 1,
+    "explanation": "Article 43A on participation of workers in management was added by 42nd Amendment."
+  },
+  {
+    "question": "Article 44 directs the state to secure:",
+    "options": ["Free education", "Uniform Civil Code", "Separation of judiciary", "Right to work"],
+    "correct": 1,
+    "explanation": "Article 44 directs the state to secure a Uniform Civil Code for all citizens."
+  },
+  {
+    "question": "Separation of judiciary from executive is mentioned in:",
+    "options": ["Article 44", "Article 45", "Article 50", "Article 51"],
+    "correct": 2,
+    "explanation": "Article 50 directs the state to separate judiciary from executive in public services."
+  },
+  {
+    "question": "Article 45 originally dealt with:",
+    "options": ["Right to work", "Free and compulsory education for children", "Public health", "Living wage"],
+    "correct": 1,
+    "explanation": "Article 45 originally provided for free and compulsory education till 14 years."
+  },
+  {
+    "question": "After 86th Amendment, Article 45 now deals with:",
+    "options": ["Education for all", "Early childhood care for children below 6 years", "Adult education", "Higher education"],
+    "correct": 1,
+    "explanation": "After 86th Amendment, Article 45 provides for early childhood care for children below 6 years."
+  },
+  {
+    "question": "Article 46 provides for promotion of interests of:",
+    "options": ["Minorities", "Women", "Weaker sections, SC and ST", "Children"],
+    "correct": 2,
+    "explanation": "Article 46 directs promotion of educational and economic interests of weaker sections, SC and ST."
+  },
+  {
+    "question": "Article 47 directs the state to improve:",
+    "options": ["Education", "Public health and prohibit intoxicating drinks", "Working conditions", "Environment"],
+    "correct": 1,
+    "explanation": "Article 47 directs raising nutrition levels, standard of living and prohibition of intoxicating drinks."
+  },
+  {
+    "question": "Prohibition of intoxicating drinks and drugs is mentioned in:",
+    "options": ["Article 45", "Article 46", "Article 47", "Article 48"],
+    "correct": 2,
+    "explanation": "Article 47 provides for prohibition of intoxicating drinks and harmful drugs."
+  },
+  {
+    "question": "Article 48 deals with:",
+    "options": ["Agriculture", "Organization of agriculture and animal husbandry", "Industrial development", "Environmental protection"],
+    "correct": 1,
+    "explanation": "Article 48 directs organization of agriculture and animal husbandry on modern lines."
+  },
+  {
+    "question": "Protection of monuments is mentioned in:",
+    "options": ["Article 48", "Article 49", "Article 50", "Article 51"],
+    "correct": 1,
+    "explanation": "Article 49 directs protection of monuments and objects of national importance."
+  },
+  {
+    "question": "Article 48A was inserted by which Amendment?",
+    "options": ["40th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+    "correct": 1,
+    "explanation": "Article 48A on protection of environment was added by 42nd Amendment."
+  },
+  {
+    "question": "Article 48A directs the state to protect:",
+    "options": ["Monuments", "Environment, forests and wildlife", "Cultural heritage", "National borders"],
+    "correct": 1,
+    "explanation": "Article 48A directs protection and improvement of environment and safeguarding forests and wildlife."
+  },
+  {
+    "question": "Article 51 deals with:",
+    "options": ["Fundamental Duties", "Promotion of international peace", "Education", "Health"],
+    "correct": 1,
+    "explanation": "Article 51 directs promotion of international peace and security."
+  },
+  {
+    "question": "Which Article promotes international peace and security?",
+    "options": ["Article 48", "Article 49", "Article 50", "Article 51"],
+    "correct": 3,
+    "explanation": "Article 51 provides for promotion of international peace, security and just international order."
+  },
+  {
+    "question": "DPSPs are classified into how many categories?",
+    "options": ["Two", "Three", "Four", "Five"],
+    "correct": 1,
+    "explanation": "DPSPs are classified into three categories: Socialist, Gandhian and Liberal-Intellectual."
+  },
+  {
+    "question": "Article 39A was added by which Amendment?",
+    "options": ["40th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+    "correct": 1,
+    "explanation": "Article 39A on free legal aid was inserted by the 42nd Amendment."
+  },
+  {
+    "question": "Free legal aid is mentioned in:",
+    "options": ["Article 38", "Article 39", "Article 39A", "Article 41"],
+    "correct": 2,
+    "explanation": "Article 39A directs the state to provide free legal aid to ensure justice."
+  },
+  {
+    "question": "Which of the following is a Gandhian Principle?",
+    "options": ["Article 38", "Article 40", "Article 44", "Article 51"],
+    "correct": 1,
+    "explanation": "Article 40 on village panchayats is a Gandhian Directive Principle."
+  },
+  {
+    "question": "Prohibition of cow slaughter is mentioned in:",
+    "options": ["Article 45", "Article 46", "Article 47", "Article 48"],
+    "correct": 3,
+    "explanation": "Article 48 directs prohibition of slaughter of cows, calves and other milch cattle."
+  },
+  {
+    "question": "Which Article is considered both a Fundamental Right and DPSP?",
+    "options": ["Article 14", "Article 21", "Article 24", "Article 39(f)"],
+    "correct": 2,
+    "explanation": "Article 24 (prohibition of child labour) is both a Fundamental Right and reflected in Article 39(f)."
+  },
+  {
+    "question": "In case of conflict between Fundamental Rights and DPSP:",
+    "options": ["DPSP prevails", "Fundamental Rights prevail", "Both are equal", "President decides"],
+    "correct": 1,
+    "explanation": "Generally, Fundamental Rights prevail over DPSPs, though both need to be harmonized."
+  },
+  {
+    "question": "The Minerva Mills case (1980) dealt with conflict between:",
+    "options": ["Article 14 and 19", "Article 31 and 39(b) and (c)", "Article 21 and 19", "Article 32 and 226"],
+    "correct": 1,
+    "explanation": "Minerva Mills case dealt with conflict between property rights and DPSP Articles 39(b) and (c)."
+  },
+  {
+    "question": "Which Amendment gave precedence to DPSPs over Fundamental Rights?",
+    "options": ["24th Amendment", "25th Amendment", "42nd Amendment", "44th Amendment"],
+    "correct": 2,
+    "explanation": "The 42nd Amendment attempted to give precedence to DPSPs, but was struck down."
+  },
+  {
+    "question": "Article 37 states that DPSPs are:",
+    "options": ["Justiciable", "Fundamental in governance", "Optional", "Binding on citizens"],
+    "correct": 1,
+    "explanation": "Article 37 declares DPSPs are fundamental in governance though not enforceable in courts."
+  },
+  {
+    "question": "Which socialist principle aims at reducing inequality?",
+    "options": ["Article 38", "Article 40", "Article 44", "Article 48"],
+    "correct": 0,
+    "explanation": "Article 38 directs the state to minimize inequalities in income and status."
+  },
+  {
+    "question": "Cottage industries are promoted under:",
+    "options": ["Article 39", "Article 41", "Article 43", "Article 45"],
+    "correct": 2,
+    "explanation": "Article 43 directs promotion of cottage industries on individual or cooperative basis."
+  },
+  {
+    "question": "The total number of DPSPs in the Constitution is:",
+    "options": ["12", "14", "16", "18"],
+    "correct": 2,
+    "explanation": "There are 16 Directive Principles from Article 36 to Article 51."
+  },
+  {
+    "question": "Which Article defines 'State' for DPSPs?",
+    "options": ["Article 12", "Article 36", "Article 37", "Article 38"],
+    "correct": 1,
+    "explanation": "Article 36 defines 'State' for Part IV (DPSPs) with the same meaning as in Article 12."
+  },
+  {
+    "question": "Participation of workers in management of industries is in:",
+    "options": ["Article 39", "Article 41", "Article 43", "Article 43A"],
+    "correct": 3,
+    "explanation": "Article 43A directs participation of workers in management of industries."
+  },
+  {
+    "question": "DPSPs are meant to establish:",
+    "options": ["Democracy", "Welfare State", "Federal structure", "Secular state"],
+    "correct": 1,
+    "explanation": "DPSPs are meant to establish a welfare state and social and economic democracy."
+  },
+  {
+    "question": "Which case held that DPSPs help in interpretation of Fundamental Rights?",
+    "options": ["Kesavananda Bharati", "Maneka Gandhi", "Minerva Mills", "All of the above"],
+    "correct": 3,
+    "explanation": "Multiple cases held that DPSPs should guide interpretation of Fundamental Rights."
+  },
+  {
+    "question": "Environmental protection became a DPSP in which year?",
+    "options": ["1971", "1976", "1978", "1985"],
+    "correct": 1,
+    "explanation": "Article 48A on environmental protection was added by 42nd Amendment in 1976."
+  },
+  {
+    "question": "Just distribution of material resources is mentioned in:",
+    "options": ["Article 38", "Article 39(b)", "Article 39(c)", "Article 41"],
+    "correct": 1,
+    "explanation": "Article 39(b) directs that ownership and control of resources should serve common good."
+  },
+  {
+    "question": "Prevention of concentration of wealth is in:",
+    "options": ["Article 38", "Article 39(b)", "Article 39(c)", "Article 46"],
+    "correct": 2,
+    "explanation": "Article 39(c) aims at preventing concentration of wealth and means of production."
+  },
+  {
+    "question": "Which DPSP has been implemented through the 86th Amendment?",
+    "options": ["Article 40", "Article 44", "Article 45", "Article 48"],
+    "correct": 2,
+    "explanation": "Article 45 on free education was implemented by making Article 21A a Fundamental Right."
+  },
+  {
+    "question": "Promotion of educational and economic interests of SC/ST is in:",
+    "options": ["Article 15", "Article 16", "Article 46", "Article 335"],
+    "correct": 2,
+    "explanation": "Article 46 specifically directs promotion of educational and economic interests of SC, ST and weaker sections."
+  },
+  {
+    "question": "The idea behind DPSPs is to establish:",
+    "options": ["Political democracy", "Social and economic democracy", "Judicial democracy", "Administrative democracy"],
+    "correct": 1,
+    "explanation": "DPSPs aim to establish social and economic democracy to complement political democracy."
+  }
+]
