@@ -1,24 +1,279 @@
 [
   {
-    "question": "The Governor is appointed by:",
-    "options": [
-      "Chief Minister",
-      "President",
-      "Prime Minister",
-      "State Legislature"
-    ],
+    "question": "The Governor of a State is appointed by:",
+    "options": ["Chief Minister", "President of India", "Prime Minister", "Supreme Court"],
     "correct": 1,
-    "explanation": "The Governor is appointed by the President of India."
+    "explanation": "The Governor is appointed by the President under Article 155 of the Constitution."
   },
   {
-    "question": "Article 153 deals with:",
-    "options": [
-      "President",
-      "Governor",
-      "Parliament",
-      "Judiciary"
-    ],
+    "question": "The normal term of office of a Governor is:",
+    "options": ["4 years", "5 years", "6 years", "During pleasure of President"],
+    "correct": 3,
+    "explanation": "Though nominally 5 years, the Governor holds office during the pleasure of the President."
+  },
+  {
+    "question": "Minimum age required to become a Governor is:",
+    "options": ["30 years", "35 years", "40 years", "45 years"],
     "correct": 1,
-    "explanation": "Article 153 provides for a Governor for each state."
+    "explanation": "A person must be at least 35 years old to become Governor."
+  },
+  {
+    "question": "The Governor is the constitutional head of:",
+    "options": ["Union Government", "State Government", "Parliament", "Judiciary"],
+    "correct": 1,
+    "explanation": "Governor is the constitutional head of the State Government."
+  },
+  {
+    "question": "Article related to appointment of Governor is:",
+    "options": ["Article 153", "Article 155", "Article 156", "Article 160"],
+    "correct": 1,
+    "explanation": "Article 155 deals with appointment of Governor."
+  },
+  {
+    "question": "Oath of office to Governor is administered by:",
+    "options": ["President", "Chief Minister", "Chief Justice of High Court", "Prime Minister"],
+    "correct": 2,
+    "explanation": "Chief Justice of the concerned High Court administers oath."
+  },
+  {
+    "question": "Governor can reserve a bill for consideration of:",
+    "options": ["Prime Minister", "President", "Supreme Court", "Parliament"],
+    "correct": 1,
+    "explanation": "Governor may reserve bills for President under Article 200."
+  },
+  {
+    "question": "Ordinance making power of Governor is under:",
+    "options": ["Article 123", "Article 213", "Article 352", "Article 360"],
+    "correct": 1,
+    "explanation": "Article 213 grants ordinance power to Governor."
+  },
+  {
+    "question": "Governor appoints:",
+    "options": ["Prime Minister", "Chief Minister", "Speaker of Lok Sabha", "President"],
+    "correct": 1,
+    "explanation": "Governor appoints the Chief Minister of the State."
+  },
+  {
+    "question": "Governor can dismiss Council of Ministers:",
+    "options": ["Yes", "No", "Only with President approval", "Only in emergency"],
+    "correct": 0,
+    "explanation": "Governor can dismiss the Council if it loses majority."
+  },
+
+  {
+    "question": "Article 153 states:",
+    "options": ["Every state shall have a Governor", "Governor tenure", "Governor salary", "Governor removal"],
+    "correct": 0,
+    "explanation": "Article 153 provides that every state shall have a Governor."
+  },
+  {
+    "question": "Governor's salary is charged on:",
+    "options": ["Consolidated Fund of India", "Consolidated Fund of State", "Parliament Budget", "Supreme Court Fund"],
+    "correct": 1,
+    "explanation": "Salary is charged on Consolidated Fund of the State."
+  },
+  {
+    "question": "Governor reports constitutional breakdown to:",
+    "options": ["Chief Minister", "President", "Supreme Court", "Parliament"],
+    "correct": 1,
+    "explanation": "Governor reports to President under Article 356."
+  },
+  {
+    "question": "Governor can pardon in case of:",
+    "options": ["Death sentence under Union law", "State law offences", "Supreme Court cases", "Parliament cases"],
+    "correct": 1,
+    "explanation": "Governor can grant pardon for offences under State law."
+  },
+  {
+    "question": "Governor is an agent of:",
+    "options": ["State", "President", "Supreme Court", "Chief Minister"],
+    "correct": 1,
+    "explanation": "Governor acts as agent of the President."
+  },
+
+  {
+    "question": "Can same person be Governor of two states?",
+    "options": ["Yes", "No", "Only emergency", "Only temporary"],
+    "correct": 0,
+    "explanation": "Yes, one person can be appointed Governor of multiple states."
+  },
+  {
+    "question": "Governor must be citizen of:",
+    "options": ["Any country", "India", "Commonwealth nation", "SAARC country"],
+    "correct": 1,
+    "explanation": "Governor must be citizen of India."
+  },
+  {
+    "question": "Governor lays budget before:",
+    "options": ["Lok Sabha", "Rajya Sabha", "State Legislature", "President"],
+    "correct": 2,
+    "explanation": "Governor causes state budget to be laid before State Legislature."
+  },
+  {
+    "question": "Who can remove Governor?",
+    "options": ["Chief Minister", "Parliament", "President", "Supreme Court"],
+    "correct": 2,
+    "explanation": "Governor holds office during pleasure of President."
+  },
+  {
+    "question": "Governor’s discretionary powers are:",
+    "options": ["Clearly defined", "Not defined precisely", "Judicial", "Financial only"],
+    "correct": 1,
+    "explanation": "Discretionary powers are not precisely defined in Constitution."
+  },
+
+  {
+    "question": "Governor appoints Advocate General of state under:",
+    "options": ["Article 165", "Article 170", "Article 200", "Article 213"],
+    "correct": 0,
+    "explanation": "Article 165 deals with appointment of Advocate General."
+  },
+  {
+    "question": "Governor can summon State Legislature under:",
+    "options": ["Article 174", "Article 200", "Article 213", "Article 356"],
+    "correct": 0,
+    "explanation": "Article 174 empowers Governor to summon legislature."
+  },
+  {
+    "question": "Governor addresses State Legislature under:",
+    "options": ["Article 174", "Article 175", "Article 176", "Article 177"],
+    "correct": 2,
+    "explanation": "Article 176 provides special address by Governor."
+  },
+  {
+    "question": "Governor nominates members to Legislative Council:",
+    "options": ["1/3rd", "1/6th", "1/12th", "1/10th"],
+    "correct": 1,
+    "explanation": "Governor nominates 1/6th members in Legislative Council."
+  },
+  {
+    "question": "Governor may dissolve:",
+    "options": ["Rajya Sabha", "Lok Sabha", "State Assembly", "Supreme Court"],
+    "correct": 2,
+    "explanation": "Governor can dissolve State Legislative Assembly."
+  },
+
+  {
+    "question": "Governor’s power similar to President’s ordinance power:",
+    "options": ["True", "False", "Partial", "None"],
+    "correct": 0,
+    "explanation": "Governor’s ordinance power is similar to President’s under Article 213."
+  },
+  {
+    "question": "Governor can appoint State Election Commissioner:",
+    "options": ["Yes", "No", "Only President", "Parliament"],
+    "correct": 0,
+    "explanation": "Governor appoints State Election Commissioner."
+  },
+  {
+    "question": "Governor’s role in Tribal Areas is under:",
+    "options": ["Fifth Schedule", "Sixth Schedule", "Seventh Schedule", "Tenth Schedule"],
+    "correct": 0,
+    "explanation": "Fifth Schedule gives Governor special powers in tribal areas."
+  },
+  {
+    "question": "Governor can recommend President’s Rule under:",
+    "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+    "correct": 1,
+    "explanation": "Article 356 deals with President’s Rule."
+  },
+  {
+    "question": "Governor must act on advice of Council except:",
+    "options": ["In discretionary matters", "In all matters", "Never", "Only finance"],
+    "correct": 0,
+    "explanation": "Governor may act in discretion in certain situations."
+  },
+
+  {
+    "question": "Governor’s emoluments are determined by:",
+    "options": ["Parliament", "President", "State Legislature", "Supreme Court"],
+    "correct": 0,
+    "explanation": "Parliament determines salary and allowances."
+  },
+  {
+    "question": "Governor can seek information from:",
+    "options": ["Chief Minister", "President", "Supreme Court", "Parliament"],
+    "correct": 0,
+    "explanation": "Governor can ask CM for information regarding administration."
+  },
+  {
+    "question": "Governor appoints Chief Minister under:",
+    "options": ["Article 163", "Article 164", "Article 174", "Article 200"],
+    "correct": 1,
+    "explanation": "Article 164 deals with appointment of Chief Minister."
+  },
+  {
+    "question": "Governor can grant reprieve under:",
+    "options": ["Article 72", "Article 161", "Article 213", "Article 356"],
+    "correct": 1,
+    "explanation": "Article 161 grants pardoning powers to Governor."
+  },
+  {
+    "question": "Governor can withhold assent to bill:",
+    "options": ["Yes", "No", "Only money bill", "Only constitutional amendment"],
+    "correct": 0,
+    "explanation": "Governor can withhold assent or reserve bill."
+  },
+
+  {
+    "question": "Governor’s ordinance must be approved within:",
+    "options": ["6 weeks of reassembly", "3 months", "1 month", "Immediately"],
+    "correct": 0,
+    "explanation": "Ordinance must be approved within 6 weeks of reassembly."
+  },
+  {
+    "question": "Governor cannot:",
+    "options": ["Promulgate ordinance", "Dissolve assembly", "Remove High Court judge", "Appoint CM"],
+    "correct": 2,
+    "explanation": "Removal of High Court judge is done by President."
+  },
+  {
+    "question": "Governor appoints State Public Service Commission members:",
+    "options": ["Yes", "No", "Only President", "Parliament"],
+    "correct": 0,
+    "explanation": "Governor appoints members of State PSC."
+  },
+  {
+    "question": "Governor’s dual role is:",
+    "options": ["State head & President’s agent", "Judicial head", "Finance head", "Military head"],
+    "correct": 0,
+    "explanation": "Governor acts as constitutional head and agent of President."
+  },
+  {
+    "question": "Governor’s power in emergency is:",
+    "options": ["Executive", "Judicial", "Advisory", "None"],
+    "correct": 0,
+    "explanation": "Governor exercises executive authority during emergency."
+  },
+
+  {
+    "question": "Governor can dissolve assembly if:",
+    "options": ["CM advises", "President orders", "Court orders", "Always"],
+    "correct": 0,
+    "explanation": "Governor dissolves assembly on advice of CM."
+  },
+  {
+    "question": "Governor submits annual report to:",
+    "options": ["State Legislature", "President", "Supreme Court", "Chief Minister"],
+    "correct": 1,
+    "explanation": "Governor reports to President regarding state matters."
+  },
+  {
+    "question": "Governor can appoint judges of:",
+    "options": ["Supreme Court", "High Court", "District Courts", "Lok Sabha"],
+    "correct": 2,
+    "explanation": "Governor appoints District Judges in consultation with High Court."
+  },
+  {
+    "question": "Governor’s assent is required for:",
+    "options": ["State bills", "Union bills", "Parliament bills", "Supreme Court bills"],
+    "correct": 0,
+    "explanation": "State bills require Governor’s assent."
+  },
+  {
+    "question": "Governor may call for floor test when:",
+    "options": ["Majority doubtful", "Budget passed", "Election announced", "Court directs"],
+    "correct": 0,
+    "explanation": "Governor can order floor test if majority is doubtful."
   }
 ]
