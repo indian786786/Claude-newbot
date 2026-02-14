@@ -1,0 +1,302 @@
+[
+  {
+    "question": "The Parliament of India consists of:",
+    "options": ["Lok Sabha only", "Rajya Sabha only", "President, Lok Sabha and Rajya Sabha", "Lok Sabha and Rajya Sabha"],
+    "correct": 2,
+    "explanation": "Parliament consists of the President and two Houses: Lok Sabha and Rajya Sabha."
+  },
+  {
+    "question": "The maximum strength of Lok Sabha is:",
+    "options": ["530", "543", "545", "552"],
+    "correct": 3,
+    "explanation": "The maximum strength of Lok Sabha is 552 (530 from States + 20 from UTs + 2 Anglo-Indians, though Anglo-Indian nomination ended)."
+  },
+  {
+    "question": "The current strength of Lok Sabha is:",
+    "options": ["530", "543", "545", "552"],
+    "correct": 2,
+    "explanation": "Currently, Lok Sabha has 545 members (543 elected + 2 nominated Anglo-Indians, though nomination ended in 2020)."
+  },
+  {
+    "question": "The normal term of Lok Sabha is:",
+    "options": ["4 years", "5 years", "6 years", "Permanent"],
+    "correct": 1,
+    "explanation": "The normal term of Lok Sabha is 5 years from the date of its first meeting."
+  },
+  {
+    "question": "The maximum strength of Rajya Sabha is:",
+    "options": ["238", "245", "250", "252"],
+    "correct": 2,
+    "explanation": "The maximum strength of Rajya Sabha is 250 (238 elected + 12 nominated)."
+  },
+  {
+    "question": "The current strength of Rajya Sabha is:",
+    "options": ["238", "245", "250", "252"],
+    "correct": 1,
+    "explanation": "Currently, Rajya Sabha has 245 members (233 elected + 12 nominated)."
+  },
+  {
+    "question": "Rajya Sabha is:",
+    "options": ["Temporary body", "Permanent body", "Dissolved every 5 years", "Dissolved every 6 years"],
+    "correct": 1,
+    "explanation": "Rajya Sabha is a permanent body and is not subject to dissolution."
+  },
+  {
+    "question": "One-third of Rajya Sabha members retire every:",
+    "options": ["Year", "2 years", "3 years", "5 years"],
+    "correct": 1,
+    "explanation": "One-third of Rajya Sabha members retire every 2 years."
+  },
+  {
+    "question": "The minimum age to become a member of Lok Sabha is:",
+    "options": ["18 years", "21 years", "25 years", "30 years"],
+    "correct": 2,
+    "explanation": "A person must be at least 25 years old to be a member of Lok Sabha."
+  },
+  {
+    "question": "The minimum age to become a member of Rajya Sabha is:",
+    "options": ["21 years", "25 years", "30 years", "35 years"],
+    "correct": 2,
+    "explanation": "A person must be at least 30 years old to be a member of Rajya Sabha."
+  },
+  {
+    "question": "Members of Lok Sabha are elected by:",
+    "options": ["Direct election", "Indirect election", "Nomination", "Both direct and nomination"],
+    "correct": 0,
+    "explanation": "Members of Lok Sabha are directly elected by the people through adult suffrage."
+  },
+  {
+    "question": "Members of Rajya Sabha are elected by:",
+    "options": ["Direct election by people", "Electoral College of State Assemblies", "Nominated by President", "Both elected and nominated"],
+    "correct": 3,
+    "explanation": "Rajya Sabha has both elected members (by State Legislative Assemblies) and 12 nominated members."
+  },
+  {
+    "question": "Who is the ex-officio Chairman of Rajya Sabha?",
+    "options": ["President", "Vice President", "Prime Minister", "Elected by Rajya Sabha"],
+    "correct": 1,
+    "explanation": "The Vice President of India is the ex-officio Chairman of Rajya Sabha."
+  },
+  {
+    "question": "Who elects the Deputy Chairman of Rajya Sabha?",
+    "options": ["President", "Vice President", "Members of Rajya Sabha", "Parliament"],
+    "correct": 2,
+    "explanation": "The Deputy Chairman is elected by the members of Rajya Sabha from amongst themselves."
+  },
+  {
+    "question": "Who is the presiding officer of Lok Sabha?",
+    "options": ["President", "Vice President", "Speaker", "Prime Minister"],
+    "correct": 2,
+    "explanation": "The Speaker is the presiding officer of Lok Sabha."
+  },
+  {
+    "question": "The Speaker is elected by:",
+    "options": ["President", "Prime Minister", "Members of Lok Sabha", "Parliament"],
+    "correct": 2,
+    "explanation": "The Speaker is elected by the members of Lok Sabha from amongst themselves."
+  },
+  {
+    "question": "Who decides whether a bill is a Money Bill?",
+    "options": ["President", "Prime Minister", "Speaker of Lok Sabha", "Chairman of Rajya Sabha"],
+    "correct": 2,
+    "explanation": "The Speaker of Lok Sabha has the final power to decide whether a bill is a Money Bill."
+  },
+  {
+    "question": "A Money Bill can be introduced only in:",
+    "options": ["Rajya Sabha", "Lok Sabha", "Either House", "Both Houses simultaneously"],
+    "correct": 1,
+    "explanation": "A Money Bill can be introduced only in Lok Sabha."
+  },
+  {
+    "question": "Rajya Sabha can detain a Money Bill for a maximum of:",
+    "options": ["7 days", "14 days", "21 days", "1 month"],
+    "correct": 1,
+    "explanation": "Rajya Sabha can detain a Money Bill for a maximum period of 14 days."
+  },
+  {
+    "question": "Which Article defines a Money Bill?",
+    "options": ["Article 108", "Article 109", "Article 110", "Article 111"],
+    "correct": 2,
+    "explanation": "Article 110 defines what constitutes a Money Bill."
+  },
+  {
+    "question": "The Lok Sabha and Rajya Sabha meet in a joint sitting to resolve deadlock over:",
+    "options": ["Money Bill", "Ordinary Bill", "Constitutional Amendment Bill", "All Bills"],
+    "correct": 1,
+    "explanation": "Joint sitting is held only for Ordinary Bills, not for Money Bills or Constitutional Amendment Bills."
+  },
+  {
+    "question": "Who presides over a joint sitting of Parliament?",
+    "options": ["President", "Vice President", "Speaker of Lok Sabha", "Chairman of Rajya Sabha"],
+    "correct": 2,
+    "explanation": "The Speaker of Lok Sabha presides over a joint sitting of Parliament."
+  },
+  {
+    "question": "Which Article provides for joint sitting of Parliament?",
+    "options": ["Article 107", "Article 108", "Article 109", "Article 110"],
+    "correct": 1,
+    "explanation": "Article 108 provides for joint sitting of both Houses in case of deadlock over an Ordinary Bill."
+  },
+  {
+    "question": "How many joint sittings have been held so far?",
+    "options": ["None", "One", "Two", "Three"],
+    "correct": 3,
+    "explanation": "Three joint sittings have been held: Dowry Prohibition Act (1961), Banking Service Commission Act (1978), and POTA (2002)."
+  },
+  {
+    "question": "The quorum to constitute a meeting of Parliament is:",
+    "options": ["1/5th of total members", "1/4th of total members", "1/3rd of total members", "1/10th of total members"],
+    "correct": 3,
+    "explanation": "The quorum is one-tenth of the total number of members of the House."
+  },
+  {
+    "question": "Which language is primarily used in Parliament?",
+    "options": ["English only", "Hindi only", "Both Hindi and English", "Any Indian language"],
+    "correct": 2,
+    "explanation": "Both Hindi and English are used in Parliament for conducting business."
+  },
+  {
+    "question": "A Constitutional Amendment Bill requires:",
+    "options": ["Simple majority", "Absolute majority", "Special majority", "2/3rd of present and voting"],
+    "correct": 2,
+    "explanation": "Most Constitutional Amendment Bills require a special majority of Parliament."
+  },
+  {
+    "question": "Special majority means:",
+    "options": ["50% of total strength", "2/3rd of members present", "2/3rd of present and voting + absolute majority", "3/4th majority"],
+    "correct": 2,
+    "explanation": "Special majority means 2/3rd of members present and voting plus absolute majority of the House."
+  },
+  {
+    "question": "Which House has more powers regarding Money Bills?",
+    "options": ["Rajya Sabha", "Lok Sabha", "Both equal", "Depends on the bill"],
+    "correct": 1,
+    "explanation": "Lok Sabha has more powers regarding Money Bills as they can only be introduced there."
+  },
+  {
+    "question": "Which House has more power in electing the President?",
+    "options": ["Rajya Sabha", "Lok Sabha", "Both equal", "State Assemblies"],
+    "correct": 1,
+    "explanation": "Lok Sabha has more power as it has more elected members with higher value of votes."
+  },
+  {
+    "question": "No Confidence Motion can be moved only in:",
+    "options": ["Rajya Sabha", "Lok Sabha", "Either House", "Both Houses"],
+    "correct": 1,
+    "explanation": "No Confidence Motion can be moved only in Lok Sabha against the Council of Ministers."
+  },
+  {
+    "question": "Confidence Motion requires support of at least:",
+    "options": ["25 members", "50 members", "100 members", "No minimum"],
+    "correct": 1,
+    "explanation": "A No Confidence Motion requires the support of at least 50 members."
+  },
+  {
+    "question": "The Rajya Sabha has special powers regarding:",
+    "options": ["Money Bills", "Removal of President", "Creation of All India Services", "Dissolution of Lok Sabha"],
+    "correct": 2,
+    "explanation": "Rajya Sabha has exclusive power to authorize creation of new All India Services under Article 312."
+  },
+  {
+    "question": "Which House represents the States?",
+    "options": ["Lok Sabha", "Rajya Sabha", "Both", "Neither"],
+    "correct": 1,
+    "explanation": "Rajya Sabha represents the States of the Indian Union."
+  },
+  {
+    "question": "The maximum gap between two sessions of Parliament should not exceed:",
+    "options": ["3 months", "6 months", "9 months", "1 year"],
+    "correct": 1,
+    "explanation": "The maximum gap between two sessions of Parliament cannot exceed 6 months."
+  },
+  {
+    "question": "How many sessions of Parliament are held in a year?",
+    "options": ["One", "Two", "Three", "Four"],
+    "correct": 2,
+    "explanation": "Generally, three sessions are held: Budget Session, Monsoon Session, and Winter Session."
+  },
+  {
+    "question": "The Budget Session is held in:",
+    "options": ["January-February", "February-May", "July-August", "November-December"],
+    "correct": 1,
+    "explanation": "The Budget Session is usually held from February to May."
+  },
+  {
+    "question": "Parliamentary committees are of how many types?",
+    "options": ["One", "Two", "Three", "Four"],
+    "correct": 1,
+    "explanation": "Parliamentary committees are of two types: Standing Committees and Ad-hoc Committees."
+  },
+  {
+    "question": "The Public Accounts Committee has how many members?",
+    "options": ["15", "22", "30", "45"],
+    "correct": 1,
+    "explanation": "The Public Accounts Committee consists of 22 members (15 from Lok Sabha and 7 from Rajya Sabha)."
+  },
+  {
+    "question": "The Chairman of Public Accounts Committee is from:",
+    "options": ["Ruling party", "Opposition", "Nominated by President", "Elected by members"],
+    "correct": 1,
+    "explanation": "By convention, the Chairman of PAC is from the opposition."
+  },
+  {
+    "question": "The Estimates Committee has members only from:",
+    "options": ["Rajya Sabha", "Lok Sabha", "Both Houses", "Nominated members"],
+    "correct": 1,
+    "explanation": "The Estimates Committee has 30 members, all from Lok Sabha only."
+  },
+  {
+    "question": "Which committee is called the 'continuous economy committee'?",
+    "options": ["Public Accounts Committee", "Estimates Committee", "Committee on Public Undertakings", "Finance Commission"],
+    "correct": 1,
+    "explanation": "The Estimates Committee is called the continuous economy committee."
+  },
+  {
+    "question": "The Committee on Public Undertakings has how many members?",
+    "options": ["15", "22", "30", "45"],
+    "correct": 1,
+    "explanation": "The Committee on Public Undertakings has 22 members (15 from Lok Sabha and 7 from Rajya Sabha)."
+  },
+  {
+    "question": "Parliamentary privileges are mentioned in which Article?",
+    "options": ["Article 104", "Article 105", "Article 110", "Article 118"],
+    "correct": 1,
+    "explanation": "Article 105 deals with powers, privileges and immunities of Parliament and its members."
+  },
+  {
+    "question": "A member of Parliament can be disqualified under:",
+    "options": ["Ninth Schedule", "Tenth Schedule", "Eleventh Schedule", "Twelfth Schedule"],
+    "correct": 1,
+    "explanation": "The Tenth Schedule (Anti-Defection Law) provides for disqualification of members."
+  },
+  {
+    "question": "Zero Hour in Parliament is:",
+    "options": ["First hour", "Time between Question Hour and agenda", "Last hour", "Midnight session"],
+    "correct": 1,
+    "explanation": "Zero Hour is the time between Question Hour and the agenda, used to raise matters of urgent public importance."
+  },
+  {
+    "question": "Question Hour in Parliament lasts for:",
+    "options": ["30 minutes", "1 hour", "2 hours", "3 hours"],
+    "correct": 1,
+    "explanation": "Question Hour is the first hour of every sitting when questions are asked."
+  },
+  {
+    "question": "A bill becomes law after receiving assent from:",
+    "options": ["Prime Minister", "President", "Speaker", "Chief Justice"],
+    "correct": 1,
+    "explanation": "A bill becomes an Act after receiving the President's assent."
+  },
+  {
+    "question": "The first Lok Sabha was constituted in:",
+    "options": ["1950", "1951", "1952", "1954"],
+    "correct": 2,
+    "explanation": "The first Lok Sabha was constituted in 1952 after the first general elections."
+  },
+  {
+    "question": "The term 'Member of Parliament' includes members of:",
+    "options": ["Lok Sabha only", "Rajya Sabha only", "Both Lok Sabha and Rajya Sabha", "State Legislatures"],
+    "correct": 2,
+    "explanation": "Member of Parliament refers to members of both Lok Sabha and Rajya Sabha."
+  }
+]

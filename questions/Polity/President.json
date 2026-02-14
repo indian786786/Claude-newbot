@@ -1,0 +1,302 @@
+[
+  {
+    "question": "The President of India is elected by:",
+    "options": ["Direct election by people", "Electoral College", "Parliament only", "State Legislatures only"],
+    "correct": 1,
+    "explanation": "The President is elected by an Electoral College consisting of elected members of both Houses of Parliament and State Legislative Assemblies."
+  },
+  {
+    "question": "The minimum age to become President is:",
+    "options": ["25 years", "30 years", "35 years", "40 years"],
+    "correct": 2,
+    "explanation": "Article 58 prescribes that a person must be at least 35 years old to be eligible for election as President."
+  },
+  {
+    "question": "The term of office of the President is:",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "correct": 1,
+    "explanation": "The President holds office for a term of 5 years from the date on which he enters upon his office."
+  },
+  {
+    "question": "How many times can a person be re-elected as President?",
+    "options": ["Once", "Twice", "Thrice", "No limit"],
+    "correct": 3,
+    "explanation": "There is no limit on the number of times a person can be re-elected as President."
+  },
+  {
+    "question": "Which Article deals with the election of President?",
+    "options": ["Article 52", "Article 54", "Article 56", "Article 58"],
+    "correct": 1,
+    "explanation": "Article 54 provides for the election of President by an Electoral College."
+  },
+  {
+    "question": "The President can be removed from office by:",
+    "options": ["Supreme Court", "Parliament through impeachment", "Prime Minister", "Electoral College"],
+    "correct": 1,
+    "explanation": "Article 61 provides for removal of President through impeachment by Parliament."
+  },
+  {
+    "question": "Impeachment charges must be signed by at least:",
+    "options": ["1/3rd members", "1/4th members", "1/2 members", "2/3rd members"],
+    "correct": 1,
+    "explanation": "Impeachment charges must be signed by at least one-fourth of the total members of the House."
+  },
+  {
+    "question": "For impeachment, the resolution must be passed by:",
+    "options": ["Simple majority", "Absolute majority", "2/3rd majority of total membership", "3/4th majority"],
+    "correct": 2,
+    "explanation": "Impeachment requires a 2/3rd majority of the total membership of the House."
+  },
+  {
+    "question": "The President can be impeached on grounds of:",
+    "options": ["Misconduct", "Violation of Constitution", "Inefficiency", "All of the above"],
+    "correct": 1,
+    "explanation": "The President can be impeached only on the ground of violation of the Constitution."
+  },
+  {
+    "question": "Who administers the oath of office to the President?",
+    "options": ["Prime Minister", "Chief Justice of India", "Speaker of Lok Sabha", "Vice President"],
+    "correct": 1,
+    "explanation": "The Chief Justice of India or in his absence, the senior-most judge of the Supreme Court administers the oath."
+  },
+  {
+    "question": "The President's emoluments are charged on:",
+    "options": ["Contingency Fund", "Consolidated Fund", "Public Account", "Reserve Fund"],
+    "correct": 1,
+    "explanation": "The President's emoluments and allowances are charged on the Consolidated Fund of India."
+  },
+  {
+    "question": "Which Article empowers the President to grant pardons?",
+    "options": ["Article 61", "Article 72", "Article 123", "Article 143"],
+    "correct": 1,
+    "explanation": "Article 72 gives the President power to grant pardons, reprieves, respites, remissions or commutations."
+  },
+  {
+    "question": "The President can grant pardon in case of:",
+    "options": ["Court martial only", "Death sentence only", "All offences against Union law and court martial", "State offences"],
+    "correct": 2,
+    "explanation": "The President can grant pardons in all cases of offences against Union laws and in all cases of court martial."
+  },
+  {
+    "question": "Which Article empowers the President to promulgate ordinances?",
+    "options": ["Article 72", "Article 85", "Article 123", "Article 213"],
+    "correct": 2,
+    "explanation": "Article 123 empowers the President to promulgate ordinances when Parliament is not in session."
+  },
+  {
+    "question": "An ordinance issued by the President must be approved by Parliament within:",
+    "options": ["3 weeks", "6 weeks", "2 months", "3 months"],
+    "correct": 1,
+    "explanation": "An ordinance must be laid before Parliament and ceases to operate after 6 weeks from reassembly."
+  },
+  {
+    "question": "The President can dissolve:",
+    "options": ["Rajya Sabha", "Lok Sabha", "Both Houses", "State Assemblies"],
+    "correct": 1,
+    "explanation": "The President has the power to dissolve the Lok Sabha on the advice of the Prime Minister."
+  },
+  {
+    "question": "The President appoints the Prime Minister according to:",
+    "options": ["His own choice", "Majority in Lok Sabha", "Senior-most minister", "Recommendation of outgoing PM"],
+    "correct": 1,
+    "explanation": "The President appoints the leader of the majority party in Lok Sabha as Prime Minister."
+  },
+  {
+    "question": "Who acts as President when both President and Vice President are unavailable?",
+    "options": ["Prime Minister", "Speaker of Lok Sabha", "Chief Justice of India", "Attorney General"],
+    "correct": 2,
+    "explanation": "The Chief Justice of India acts as President when both President and Vice President are unable to discharge functions."
+  },
+  {
+    "question": "The President nominates how many members to Rajya Sabha?",
+    "options": ["10", "12", "14", "15"],
+    "correct": 1,
+    "explanation": "The President nominates 12 members to Rajya Sabha from persons having special knowledge in literature, science, art and social service."
+  },
+  {
+    "question": "The President nominates how many Anglo-Indians to Lok Sabha?",
+    "options": ["0", "2", "4", "6"],
+    "correct": 0,
+    "explanation": "The 104th Amendment, 2020 abolished the nomination of Anglo-Indians to Lok Sabha."
+  },
+  {
+    "question": "Who decides doubts regarding disqualification of members of Parliament?",
+    "options": ["Supreme Court", "President on Election Commission's opinion", "Speaker", "Prime Minister"],
+    "correct": 1,
+    "explanation": "The President decides on disqualification questions on the opinion of the Election Commission."
+  },
+  {
+    "question": "The President summons Parliament sessions on the advice of:",
+    "options": ["Chief Justice", "Prime Minister", "Speaker", "His own discretion"],
+    "correct": 1,
+    "explanation": "The President summons Parliament sessions on the advice of the Prime Minister."
+  },
+  {
+    "question": "The President addresses Parliament:",
+    "options": ["Only at the beginning of first session after elections", "Annually", "Both first session after elections and first session of each year", "Monthly"],
+    "correct": 2,
+    "explanation": "The President addresses both Houses together at the commencement of first session after elections and first session each year."
+  },
+  {
+    "question": "Money Bills can be introduced in Parliament only with prior recommendation of:",
+    "options": ["Prime Minister", "Finance Minister", "President", "Speaker"],
+    "correct": 2,
+    "explanation": "Article 117 requires Money Bills to be introduced only on the President's recommendation."
+  },
+  {
+    "question": "The President's assent to a bill is mandatory for:",
+    "options": ["All bills", "Money Bills only", "Constitutional Amendment Bills only", "Ordinary Bills only"],
+    "correct": 0,
+    "explanation": "No bill can become law without the President's assent."
+  },
+  {
+    "question": "The President can return a bill for reconsideration:",
+    "options": ["Any number of times", "Once only", "Twice only", "Cannot return at all"],
+    "correct": 1,
+    "explanation": "The President can return a bill (except Money Bill) once for reconsideration."
+  },
+  {
+    "question": "If Parliament re-passes a returned bill, the President:",
+    "options": ["Must give assent", "Can return again", "Can reject", "Can seek Supreme Court opinion"],
+    "correct": 0,
+    "explanation": "If Parliament re-passes the bill with or without amendments, the President must give assent."
+  },
+  {
+    "question": "The President exercises his functions on the aid and advice of:",
+    "options": ["Prime Minister", "Council of Ministers", "Parliament", "Supreme Court"],
+    "correct": 1,
+    "explanation": "Article 74 requires the President to act on the aid and advice of the Council of Ministers."
+  },
+  {
+    "question": "The 42nd Amendment made the President's advice from Council of Ministers:",
+    "options": ["Optional", "Binding", "Recommendatory", "Subject to Supreme Court approval"],
+    "correct": 1,
+    "explanation": "The 42nd Amendment made it mandatory for the President to act on the Council's advice."
+  },
+  {
+    "question": "The 44th Amendment allowed the President to:",
+    "options": ["Reject advice", "Seek reconsideration of advice once", "Act independently", "Dissolve Parliament"],
+    "correct": 1,
+    "explanation": "The 44th Amendment allows the President to require the Council to reconsider advice once."
+  },
+  {
+    "question": "Which Article empowers the President to seek Supreme Court's advice?",
+    "options": ["Article 123", "Article 143", "Article 352", "Article 368"],
+    "correct": 1,
+    "explanation": "Article 143 empowers the President to seek the Supreme Court's advisory opinion on matters of public importance."
+  },
+  {
+    "question": "Is the Supreme Court's advice under Article 143 binding on the President?",
+    "options": ["Yes, always", "No, it is not binding", "Yes, if unanimous", "Depends on the matter"],
+    "correct": 1,
+    "explanation": "The Supreme Court's advice under Article 143 is advisory and not binding on the President."
+  },
+  {
+    "question": "Who appoints the Chief Justice and other judges of Supreme Court?",
+    "options": ["Prime Minister", "President", "Chief Justice", "Collegium"],
+    "correct": 1,
+    "explanation": "The President appoints judges of the Supreme Court after consultation with the collegium."
+  },
+  {
+    "question": "The President appoints the Chief Election Commissioner on the advice of:",
+    "options": ["Prime Minister", "Chief Justice", "Council of Ministers", "Parliament"],
+    "correct": 2,
+    "explanation": "The President appoints the Chief Election Commissioner on the advice of the Council of Ministers."
+  },
+  {
+    "question": "The President can proclaim National Emergency under which Article?",
+    "options": ["Article 352", "Article 356", "Article 360", "Article 368"],
+    "correct": 0,
+    "explanation": "Article 352 empowers the President to proclaim National Emergency."
+  },
+  {
+    "question": "National Emergency can be proclaimed on grounds of:",
+    "options": ["War only", "External aggression only", "Armed rebellion only", "War, external aggression or armed rebellion"],
+    "correct": 3,
+    "explanation": "National Emergency can be proclaimed on grounds of war, external aggression or armed rebellion."
+  },
+  {
+    "question": "The term 'Internal Disturbance' was replaced by 'Armed Rebellion' by which Amendment?",
+    "options": ["42nd Amendment", "44th Amendment", "52nd Amendment", "86th Amendment"],
+    "correct": 1,
+    "explanation": "The 44th Amendment replaced 'Internal Disturbance' with 'Armed Rebellion'."
+  },
+  {
+    "question": "National Emergency must be approved by Parliament within:",
+    "options": ["15 days", "1 month", "2 months", "3 months"],
+    "correct": 1,
+    "explanation": "National Emergency must be approved by both Houses within one month."
+  },
+  {
+    "question": "National Emergency can be extended by Parliament for:",
+    "options": ["3 months at a time", "6 months at a time", "1 year at a time", "Indefinitely"],
+    "correct": 1,
+    "explanation": "After initial approval, National Emergency can be extended for 6 months at a time by Parliament."
+  },
+  {
+    "question": "How many times has National Emergency been declared in India?",
+    "options": ["Once", "Twice", "Thrice", "Four times"],
+    "correct": 2,
+    "explanation": "National Emergency has been declared three times: 1962 (China war), 1971 (Pakistan war), and 1975 (Internal Emergency)."
+  },
+  {
+    "question": "President's Rule in a state is imposed under which Article?",
+    "options": ["Article 352", "Article 356", "Article 360", "Article 365"],
+    "correct": 1,
+    "explanation": "Article 356 provides for imposition of President's Rule in a state."
+  },
+  {
+    "question": "President's Rule can initially be imposed for a period of:",
+    "options": ["3 months", "6 months", "1 year", "2 years"],
+    "correct": 1,
+    "explanation": "President's Rule can initially be imposed for a period of 6 months."
+  },
+  {
+    "question": "The maximum period for which President's Rule can continue is:",
+    "options": ["1 year", "2 years", "3 years", "Indefinitely"],
+    "correct": 2,
+    "explanation": "President's Rule can continue for a maximum period of 3 years under special circumstances."
+  },
+  {
+    "question": "Financial Emergency is proclaimed under which Article?",
+    "options": ["Article 352", "Article 356", "Article 360", "Article 365"],
+    "correct": 2,
+    "explanation": "Article 360 deals with Financial Emergency."
+  },
+  {
+    "question": "Has Financial Emergency ever been proclaimed in India?",
+    "options": ["Yes, once", "Yes, twice", "Yes, thrice", "Never"],
+    "correct": 3,
+    "explanation": "Financial Emergency has never been proclaimed in India."
+  },
+  {
+    "question": "Who was the first President of India?",
+    "options": ["Jawaharlal Nehru", "Dr. Rajendra Prasad", "Dr. S. Radhakrishnan", "Dr. Zakir Hussain"],
+    "correct": 1,
+    "explanation": "Dr. Rajendra Prasad was the first President of India (1950-1962)."
+  },
+  {
+    "question": "Who was the first woman President of India?",
+    "options": ["Indira Gandhi", "Pratibha Patil", "Sarojini Naidu", "Sucheta Kriplani"],
+    "correct": 1,
+    "explanation": "Pratibha Patil was the first woman President of India (2007-2012)."
+  },
+  {
+    "question": "The President is part of:",
+    "options": ["Executive only", "Legislature only", "Both Executive and Legislature", "Judiciary"],
+    "correct": 2,
+    "explanation": "The President is part of both the Executive and the Legislature (as part of Parliament)."
+  },
+  {
+    "question": "The electoral college for Presidential election uses:",
+    "options": ["First past the post", "Proportional representation", "Single transferable vote", "Simple majority"],
+    "correct": 2,
+    "explanation": "The election uses proportional representation by means of single transferable vote."
+  },
+  {
+    "question": "The value of an MLA's vote is calculated based on:",
+    "options": ["State's population only", "State's area only", "Population/Number of MLAs", "Equal for all states"],
+    "correct": 2,
+    "explanation": "Value of MLA's vote = (State population / 1000) / Total elected MLAs of the state."
+  }
+]
