@@ -1,548 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>SSC PYQ Quiz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <style>
-        * { box-sizing: border-box; }
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f0f4f8;
-            color: #333;
-        }
+<meta charset="UTF-8">
+<title>SSC PYQ Quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #f0f4f8; color: #333; }
 
-        /* Screens */
-        #categoryScreen, #topicScreen, #quizScreen, #resultsScreen {
-            display: none;
-            min-height: 100vh;
-            padding: 20px;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-        #categoryScreen { display: block; }
+.screen { display: none; padding: 20px; max-width: 700px; margin: 0 auto; min-height: 100vh; }
 
-        h1, h2 { text-align: center; margin-top: 10px; }
+h1 { text-align: center; font-size: 26px; margin: 15px 0 5px; }
+h2 { text-align: center; font-size: 18px; margin: 5px 0 20px; color: #555; font-weight: normal; }
 
-        /* Category Grid */
-        #categoriesGrid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
+/* CATEGORY */
+#categoriesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-top: 10px;
+}
+.cat-card {
+    background: white;
+    padding: 22px 10px;
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.cat-card:active { opacity: 0.8; }
+.cat-icon { font-size: 34px; }
+.cat-name { font-weight: bold; margin-top: 8px; font-size: 15px; }
+.cat-count { font-size: 12px; color: #999; margin-top: 3px; }
 
-        .category-card {
-            background: white;
-            padding: 20px 10px;
-            border-radius: 12px;
-            text-align: center;
-            cursor: pointer;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-        .category-card:hover { transform: translateY(-4px); }
-        .category-icon { font-size: 32px; }
-        .category-name { font-weight: bold; margin-top: 8px; }
-        .category-count { font-size: 12px; color: #888; margin-top: 4px; }
+/* TOPICS */
+#topicsList { margin-top: 10px; }
+.topic-card {
+    background: white;
+    padding: 15px 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 12px;
+}
+.topic-card:active { background: #e3f2fd; }
+.topic-name { font-size: 15px; font-weight: bold; }
+.topic-sub { font-size: 12px; color: #999; margin-top: 3px; }
+.topic-arrow { font-size: 20px; color: #2196F3; }
 
-        /* Topic list */
-        #topicsList { margin-top: 15px; display: flex; flex-direction: column; gap: 12px; }
+.btn-back {
+    background: white;
+    border: 2px solid #ddd;
+    color: #444;
+    padding: 9px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
 
-        .topic-card {
-            background: white;
-            padding: 15px 20px;
-            border-radius: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-            transition: background 0.2s;
-        }
-        .topic-card:hover { background: #e3f2fd; }
-        .topic-info h3 { margin: 0 0 4px; font-size: 16px; }
-        .topic-info p { margin: 0; font-size: 12px; color: #888; }
-        .topic-arrow { font-size: 20px; color: #2196F3; }
+/* QUIZ */
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+#quizTopicTitle { font-weight: bold; font-size: 14px; }
+#timerDisplay { font-size: 22px; font-weight: bold; color: #2196F3; }
+#timerDisplay.warn { color: #f44336; }
 
-        /* Quiz screen */
-        .quiz-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: white;
-            padding: 12px 15px;
-            border-radius: 10px;
-            margin-bottom: 15px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-        }
-        #quizTopicTitle { font-weight: bold; font-size: 14px; max-width: 180px; }
-        #timerDisplay {
-            font-size: 20px;
-            font-weight: bold;
-            color: #2196F3;
-        }
-        #timerDisplay.warning { color: #f44336; }
+#questionNum { font-size: 13px; color: #888; margin-bottom: 8px; }
+#questionText {
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
 
-        #questionNum { font-size: 13px; color: #888; margin-bottom: 8px; }
-        #questionText {
-            background: white;
-            padding: 15px;
-            border-radius: 10px;
-            font-size: 16px;
-            line-height: 1.5;
-            margin-bottom: 15px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-        }
+.opt {
+    background: white;
+    padding: 13px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.opt:active:not(.disabled) { background: #e3f2fd; }
+.opt.selected { border-color: #2196F3; background: #e3f2fd; }
+.opt.correct  { border-color: #4CAF50; background: #e8f5e9; }
+.opt.wrong    { border-color: #f44336; background: #ffebee; }
+.opt.disabled { cursor: default; }
 
-        #optionsList { display: flex; flex-direction: column; gap: 10px; }
+.opt-lbl {
+    width: 28px; height: 28px; flex-shrink: 0;
+    border-radius: 50%; border: 2px solid #ccc;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: bold; font-size: 13px; color: #555;
+}
+.opt.selected .opt-lbl { border-color: #2196F3; background: #2196F3; color: white; }
+.opt.correct  .opt-lbl { border-color: #4CAF50; background: #4CAF50; color: white; }
+.opt.wrong    .opt-lbl { border-color: #f44336; background: #f44336; color: white; }
 
-        .option-item {
-            background: white;
-            padding: 12px 15px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            transition: all 0.2s;
-        }
-        .option-item:hover:not(.disabled) { border-color: #2196F3; background: #e3f2fd; }
-        .option-item.selected { border-color: #2196F3; background: #e3f2fd; }
-        .option-item.correct { border-color: #4CAF50; background: #e8f5e9; }
-        .option-item.wrong { border-color: #f44336; background: #ffebee; }
-        .option-item.disabled { cursor: default; }
+#explanationBox {
+    display: none;
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 13px 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+#explanationBox.show { display: block; }
 
-        .option-radio {
-            width: 18px; height: 18px;
-            border: 2px solid #aaa;
-            border-radius: 50%;
-            flex-shrink: 0;
-        }
-        .option-item.selected .option-radio { border-color: #2196F3; background: #2196F3; }
-        .option-item.correct .option-radio { border-color: #4CAF50; background: #4CAF50; }
-        .option-item.wrong .option-radio { border-color: #f44336; background: #f44336; }
+.quiz-btns { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
 
-        #explanationBox {
-            display: none;
-            background: #fff8e1;
-            border-left: 4px solid #ffc107;
-            padding: 12px 15px;
-            border-radius: 8px;
-            margin-top: 15px;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-        #explanationBox.show { display: block; }
+button {
+    padding: 11px 18px;
+    border: none; border-radius: 8px;
+    cursor: pointer; font-size: 14px; font-weight: bold;
+}
+.btn-blue   { background: #2196F3; color: white; }
+.btn-orange { background: #FF9800; color: white; }
+.btn-red    { background: #f44336; color: white; }
+.btn-green  { background: #4CAF50; color: white; font-size: 16px; padding: 14px 28px; }
 
-        .quiz-actions {
-            display: flex;
-            gap: 10px;
-            margin-top: 15px;
-            flex-wrap: wrap;
-        }
+/* RESULTS */
+#resultsScreen { text-align: center; }
+#scoreDisp { font-size: 60px; font-weight: bold; color: #2196F3; margin: 10px 0; }
+#resultsMsg { font-size: 20px; margin: 10px 0 20px; }
+.stats-row { display: flex; justify-content: center; gap: 18px; margin: 15px 0 25px; flex-wrap: wrap; }
+.stat { background: white; padding: 15px 22px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.stat .lbl { font-size: 12px; color: #888; }
+.stat .val { font-size: 28px; font-weight: bold; margin-top: 4px; }
+.stat.c .val { color: #4CAF50; }
+.stat.w .val { color: #f44336; }
+.stat.p .val { color: #2196F3; }
 
-        button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .btn-primary { background: #2196F3; color: white; }
-        .btn-warning { background: #FF9800; color: white; }
-        .btn-danger { background: #f44336; color: white; }
-        .btn-success { background: #4CAF50; color: white; }
-        .btn-outline {
-            background: white;
-            color: #555;
-            border: 2px solid #ddd;
-        }
-
-        /* Results */
-        #resultsScreen { text-align: center; }
-        #scoreDisplay { font-size: 52px; font-weight: bold; color: #2196F3; margin: 10px 0; }
-        #resultsMessage { font-size: 20px; margin-bottom: 20px; }
-        .results-stats {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 20px 0;
-        }
-        .stat-box {
-            background: white;
-            padding: 15px 25px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .stat-box .label { font-size: 12px; color: #888; }
-        .stat-box .value { font-size: 24px; font-weight: bold; margin-top: 4px; }
-        .stat-box.correct .value { color: #4CAF50; }
-        .stat-box.wrong .value { color: #f44336; }
-        .stat-box.percent .value { color: #2196F3; }
-
-        /* Back button */
-        #backToCategories {
-            background: white;
-            border: 2px solid #ddd;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        /* last-minutes hidden element for JS compat */
-        #lastMinutes { display: none; }
-
-        .loading {
-            text-align: center;
-            padding: 40px;
-            font-size: 16px;
-            color: #888;
-        }
-    </style>
+.msg-info { text-align:center; padding:30px 20px; color:#888; }
+.msg-err  { padding:16px; background:#ffebee; color:#f44336; border-radius:10px; margin-top:10px; font-size:13px; line-height:1.6; }
+</style>
 </head>
 <body>
 
-<!-- Category Screen -->
-<div id="categoryScreen">
-    <h1>📚 SSC PYQ Quiz</h1>
-    <h2>Select a Category</h2>
-    <div id="categoriesGrid"></div>
+<div class="screen" id="categoryScreen">
+  <h1>📚 SSC PYQ Quiz</h1>
+  <h2>Select a Category</h2>
+  <div id="categoriesGrid"></div>
 </div>
 
-<!-- Topic Screen -->
-<div id="topicScreen">
-    <button id="backToCategories">← Back</button>
-    <h2 id="categoryTitle"></h2>
-    <div id="topicsList"></div>
+<div class="screen" id="topicScreen">
+  <button class="btn-back" id="btnBack">← Back</button>
+  <h2 id="catTitle"></h2>
+  <div id="topicsList"></div>
 </div>
 
-<!-- Quiz Screen -->
-<div id="quizScreen">
-    <div class="quiz-header">
-        <div id="quizTopicTitle"></div>
-        <div id="timerDisplay">10:00</div>
-    </div>
-    <div id="questionNum">Question No.: 1</div>
-    <div id="questionText"></div>
-    <div id="optionsList"></div>
-    <div id="explanationBox">
-        <strong>💡 Explanation:</strong>
-        <div id="explanationText"></div>
-    </div>
-    <div class="quiz-actions">
-        <button class="btn-warning" id="markBtn">⭐ Mark for Review</button>
-        <button class="btn-primary" id="nextBtn">Save & Next</button>
-        <button class="btn-danger" id="submitBtn">Submit Test</button>
-    </div>
-    <span id="lastMinutes"></span>
+<div class="screen" id="quizScreen">
+  <div class="quiz-header">
+    <div id="quizTopicTitle"></div>
+    <div id="timerDisplay">10:00</div>
+  </div>
+  <div id="questionNum"></div>
+  <div id="questionText"></div>
+  <div id="optionsList"></div>
+  <div id="explanationBox">
+    <strong>💡 Explanation:</strong>
+    <div id="explanationText"></div>
+  </div>
+  <div class="quiz-btns">
+    <button class="btn-orange" id="btnMark">⭐ Mark</button>
+    <button class="btn-blue"   id="btnNext">Save &amp; Next</button>
+    <button class="btn-red"    id="btnSubmit">Submit</button>
+  </div>
 </div>
 
-<!-- Results Screen -->
-<div id="resultsScreen">
-    <h2>Quiz Completed 🎉</h2>
-    <div id="scoreDisplay"></div>
-    <div id="resultsMessage"></div>
-    <div class="results-stats">
-        <div class="stat-box correct">
-            <div class="label">Correct</div>
-            <div class="value" id="correctCount">0</div>
-        </div>
-        <div class="stat-box wrong">
-            <div class="label">Wrong</div>
-            <div class="value" id="wrongCount">0</div>
-        </div>
-        <div class="stat-box percent">
-            <div class="label">Score</div>
-            <div class="value" id="percentageScore">0%</div>
-        </div>
-    </div>
-    <button class="btn-success" id="restartBtn">🔁 Back to Categories</button>
+<div class="screen" id="resultsScreen">
+  <h1>Quiz Done 🎉</h1>
+  <div id="scoreDisp"></div>
+  <div id="resultsMsg"></div>
+  <div class="stats-row">
+    <div class="stat c"><div class="lbl">Correct</div><div class="val" id="resCorrect">0</div></div>
+    <div class="stat w"><div class="lbl">Wrong</div><div class="val" id="resWrong">0</div></div>
+    <div class="stat p"><div class="lbl">Score</div><div class="val" id="resPct">0%</div></div>
+  </div>
+  <button class="btn-green" id="btnRestart">🔁 Back to Categories</button>
 </div>
 
 <script>
-// =====================
-// CONFIG
-// =====================
-const quizConfig = {
-    categories: {
-        "Polity": {
-            icon: "⚖️",
-            topics: [
-                { name: "Central Government", file: "Central_Government.json", questionsCount: 10 },
-                { name: "Constitutional Bodies", file: "Constitutional_Bodies.json", questionsCount: 10 },
-                { name: "DPSP", file: "DPSP.json", questionsCount: 10 },
-                { name: "Fundamental Duties", file: "Fundamental_Duties.json", questionsCount: 10 },
-                { name: "Fundamental Rights", file: "Fundamental_Rights.json", questionsCount: 10 },
-                { name: "Governor", file: "Governor.json", questionsCount: 10 },
-                { name: "Important Acts", file: "Important_Acts.json", questionsCount: 10 },
-                { name: "Important Amendments", file: "Important_Amendments.json", questionsCount: 10 },
-                { name: "Important Articles", file: "Important_Articles.json", questionsCount: 10 },
-                { name: "Judiciary", file: "Judiciary.json", questionsCount: 10 },
-                { name: "Local Government", file: "Local_Government.json", questionsCount: 10 },
-                { name: "Making of Constitution", file: "Making_Constitution.json", questionsCount: 10 },
-                { name: "Non-Constitutional Bodies", file: "Non_Constitutional_Bodies.json", questionsCount: 10 },
-                { name: "Parliament", file: "Parliament.json", questionsCount: 10 },
-                { name: "Parts & Schedules", file: "Parts_Schedules.json", questionsCount: 10 },
-                { name: "Political Dimensions", file: "Political_Dimensions.json", questionsCount: 10 },
-                { name: "President", file: "President.json", questionsCount: 10 },
-                { name: "State Government", file: "State_Government.json", questionsCount: 10 },
-                { name: "State Legislature", file: "State_Legislature.json", questionsCount: 10 }
-            ]
-        },
-        "History": {
-            icon: "🏛️",
-            topics: [
-                { name: "Lodi Dynasty", file: "Lodi_Dynasty.json", questionsCount: 10 },
-                { name: "Mughal Empire", file: "Mughal_Empire.json", questionsCount: 10 },
-                { name: "Independence Movement", file: "Independence_Movement.json", questionsCount: 10 }
-            ]
-        },
-        "Geography": {
-            icon: "🌍",
-            topics: [
-                { name: "Indian Rivers", file: "Indian_Rivers.json", questionsCount: 10 },
-                { name: "World Geography", file: "World_Geography.json", questionsCount: 10 }
-            ]
-        },
-        "Mathematics": {
-            icon: "🔢",
-            topics: [
-                { name: "Ratio & Proportion", file: "Ratio_Proportion.json", questionsCount: 10 },
-                { name: "Algebra", file: "Algebra.json", questionsCount: 10 }
-            ]
-        },
-        "Science": {
-            icon: "🔬",
-            topics: [
-                { name: "Physics", file: "Physics.json", questionsCount: 10 },
-                { name: "Chemistry", file: "Chemistry.json", questionsCount: 10 },
-                { name: "Biology", file: "Biology.json", questionsCount: 10 }
-            ]
-        },
-        "Economics": {
-            icon: "💰",
-            topics: [
-                { name: "Indian Economy", file: "Indian_Economy.json", questionsCount: 10 },
-                { name: "Banking", file: "Banking.json", questionsCount: 10 }
-            ]
-        }
-    },
-    settings: {
-        questionsPerQuiz: 10,
-        timeLimit: 600,
-        marksPerQuestion: 2,
-        negativeMarks: 0.25
-    },
-    // GitHub raw URL base — update username/repo/branch if needed
-    githubBase: "https://raw.githubusercontent.com/indian786786/Claude-newbot/refs/heads/main/questions"
+var BASE = "https://raw.githubusercontent.com/indian786786/Claude-newbot/refs/heads/main/questions";
+
+var CATS = {
+  "Polity":      { icon:"⚖️",  topics:["Central_Government","Constitutional_Bodies","DPSP","Fundamental_Duties","Fundamental_Rights","Governor","Important_Acts","Important_Amendments","Important_Articles","Judiciary","Local_Government","Making_Constitution","Non_Constitutional_Bodies","Parliament","Parts_Schedules","Political_Dimensions","President","State_Government","State_Legislature"] },
+  "History":     { icon:"🏛️", topics:["Lodi_Dynasty","Mughal_Empire","Independence_Movement"] },
+  "Geography":   { icon:"🌍",  topics:["Indian_Rivers","World_Geography"] },
+  "Mathematics": { icon:"🔢",  topics:["Ratio_Proportion","Algebra"] },
+  "Science":     { icon:"🔬",  topics:["Physics","Chemistry","Biology"] },
+  "Economics":   { icon:"💰",  topics:["Indian_Economy","Banking"] }
 };
 
-// =====================
-// QUESTION LOADER
-// =====================
-const questionLoader = {
-    cache: {},
-
-    async loadFromGitHub(category, filename) {
-        const url = `${quizConfig.githubBase}/${category}/${filename}`;
-        if (this.cache[url]) return this.cache[url];
-        
-        const resp = await fetch(url);
-        if (!resp.ok) throw new Error(`Could not load questions from: ${url}\n\nStatus: ${resp.status}`);
-        const data = await resp.json();
-        this.cache[url] = data;
-        return data;
-    },
-
-    shuffle(arr) {
-        const a = [...arr];
-        for (let i = a.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [a[i], a[j]] = [a[j], a[i]];
-        }
-        return a;
-    },
-
-    async getRandomQuestions(category, filename, count) {
-        const all = await this.loadFromGitHub(category, filename);
-        // Support both array directly or {questions:[...]}
-        const list = Array.isArray(all) ? all : (all.questions || []);
-        if (list.length === 0) throw new Error("No questions found in file.");
-        const shuffled = this.shuffle(list);
-        return shuffled.slice(0, Math.min(count, shuffled.length));
-    }
+var g = {
+  cat:null, topic:null, qs:[], idx:0, score:0, wrongs:0,
+  sel:null, answered:false, timer:null, timeLeft:600
 };
 
-// =====================
-// QUIZ APP
-// =====================
-class QuizApp {
-    constructor() {
-        this.currentCategory = null;
-        this.currentTopic = null;
-        this.questions = [];
-        this.currentIndex = 0;
-        this._score = 0;
-        this._wrongCount = 0;
-        this.selectedAnswer = null;
-        this.answered = false;
-        this.markedQuestions = [];
-        this.timeLeft = quizConfig.settings.timeLimit;
-        this.timerInterval = null;
+function $id(id){ return document.getElementById(id); }
 
-        this.initElements();
-        this.initTelegram();
-        this.loadCategories();
-        this.attachEventListeners();
+function nice(s){ return s.replace(/_/g,' '); }
+
+function showScreen(id){
+  ['categoryScreen','topicScreen','quizScreen','resultsScreen'].forEach(function(s){
+    $id(s).style.display='none';
+  });
+  $id(id).style.display='block';
+}
+
+function shuffle(arr){
+  var a=arr.slice();
+  for(var i=a.length-1;i>0;i--){
+    var j=Math.floor(Math.random()*(i+1));
+    var tmp=a[i]; a[i]=a[j]; a[j]=tmp;
+  }
+  return a;
+}
+
+// ── CATEGORIES ──
+function loadCategories(){
+  var grid=$id('categoriesGrid');
+  grid.innerHTML='';
+  Object.keys(CATS).forEach(function(name){
+    var d=CATS[name];
+    var el=document.createElement('div');
+    el.className='cat-card';
+    el.innerHTML='<div class="cat-icon">'+d.icon+'</div><div class="cat-name">'+name+'</div><div class="cat-count">'+d.topics.length+' Topics</div>';
+    el.onclick=function(){ openCat(name); };
+    grid.appendChild(el);
+  });
+  showScreen('categoryScreen');
+}
+
+// ── TOPICS ──
+function openCat(name){
+  g.cat=name;
+  var d=CATS[name];
+  $id('catTitle').textContent=d.icon+' '+name;
+  var list=$id('topicsList');
+  list.innerHTML='';
+  d.topics.forEach(function(file){
+    var el=document.createElement('div');
+    el.className='topic-card';
+    el.innerHTML='<div><div class="topic-name">'+nice(file)+'</div><div class="topic-sub">10 Questions</div></div><div class="topic-arrow">→</div>';
+    el.onclick=function(){ startQuiz(file); };
+    list.appendChild(el);
+  });
+  showScreen('topicScreen');
+}
+
+// ── START QUIZ ──
+function startQuiz(file){
+  g.topic=file;
+  showScreen('quizScreen');
+  $id('quizTopicTitle').textContent=nice(file);
+  $id('questionText').textContent='';
+  $id('questionNum').textContent='';
+  $id('optionsList').innerHTML='<div class="msg-info">⏳ Loading questions...</div>';
+  $id('explanationBox').classList.remove('show');
+  $id('timerDisplay').classList.remove('warn');
+
+  var url=BASE+'/'+g.cat+'/'+file+'.json';
+  fetch(url)
+    .then(function(r){
+      if(!r.ok) throw new Error('HTTP '+r.status+' — file not found on GitHub');
+      return r.json();
+    })
+    .then(function(raw){
+      var all=Array.isArray(raw)?raw:(raw.questions||[]);
+      if(!all.length) throw new Error('No questions in this file');
+      g.qs=shuffle(all).slice(0,10);
+      g.idx=0; g.score=0; g.wrongs=0;
+      g.sel=null; g.answered=false; g.timeLeft=600;
+      clearInterval(g.timer);
+      startTimer();
+      renderQ();
+    })
+    .catch(function(e){
+      $id('optionsList').innerHTML='<div class="msg-err">❌ '+e.message+'<br><br>URL: <small>'+url+'</small></div>';
+    });
+}
+
+// ── TIMER ──
+function startTimer(){
+  updateTimer();
+  g.timer=setInterval(function(){
+    g.timeLeft--;
+    updateTimer();
+    if(g.timeLeft<=60) $id('timerDisplay').classList.add('warn');
+    if(g.timeLeft<=0){ clearInterval(g.timer); showResults(); }
+  },1000);
+}
+function updateTimer(){
+  var m=String(Math.floor(g.timeLeft/60)).padStart(2,'0');
+  var s=String(g.timeLeft%60).padStart(2,'0');
+  $id('timerDisplay').textContent=m+':'+s;
+}
+
+// ── RENDER QUESTION ──
+var LABS=['A','B','C','D'];
+function renderQ(){
+  var q=g.qs[g.idx];
+  g.sel=null; g.answered=false;
+  $id('questionNum').textContent='Question '+(g.idx+1)+' of '+g.qs.length;
+  $id('questionText').textContent=q.question;
+  $id('explanationBox').classList.remove('show');
+  $id('btnNext').textContent='Save & Next';
+  var list=$id('optionsList');
+  list.innerHTML='';
+  q.options.forEach(function(opt,i){
+    var el=document.createElement('div');
+    el.className='opt';
+    el.innerHTML='<div class="opt-lbl">'+LABS[i]+'</div><div>'+opt+'</div>';
+    el.onclick=function(){ selectOpt(i,el); };
+    list.appendChild(el);
+  });
+}
+
+// ── SELECT ──
+function selectOpt(idx,el){
+  if(g.answered) return;
+  g.sel=idx;
+  document.querySelectorAll('.opt').forEach(function(d){ d.classList.remove('selected'); });
+  el.classList.add('selected');
+}
+
+// ── NEXT ──
+function nextQ(){
+  if(g.sel===null){ alert('Please select an answer.'); return; }
+  if(!g.answered){
+    g.answered=true;
+    var q=g.qs[g.idx];
+    document.querySelectorAll('.opt').forEach(function(el,i){
+      el.classList.add('disabled');
+      if(i===q.correct) el.classList.add('correct');
+      else if(i===g.sel) el.classList.add('wrong');
+    });
+    if(g.sel===q.correct) g.score++; else g.wrongs++;
+    if(q.explanation){
+      $id('explanationText').textContent=q.explanation;
+      $id('explanationBox').classList.add('show');
     }
+    $id('btnNext').textContent=(g.idx+1<g.qs.length)?'Next →':'View Results';
+  } else {
+    g.idx++;
+    if(g.idx>=g.qs.length){ clearInterval(g.timer); showResults(); }
+    else renderQ();
+  }
+}
 
-    initElements() {
-        this.categoryScreen = document.getElementById('categoryScreen');
-        this.topicScreen = document.getElementById('topicScreen');
-        this.quizScreen = document.getElementById('quizScreen');
-        this.resultsScreen = document.getElementById('resultsScreen');
+// ── RESULTS ──
+function showResults(){
+  clearInterval(g.timer);
+  showScreen('resultsScreen');
+  var total=g.qs.length;
+  var pct=total?Math.round((g.score/total)*100):0;
+  $id('scoreDisp').textContent=g.score+'/'+total;
+  $id('resCorrect').textContent=g.score;
+  $id('resWrong').textContent=g.wrongs;
+  $id('resPct').textContent=pct+'%';
+  var m=pct>=80?'🌟 Excellent! Well prepared!':pct>=60?'👍 Good! Keep practicing.':pct>=40?'📖 Not bad, more practice needed.':'💪 Keep learning!';
+  $id('resultsMsg').textContent=m;
+}
 
-        this.categoriesGrid = document.getElementById('categoriesGrid');
-        this.categoryTitle = document.getElementById('categoryTitle');
-        this.topicsList = document.getElementById('topicsList');
-        this.backBtn = document.getElementById('backToCategories');
+// ── EVENTS ──
+$id('btnBack').onclick=loadCategories;
+$id('btnMark').onclick=function(){
+  var b=$id('btnMark');
+  b.textContent='✅ Marked!';
+  setTimeout(function(){ b.textContent='⭐ Mark'; },1200);
+};
+$id('btnNext').onclick=nextQ;
+$id('btnSubmit').onclick=function(){
+  if(confirm('Submit the test now?')){ clearInterval(g.timer); showResults(); }
+};
+$id('btnRestart').onclick=loadCategories;
 
-        this.quizTopicTitle = document.getElementById('quizTopicTitle');
-        this.timerDisplay = document.getElementById('timerDisplay');
-        this.questionNum = document.getElementById('questionNum');
-        this.questionText = document.getElementById('questionText');
-        this.optionsList = document.getElementById('optionsList');
-        this.explanationBox = document.getElementById('explanationBox');
-        this.explanationText = document.getElementById('explanationText');
-        this.lastMinutes = document.getElementById('lastMinutes');
-
-        this.markBtn = document.getElementById('markBtn');
-        this.nextBtn = document.getElementById('nextBtn');
-        this.submitBtn = document.getElementById('submitBtn');
-
-        this.scoreDisplay = document.getElementById('scoreDisplay');
-        this.resultsMessage = document.getElementById('resultsMessage');
-        this.correctCountEl = document.getElementById('correctCount');
-        this.wrongCountEl = document.getElementById('wrongCount');
-        this.percentageScore = document.getElementById('percentageScore');
-        this.restartBtn = document.getElementById('restartBtn');
-    }
-
-    initTelegram() {
-        if (window.Telegram?.WebApp) {
-            window.Telegram.WebApp.ready();
-            window.Telegram.WebApp.expand();
-        }
-    }
-
-    show(screen) {
-        [this.categoryScreen, this.topicScreen, this.quizScreen, this.resultsScreen].forEach(s => {
-            s.style.display = 'none';
-        });
-        screen.style.display = 'block';
-    }
-
-    loadCategories() {
-        this.categoriesGrid.innerHTML = '';
-        Object.entries(quizConfig.categories).forEach(([categoryName, categoryData]) => {
-            const card = document.createElement('div');
-            card.className = 'category-card';
-            card.innerHTML = `
-                <div class="category-icon">${categoryData.icon}</div>
-                <div class="category-name">${categoryName}</div>
-                <div class="category-count">${categoryData.topics.length} Topics</div>
-            `;
-            card.onclick = () => this.selectCategory(categoryName);
-            this.categoriesGrid.appendChild(card);
-        });
-        this.show(this.categoryScreen);
-    }
-
-    selectCategory(categoryName) {
-        this.currentCategory = categoryName;
-        const categoryData = quizConfig.categories[categoryName];
-        this.categoryTitle.textContent = `${categoryData.icon} ${categoryName}`;
-        this.topicsList.innerHTML = '';
-
-        categoryData.topics.forEach(topic => {
-            const card = document.createElement('div');
-            card.className = 'topic-card';
-            card.innerHTML = `
-                <div class="topic-info">
-                    <h3>${topic.name}</h3>
-                    <p>${topic.questionsCount} Questions</p>
-                </div>
-                <div class="topic-arrow">→</div>
-            `;
-            card.onclick = () => this.startQuiz(topic);
-            this.topicsList.appendChild(card);
-        });
-
-        this.show(this.topicScreen);
-    }
-
-    async startQuiz(topic) {
-        this.show(this.quizScreen);
-        this.quizTopicTitle.textContent = topic.name;
-        this.optionsList.innerHTML = '<div class="loading">Loading questions...</div>';
-        this.questionText.textContent = '';
-        this.questionNum.textContent = '';
-        this.explanationBox.classList.remove('show');
-
-        try {
-            this.currentTopic = topic;
-            this.questions = await questionLoader.getRandomQuestions(
-                this.currentCategory,
-                topic.file,
-                quizConfig.settings.questionsPerQuiz
-            );
-
-            this.currentIndex = 0;
-            this._score = 0;
-            this._wrongCount = 0;
-            this.markedQuestions = [];
-            this.timeLeft = quizConfig.settings.timeLimit;
-
-            clearInterval(this.timerInterval);
-            this.startTimer();
-            this.displayQuestion();
-
-        } catch (error) {
-            this.optionsList.innerHTML = '';
-            this.questionText.textContent = `❌ Error loading questions:\n${error.message}`;
-            console.error(error);
-        }
-    }
-
-    startTimer() {
-        this.updateTimerDisplay();
-        this.timerInterval = setInterval(() => {
-            this.timeLeft--;
-            this.updateTimerDisplay();
-            if (this.timeLeft <= 60) {
-                this.timerDisplay.classList.add('warning');
-            }
-            if (this.timeLeft <= 0) {
-                clearInterval(this.timerInterval);
-                this.showResults();
-            }
-        }, 1000);
-    }
-
-    updateTimerDisplay() {
-        const m = Math.floor(this.timeLeft / 60);
-        const s = this.timeLeft % 60;
-        this.timerDisplay.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-        this.lastMinutes.textContent = String(m).padStart(2,'0');
-    }
-
-    displayQuestion() {
-        const q = this.questions[this.currentIndex];
-        this.selectedAnswer = null;
-        this.answered = false;
-
-        this.questionNum.textContent = `Question ${this.currentInd
+// ── START ──
+loadCategories();
+</script>
+</body>
+</html>
