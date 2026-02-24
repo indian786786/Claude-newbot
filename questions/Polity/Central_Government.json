@@ -1,52 +1,132 @@
 [
-  {"question":"The Prime Minister is appointed by:","options":["President","Lok Sabha","Parliament","People"],"correct":0,"explanation":"The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha."},
-  {"question":"The Prime Minister must be a member of:","options":["Lok Sabha only","Rajya Sabha only","Either House of Parliament","Any State Assembly"],"correct":2,"explanation":"The Prime Minister can be a member of either Lok Sabha or Rajya Sabha."},
-  {"question":"The Council of Ministers is collectively responsible to:","options":["President","Rajya Sabha","Lok Sabha","Parliament"],"correct":2,"explanation":"Article 75 states the Council of Ministers is collectively responsible to Lok Sabha."},
-  {"question":"The size of Council of Ministers is limited to:","options":["10% of Lok Sabha","15% of Lok Sabha","20% of Lok Sabha","No limit"],"correct":1,"explanation":"91st Amendment limited ministers to 15% of total strength of Lok Sabha."},
-  {"question":"The term of Council of Ministers is:","options":["3 years","5 years","6 years","During President's pleasure"],"correct":3,"explanation":"Ministers hold office during the pleasure of the President."},
-  {"question":"A minister who is not an MP must get elected within:","options":["3 months","6 months","1 year","2 years"],"correct":1,"explanation":"A minister must become an MP within 6 months of appointment."},
-  {"question":"The Cabinet Mission Plan was announced in:","options":["1945","1946","1947","1948"],"correct":1,"explanation":"The Cabinet Mission arrived in India in March 1946."},
-  {"question":"The Council of Ministers is mentioned in which Article?","options":["Article 52","Article 74","Article 75","Article 77"],"correct":2,"explanation":"Article 75 deals with Council of Ministers."},
-  {"question":"Who allocates portfolios to ministers?","options":["President","Prime Minister","Lok Sabha","Cabinet Secretary"],"correct":1,"explanation":"The Prime Minister allocates portfolios to ministers."},
-  {"question":"The Cabinet is mentioned in:","options":["Article 74","Article 75","Article 352","Nowhere in Constitution"],"correct":2,"explanation":"The word Cabinet appears only once in Article 352 regarding emergency."},
-  {"question":"Cabinet ministers head:","options":["Important ministries","Minor ministries","No specific ministries","State departments"],"correct":0,"explanation":"Cabinet ministers head important ministries and are members of the Cabinet."},
-  {"question":"Ministers of State can be:","options":["Independent charge","Attached to Cabinet minister","Both","Neither"],"correct":2,"explanation":"Ministers of State can have independent charge or assist Cabinet ministers."},
-  {"question":"Deputy Ministers assist:","options":["Prime Minister","Cabinet ministers","Ministers of State","All ministers"],"correct":1,"explanation":"Deputy Ministers assist Cabinet ministers in their duties."},
-  {"question":"The executive power of Union is vested in:","options":["Prime Minister","President","Council of Ministers","Parliament"],"correct":1,"explanation":"Article 53 vests executive power of the Union in the President."},
-  {"question":"Business of Government is conducted in the name of:","options":["Prime Minister","President","Council of Ministers","Parliament"],"correct":1,"explanation":"All executive actions are taken in the name of the President."},
-  {"question":"The Attorney General is appointed by:","options":["Prime Minister","President","Chief Justice","Parliament"],"correct":1,"explanation":"The President appoints the Attorney General of India."},
-  {"question":"The Attorney General must be qualified to be a judge of:","options":["High Court","Supreme Court","District Court","Any court"],"correct":1,"explanation":"The Attorney General must have qualifications to be a Supreme Court judge."},
-  {"question":"The Attorney General can participate in proceedings of:","options":["Lok Sabha only","Rajya Sabha only","Both Houses","No House"],"correct":2,"explanation":"The Attorney General can participate in both Houses but cannot vote."},
-  {"question":"The Attorney General receives remuneration:","options":["Fixed by President","Fixed by Parliament","As determined by President","No remuneration"],"correct":2,"explanation":"The Attorney General's remuneration is determined by the President."},
-  {"question":"The Attorney General can:","options":["Vote in Parliament","Hold office of profit","Practice in courts","All of above"],"correct":2,"explanation":"The Attorney General can practice in courts but cannot vote in Parliament."},
-  {"question":"The CAG is appointed by:","options":["Prime Minister","President","Parliament","Chief Justice"],"correct":1,"explanation":"The Comptroller and Auditor General is appointed by the President."},
-  {"question":"The CAG holds office for:","options":["5 years","6 years or 65 years","Till 62 years","Till 70 years"],"correct":1,"explanation":"CAG holds office for 6 years or till age 65, whichever is earlier."},
-  {"question":"The CAG can be removed by:","options":["President","Prime Minister","Parliament","Supreme Court"],"correct":2,"explanation":"CAG can be removed only by Parliament on grounds similar to Supreme Court judge."},
-  {"question":"The CAG submits reports to:","options":["President","Prime Minister","Parliament","Finance Minister"],"correct":0,"explanation":"The CAG submits audit reports to the President."},
-  {"question":"The Cabinet Secretariat is headed by:","options":["Prime Minister","President","Cabinet Secretary","Principal Secretary"],"correct":2,"explanation":"The Cabinet Secretariat is headed by the Cabinet Secretary."},
-  {"question":"The first Prime Minister of India was:","options":["Dr. Rajendra Prasad","Jawaharlal Nehru","Sardar Patel","Lal Bahadur Shastri"],"correct":1,"explanation":"Jawaharlal Nehru was the first Prime Minister of India (1947-1964)."},
-  {"question":"The first woman Prime Minister was:","options":["Pratibha Patil","Sonia Gandhi","Indira Gandhi","Sarojini Naidu"],"correct":2,"explanation":"Indira Gandhi was the first woman Prime Minister of India."},
-  {"question":"NITI Aayog replaced:","options":["Finance Commission","Planning Commission","Election Commission","Law Commission"],"correct":1,"explanation":"NITI Aayog (National Institution for Transforming India) replaced Planning Commission in 2015."},
-  {"question":"The Union Cabinet is a part of:","options":["Legislature","Executive","Judiciary","All three"],"correct":1,"explanation":"The Union Cabinet is the core decision-making body of the Executive."},
-  {"question":"The first Indian Cabinet Secretary was:","options":["N. R. Pillai","Rajeshwar Dayal","K. P. S. Menon","S. S. Khera"],"correct":0,"explanation":"N. R. Pillai was the first Cabinet Secretary of independent India."},
-  {"question":"Kitchen Cabinet refers to:","options":["Official Cabinet","Informal advisors","Junior ministers","State ministers"],"correct":1,"explanation":"Kitchen Cabinet is an informal group of advisors to the Prime Minister."},
-  {"question":"The Prime Minister chairs:","options":["Cabinet meetings","NITI Aayog","Both","Neither"],"correct":2,"explanation":"The Prime Minister chairs both Cabinet meetings and NITI Aayog."},
-  {"question":"A vote of no confidence needs support of:","options":["25 members","50 members","100 members","Simple majority"],"correct":1,"explanation":"No confidence motion requires support of at least 50 members to be admitted."},
-  {"question":"If no party has majority, the President invites:","options":["Largest party leader","Largest coalition leader","Either of them","Calls for fresh elections"],"correct":1,"explanation":"The President invites the leader who can prove majority support."},
-  {"question":"The Council of Ministers includes:","options":["Cabinet Ministers only","All ministers","Only Ministers of State","Only Parliamentary Secretaries"],"correct":1,"explanation":"Council of Ministers includes Cabinet Ministers, Ministers of State, and Deputy Ministers."},
-  {"question":"The maximum strength of Council of Ministers in Lok Sabha of 545 members is approximately:","options":["55","82","109","136"],"correct":1,"explanation":"15% of 545 is approximately 82 ministers maximum."},
-  {"question":"Parliamentary Secretaries are:","options":["Part of Council of Ministers","Not part of Council of Ministers","Ministers of State","Deputy Ministers"],"correct":1,"explanation":"Parliamentary Secretaries assist ministers but are not part of Council of Ministers."},
-  {"question":"The Prime Minister recommends to President for:","options":["Appointments only","Dissolutions only","Both appointments and dissolutions","Neither"],"correct":2,"explanation":"PM recommends appointments, dissolution of Lok Sabha, and other key decisions."},
-  {"question":"The first Cabinet after independence had how many members?","options":["10","15","20","25"],"correct":1,"explanation":"The first Cabinet of independent India had 15 members."},
-  {"question":"The Secretariat assists:","options":["President","Prime Minister","Council of Ministers","Parliament"],"correct":2,"explanation":"The Secretariat provides administrative support to the Council of Ministers."},
-  {"question":"The largest ministry in terms of personnel is:","options":["Defence","Home","Railways","Finance"],"correct":2,"explanation":"Railways is the largest ministry in terms of number of employees."},
-  {"question":"The Central Vigilance Commission was established in:","options":["1950","1964","1974","2003"],"correct":1,"explanation":"The Central Vigilance Commission was set up in 1964."},
-  {"question":"The concept of Cabinet government was borrowed from:","options":["USA","UK","France","Switzerland"],"correct":1,"explanation":"Cabinet system of government was borrowed from the British model."},
-  {"question":"The doctrine of individual ministerial responsibility means:","options":["Collective responsibility","Minister responsible for own department","Responsible to President","Responsible to PM"],"correct":1,"explanation":"Each minister is individually responsible for their own department."},
-  {"question":"The principle of collective responsibility means ministers:","options":["Resign together","Vote together in Parliament","Defend cabinet decisions","All of above"],"correct":3,"explanation":"Collective responsibility means ministers must publicly support cabinet decisions and resign together if government falls."},
-  {"question":"Shadow Cabinet exists in:","options":["Ruling party","Opposition","Both","Neither formally"],"correct":3,"explanation":"Shadow Cabinet is a concept followed informally by opposition, not constitutionally recognized in India."},
-  {"question":"The Prime Minister is:","options":["Head of State","Head of Government","Both","Neither"],"correct":1,"explanation":"The Prime Minister is the Head of Government while President is Head of State."},
-  {"question":"A caretaker government is formed when:","options":["No party has majority","Government resigns","During elections","All of above"],"correct":3,"explanation":"A caretaker government continues till a new government is formed."},
-  {"question":"The doctrine of pleasure means:","options":["Ministers serve at President's pleasure","President serves at PM's pleasure","Both enjoy tenure","Neither has security"],"correct":0,"explanation":"Article 75 states ministers hold office during the pleasure of the President."},
-  {"question":"Coalition government means:","options":["Single party rule","Alliance of parties","Military rule","President's rule"],"correct":1,"explanation":"Coalition government is formed when no single party has majority and parties form alliance."}
+  {
+    "question_en": "The Prime Minister is appointed by:",
+    "question_hi": "प्रधानमंत्री की नियुक्ति किसके द्वारा की जाती है?",
+    "options": [
+      {"en":"President","hi":"राष्ट्रपति"},
+      {"en":"Lok Sabha","hi":"लोकसभा"},
+      {"en":"Parliament","hi":"संसद"},
+      {"en":"People","hi":"जनता"}
+    ],
+    "correct": 0,
+    "explanation_en": "The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha.",
+    "explanation_hi": "राष्ट्रपति प्रधानमंत्री की नियुक्ति करते हैं, सामान्यतः लोकसभा के बहुमत दल के नेता को।"
+  },
+  {
+    "question_en": "The Prime Minister must be a member of:",
+    "question_hi": "प्रधानमंत्री को सदस्य होना चाहिए:",
+    "options": [
+      {"en":"Lok Sabha only","hi":"केवल लोकसभा"},
+      {"en":"Rajya Sabha only","hi":"केवल राज्यसभा"},
+      {"en":"Either House of Parliament","hi":"संसद के किसी भी सदन का"},
+      {"en":"Any State Assembly","hi":"किसी भी विधानसभा का"}
+    ],
+    "correct": 2,
+    "explanation_en": "The Prime Minister can be a member of either Lok Sabha or Rajya Sabha.",
+    "explanation_hi": "प्रधानमंत्री लोकसभा या राज्यसभा किसी का भी सदस्य हो सकता है।"
+  },
+  {
+    "question_en": "The Council of Ministers is collectively responsible to:",
+    "question_hi": "मंत्रिपरिषद सामूहिक रूप से उत्तरदायी होती है:",
+    "options": [
+      {"en":"President","hi":"राष्ट्रपति"},
+      {"en":"Rajya Sabha","hi":"राज्यसभा"},
+      {"en":"Lok Sabha","hi":"लोकसभा"},
+      {"en":"Parliament","hi":"संसद"}
+    ],
+    "correct": 2,
+    "explanation_en": "Article 75 states the Council of Ministers is collectively responsible to Lok Sabha.",
+    "explanation_hi": "अनुच्छेद 75 के अनुसार मंत्रिपरिषद लोकसभा के प्रति उत्तरदायी होती है।"
+  },
+  {
+    "question_en": "The size of Council of Ministers is limited to:",
+    "question_hi": "मंत्रिपरिषद का आकार सीमित है:",
+    "options": [
+      {"en":"10% of Lok Sabha","hi":"लोकसभा का 10%"},
+      {"en":"15% of Lok Sabha","hi":"लोकसभा का 15%"},
+      {"en":"20% of Lok Sabha","hi":"लोकसभा का 20%"},
+      {"en":"No limit","hi":"कोई सीमा नहीं"}
+    ],
+    "correct": 1,
+    "explanation_en": "91st Amendment limited ministers to 15% of total strength of Lok Sabha.",
+    "explanation_hi": "91वें संशोधन ने मंत्रियों की संख्या लोकसभा के 15% तक सीमित कर दी।"
+  },
+  {
+    "question_en": "The Cabinet Mission Plan was announced in:",
+    "question_hi": "कैबिनेट मिशन योजना घोषित की गई थी:",
+    "options": [
+      {"en":"1945","hi":"1945"},
+      {"en":"1946","hi":"1946"},
+      {"en":"1947","hi":"1947"},
+      {"en":"1948","hi":"1948"}
+    ],
+    "correct": 1,
+    "explanation_en": "The Cabinet Mission arrived in India in March 1946.",
+    "explanation_hi": "कैबिनेट मिशन मार्च 1946 में भारत आया था।"
+  },
+  {
+    "question_en": "The Attorney General is appointed by:",
+    "question_hi": "महान्यायवादी की नियुक्ति कौन करता है?",
+    "options": [
+      {"en":"Prime Minister","hi":"प्रधानमंत्री"},
+      {"en":"President","hi":"राष्ट्रपति"},
+      {"en":"Chief Justice","hi":"मुख्य न्यायाधीश"},
+      {"en":"Parliament","hi":"संसद"}
+    ],
+    "correct": 1,
+    "explanation_en": "The President appoints the Attorney General of India.",
+    "explanation_hi": "भारत के महान्यायवादी की नियुक्ति राष्ट्रपति करते हैं।"
+  },
+  {
+    "question_en": "The CAG is appointed by:",
+    "question_hi": "कैग की नियुक्ति होती है:",
+    "options": [
+      {"en":"Prime Minister","hi":"प्रधानमंत्री"},
+      {"en":"President","hi":"राष्ट्रपति"},
+      {"en":"Parliament","hi":"संसद"},
+      {"en":"Chief Justice","hi":"मुख्य न्यायाधीश"}
+    ],
+    "correct": 1,
+    "explanation_en": "The Comptroller and Auditor General is appointed by the President.",
+    "explanation_hi": "नियंत्रक एवं महालेखा परीक्षक की नियुक्ति राष्ट्रपति करते हैं।"
+  },
+  {
+    "question_en": "Kitchen Cabinet refers to:",
+    "question_hi": "किचन कैबिनेट से तात्पर्य है:",
+    "options": [
+      {"en":"Official Cabinet","hi":"आधिकारिक मंत्रिमंडल"},
+      {"en":"Informal advisors","hi":"अनौपचारिक सलाहकार"},
+      {"en":"Junior ministers","hi":"कनिष्ठ मंत्री"},
+      {"en":"State ministers","hi":"राज्यमंत्री"}
+    ],
+    "correct": 1,
+    "explanation_en": "It is an informal group advising the Prime Minister.",
+    "explanation_hi": "यह प्रधानमंत्री को सलाह देने वाला अनौपचारिक समूह होता है।"
+  },
+  {
+    "question_en": "The Prime Minister is:",
+    "question_hi": "प्रधानमंत्री होता है:",
+    "options": [
+      {"en":"Head of State","hi":"राष्ट्र प्रमुख"},
+      {"en":"Head of Government","hi":"सरकार का प्रमुख"},
+      {"en":"Both","hi":"दोनों"},
+      {"en":"Neither","hi":"कोई नहीं"}
+    ],
+    "correct": 1,
+    "explanation_en": "The Prime Minister is Head of Government.",
+    "explanation_hi": "प्रधानमंत्री सरकार का प्रमुख होता है।"
+  },
+  {
+    "question_en": "Coalition government means:",
+    "question_hi": "गठबंधन सरकार का अर्थ है:",
+    "options": [
+      {"en":"Single party rule","hi":"एक दल का शासन"},
+      {"en":"Alliance of parties","hi":"दलों का गठबंधन"},
+      {"en":"Military rule","hi":"सैन्य शासन"},
+      {"en":"President's rule","hi":"राष्ट्रपति शासन"}
+    ],
+    "correct": 1,
+    "explanation_en": "Coalition government is formed by alliance of parties.",
+    "explanation_hi": "जब कई दल मिलकर सरकार बनाते हैं।"
+  }
 ]
