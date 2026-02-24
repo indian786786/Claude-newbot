@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,150 +6,543 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
+        * { box-sizing: border-box; }
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f5f5f5;
+            background: #f0f4f8;
+            color: #333;
         }
 
-        .category-screen,
-        .topic-screen,
-        .quiz-screen,
-        .results-screen {
+        /* Screens */
+        #categoryScreen, #topicScreen, #quizScreen, #resultsScreen {
             display: none;
             min-height: 100vh;
             padding: 20px;
+            max-width: 700px;
+            margin: 0 auto;
         }
+        #categoryScreen { display: block; }
 
-        .category-screen.active,
-        .topic-screen.active,
-        .quiz-screen.active,
-        .results-screen.active {
-            display: block;
-        }
+        h1, h2 { text-align: center; margin-top: 10px; }
 
-        h1, h2 {
-            text-align: center;
-        }
-
-        .grid {
+        /* Category Grid */
+        #categoriesGrid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
             gap: 15px;
-            max-width: 800px;
-            margin: 20px auto;
+            margin-top: 20px;
         }
 
-        .card {
+        .category-card {
             background: white;
-            padding: 20px;
-            border-radius: 10px;
+            padding: 20px 10px;
+            border-radius: 12px;
             text-align: center;
             cursor: pointer;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
         }
+        .category-card:hover { transform: translateY(-4px); }
+        .category-icon { font-size: 32px; }
+        .category-name { font-weight: bold; margin-top: 8px; }
+        .category-count { font-size: 12px; color: #888; margin-top: 4px; }
 
-        .card:hover {
-            transform: translateY(-3px);
+        /* Topic list */
+        #topicsList { margin-top: 15px; display: flex; flex-direction: column; gap: 12px; }
+
+        .topic-card {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            transition: background 0.2s;
         }
+        .topic-card:hover { background: #e3f2fd; }
+        .topic-info h3 { margin: 0 0 4px; font-size: 16px; }
+        .topic-info p { margin: 0; font-size: 12px; color: #888; }
+        .topic-arrow { font-size: 20px; color: #2196F3; }
 
+        /* Quiz screen */
         .quiz-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
+            background: white;
+            padding: 12px 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        #quizTopicTitle { font-weight: bold; font-size: 14px; max-width: 180px; }
+        #timerDisplay {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2196F3;
+        }
+        #timerDisplay.warning { color: #f44336; }
+
+        #questionNum { font-size: 13px; color: #888; margin-bottom: 8px; }
+        #questionText {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
         }
 
-        .options-list {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+        #optionsList { display: flex; flex-direction: column; gap: 10px; }
 
         .option-item {
-            padding: 12px;
+            background: white;
+            padding: 12px 15px;
             border: 2px solid #ddd;
             border-radius: 8px;
             cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.2s;
         }
+        .option-item:hover:not(.disabled) { border-color: #2196F3; background: #e3f2fd; }
+        .option-item.selected { border-color: #2196F3; background: #e3f2fd; }
+        .option-item.correct { border-color: #4CAF50; background: #e8f5e9; }
+        .option-item.wrong { border-color: #f44336; background: #ffebee; }
+        .option-item.disabled { cursor: default; }
 
-        .option-item.selected {
-            background: #e3f2fd;
-            border-color: #2196F3;
+        .option-radio {
+            width: 18px; height: 18px;
+            border: 2px solid #aaa;
+            border-radius: 50%;
+            flex-shrink: 0;
         }
+        .option-item.selected .option-radio { border-color: #2196F3; background: #2196F3; }
+        .option-item.correct .option-radio { border-color: #4CAF50; background: #4CAF50; }
+        .option-item.wrong .option-radio { border-color: #f44336; background: #f44336; }
 
-        .option-item.correct {
-            background: #e8f5e9;
-            border-color: #4CAF50;
+        #explanationBox {
+            display: none;
+            background: #fff8e1;
+            border-left: 4px solid #ffc107;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 14px;
+            line-height: 1.5;
         }
+        #explanationBox.show { display: block; }
 
-        .option-item.wrong {
-            background: #ffebee;
-            border-color: #f44336;
+        .quiz-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
         }
 
         button {
             padding: 10px 20px;
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             cursor: pointer;
-            margin-top: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .btn-primary { background: #2196F3; color: white; }
+        .btn-warning { background: #FF9800; color: white; }
+        .btn-danger { background: #f44336; color: white; }
+        .btn-success { background: #4CAF50; color: white; }
+        .btn-outline {
+            background: white;
+            color: #555;
+            border: 2px solid #ddd;
         }
 
-        .btn-primary {
-            background: #2196F3;
-            color: white;
+        /* Results */
+        #resultsScreen { text-align: center; }
+        #scoreDisplay { font-size: 52px; font-weight: bold; color: #2196F3; margin: 10px 0; }
+        #resultsMessage { font-size: 20px; margin-bottom: 20px; }
+        .results-stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .stat-box .label { font-size: 12px; color: #888; }
+        .stat-box .value { font-size: 24px; font-weight: bold; margin-top: 4px; }
+        .stat-box.correct .value { color: #4CAF50; }
+        .stat-box.wrong .value { color: #f44336; }
+        .stat-box.percent .value { color: #2196F3; }
+
+        /* Back button */
+        #backToCategories {
+            background: white;
+            border: 2px solid #ddd;
+            color: #333;
+            margin-bottom: 10px;
         }
 
-        .btn-success {
-            background: #4CAF50;
-            color: white;
-        }
+        /* last-minutes hidden element for JS compat */
+        #lastMinutes { display: none; }
 
-        .center {
+        .loading {
             text-align: center;
+            padding: 40px;
+            font-size: 16px;
+            color: #888;
         }
     </style>
 </head>
 <body>
 
 <!-- Category Screen -->
-<div class="category-screen active" id="categoryScreen">
+<div id="categoryScreen">
     <h1>📚 SSC PYQ Quiz</h1>
     <h2>Select a Category</h2>
-    <div class="grid" id="categoriesGrid"></div>
+    <div id="categoriesGrid"></div>
 </div>
 
 <!-- Topic Screen -->
-<div class="topic-screen" id="topicScreen">
-    <button onclick="goBack()">← Back</button>
+<div id="topicScreen">
+    <button id="backToCategories">← Back</button>
     <h2 id="categoryTitle"></h2>
-    <div class="grid" id="topicsList"></div>
+    <div id="topicsList"></div>
 </div>
 
 <!-- Quiz Screen -->
-<div class="quiz-screen" id="quizScreen">
+<div id="quizScreen">
     <div class="quiz-header">
-        <div id="questionNum"></div>
+        <div id="quizTopicTitle"></div>
         <div id="timerDisplay">10:00</div>
     </div>
-
+    <div id="questionNum">Question No.: 1</div>
     <div id="questionText"></div>
-    <div class="options-list" id="optionsList"></div>
-
-    <button class="btn-primary" onclick="nextQuestion()">Next</button>
+    <div id="optionsList"></div>
+    <div id="explanationBox">
+        <strong>💡 Explanation:</strong>
+        <div id="explanationText"></div>
+    </div>
+    <div class="quiz-actions">
+        <button class="btn-warning" id="markBtn">⭐ Mark for Review</button>
+        <button class="btn-primary" id="nextBtn">Save & Next</button>
+        <button class="btn-danger" id="submitBtn">Submit Test</button>
+    </div>
+    <span id="lastMinutes"></span>
 </div>
 
 <!-- Results Screen -->
-<div class="results-screen center" id="resultsScreen">
+<div id="resultsScreen">
     <h2>Quiz Completed 🎉</h2>
-    <h3 id="scoreDisplay"></h3>
-    <button class="btn-success" onclick="restart()">Back to Categories</button>
+    <div id="scoreDisplay"></div>
+    <div id="resultsMessage"></div>
+    <div class="results-stats">
+        <div class="stat-box correct">
+            <div class="label">Correct</div>
+            <div class="value" id="correctCount">0</div>
+        </div>
+        <div class="stat-box wrong">
+            <div class="label">Wrong</div>
+            <div class="value" id="wrongCount">0</div>
+        </div>
+        <div class="stat-box percent">
+            <div class="label">Score</div>
+            <div class="value" id="percentageScore">0%</div>
+        </div>
+    </div>
+    <button class="btn-success" id="restartBtn">🔁 Back to Categories</button>
 </div>
 
-<script src="js/config.js"></script>
-<script src="js/question-loader.js"></script>
-<script src="js/quiz-app.js"></script>
+<script>
+// =====================
+// CONFIG
+// =====================
+const quizConfig = {
+    categories: {
+        "Polity": {
+            icon: "⚖️",
+            topics: [
+                { name: "Central Government", file: "Central_Government.json", questionsCount: 10 },
+                { name: "Constitutional Bodies", file: "Constitutional_Bodies.json", questionsCount: 10 },
+                { name: "DPSP", file: "DPSP.json", questionsCount: 10 },
+                { name: "Fundamental Duties", file: "Fundamental_Duties.json", questionsCount: 10 },
+                { name: "Fundamental Rights", file: "Fundamental_Rights.json", questionsCount: 10 },
+                { name: "Governor", file: "Governor.json", questionsCount: 10 },
+                { name: "Important Acts", file: "Important_Acts.json", questionsCount: 10 },
+                { name: "Important Amendments", file: "Important_Amendments.json", questionsCount: 10 },
+                { name: "Important Articles", file: "Important_Articles.json", questionsCount: 10 },
+                { name: "Judiciary", file: "Judiciary.json", questionsCount: 10 },
+                { name: "Local Government", file: "Local_Government.json", questionsCount: 10 },
+                { name: "Making of Constitution", file: "Making_Constitution.json", questionsCount: 10 },
+                { name: "Non-Constitutional Bodies", file: "Non_Constitutional_Bodies.json", questionsCount: 10 },
+                { name: "Parliament", file: "Parliament.json", questionsCount: 10 },
+                { name: "Parts & Schedules", file: "Parts_Schedules.json", questionsCount: 10 },
+                { name: "Political Dimensions", file: "Political_Dimensions.json", questionsCount: 10 },
+                { name: "President", file: "President.json", questionsCount: 10 },
+                { name: "State Government", file: "State_Government.json", questionsCount: 10 },
+                { name: "State Legislature", file: "State_Legislature.json", questionsCount: 10 }
+            ]
+        },
+        "History": {
+            icon: "🏛️",
+            topics: [
+                { name: "Lodi Dynasty", file: "Lodi_Dynasty.json", questionsCount: 10 },
+                { name: "Mughal Empire", file: "Mughal_Empire.json", questionsCount: 10 },
+                { name: "Independence Movement", file: "Independence_Movement.json", questionsCount: 10 }
+            ]
+        },
+        "Geography": {
+            icon: "🌍",
+            topics: [
+                { name: "Indian Rivers", file: "Indian_Rivers.json", questionsCount: 10 },
+                { name: "World Geography", file: "World_Geography.json", questionsCount: 10 }
+            ]
+        },
+        "Mathematics": {
+            icon: "🔢",
+            topics: [
+                { name: "Ratio & Proportion", file: "Ratio_Proportion.json", questionsCount: 10 },
+                { name: "Algebra", file: "Algebra.json", questionsCount: 10 }
+            ]
+        },
+        "Science": {
+            icon: "🔬",
+            topics: [
+                { name: "Physics", file: "Physics.json", questionsCount: 10 },
+                { name: "Chemistry", file: "Chemistry.json", questionsCount: 10 },
+                { name: "Biology", file: "Biology.json", questionsCount: 10 }
+            ]
+        },
+        "Economics": {
+            icon: "💰",
+            topics: [
+                { name: "Indian Economy", file: "Indian_Economy.json", questionsCount: 10 },
+                { name: "Banking", file: "Banking.json", questionsCount: 10 }
+            ]
+        }
+    },
+    settings: {
+        questionsPerQuiz: 10,
+        timeLimit: 600,
+        marksPerQuestion: 2,
+        negativeMarks: 0.25
+    },
+    // GitHub raw URL base — update username/repo/branch if needed
+    githubBase: "https://raw.githubusercontent.com/indian786786/Claude-newbot/main/questions"
+};
 
-</body>
-</html>
+// =====================
+// QUESTION LOADER
+// =====================
+const questionLoader = {
+    cache: {},
+
+    async loadFromGitHub(category, filename) {
+        const url = `${quizConfig.githubBase}/${category}/${filename}`;
+        if (this.cache[url]) return this.cache[url];
+        
+        const resp = await fetch(url);
+        if (!resp.ok) throw new Error(`Could not load questions from: ${url}\n\nStatus: ${resp.status}`);
+        const data = await resp.json();
+        this.cache[url] = data;
+        return data;
+    },
+
+    shuffle(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    },
+
+    async getRandomQuestions(category, filename, count) {
+        const all = await this.loadFromGitHub(category, filename);
+        // Support both array directly or {questions:[...]}
+        const list = Array.isArray(all) ? all : (all.questions || []);
+        if (list.length === 0) throw new Error("No questions found in file.");
+        const shuffled = this.shuffle(list);
+        return shuffled.slice(0, Math.min(count, shuffled.length));
+    }
+};
+
+// =====================
+// QUIZ APP
+// =====================
+class QuizApp {
+    constructor() {
+        this.currentCategory = null;
+        this.currentTopic = null;
+        this.questions = [];
+        this.currentIndex = 0;
+        this._score = 0;
+        this._wrongCount = 0;
+        this.selectedAnswer = null;
+        this.answered = false;
+        this.markedQuestions = [];
+        this.timeLeft = quizConfig.settings.timeLimit;
+        this.timerInterval = null;
+
+        this.initElements();
+        this.initTelegram();
+        this.loadCategories();
+        this.attachEventListeners();
+    }
+
+    initElements() {
+        this.categoryScreen = document.getElementById('categoryScreen');
+        this.topicScreen = document.getElementById('topicScreen');
+        this.quizScreen = document.getElementById('quizScreen');
+        this.resultsScreen = document.getElementById('resultsScreen');
+
+        this.categoriesGrid = document.getElementById('categoriesGrid');
+        this.categoryTitle = document.getElementById('categoryTitle');
+        this.topicsList = document.getElementById('topicsList');
+        this.backBtn = document.getElementById('backToCategories');
+
+        this.quizTopicTitle = document.getElementById('quizTopicTitle');
+        this.timerDisplay = document.getElementById('timerDisplay');
+        this.questionNum = document.getElementById('questionNum');
+        this.questionText = document.getElementById('questionText');
+        this.optionsList = document.getElementById('optionsList');
+        this.explanationBox = document.getElementById('explanationBox');
+        this.explanationText = document.getElementById('explanationText');
+        this.lastMinutes = document.getElementById('lastMinutes');
+
+        this.markBtn = document.getElementById('markBtn');
+        this.nextBtn = document.getElementById('nextBtn');
+        this.submitBtn = document.getElementById('submitBtn');
+
+        this.scoreDisplay = document.getElementById('scoreDisplay');
+        this.resultsMessage = document.getElementById('resultsMessage');
+        this.correctCountEl = document.getElementById('correctCount');
+        this.wrongCountEl = document.getElementById('wrongCount');
+        this.percentageScore = document.getElementById('percentageScore');
+        this.restartBtn = document.getElementById('restartBtn');
+    }
+
+    initTelegram() {
+        if (window.Telegram?.WebApp) {
+            window.Telegram.WebApp.ready();
+            window.Telegram.WebApp.expand();
+        }
+    }
+
+    show(screen) {
+        [this.categoryScreen, this.topicScreen, this.quizScreen, this.resultsScreen].forEach(s => {
+            s.style.display = 'none';
+        });
+        screen.style.display = 'block';
+    }
+
+    loadCategories() {
+        this.categoriesGrid.innerHTML = '';
+        Object.entries(quizConfig.categories).forEach(([categoryName, categoryData]) => {
+            const card = document.createElement('div');
+            card.className = 'category-card';
+            card.innerHTML = `
+                <div class="category-icon">${categoryData.icon}</div>
+                <div class="category-name">${categoryName}</div>
+                <div class="category-count">${categoryData.topics.length} Topics</div>
+            `;
+            card.onclick = () => this.selectCategory(categoryName);
+            this.categoriesGrid.appendChild(card);
+        });
+        this.show(this.categoryScreen);
+    }
+
+    selectCategory(categoryName) {
+        this.currentCategory = categoryName;
+        const categoryData = quizConfig.categories[categoryName];
+        this.categoryTitle.textContent = `${categoryData.icon} ${categoryName}`;
+        this.topicsList.innerHTML = '';
+
+        categoryData.topics.forEach(topic => {
+            const card = document.createElement('div');
+            card.className = 'topic-card';
+            card.innerHTML = `
+                <div class="topic-info">
+                    <h3>${topic.name}</h3>
+                    <p>${topic.questionsCount} Questions</p>
+                </div>
+                <div class="topic-arrow">→</div>
+            `;
+            card.onclick = () => this.startQuiz(topic);
+            this.topicsList.appendChild(card);
+        });
+
+        this.show(this.topicScreen);
+    }
+
+    async startQuiz(topic) {
+        this.show(this.quizScreen);
+        this.quizTopicTitle.textContent = topic.name;
+        this.optionsList.innerHTML = '<div class="loading">Loading questions...</div>';
+        this.questionText.textContent = '';
+        this.questionNum.textContent = '';
+        this.explanationBox.classList.remove('show');
+
+        try {
+            this.currentTopic = topic;
+            this.questions = await questionLoader.getRandomQuestions(
+                this.currentCategory,
+                topic.file,
+                quizConfig.settings.questionsPerQuiz
+            );
+
+            this.currentIndex = 0;
+            this._score = 0;
+            this._wrongCount = 0;
+            this.markedQuestions = [];
+            this.timeLeft = quizConfig.settings.timeLimit;
+
+            clearInterval(this.timerInterval);
+            this.startTimer();
+            this.displayQuestion();
+
+        } catch (error) {
+            this.optionsList.innerHTML = '';
+            this.questionText.textContent = `❌ Error loading questions:\n${error.message}`;
+            console.error(error);
+        }
+    }
+
+    startTimer() {
+        this.updateTimerDisplay();
+        this.timerInterval = setInterval(() => {
+            this.timeLeft--;
+            this.updateTimerDisplay();
+            if (this.timeLeft <= 60) {
+                this.timerDisplay.classList.add('warning');
+            }
+            if (this.timeLeft <= 0) {
+                clearInterval(this.timerInterval);
+                this.showResults();
+            }
+        }, 1000);
+    }
+
+    updateTimerDisplay() {
+        const m = Math.floor(this.timeLeft / 60);
+        const s = this.timeLeft % 60;
+        this.timerDisplay.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+        this.lastMinutes.textContent = String(m).padStart(2,'0');
+    }
+
+    displayQuestion() {
+        const q = this.questions[this.currentIndex];
+        this.selectedAnswer = null;
+        this.answered = false;
+
+        this.questionNum.textContent = `Question ${this.currentIndex + 1} of 
