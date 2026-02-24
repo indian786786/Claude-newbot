@@ -1,30 +1,5 @@
 [
   {
-    "question_en": "The Prime Minister is appointed by:",
-    "question_hi": "प्रधानमंत्री की नियुक्ति किसके द्वारा की जाती है?",
-    "options": [
-      {"en":"President","hi":"राष्ट्रपति"},
-      {"en":"Lok Sabha","hi":"लोकसभा"},
-      {"en":"Parliament","hi":"संसद"},
-      {"en":"People","hi":"जनता"}
-    ],
-    "correct": 0,
-    "explanation_en": "The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha.",
-    "explanation_hi": "राष्ट्रपति प्रधानमंत्री की नियुक्ति करते हैं, सामान्यतः लोकसभा के बहुमत दल के नेता को।"
-  },
-  {
-    "question_en": "The Prime Minister must be a member of:",
-    "question_hi": "प्रधानमंत्री को सदस्य होना चाहिए:",
-    "options": [
-      {"en":"Lok Sabha only","hi":"केवल लोकसभा"},
-      {"en":"Rajya Sabha only","hi":"केवल राज्यसभा"},
-      {"en":"Either House of Parliament","hi":"संसद के किसी भी सदन का"},
-      {"en":"Any State Assembly","hi":"किसी भी विधानसभा का"}
-    ],
-    "correct": 2,
-    "explanation_en": "The Prime Minister can be a member of either Lok Sabha or Rajya Sabha.",
-[
-  {
     "question": "The Prime Minister is appointed by:\nप्रधानमंत्री की नियुक्ति किसके द्वारा की जाती है?",
     "options": ["President | राष्ट्रपति","Lok Sabha | लोकसभा","Parliament | संसद","People | जनता"],
     "answer": 0,
