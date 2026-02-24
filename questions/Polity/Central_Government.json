@@ -8,7 +8,7 @@
       "People (जनता)"
     ],
     "correct": 0,
-    "explanation": "The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha. राष्ट्रपति सामान्यतः लोकसभा के बहुमत दल के नेता को प्रधानमंत्री नियुक्त करते हैं।"
+    "explanation": "The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha."
   },
   {
     "question": "The Prime Minister must be a member of (प्रधानमंत्री को सदस्य होना चाहिए)",
@@ -19,39 +19,6 @@
       "Any State Assembly (किसी भी विधानसभा का)"
     ],
     "correct": 2,
-    "explanation": "The Prime Minister can be a member of either Lok Sabha or Rajya Sabha. प्रधानमंत्री लोकसभा या राज्यसभा किसी का भी सदस्य हो सकता है।"
-  },
-  {
-    "question": "The Council of Ministers is collectively responsible to (मंत्रिपरिषद सामूहिक रूप से उत्तरदायी होती है)",
-    "options": [
-      "President (राष्ट्रपति)",
-      "Rajya Sabha (राज्यसभा)",
-      "Lok Sabha (लोकसभा)",
-      "Parliament (संसद)"
-    ],
-    "correct": 2,
-    "explanation": "According to Article 75 the Council of Ministers is responsible to Lok Sabha. अनुच्छेद 75 के अनुसार मंत्रिपरिषद लोकसभा के प्रति उत्तरदायी होती है।"
-  },
-  {
-    "question": "The size of Council of Ministers is limited to (मंत्रिपरिषद का आकार सीमित है)",
-    "options": [
-      "10% of Lok Sabha",
-      "15% of Lok Sabha",
-      "20% of Lok Sabha",
-      "No limit"
-    ],
-    "correct": 1,
-    "explanation": "The 91st Constitutional Amendment limited ministers to 15% of Lok Sabha strength. 91वें संशोधन द्वारा यह सीमा तय की गई।"
-  },
-  {
-    "question": "A minister who is not an MP must get elected within (जो मंत्री सांसद नहीं है उसे चुना जाना चाहिए)",
-    "options": [
-      "3 months",
-      "6 months",
-      "1 year",
-      "2 years"
-    ],
-    "correct": 1,
-    "explanation": "A minister must become a member of Parliament within six months. मंत्री को 6 महीने में सांसद बनना आवश्यक है।"
+    "explanation": "The Prime Minister can be a member of either Lok Sabha or Rajya Sabha."
   }
 ]
