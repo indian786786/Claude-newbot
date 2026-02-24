@@ -1,74 +1,57 @@
 [
   {
-    "question": "The Prime Minister is appointed by:\nप्रधानमंत्री की नियुक्ति किसके द्वारा की जाती है?",
-    "options": ["President | राष्ट्रपति","Lok Sabha | लोकसभा","Parliament | संसद","People | जनता"],
-    "answer": 0,
-    "explanation": "The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha.\nराष्ट्रपति सामान्यतः लोकसभा के बहुमत दल के नेता को प्रधानमंत्री नियुक्त करते हैं।"
+    "question": "The Prime Minister is appointed by (प्रधानमंत्री की नियुक्ति किसके द्वारा की जाती है?)",
+    "options": [
+      "President (राष्ट्रपति)",
+      "Lok Sabha (लोकसभा)",
+      "Parliament (संसद)",
+      "People (जनता)"
+    ],
+    "correct": 0,
+    "explanation": "The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha. राष्ट्रपति सामान्यतः लोकसभा के बहुमत दल के नेता को प्रधानमंत्री नियुक्त करते हैं।"
   },
   {
-    "question": "The Prime Minister must be a member of:\nप्रधानमंत्री को सदस्य होना चाहिए:",
-    "options": ["Lok Sabha only | केवल लोकसभा","Rajya Sabha only | केवल राज्यसभा","Either House of Parliament | संसद के किसी भी सदन का","Any State Assembly | किसी भी विधानसभा का"],
-    "answer": 2,
-    "explanation": "The Prime Minister can be a member of either Lok Sabha or Rajya Sabha.\nप्रधानमंत्री लोकसभा या राज्यसभा किसी का भी सदस्य हो सकता है।"
+    "question": "The Prime Minister must be a member of (प्रधानमंत्री को सदस्य होना चाहिए)",
+    "options": [
+      "Lok Sabha only (केवल लोकसभा)",
+      "Rajya Sabha only (केवल राज्यसभा)",
+      "Either House of Parliament (संसद के किसी भी सदन का)",
+      "Any State Assembly (किसी भी विधानसभा का)"
+    ],
+    "correct": 2,
+    "explanation": "The Prime Minister can be a member of either Lok Sabha or Rajya Sabha. प्रधानमंत्री लोकसभा या राज्यसभा किसी का भी सदस्य हो सकता है।"
   },
   {
-    "question": "The Council of Ministers is collectively responsible to:\nमंत्रिपरिषद सामूहिक रूप से उत्तरदायी होती है:",
-    "options": ["President | राष्ट्रपति","Rajya Sabha | राज्यसभा","Lok Sabha | लोकसभा","Parliament | संसद"],
-    "answer": 2,
-    "explanation": "Article 75 states the Council of Ministers is collectively responsible to Lok Sabha.\nअनुच्छेद 75 के अनुसार मंत्रिपरिषद लोकसभा के प्रति उत्तरदायी होती है।"
+    "question": "The Council of Ministers is collectively responsible to (मंत्रिपरिषद सामूहिक रूप से उत्तरदायी होती है)",
+    "options": [
+      "President (राष्ट्रपति)",
+      "Rajya Sabha (राज्यसभा)",
+      "Lok Sabha (लोकसभा)",
+      "Parliament (संसद)"
+    ],
+    "correct": 2,
+    "explanation": "According to Article 75 the Council of Ministers is responsible to Lok Sabha. अनुच्छेद 75 के अनुसार मंत्रिपरिषद लोकसभा के प्रति उत्तरदायी होती है।"
   },
   {
-    "question": "The size of Council of Ministers is limited to:\nमंत्रिपरिषद का आकार सीमित है:",
-    "options": ["10% of Lok Sabha | लोकसभा का 10%","15% of Lok Sabha | लोकसभा का 15%","20% of Lok Sabha | लोकसभा का 20%","No limit | कोई सीमा नहीं"],
-    "answer": 1,
-    "explanation": "91st Amendment limited ministers to 15% of Lok Sabha strength.\n91वें संशोधन ने मंत्रियों की संख्या 15% तक सीमित की।"
+    "question": "The size of Council of Ministers is limited to (मंत्रिपरिषद का आकार सीमित है)",
+    "options": [
+      "10% of Lok Sabha",
+      "15% of Lok Sabha",
+      "20% of Lok Sabha",
+      "No limit"
+    ],
+    "correct": 1,
+    "explanation": "The 91st Constitutional Amendment limited ministers to 15% of Lok Sabha strength. 91वें संशोधन द्वारा यह सीमा तय की गई।"
   },
   {
-    "question": "A minister who is not an MP must get elected within:\nजो मंत्री सांसद नहीं है उसे चुना जाना चाहिए:",
-    "options": ["3 months | 3 महीने","6 months | 6 महीने","1 year | 1 वर्ष","2 years | 2 वर्ष"],
-    "answer": 1,
-    "explanation": "A minister must become MP within six months.\nमंत्री को 6 महीने में सांसद बनना जरूरी है।"
-  },
-  {
-    "question": "The Cabinet Mission Plan was announced in:\nकैबिनेट मिशन योजना घोषित हुई:",
-    "options": ["1945","1946","1947","1948"],
-    "answer": 1,
-    "explanation": "The Cabinet Mission came in 1946.\nकैबिनेट मिशन 1946 में आया था।"
-  },
-  {
-    "question": "Who allocates portfolios to ministers?\nमंत्रियों को विभाग कौन देता है?",
-    "options": ["President | राष्ट्रपति","Prime Minister | प्रधानमंत्री","Lok Sabha | लोकसभा","Cabinet Secretary | कैबिनेट सचिव"],
-    "answer": 1,
-    "explanation": "The Prime Minister allocates portfolios.\nप्रधानमंत्री विभागों का आवंटन करते हैं।"
-  },
-  {
-    "question": "The Attorney General is appointed by:\nमहान्यायवादी की नियुक्ति कौन करता है?",
-    "options": ["Prime Minister | प्रधानमंत्री","President | राष्ट्रपति","Chief Justice | मुख्य न्यायाधीश","Parliament | संसद"],
-    "answer": 1,
-    "explanation": "The President appoints the Attorney General.\nराष्ट्रपति महान्यायवादी नियुक्त करते हैं।"
-  },
-  {
-    "question": "The CAG is appointed by:\nकैग की नियुक्ति होती है:",
-    "options": ["Prime Minister | प्रधानमंत्री","President | राष्ट्रपति","Parliament | संसद","Chief Justice | मुख्य न्यायाधीश"],
-    "answer": 1,
-    "explanation": "The CAG is appointed by the President.\nकैग की नियुक्ति राष्ट्रपति करते हैं।"
-  },
-  {
-    "question": "Kitchen Cabinet refers to:\nकिचन कैबिनेट का अर्थ है:",
-    "options": ["Official Cabinet | आधिकारिक मंत्रिमंडल","Informal advisors | अनौपचारिक सलाहकार","Junior ministers | कनिष्ठ मंत्री","State ministers | राज्यमंत्री"],
-    "answer": 1,
-    "explanation": "It is an informal group advising PM.\nयह प्रधानमंत्री के अनौपचारिक सलाहकार होते हैं।"
-  },
-  {
-    "question": "The Prime Minister is:\nप्रधानमंत्री होता है:",
-    "options": ["Head of State | राष्ट्र प्रमुख","Head of Government | सरकार प्रमुख","Both | दोनों","Neither | कोई नहीं"],
-    "answer": 1,
-    "explanation": "PM is Head of Government.\nप्रधानमंत्री सरकार का प्रमुख होता है।"
-  },
-  {
-    "question": "Coalition government means:\nगठबंधन सरकार का अर्थ है:",
-    "options": ["Single party rule | एक दल शासन","Alliance of parties | दलों का गठबंधन","Military rule | सैन्य शासन","President's rule | राष्ट्रपति शासन"],
-    "answer": 1,
-    "explanation": "Formed by alliance of parties.\nदलों के गठबंधन से बनी सरकार।"
+    "question": "A minister who is not an MP must get elected within (जो मंत्री सांसद नहीं है उसे चुना जाना चाहिए)",
+    "options": [
+      "3 months",
+      "6 months",
+      "1 year",
+      "2 years"
+    ],
+    "correct": 1,
+    "explanation": "A minister must become a member of Parliament within six months. मंत्री को 6 महीने में सांसद बनना आवश्यक है।"
   }
 ]
