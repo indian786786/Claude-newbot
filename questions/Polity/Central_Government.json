@@ -1,24 +1,200 @@
 [
   {
-    "question": "The Prime Minister is appointed by (प्रधानमंत्री की नियुक्ति किसके द्वारा की जाती है?)",
+    "question": "The real executive authority of the Union Government lies with (संघ सरकार की वास्तविक कार्यकारी शक्ति किसके पास होती है?)",
     "options": [
       "President (राष्ट्रपति)",
-      "Lok Sabha (लोकसभा)",
-      "Parliament (संसद)",
-      "People (जनता)"
-    ],
-    "correct": 0,
-    "explanation": "The President appoints the Prime Minister, usually the leader of the majority party in Lok Sabha."
-  },
-  {
-    "question": "The Prime Minister must be a member of (प्रधानमंत्री को सदस्य होना चाहिए)",
-    "options": [
-      "Lok Sabha only (केवल लोकसभा)",
-      "Rajya Sabha only (केवल राज्यसभा)",
-      "Either House of Parliament (संसद के किसी भी सदन का)",
-      "Any State Assembly (किसी भी विधानसभा का)"
+      "Prime Minister (प्रधानमंत्री)",
+      "Council of Ministers (मंत्रिपरिषद)",
+      "Parliament (संसद)"
     ],
     "correct": 2,
-    "explanation": "The Prime Minister can be a member of either Lok Sabha or Rajya Sabha."
+    "explanation": "EN: Though executive power is formally vested in the President under Article 53, in practice it is exercised by the Council of Ministers headed by the Prime Minister in the parliamentary system. The President acts as a nominal head while real authority rests with elected ministers responsible to Lok Sabha. | HI: अनुच्छेद 53 के अनुसार कार्यकारी शक्ति राष्ट्रपति में निहित होती है, लेकिन व्यवहार में इसका प्रयोग प्रधानमंत्री के नेतृत्व वाली मंत्रिपरिषद करती है। राष्ट्रपति केवल औपचारिक प्रमुख होते हैं जबकि वास्तविक शक्ति निर्वाचित मंत्रियों के पास होती है।"
+  },
+  {
+    "question": "The doctrine of collective responsibility means (सामूहिक उत्तरदायित्व का सिद्धांत क्या दर्शाता है?)",
+    "options": [
+      "Ministers work independently (मंत्री स्वतंत्र रूप से कार्य करते हैं)",
+      "Ministers are responsible to President (राष्ट्रपति के प्रति उत्तरदायी)",
+      "Ministers support Cabinet decisions publicly (कैबिनेट निर्णयों का सार्वजनिक समर्थन)",
+      "Only Prime Minister is responsible (केवल प्रधानमंत्री उत्तरदायी)"
+    ],
+    "correct": 2,
+    "explanation": "EN: Collective responsibility implies that all ministers must publicly support decisions taken by the Cabinet. If the government loses majority in Lok Sabha, the entire Council of Ministers resigns together, ensuring unity and accountability. | HI: सामूहिक उत्तरदायित्व का अर्थ है कि सभी मंत्री कैबिनेट के निर्णयों का सार्वजनिक रूप से समर्थन करेंगे। यदि सरकार लोकसभा में बहुमत खो दे तो पूरी मंत्रिपरिषद को इस्तीफा देना पड़ता है।"
+  },
+  {
+    "question": "The size of the Council of Ministers is restricted by which Constitutional Amendment? (मंत्रिपरिषद की सीमा किस संशोधन द्वारा तय की गई?)",
+    "options": [
+      "44th Amendment",
+      "73rd Amendment",
+      "86th Amendment",
+      "91st Amendment"
+    ],
+    "correct": 3,
+    "explanation": "EN: The 91st Constitutional Amendment Act, 2003 limited the Council of Ministers to 15% of the total strength of Lok Sabha to prevent unnecessary expansion and political instability. | HI: 91वाँ संवैधानिक संशोधन अधिनियम 2003 ने मंत्रिपरिषद की संख्या लोकसभा के कुल सदस्यों के 15% तक सीमित कर दी ताकि अनावश्यक विस्तार रोका जा सके।"
+  },
+  {
+    "question": "Ministers hold office during the pleasure of the President means (मंत्री राष्ट्रपति की प्रसन्नता तक पद पर रहते हैं का अर्थ है)",
+    "options": [
+      "President removes ministers independently",
+      "Parliament controls ministers",
+      "Prime Minister can recommend removal",
+      "Judiciary removes ministers"
+    ],
+    "correct": 2,
+    "explanation": "EN: Though ministers technically serve at the pleasure of the President, in reality the President acts on the advice of the Prime Minister. Therefore, when the Prime Minister withdraws confidence, a minister must resign. | HI: यद्यपि मंत्री राष्ट्रपति की प्रसन्नता तक पद पर रहते हैं, पर व्यवहार में राष्ट्रपति प्रधानमंत्री की सलाह पर कार्य करते हैं। अतः प्रधानमंत्री समर्थन वापस लें तो मंत्री को इस्तीफा देना पड़ता है।"
+  },
+  {
+    "question": "Which Article makes the Council of Ministers collectively responsible to Lok Sabha? (कौन सा अनुच्छेद मंत्रिपरिषद को लोकसभा के प्रति उत्तरदायी बनाता है?)",
+    "options": [
+      "Article 74",
+      "Article 75",
+      "Article 76",
+      "Article 78"
+    ],
+    "correct": 1,
+    "explanation": "EN: Article 75(3) states that the Council of Ministers shall be collectively responsible to the House of the People. This ensures democratic control over the executive. | HI: अनुच्छेद 75(3) के अनुसार मंत्रिपरिषद लोकसभा के प्रति सामूहिक रूप से उत्तरदायी होती है, जिससे कार्यपालिका पर लोकतांत्रिक नियंत्रण बना रहता है।"
+  },
+  {
+    "question": "The Comptroller and Auditor General (CAG) is known as (कैग को किस नाम से जाना जाता है?)",
+    "options": [
+      "Head of Judiciary",
+      "Guardian of Public Purse",
+      "Economic Advisor",
+      "Budget Controller"
+    ],
+    "correct": 1,
+    "explanation": "EN: CAG is called the guardian of public purse because he audits government expenditure and ensures that public money is spent lawfully and efficiently. | HI: कैग को सार्वजनिक धन का संरक्षक कहा जाता है क्योंकि वह सरकारी खर्च का लेखा परीक्षण कर धन के सही उपयोग को सुनिश्चित करता है।"
+  },
+  {
+    "question": "Kitchen Cabinet refers to (किचन कैबिनेट का अर्थ है)",
+    "options": [
+      "Formal cabinet body",
+      "Group of civil servants",
+      "Unofficial advisors of PM",
+      "Opposition leaders"
+    ],
+    "correct": 2,
+    "explanation": "EN: Kitchen Cabinet is an informal group of trusted advisors to the Prime Minister who influence decisions without constitutional status. | HI: किचन कैबिनेट प्रधानमंत्री के अनौपचारिक सलाहकारों का समूह होता है जिनका संवैधानिक पद नहीं होता लेकिन निर्णयों पर प्रभाव होता है।"
+  },
+  {
+    "question": "A caretaker government mainly functions to (कार्यवाहक सरकार का मुख्य उद्देश्य होता है)",
+    "options": [
+      "Pass major laws",
+      "Amend Constitution",
+      "Run routine administration during elections",
+      "Control judiciary"
+    ],
+    "correct": 2,
+    "explanation": "EN: Caretaker government continues day-to-day administration after dissolution of Lok Sabha until new government is formed, avoiding major policy decisions. | HI: कार्यवाहक सरकार लोकसभा भंग होने के बाद नई सरकार बनने तक सामान्य प्रशासन चलाती है और बड़े फैसले नहीं लेती।"
+  },
+  {
+    "question": "Which Article empowers the President to proclaim National Emergency? (राष्ट्रपति को राष्ट्रीय आपातकाल घोषित करने की शक्ति किस अनुच्छेद से मिलती है?)",
+    "options": [
+      "Article 352 (अनुच्छेद 352)",
+      "Article 356 (अनुच्छेद 356)",
+      "Article 360 (अनुच्छेद 360)",
+      "Article 365 (अनुच्छेद 365)"
+    ],
+    "correct": 0,
+    "explanation": "EN: Article 352 deals with National Emergency on grounds of war, external aggression, or armed rebellion. After the 44th Amendment, written advice of the Cabinet is mandatory before proclamation. | HI: अनुच्छेद 352 के तहत युद्ध, बाहरी आक्रमण या सशस्त्र विद्रोह की स्थिति में राष्ट्रीय आपातकाल घोषित किया जाता है। 44वें संशोधन के बाद कैबिनेट की लिखित सलाह आवश्यक है।"
+  },
+  {
+    "question": "The President can return a Money Bill for reconsideration? (क्या राष्ट्रपति धन विधेयक को पुनर्विचार हेतु लौटा सकते हैं?)",
+    "options": [
+      "Yes (हाँ)",
+      "No (नहीं)",
+      "Only once (केवल एक बार)",
+      "Only during emergency (केवल आपातकाल में)"
+    ],
+    "correct": 1,
+    "explanation": "EN: The President cannot return a Money Bill for reconsideration. He must give assent once it is passed by Parliament. | HI: राष्ट्रपति धन विधेयक को पुनर्विचार के लिए वापस नहीं भेज सकते। संसद द्वारा पारित होने पर उन्हें स्वीकृति देनी ही होती है।"
+  },
+  {
+    "question": "Article 356 is related to (अनुच्छेद 356 किससे संबंधित है?)",
+    "options": [
+      "National Emergency (राष्ट्रीय आपातकाल)",
+      "President’s Rule in State (राज्य में राष्ट्रपति शासन)",
+      "Financial Emergency (वित्तीय आपातकाल)",
+      "Impeachment (महाभियोग)"
+    ],
+    "correct": 1,
+    "explanation": "EN: Article 356 provides for President’s Rule in a state if constitutional machinery fails. It is also called State Emergency. | HI: अनुच्छेद 356 राज्य में संवैधानिक तंत्र विफल होने पर राष्ट्रपति शासन लागू करने की व्यवस्था करता है। इसे राज्य आपातकाल भी कहते हैं।"
+  },
+  {
+    "question": "The Vice-President of India is elected by (भारत के उपराष्ट्रपति का चुनाव किसके द्वारा होता है?)",
+    "options": [
+      "Members of Lok Sabha only",
+      "Members of Rajya Sabha only",
+      "Members of both Houses of Parliament",
+      "Electoral College of MPs and MLAs"
+    ],
+    "correct": 2,
+    "explanation": "EN: The Vice-President is elected by members of both Houses of Parliament through proportional representation. State legislatures do not participate. | HI: उपराष्ट्रपति का चुनाव संसद के दोनों सदनों के सदस्य आनुपातिक प्रतिनिधित्व प्रणाली से करते हैं। राज्य विधानसभाएँ इसमें भाग नहीं लेतीं।"
+  },
+  {
+    "question": "Who administers oath to the President of India? (भारत के राष्ट्रपति को शपथ कौन दिलाता है?)",
+    "options": [
+      "Prime Minister",
+      "Chief Justice of India",
+      "Vice-President",
+      "Speaker of Lok Sabha"
+    ],
+    "correct": 1,
+    "explanation": "EN: The Chief Justice of India administers oath to the President. In his absence, the senior-most judge of Supreme Court performs this duty. | HI: राष्ट्रपति को शपथ भारत के मुख्य न्यायाधीश दिलाते हैं। उनकी अनुपस्थिति में सर्वोच्च न्यायालय के वरिष्ठतम न्यायाधीश शपथ दिलाते हैं।"
+  },
+  {
+    "question": "The ordinance making power of the President is given under (राष्ट्रपति की अध्यादेश जारी करने की शक्ति किस अनुच्छेद में है?)",
+    "options": [
+      "Article 123",
+      "Article 213",
+      "Article 352",
+      "Article 360"
+    ],
+    "correct": 0,
+    "explanation": "EN: Article 123 empowers the President to issue ordinances when Parliament is not in session. It has the same force as law but must be approved within six weeks of reassembly. | HI: अनुच्छेद 123 राष्ट्रपति को संसद सत्र में न होने पर अध्यादेश जारी करने की शक्ति देता है। यह कानून के समान प्रभावी होता है लेकिन 6 सप्ताह में संसद की स्वीकृति आवश्यक है।"
+  },
+  {
+    "question": "The impeachment of the President can be initiated in (राष्ट्रपति के महाभियोग की प्रक्रिया कहाँ से प्रारंभ हो सकती है?)",
+    "options": [
+      "Lok Sabha only",
+      "Rajya Sabha only",
+      "Either House of Parliament",
+      "Supreme Court"
+    ],
+    "correct": 2,
+    "explanation": "EN: Impeachment can be initiated in either House of Parliament and must be passed by special majority. It is for violation of the Constitution. | HI: राष्ट्रपति के महाभियोग की प्रक्रिया संसद के किसी भी सदन से शुरू हो सकती है और विशेष बहुमत से पारित होती है। यह संविधान के उल्लंघन पर लागू होती है।"
+  },
+  {
+    "question": "The President of India is a part of (भारत के राष्ट्रपति किसका हिस्सा हैं?)",
+    "options": [
+      "Executive only",
+      "Legislature only",
+      "Parliament",
+      "Judiciary"
+    ],
+    "correct": 2,
+    "explanation": "EN: Under Article 79, Parliament consists of the President, Lok Sabha, and Rajya Sabha. Thus, the President is an integral part of Parliament. | HI: अनुच्छेद 79 के अनुसार संसद में राष्ट्रपति, लोकसभा और राज्यसभा शामिल होते हैं। इसलिए राष्ट्रपति संसद का अभिन्न अंग हैं।"
+  },
+  {
+    "question": "Financial Emergency under Article 360 has been declared how many times in India? (भारत में अनुच्छेद 360 के तहत वित्तीय आपातकाल कितनी बार लागू हुआ है?)",
+    "options": [
+      "Once",
+      "Twice",
+      "Three times",
+      "Never"
+    ],
+    "correct": 3,
+    "explanation": "EN: Financial Emergency under Article 360 has never been declared in India till date. It empowers the President to reduce salaries and control financial matters. | HI: भारत में अब तक अनुच्छेद 360 के तहत वित्तीय आपातकाल कभी लागू नहीं हुआ है। इसके तहत राष्ट्रपति वेतन में कटौती और वित्तीय नियंत्रण कर सकते हैं।"
+  },
+  {
+    "question": "The Prime Minister is appointed under which Article? (प्रधानमंत्री की नियुक्ति किस अनुच्छेद के अंतर्गत होती है?)",
+    "options": [
+      "Article 74",
+      "Article 75",
+      "Article 76",
+      "Article 78"
+    ],
+    "correct": 1,
+    "explanation": "EN: Article 75 provides that the Prime Minister shall be appointed by the President and other ministers shall be appointed on the advice of the Prime Minister. | HI: अनुच्छेद 75 के अनुसार प्रधानमंत्री की नियुक्ति राष्ट्रपति करते हैं और अन्य मंत्रियों की नियुक्ति प्रधानमंत्री की सलाह पर होती है।"
   }
 ]
