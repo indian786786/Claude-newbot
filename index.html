@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSC PYQ Quiz - Professional Platform</title>
+    <title>SSC PYQ Quiz</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
         * {
@@ -12,99 +12,709 @@
             box-sizing: border-box;
         }
 
-        :root {
-            --primary-color: #6C63FF;
-            --primary-dark: #5548E8;
-            --success-color: #2ECC71;
-            --danger-color: #E74C3C;
-            --warning-color: #F39C12;
-            --text-dark: #2C3E50;
-            --text-light: #7F8C8D;
-            --bg-light: #F8F9FA;
-            --bg-white: #FFFFFF;
-            --border-color: #E1E8ED;
-            --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
         }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        /* Topic Input Screen */
+        .topic-screen {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 16px;
-            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Header */
-        .header {
-            text-align: center;
-            margin-bottom: 24px;
-            color: white;
-        }
-
-        .header h1 {
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 8px;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .header p {
-            font-size: 14px;
-            opacity: 0.95;
-        }
-
-        /* Cards */
-        .card {
-            background: var(--bg-white);
+        .topic-card {
+            background: white;
             border-radius: 16px;
-            padding: 24px;
-            margin-bottom: 16px;
-            box-shadow: var(--shadow-lg);
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
         }
 
-        /* Selection Section */
-        .selection-section {
-            display: block;
+        .topic-card h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
         }
 
-        .selection-section.hidden {
-            display: none;
+        .topic-card p {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
         }
 
-        .form-group {
+        .input-group {
             margin-bottom: 20px;
         }
 
-        .form-group label {
+        .input-group label {
             display: block;
             font-weight: 600;
-            font-size: 14px;
-            color: var(--text-dark);
+            color: #333;
             margin-bottom: 8px;
         }
 
-        .form-group select {
+        .input-group input {
             width: 100%;
-            padding: 14px 16px;
-            border: 2px solid var(--border-color);
-            border-radius: 10px;
-            font-size: 15px;
-            color: var(--text-dark);
-            background: var(--bg-white);
-            cursor: pointer;
-            transition: all 0.3s ease;
-            appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236C63FF' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 16px center;
-            padding-right: 48px;
+            padding: 14px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
         }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .start-btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .start-btn:disabled {
+            opacity: 0.6;
+        }
+
+        .error-box {
+            display: none;
+            padding: 12px;
+            background: #fee;
+            border: 1px solid #fcc;
+            border-radius: 6px;
+            color: #c33;
+            margin-bottom: 20px;
+        }
+
+        .error-box.show {
+            display: block;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Quiz Screen */
+        .quiz-screen {
+            display: none;
+            background: #fff;
+            min-height: 100vh;
+        }
+
+        .quiz-screen.active {
+            display: block;
+        }
+
+        /* Header */
+        .quiz-header {
+            background: #fff;
+            padding: 15px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .quiz-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .timer-box {
+            background: #fff3cd;
+            padding: 8px 16px;
+            border-radius: 6px;
+            border: 1px solid #ffc107;
+        }
+
+        .timer-label {
+            font-size: 12px;
+            color: #856404;
+            font-weight: 500;
+        }
+
+        .timer-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #ff5722;
+        }
+
+        /* Action Buttons */
+        .action-bar {
+            background: #fff;
+            padding: 12px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+        }
+
+        .action-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .btn-review {
+            background: #fff;
+            border: 2px solid #2196F3;
+            color: #2196F3;
+        }
+
+        .btn-next {
+            background: #2196F3;
+            color: white;
+        }
+
+        .btn-submit {
+            background: #4CAF50;
+            color: white;
+        }
+
+        /* Marks Info */
+        .marks-info {
+            background: #f8f9fa;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        .marks-positive {
+            color: #28a745;
+            font-weight: 600;
+        }
+
+        .marks-negative {
+            color: #dc3545;
+            font-weight: 600;
+        }
+
+        /* Question Area */
+        .question-container {
+            padding: 20px;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .question-num {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .time-left {
+            font-size: 14px;
+            color: #dc3545;
+            font-weight: 600;
+        }
+
+        .question-text {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        /* Options */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: white;
+        }
+
+        .option-item:hover {
+            border-color: #2196F3;
+            background: #f8f9ff;
+        }
+
+        .option-item.selected {
+            border-color: #2196F3;
+            background: #e3f2fd;
+        }
+
+        .option-item.correct {
+            border-color: #4CAF50;
+            background: #e8f5e9;
+        }
+
+        .option-item.wrong {
+            border-color: #f44336;
+            background: #ffebee;
+        }
+
+        .option-item.disabled {
+            cursor: not-allowed;
+        }
+
+        .option-radio {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #999;
+            border-radius: 50%;
+            margin-right: 12px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+        }
+
+        .option-item.selected .option-radio {
+            border-color: #2196F3;
+        }
+
+        .option-item.selected .option-radio::after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: #2196F3;
+            border-radius: 50%;
+        }
+
+        .option-item.correct .option-radio {
+            border-color: #4CAF50;
+        }
+
+        .option-item.correct .option-radio::after {
+            content: '✓';
+            color: #4CAF50;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .option-item.wrong .option-radio {
+            border-color: #f44336;
+        }
+
+        .option-item.wrong .option-radio::after {
+            content: '✗';
+            color: #f44336;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .option-text {
+            flex: 1;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        /* Explanation */
+        .explanation-box {
+            display: none;
+            margin-top: 20px;
+            padding: 16px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 6px;
+        }
+
+        .explanation-box.show {
+            display: block;
+        }
+
+        .explanation-title {
+            font-weight: 600;
+            color: #856404;
+            margin-bottom: 8px;
+        }
+
+        .explanation-text {
+            color: #856404;
+            line-height: 1.6;
+        }
+
+        /* Results Screen */
+        .results-screen {
+            display: none;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .results-screen.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .results-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px 30px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .results-card h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .score-display {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 48px;
+            font-weight: 700;
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+        }
+
+        .results-message {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .restart-btn {
+            padding: 16px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Topic Input Screen -->
+    <div class="topic-screen" id="topicScreen">
+        <div class="topic-card">
+            <h1>📚 SSC PYQ Quiz</h1>
+            <p>Test Your Knowledge</p>
+            
+            <div class="error-box" id="errorBox"></div>
+            
+            <div class="input-group">
+                <label>Enter Topic:</label>
+                <input 
+                    type="text" 
+                    id="topicInput" 
+                    placeholder="e.g., Indian Constitution, Lodi Dynasty"
+                    maxlength="100"
+                >
+            </div>
+            
+            <button class="start-btn" id="startBtn">Start Quiz</button>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Generating questions...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div class="quiz-screen" id="quizScreen">
+        <!-- Header -->
+        <div class="quiz-header">
+            <div class="quiz-title">SSC PYQ Quiz</div>
+            <div class="timer-box">
+                <div class="timer-label">Time Left</div>
+                <div class="timer-value" id="timerDisplay">10:00</div>
+            </div>
+        </div>
+
+        <!-- Action Bar -->
+        <div class="action-bar">
+            <button class="action-btn btn-review" id="markBtn">Mark for Review</button>
+            <button class="action-btn btn-next" id="nextBtn">Save & Next</button>
+            <button class="action-btn btn-submit" id="submitBtn">Submit Test</button>
+        </div>
+
+        <!-- Marks Info -->
+        <div class="marks-info">
+            <span>Marks for correct answer: <span class="marks-positive">+2.00</span></span>
+            <span>Negative: <span class="marks-negative">-0.25</span></span>
+        </div>
+
+        <!-- Question Container -->
+        <div class="question-container">
+            <div class="question-header">
+                <div class="question-num" id="questionNum">Question No.: 1</div>
+                <div class="time-left">Last <span id="lastMinutes">10</span> Minutes</div>
+            </div>
+
+            <div class="question-text" id="questionText"></div>
+
+            <div class="options-list" id="optionsList"></div>
+
+            <div class="explanation-box" id="explanationBox">
+                <div class="explanation-title">💡 Explanation:</div>
+                <div class="explanation-text" id="explanationText"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div class="results-screen" id="resultsScreen">
+        <div class="results-card">
+            <h2>🎉 Quiz Complete!</h2>
+            <div class="score-display" id="scoreDisplay">0/10</div>
+            <div class="results-message" id="resultsMessage"></div>
+            <button class="restart-btn" id="restartBtn">Take Another Quiz</button>
+        </div>
+    </div>
+
+    <script>
+        const BACKEND_URL = 'https://ssc-pyq-backend-claude-production.up.railway.app';
+        const QUIZ_TIME = 600; // 10 minutes in seconds
+
+        let questions = [];
+        let currentIndex = 0;
+        let score = 0;
+        let selectedAnswer = null;
+        let answered = false;
+        let markedQuestions = [];
+        let timeLeft = QUIZ_TIME;
+        let timerInterval = null;
+
+        // Elements
+        const topicScreen = document.getElementById('topicScreen');
+        const quizScreen = document.getElementById('quizScreen');
+        const resultsScreen = document.getElementById('resultsScreen');
+        const topicInput = document.getElementById('topicInput');
+        const startBtn = document.getElementById('startBtn');
+        const errorBox = document.getElementById('errorBox');
+        const loading = document.getElementById('loading');
+        const timerDisplay = document.getElementById('timerDisplay');
+        const questionNum = document.getElementById('questionNum');
+        const questionText = document.getElementById('questionText');
+        const optionsList = document.getElementById('optionsList');
+        const explanationBox = document.getElementById('explanationBox');
+        const explanationText = document.getElementById('explanationText');
+        const markBtn = document.getElementById('markBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const submitBtn = document.getElementById('submitBtn');
+        const scoreDisplay = document.getElementById('scoreDisplay');
+        const resultsMessage = document.getElementById('resultsMessage');
+        const restartBtn = document.getElementById('restartBtn');
+        const lastMinutes = document.getElementById('lastMinutes');
+
+        // Initialize Telegram Web App
+        const tg = window.Telegram?.WebApp;
+        if (tg) {
+            tg.ready();
+            tg.expand();
+        }
+
+        // Start Quiz
+        startBtn.addEventListener('click', async () => {
+            const topic = topicInput.value.trim();
+
+            if (!topic) {
+                showError('Please enter a topic');
+                return;
+            }
+
+            if (topic.length < 3) {
+                showError('Topic must be at least 3 characters');
+                return;
+            }
+
+            await fetchQuestions(topic);
+        });
+
+        // Fetch Questions
+        async function fetchQuestions(topic) {
+            try {
+                showError('');
+                startBtn.disabled = true;
+                loading.classList.add('show');
+
+                const response = await fetch(`${BACKEND_URL}/generate`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ topic })
+                });
+
+                const data = await response.json();
+
+                if (!response.ok || !data.success) {
+                    throw new Error(data.error || 'Failed to generate questions');
+                }
+
+                questions = data.questions;
+                currentIndex = 0;
+                score = 0;
+                markedQuestions = [];
+                
+                startQuiz();
+
+            } catch (error) {
+                showError(error.message);
+                startBtn.disabled = false;
+                loading.classList.remove('show');
+            }
+        }
+
+        // Start Quiz
+        function startQuiz() {
+            topicScreen.style.display = 'none';
+            quizScreen.classList.add('active');
+            timeLeft = QUIZ_TIME;
+            startTimer();
+            displayQuestion();
+        }
+
+        // Timer
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                updateTimerDisplay();
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    showResults();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            lastMinutes.textContent = String(minutes).padStart(2, '0');
+        }
+
+        // Display Question
+        function displayQuestion() {
+            const q = questions[currentIndex];
+            selectedAnswer = null;
+            answered = false;
+
+            questionNum.textContent = `Question No.: ${currentIndex + 1}`;
+            questionText.textContent = q.question;
+            
+            explanationBox.classList.remove('show');
+            optionsList.innerHTML = '';
+
+            q.options.forEach((option, index) => {
+                const div = document.createElement('div');
+                div.className = 'option-item';
+                div.innerHTML = `
+                    <div class="option-radio"></div>
+                    <div class="option-text">${option}</div>
+                `;
+                div.onclick = () => selectOption(index, div);
+                optionsList.appendChild(div);
+            });
+        }
+
+        // Select Option
+        function selectOption(index, element) {
+            if (answered) return;
+
+            selectedAnswer = index;
+            
+            document.querySelectorAll('.option-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+            
+            element.classList.add('selected');
+        }
+
+        // Mark for Review
+        markBtn.addEventListener('click', () => {
+            if (!markedQuestions.includes(currentIndex)) {
+                markedQuestions.push(currentIndex);
+            }
+            alert('Question marked for review!');
+        });
+
+        // Next Question
+        nextBtn.addEventListener('click', () => {
+            if (selectedAnswer === null) {
+                alert('Please select an answer');
+                return;
+            }
+
+            if (!answered) {
+                checkAnswer();
+            } else {
+                moveToNext();
+            }
+        });
+
+        // Check Answer
+        function checkAnswer() {
+            answered = true;
+            const q = questions[currentIndex];
+            const options = document.querySelectorAll('.option-item');
+
+            }
 
         .form-group select:focus {
             outline: none;
