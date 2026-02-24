@@ -1,110 +1,176 @@
 {
   "Important Parts and Schedules": [
     {
-      "question": "How many Schedules are there in the Indian Constitution at present?",
-      "options": ["8", "10", "12", "14"],
-      "correct": 2,
-      "explanation": "The Indian Constitution currently contains 12 Schedules after various amendments."
+      "question_en": "How many Schedules are there in the Indian Constitution at present?",
+      "question_hi": "वर्तमान में भारतीय संविधान में कितनी अनुसूचियाँ हैं?",
+      "options": [{"en":"8","hi":"8"},{"en":"10","hi":"10"},{"en":"12","hi":"12"},{"en":"14","hi":"14"}],
+      "correct_index": 2,
+      "explanation_en": "The Indian Constitution currently contains 12 Schedules after various amendments.",
+      "explanation_hi": "विभिन्न संशोधनों के बाद भारतीय संविधान में वर्तमान में 12 अनुसूचियाँ हैं।"
     },
     {
-      "question": "Which Schedule deals with the allocation of seats in the Rajya Sabha?",
-      "options": ["Fourth Schedule", "Fifth Schedule", "Sixth Schedule", "Seventh Schedule"],
-      "correct": 0,
-      "explanation": "The Fourth Schedule deals with allocation of seats in the Rajya Sabha."
+      "question_en": "Which Schedule deals with the allocation of seats in the Rajya Sabha?",
+      "question_hi": "राज्यसभा में सीटों के आवंटन से कौन-सी अनुसूची संबंधित है?",
+      "options": [{"en":"Fourth Schedule","hi":"चौथी अनुसूची"},{"en":"Fifth Schedule","hi":"पाँचवीं अनुसूची"},{"en":"Sixth Schedule","hi":"छठी अनुसूची"},{"en":"Seventh Schedule","hi":"सातवीं अनुसूची"}],
+      "correct_index": 0,
+      "explanation_en": "The Fourth Schedule deals with allocation of seats in the Rajya Sabha.",
+      "explanation_hi": "चौथी अनुसूची राज्यसभा में सीटों के आवंटन से संबंधित है।"
     },
     {
-      "question": "The Seventh Schedule of the Constitution deals with:",
-      "options": ["Fundamental Rights", "Distribution of Powers", "Amendment Procedure", "Official Languages"],
-      "correct": 1,
-      "explanation": "The Seventh Schedule divides powers between Union and State through Union, State and Concurrent Lists."
+      "question_en": "The Seventh Schedule of the Constitution deals with:",
+      "question_hi": "संविधान की सातवीं अनुसूची किससे संबंधित है?",
+      "options": [{"en":"Fundamental Rights","hi":"मौलिक अधिकार"},{"en":"Distribution of Powers","hi":"शक्तियों का वितरण"},{"en":"Amendment Procedure","hi":"संशोधन प्रक्रिया"},{"en":"Official Languages","hi":"राजभाषा"}],
+      "correct_index": 1,
+      "explanation_en": "It divides powers between Union and State through Union, State and Concurrent Lists.",
+      "explanation_hi": "यह संघ, राज्य और समवर्ती सूचियों द्वारा शक्तियों का वितरण करती है।"
     },
     {
-      "question": "Which Schedule contains provisions relating to anti-defection law?",
-      "options": ["Ninth Schedule", "Tenth Schedule", "Eleventh Schedule", "Twelfth Schedule"],
-      "correct": 1,
-      "explanation": "The Tenth Schedule contains provisions related to the Anti-Defection Law."
+      "question_en": "Which Schedule contains provisions relating to anti-defection law?",
+      "question_hi": "दल-बदल विरोधी कानून किस अनुसूची में है?",
+      "options": [{"en":"Ninth Schedule","hi":"नौवीं अनुसूची"},{"en":"Tenth Schedule","hi":"दसवीं अनुसूची"},{"en":"Eleventh Schedule","hi":"ग्यारहवीं अनुसूची"},{"en":"Twelfth Schedule","hi":"बारहवीं अनुसूची"}],
+      "correct_index": 1,
+      "explanation_en": "The Tenth Schedule contains provisions related to Anti-Defection Law.",
+      "explanation_hi": "दसवीं अनुसूची में दल-बदल विरोधी कानून के प्रावधान हैं।"
     },
     {
-      "question": "The Eleventh Schedule is related to:",
-      "options": ["Municipalities", "Panchayats", "Judiciary", "Finance Commission"],
-      "correct": 1,
-      "explanation": "The Eleventh Schedule deals with powers and responsibilities of Panchayats."
+      "question_en": "The Eleventh Schedule is related to:",
+      "question_hi": "ग्यारहवीं अनुसूची संबंधित है:",
+      "options": [{"en":"Municipalities","hi":"नगरपालिकाएँ"},{"en":"Panchayats","hi":"पंचायतें"},{"en":"Judiciary","hi":"न्यायपालिका"},{"en":"Finance Commission","hi":"वित्त आयोग"}],
+      "correct_index": 1,
+      "explanation_en": "It deals with powers and responsibilities of Panchayats.",
+      "explanation_hi": "यह पंचायतों की शक्तियों और कार्यों से संबंधित है।"
     }
   ],
 
   "Fundamental Rights": [
     {
-      "question": "Which Article guarantees Right to Equality?",
-      "options": ["Article 12", "Article 14", "Article 19", "Article 21"],
-      "correct": 1,
-      "explanation": "Article 14 guarantees equality before law and equal protection of laws."
+      "question_en": "Which Article guarantees Right to Equality?",
+      "question_hi": "समानता का अधिकार किस अनुच्छेद में है?",
+      "options": [{"en":"Article 12","hi":"अनुच्छेद 12"},{"en":"Article 14","hi":"अनुच्छेद 14"},{"en":"Article 19","hi":"अनुच्छेद 19"},{"en":"Article 21","hi":"अनुच्छेद 21"}],
+      "correct_index": 1,
+      "explanation_en": "Article 14 guarantees equality before law.",
+      "explanation_hi": "अनुच्छेद 14 कानून के समक्ष समानता की गारंटी देता है।"
     },
     {
-      "question": "Abolition of untouchability is provided under which Article?",
-      "options": ["Article 15", "Article 16", "Article 17", "Article 18"],
-      "correct": 2,
-      "explanation": "Article 17 abolishes untouchability and forbids its practice in any form."
+      "question_en": "Abolition of untouchability is under:",
+      "question_hi": "अस्पृश्यता का उन्मूलन किस अनुच्छेद में है?",
+      "options": [{"en":"Article 15","hi":"अनुच्छेद 15"},{"en":"Article 16","hi":"अनुच्छेद 16"},{"en":"Article 17","hi":"अनुच्छेद 17"},{"en":"Article 18","hi":"अनुच्छेद 18"}],
+      "correct_index": 2,
+      "explanation_en": "Article 17 abolishes untouchability.",
+      "explanation_hi": "अनुच्छेद 17 अस्पृश्यता को समाप्त करता है।"
     },
     {
-      "question": "Right to Freedom is covered under Articles:",
-      "options": ["19-22", "14-18", "23-24", "25-28"],
-      "correct": 0,
-      "explanation": "Articles 19 to 22 deal with Right to Freedom."
+      "question_en": "Right to Freedom is covered under Articles:",
+      "question_hi": "स्वतंत्रता का अधिकार किन अनुच्छेदों में है?",
+      "options": [{"en":"19-22","hi":"19–22"},{"en":"14-18","hi":"14–18"},{"en":"23-24","hi":"23–24"},{"en":"25-28","hi":"25–28"}],
+      "correct_index": 0,
+      "explanation_en": "Articles 19 to 22 deal with Right to Freedom.",
+      "explanation_hi": "अनुच्छेद 19 से 22 स्वतंत्रता का अधिकार देते हैं।"
     },
     {
-      "question": "Right to Constitutional Remedies is under:",
-      "options": ["Article 21", "Article 25", "Article 32", "Article 44"],
-      "correct": 2,
-      "explanation": "Article 32 provides the Right to Constitutional Remedies."
+      "question_en": "Right to Constitutional Remedies is under:",
+      "question_hi": "संवैधानिक उपचार का अधिकार किस अनुच्छेद में है?",
+      "options": [{"en":"Article 21","hi":"अनुच्छेद 21"},{"en":"Article 25","hi":"अनुच्छेद 25"},{"en":"Article 32","hi":"अनुच्छेद 32"},{"en":"Article 44","hi":"अनुच्छेद 44"}],
+      "correct_index": 2,
+      "explanation_en": "Article 32 provides remedies for enforcement of rights.",
+      "explanation_hi": "अनुच्छेद 32 अधिकारों की रक्षा के उपाय देता है।"
     },
     {
-      "question": "Which writ is issued to produce a person before the court?",
-      "options": ["Mandamus", "Certiorari", "Habeas Corpus", "Quo Warranto"],
-      "correct": 2,
-      "explanation": "Habeas Corpus is issued to produce a detained person before the court."
+      "question_en": "Which writ is used to produce a person before court?",
+      "question_hi": "किस रिट से व्यक्ति को न्यायालय में प्रस्तुत किया जाता है?",
+      "options": [{"en":"Mandamus","hi":"मैंडेमस"},{"en":"Certiorari","hi":"सर्टियोरारी"},{"en":"Habeas Corpus","hi":"हैबियस कॉर्पस"},{"en":"Quo Warranto","hi":"क्वो वारंटो"}],
+      "correct_index": 2,
+      "explanation_en": "Habeas Corpus safeguards personal liberty.",
+      "explanation_hi": "हैबियस कॉर्पस व्यक्तिगत स्वतंत्रता की रक्षा करता है।"
     }
   ],
 
   "President of India": [
     {
-      "question": "The President of India is elected by:",
-      "options": ["Lok Sabha only", "Rajya Sabha only", "Electoral College", "Prime Minister"],
-      "correct": 2,
-      "explanation": "The President is elected by an Electoral College consisting of elected MPs and MLAs."
+      "question_en": "The President of India is elected by:",
+      "question_hi": "राष्ट्रपति का चुनाव किसके द्वारा होता है?",
+      "options": [{"en":"Lok Sabha only","hi":"केवल लोकसभा"},{"en":"Rajya Sabha only","hi":"केवल राज्यसभा"},{"en":"Electoral College","hi":"निर्वाचन मंडल"},{"en":"Prime Minister","hi":"प्रधानमंत्री"}],
+      "correct_index": 2,
+      "explanation_en": "Election is by MPs and MLAs.",
+      "explanation_hi": "सांसदों और विधायकों द्वारा चुनाव होता है।"
     },
     {
-      "question": "The term of office of the President is:",
-      "options": ["4 years", "5 years", "6 years", "7 years"],
-      "correct": 1,
-      "explanation": "The President holds office for a term of 5 years."
+      "question_en": "The term of the President is:",
+      "question_hi": "राष्ट्रपति का कार्यकाल है:",
+      "options": [{"en":"4 years","hi":"4 वर्ष"},{"en":"5 years","hi":"5 वर्ष"},{"en":"6 years","hi":"6 वर्ष"},{"en":"7 years","hi":"7 वर्ष"}],
+      "correct_index": 1,
+      "explanation_en": "The term is five years.",
+      "explanation_hi": "कार्यकाल पाँच वर्ष का होता है।"
     },
     {
-      "question": "The President can be removed by:",
-      "options": ["Prime Minister", "Impeachment", "Supreme Court", "Lok Sabha"],
-      "correct": 1,
-      "explanation": "The President can be removed by impeachment process."
+      "question_en": "The President can be removed by:",
+      "question_hi": "राष्ट्रपति को हटाया जा सकता है:",
+      "options": [{"en":"Prime Minister","hi":"प्रधानमंत्री"},{"en":"Impeachment","hi":"महाभियोग"},{"en":"Supreme Court","hi":"सुप्रीम कोर्ट"},{"en":"Lok Sabha","hi":"लोकसभा"}],
+      "correct_index": 1,
+      "explanation_en": "Removal is through impeachment process.",
+      "explanation_hi": "महाभियोग प्रक्रिया से हटाया जाता है।"
     },
     {
-      "question": "The power to declare Emergency rests with:",
-      "options": ["Prime Minister", "Cabinet", "President", "Chief Justice"],
-      "correct": 2,
-      "explanation": "The President declares Emergency under Article 352."
+      "question_en": "Emergency is declared by:",
+      "question_hi": "आपातकाल घोषित करता है:",
+      "options": [{"en":"Prime Minister","hi":"प्रधानमंत्री"},{"en":"Cabinet","hi":"मंत्रिमंडल"},{"en":"President","hi":"राष्ट्रपति"},{"en":"Chief Justice","hi":"मुख्य न्यायाधीश"}],
+      "correct_index": 2,
+      "explanation_en": "The President proclaims Emergency.",
+      "explanation_hi": "राष्ट्रपति आपातकाल घोषित करते हैं।"
     },
     {
-      "question": "Who administers oath to the President?",
-      "options": ["Prime Minister", "Chief Justice of India", "Vice President", "Speaker"],
-      "correct": 1,
-      "explanation": "The Chief Justice of India administers the oath to the President."
+      "question_en": "Who administers oath to the President?",
+      "question_hi": "राष्ट्रपति को शपथ कौन दिलाता है?",
+      "options": [{"en":"Prime Minister","hi":"प्रधानमंत्री"},{"en":"Chief Justice of India","hi":"भारत के मुख्य न्यायाधीश"},{"en":"Vice President","hi":"उपराष्ट्रपति"},{"en":"Speaker","hi":"स्पीकर"}],
+      "correct_index": 1,
+      "explanation_en": "CJI administers oath.",
+      "explanation_hi": "मुख्य न्यायाधीश शपथ दिलाते हैं।"
     }
   ],
 
   "Parliament": [
     {
-      "question": "Parliament of India consists of:",
-      "options": ["Lok Sabha only", "Rajya Sabha only", "President and two Houses", "Council of Ministers"],
-      "correct": 2,
-      "explanation": "Parliament consists of President, Lok Sabha and Rajya Sabha."
+      "question_en": "Parliament of India consists of:",
+      "question_hi": "भारतीय संसद में शामिल हैं:",
+      "options": [{"en":"Lok Sabha only","hi":"केवल लोकसभा"},{"en":"Rajya Sabha only","hi":"केवल राज्यसभा"},{"en":"President and two Houses","hi":"राष्ट्रपति और दोनों सदन"},{"en":"Council of Ministers","hi":"मंत्रिपरिषद"}],
+      "correct_index": 2,
+      "explanation_en": "It includes President, Lok Sabha and Rajya Sabha.",
+      "explanation_hi": "इसमें राष्ट्रपति, लोकसभा और राज्यसभा होते हैं।"
     },
+    {
+      "question_en": "Maximum strength of Lok Sabha is:",
+      "question_hi": "लोकसभा की अधिकतम संख्या है:",
+      "options": [{"en":"500","hi":"500"},{"en":"545","hi":"545"},{"en":"552","hi":"552"},{"en":"560","hi":"560"}],
+      "correct_index": 2,
+      "explanation_en": "Maximum allowed is 552 members.",
+      "explanation_hi": "अधिकतम 552 सदस्य हो सकते हैं।"
+    },
+    {
+      "question_en": "Money Bill is introduced in:",
+      "question_hi": "धन विधेयक पेश होता है:",
+      "options": [{"en":"Rajya Sabha","hi":"राज्यसभा"},{"en":"Lok Sabha","hi":"लोकसभा"},{"en":"Joint Sitting","hi":"संयुक्त बैठक"},{"en":"Court","hi":"न्यायालय"}],
+      "correct_index": 1,
+      "explanation_en": "Only Lok Sabha can introduce it.",
+      "explanation_hi": "केवल लोकसभा में पेश किया जाता है।"
+    },
+    {
+      "question_en": "Rajya Sabha is a:",
+      "question_hi": "राज्यसभा है:",
+      "options": [{"en":"Permanent House","hi":"स्थायी सदन"},{"en":"Temporary House","hi":"अस्थायी सदन"},{"en":"Advisory Body","hi":"सलाहकार संस्था"},{"en":"Judicial Body","hi":"न्यायिक संस्था"}],
+      "correct_index": 0,
+      "explanation_en": "It never dissolves.",
+      "explanation_hi": "यह भंग नहीं होती।"
+    },
+    {
+      "question_en": "Joint sitting is presided by:",
+      "question_hi": "संयुक्त बैठक की अध्यक्षता करता है:",
+      "options": [{"en":"President","hi":"राष्ट्रपति"},{"en":"Vice President","hi":"उपराष्ट्रपति"},{"en":"Speaker of Lok Sabha","hi":"लोकसभा अध्यक्ष"},{"en":"Prime Minister","hi":"प्रधानमंत्री"}],
+      "correct_index": 2,
+      "explanation_en": "Speaker presides the joint session.",
+      "explanation_hi": "लोकसभा अध्यक्ष अध्यक्षता करते हैं।"
+    }
+  ]
+}    },
     {
       "question": "Maximum strength of Lok Sabha is:",
       "options": ["500", "545", "552", "560"],
