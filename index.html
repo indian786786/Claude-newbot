@@ -28,78 +28,81 @@ h2{text-align:center;font-size:18px;margin:5px 0 20px;color:#555;font-weight:nor
 .topic-arrow{font-size:20px;color:#2196F3;}
 .btn-back{background:white;border:2px solid #ddd;color:#444;padding:9px 16px;border-radius:8px;cursor:pointer;font-size:14px;margin-bottom:15px;display:inline-block;}
 
-/* QUIZ */
+/* QUIZ HEADER */
 .quiz-header{display:flex;justify-content:space-between;align-items:center;background:white;padding:12px 15px;border-radius:10px;margin-bottom:14px;box-shadow:0 2px 6px rgba(0,0,0,0.08);}
 #quizTopicTitle{font-weight:bold;font-size:14px;max-width:200px;}
 #timerDisplay{font-size:22px;font-weight:bold;color:#2196F3;}
 #timerDisplay.warn{color:#f44336;animation:blink 1s infinite;}
 @keyframes blink{0%,100%{opacity:1;}50%{opacity:0.5;}}
-#questionNum{font-size:13px;color:#888;margin-bottom:8px;}
+
+/* QUESTION PALETTE (mini progress) */
+.palette-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;}
+.pal-dot{width:30px;height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:bold;cursor:pointer;border:2px solid #ddd;background:white;color:#555;flex-shrink:0;}
+.pal-dot.pal-answered{background:#2196F3;color:white;border-color:#2196F3;}
+.pal-dot.pal-marked{background:#9C27B0;color:white;border-color:#9C27B0;}
+.pal-dot.pal-current{border:2px solid #333;}
+
+#questionNum{font-size:13px;color:#888;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center;}
 #questionText{background:white;padding:16px;border-radius:10px;font-size:16px;line-height:1.6;margin-bottom:14px;box-shadow:0 2px 6px rgba(0,0,0,0.08);}
-.opt{background:white;padding:13px 15px;border:2px solid #e0e0e0;border-radius:10px;cursor:pointer;display:flex;align-items:center;gap:12px;margin-bottom:10px;font-size:15px;}
-.opt:active:not(.disabled){background:#e3f2fd;}
+
+/* OPTIONS - no correct/wrong colors during quiz */
+.opt{background:white;padding:13px 15px;border:2px solid #e0e0e0;border-radius:10px;cursor:pointer;display:flex;align-items:center;gap:12px;margin-bottom:10px;font-size:15px;transition:border-color 0.1s,background 0.1s;}
+.opt:active{background:#e3f2fd;}
 .opt.selected{border-color:#2196F3;background:#e3f2fd;}
-.opt.correct{border-color:#4CAF50;background:#e8f5e9;}
-.opt.wrong{border-color:#f44336;background:#ffebee;}
-.opt.disabled{cursor:default;}
 .opt-lbl{width:28px;height:28px;flex-shrink:0;border-radius:50%;border:2px solid #ccc;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:13px;color:#555;}
 .opt.selected .opt-lbl{border-color:#2196F3;background:#2196F3;color:white;}
-.opt.correct .opt-lbl{border-color:#4CAF50;background:#4CAF50;color:white;}
-.opt.wrong .opt-lbl{border-color:#f44336;background:#f44336;color:white;}
-#explanationBox{display:none;background:#fff8e1;border-left:4px solid #ffc107;padding:13px 15px;border-radius:8px;margin-top:5px;font-size:14px;line-height:1.6;}
-#explanationBox.show{display:block;}
+
 .quiz-btns{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
 button{padding:11px 18px;border:none;border-radius:8px;cursor:pointer;font-size:14px;font-weight:bold;}
 .btn-blue{background:#2196F3;color:white;}
 .btn-orange{background:#FF9800;color:white;}
 .btn-red{background:#f44336;color:white;}
 .btn-green{background:#4CAF50;color:white;}
+.btn-purple{background:#9C27B0;color:white;}
 
-/* RESULTS SUMMARY */
+/* RESULTS */
 #resultsScreen{text-align:center;padding-bottom:40px;}
 #scoreDisp{font-size:56px;font-weight:bold;color:#2196F3;margin:10px 0;}
 #resultsMsg{font-size:18px;margin:8px 0 18px;}
-.stats-row{display:flex;justify-content:center;gap:12px;margin:10px 0 20px;flex-wrap:wrap;}
-.stat{background:white;padding:12px 18px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.1);min-width:80px;}
+.stats-row{display:flex;justify-content:center;gap:10px;margin:10px 0 20px;flex-wrap:wrap;}
+.stat{background:white;padding:12px 16px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.1);min-width:75px;}
 .stat .lbl{font-size:11px;color:#888;}
-.stat .val{font-size:26px;font-weight:bold;margin-top:2px;}
+.stat .val{font-size:24px;font-weight:bold;margin-top:2px;}
 .stat.c .val{color:#4CAF50;}
 .stat.w .val{color:#f44336;}
 .stat.u .val{color:#FF9800;}
+.stat.m .val{color:#9C27B0;}
 .stat.p .val{color:#2196F3;}
 .result-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:20px;}
 
-/* REVIEW SCREEN */
-#reviewScreen{padding:16px;max-width:700px;margin:0 auto;min-height:100vh;display:none;}
-.review-header{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap;}
-.review-header h2{margin:0;font-size:18px;text-align:left;}
-.filter-tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;}
-.filter-tab{padding:7px 14px;border-radius:20px;font-size:13px;font-weight:bold;cursor:pointer;border:2px solid #ddd;background:white;color:#555;}
+/* REVIEW */
+#reviewScreen{display:none;padding:16px;max-width:700px;margin:0 auto;min-height:100vh;}
+.review-header{display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap;}
+.review-header h2{margin:0;font-size:17px;text-align:left;}
+.filter-tabs{display:flex;gap:7px;margin-bottom:16px;flex-wrap:wrap;}
+.filter-tab{padding:7px 13px;border-radius:20px;font-size:13px;font-weight:bold;cursor:pointer;border:2px solid #ddd;background:white;color:#555;}
 .filter-tab.active{background:#2196F3;color:white;border-color:#2196F3;}
 
 .review-card{background:white;border-radius:12px;padding:16px;margin-bottom:16px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border-left:5px solid #ddd;}
 .review-card.correct-card{border-left-color:#4CAF50;}
 .review-card.wrong-card{border-left-color:#f44336;}
 .review-card.unattempted-card{border-left-color:#FF9800;}
-.review-card.marked-card{border-left-color:#9C27B0;}
-
-.review-q-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px;}
-.review-q-num{font-size:12px;font-weight:bold;padding:3px 9px;border-radius:12px;white-space:nowrap;flex-shrink:0;}
+.review-q-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px;flex-wrap:wrap;}
+.review-q-num{font-size:12px;font-weight:bold;padding:4px 10px;border-radius:12px;white-space:nowrap;}
 .badge-correct{background:#e8f5e9;color:#2e7d32;}
 .badge-wrong{background:#ffebee;color:#c62828;}
 .badge-unattempted{background:#fff3e0;color:#e65100;}
-.badge-marked{font-size:12px;color:#9C27B0;flex-shrink:0;}
-
+.badge-marked{font-size:12px;color:#9C27B0;padding:4px 8px;background:#f3e5f5;border-radius:10px;}
 .review-q-text{font-size:15px;line-height:1.5;margin-bottom:12px;font-weight:500;}
-.review-opt{padding:9px 12px;border-radius:8px;font-size:14px;margin-bottom:7px;display:flex;align-items:center;gap:10px;border:1px solid #eee;}
-.review-opt-lbl{width:24px;height:24px;flex-shrink:0;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:12px;background:#f5f5f5;color:#555;}
+.review-opt{padding:9px 12px;border-radius:8px;font-size:14px;margin-bottom:7px;display:flex;align-items:center;gap:10px;border:1px solid #eee;background:#fafafa;}
+.review-opt-lbl{width:24px;height:24px;flex-shrink:0;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:12px;background:#eee;color:#555;}
 .review-opt.r-correct{background:#e8f5e9;border-color:#4CAF50;}
 .review-opt.r-correct .review-opt-lbl{background:#4CAF50;color:white;}
 .review-opt.r-wrong{background:#ffebee;border-color:#f44336;}
 .review-opt.r-wrong .review-opt-lbl{background:#f44336;color:white;}
+.review-opt.r-yours{outline:2px dashed #2196F3;}
 .review-explanation{background:#fff8e1;border-left:3px solid #ffc107;padding:10px 12px;border-radius:6px;font-size:13px;line-height:1.6;margin-top:10px;}
 .review-explanation strong{display:block;margin-bottom:4px;}
-
 .no-results{text-align:center;padding:40px 20px;color:#888;font-size:15px;}
 .msg-info{text-align:center;padding:30px 20px;color:#888;}
 .msg-err{padding:16px;background:#ffebee;color:#c62828;border-radius:10px;margin-top:10px;font-size:13px;line-height:1.8;}
@@ -125,15 +128,12 @@ button{padding:11px 18px;border:none;border-radius:8px;cursor:pointer;font-size:
 <div class="screen" id="quizScreen">
   <div class="quiz-header">
     <div id="quizTopicTitle"></div>
-    <div id="timerDisplay">10:00</div>
+    <div id="timerDisplay">05:00</div>
   </div>
+  <div class="palette-row" id="palette"></div>
   <div id="questionNum"></div>
   <div id="questionText"></div>
   <div id="optionsList"></div>
-  <div id="explanationBox">
-    <strong>💡 Explanation:</strong>
-    <div id="explanationText"></div>
-  </div>
   <div class="quiz-btns">
     <button class="btn-orange" id="btnMark">⭐ Mark</button>
     <button class="btn-blue"   id="btnNext">Save &amp; Next</button>
@@ -141,29 +141,30 @@ button{padding:11px 18px;border:none;border-radius:8px;cursor:pointer;font-size:
   </div>
 </div>
 
-<!-- RESULTS SUMMARY -->
+<!-- RESULTS -->
 <div class="screen" id="resultsScreen">
-  <h1>Quiz Done 🎉</h1>
+  <h1>Test Submitted 🎉</h1>
   <div id="scoreDisp"></div>
   <div id="resultsMsg"></div>
   <div class="stats-row">
     <div class="stat c"><div class="lbl">✅ Correct</div><div class="val" id="resCorrect">0</div></div>
     <div class="stat w"><div class="lbl">❌ Wrong</div><div class="val" id="resWrong">0</div></div>
     <div class="stat u"><div class="lbl">⏭ Skipped</div><div class="val" id="resSkipped">0</div></div>
-    <div class="stat p"><div class="lbl">📊 Score</div><div class="val" id="resPct">0%</div></div>
+    <div class="stat m"><div class="lbl">⭐ Marked</div><div class="val" id="resMarked">0</div></div>
+    <div class="stat p"><div class="lbl">📊 Score%</div><div class="val" id="resPct">0%</div></div>
   </div>
   <div class="result-actions">
-    <button class="btn-blue" id="btnReview">📋 Review All Questions</button>
-    <button class="btn-orange" id="btnMarkedReview" style="display:none;">⭐ Review Marked</button>
-    <button class="btn-green" id="btnRestart">🔁 Back to Home</button>
+    <button class="btn-blue"   id="btnReview">📋 Review All</button>
+    <button class="btn-purple" id="btnMarkedReview" style="display:none">⭐ Marked Only</button>
+    <button class="btn-green"  id="btnRestart">🏠 Home</button>
   </div>
 </div>
 
 <!-- REVIEW -->
 <div id="reviewScreen">
   <div class="review-header">
-    <button class="btn-back" id="btnReviewBack">← Back</button>
-    <h2 id="reviewTitle">Question Review</h2>
+    <button class="btn-back" id="btnReviewBack">← Results</button>
+    <h2 id="reviewTitle">📋 Question Review</h2>
   </div>
   <div class="filter-tabs" id="filterTabs">
     <button class="filter-tab active" data-filter="all">All</button>
@@ -185,27 +186,19 @@ var CATS={
   "Science":{icon:"🔬",topics:["Physics","Chemistry","Biology"]},
   "Economics":{icon:"💰",topics:["Indian_Economy","Banking"]}
 };
-
-// State
-var g={
-  cat:null,topic:null,qs:[],idx:0,
-  score:0,wrongs:0,
-  sel:null,answered:false,
-  timer:null,timeLeft:300,
-  marked:[],
-  // per-question tracking: {selected: null|index, answered: bool}
-  answers:[]
-};
-
 var LABS=["A","B","C","D"];
-function q(id){return document.getElementById(id);}
+
+// g.answers[i] = { selected: null|0|1|2|3 }  (null = skipped)
+var g={cat:null,topic:null,qs:[],idx:0,marked:[],answers:[],timer:null,timeLeft:300};
+
+function el(id){return document.getElementById(id);}
 function nice(s){return s.replace(/_/g," ");}
 
-function showScreen(id){
-  ["categoryScreen","topicScreen","quizScreen","resultsScreen"].forEach(function(s){q(s).style.display="none";});
-  q("reviewScreen").style.display="none";
-  q(id).style.display="block";
+function hideAll(){
+  ["categoryScreen","topicScreen","quizScreen","resultsScreen"].forEach(function(s){el(s).style.display="none";});
+  el("reviewScreen").style.display="none";
 }
+function show(id){hideAll();el(id).style.display="block";}
 
 function shuffle(arr){
   var a=arr.slice();
@@ -213,256 +206,265 @@ function shuffle(arr){
   return a;
 }
 
-// ── CATEGORIES ──
+/* ── CATEGORIES ── */
 function loadCategories(){
-  var grid=q("categoriesGrid");grid.innerHTML="";
+  var grid=el("categoriesGrid");grid.innerHTML="";
   Object.keys(CATS).forEach(function(name){
-    var d=CATS[name];var el=document.createElement("div");el.className="cat-card";
-    el.innerHTML="<div class='cat-icon'>"+d.icon+"</div><div class='cat-name'>"+name+"</div><div class='cat-count'>"+d.topics.length+" Topics</div>";
-    el.onclick=function(){openCat(name);};grid.appendChild(el);
+    var d=CATS[name];
+    var e=document.createElement("div");e.className="cat-card";
+    e.innerHTML="<div class='cat-icon'>"+d.icon+"</div><div class='cat-name'>"+name+"</div><div class='cat-count'>"+d.topics.length+" Topics</div>";
+    e.onclick=function(){openCat(name);};
+    grid.appendChild(e);
   });
-  showScreen("categoryScreen");
+  show("categoryScreen");
 }
 
-// ── TOPICS ──
+/* ── TOPICS ── */
 function openCat(name){
-  g.cat=name;var d=CATS[name];q("catTitle").textContent=d.icon+" "+name;
-  var list=q("topicsList");list.innerHTML="";
-  d.topics.forEach(function(file){
-    var el=document.createElement("div");el.className="topic-card";
-    el.innerHTML="<div><div class='topic-name'>"+nice(file)+"</div><div class='topic-sub'>10 Questions • "+(name==="Mathematics"?"10":"5")+" min</div></div><div class='topic-arrow'>→</div>";
-    el.onclick=function(){startQuiz(file);};list.appendChild(el);
+  g.cat=name;
+  el("catTitle").textContent=CATS[name].icon+" "+name;
+  var list=el("topicsList");list.innerHTML="";
+  CATS[name].topics.forEach(function(file){
+    var e=document.createElement("div");e.className="topic-card";
+    var mins=name==="Mathematics"?"10 min":"5 min";
+    e.innerHTML="<div><div class='topic-name'>"+nice(file)+"</div><div class='topic-sub'>10 Questions · "+mins+"</div></div><div class='topic-arrow'>→</div>";
+    e.onclick=function(){startQuiz(file);};
+    list.appendChild(e);
   });
-  showScreen("topicScreen");
+  show("topicScreen");
 }
 
-// ── START QUIZ ──
+/* ── START QUIZ ── */
 function startQuiz(file){
-  g.topic=file;showScreen("quizScreen");
-  q("quizTopicTitle").textContent=nice(file);
-  q("questionText").textContent="";q("questionNum").textContent="";
-  q("optionsList").innerHTML="<div class='msg-info'>⏳ Loading questions...</div>";
-  q("explanationBox").classList.remove("show");q("timerDisplay").classList.remove("warn");
+  g.topic=file;
+  show("quizScreen");
+  el("quizTopicTitle").textContent=nice(file);
+  el("questionText").textContent="";
+  el("questionNum").textContent="";
+  el("optionsList").innerHTML="<div class='msg-info'>⏳ Loading questions...</div>";
+  el("palette").innerHTML="";
+  el("timerDisplay").classList.remove("warn");
 
   var url=BASE+"/"+g.cat+"/"+file+".json";
   fetch(url).then(function(r){
-    if(!r.ok)throw new Error("HTTP "+r.status+" — file not found.\nURL: "+url);
+    if(!r.ok)throw new Error("HTTP "+r.status+" — Could not load: "+url);
     return r.json();
   }).then(function(raw){
     var all=Array.isArray(raw)?raw:(raw.questions||[]);
     if(!all.length)throw new Error("No questions found in this file.");
     g.qs=shuffle(all).slice(0,10);
-    g.idx=0;g.score=0;g.wrongs=0;g.sel=null;g.answered=false;g.marked=[];
-    // init answer tracking
-    g.answers=g.qs.map(function(){return{selected:null,answered:false};});
-    // timer: 10 min for Maths, 5 min for rest
-    g.timeLeft=(g.cat==="Mathematics")?600:300;
-    clearInterval(g.timer);startTimer();renderQ();
+    g.idx=0;
+    g.marked=[];
+    g.answers=g.qs.map(function(){return{selected:null};});
+    g.timeLeft=g.cat==="Mathematics"?600:300;
+    clearInterval(g.timer);
+    startTimer();
+    buildPalette();
+    renderQ();
   }).catch(function(e){
-    q("optionsList").innerHTML="<div class='msg-err'>❌ "+e.message+"</div>";
+    el("optionsList").innerHTML="<div class='msg-err'>❌ "+e.message+"</div>";
   });
 }
 
-// ── TIMER ──
+/* ── TIMER ── */
 function startTimer(){
   updateTimer();
   g.timer=setInterval(function(){
-    g.timeLeft--;updateTimer();
-    if(g.timeLeft<=60)q("timerDisplay").classList.add("warn");
+    g.timeLeft--;
+    updateTimer();
+    if(g.timeLeft<=60)el("timerDisplay").classList.add("warn");
     if(g.timeLeft<=0){clearInterval(g.timer);showResults();}
   },1000);
 }
 function updateTimer(){
   var m=String(Math.floor(g.timeLeft/60)).padStart(2,"0");
   var s=String(g.timeLeft%60).padStart(2,"0");
-  q("timerDisplay").textContent=m+":"+s;
+  el("timerDisplay").textContent=m+":"+s;
 }
 
-// ── RENDER QUESTION ──
+/* ── PALETTE ── */
+function buildPalette(){
+  var row=el("palette");row.innerHTML="";
+  g.qs.forEach(function(_,i){
+    var d=document.createElement("div");
+    d.className="pal-dot";d.id="pal"+i;
+    d.textContent=i+1;
+    d.onclick=function(){g.idx=i;renderQ();};
+    row.appendChild(d);
+  });
+  updatePalette();
+}
+function updatePalette(){
+  g.qs.forEach(function(_,i){
+    var d=el("pal"+i);
+    if(!d)return;
+    d.className="pal-dot"
+      +(i===g.idx?" pal-current":"")
+      +(g.marked.indexOf(i)>-1?" pal-marked":g.answers[i].selected!==null?" pal-answered":"");
+  });
+}
+
+/* ── RENDER QUESTION ── */
 function renderQ(){
   var qu=g.qs[g.idx];
-  var saved=g.answers[g.idx];
-  g.sel=saved.selected;
-  g.answered=saved.answered;
+  var savedSel=g.answers[g.idx].selected;
+  var isMarked=g.marked.indexOf(g.idx)>-1;
 
-  q("questionNum").textContent="Question "+(g.idx+1)+" / "+g.qs.length+(g.marked.indexOf(g.idx)>-1?" ⭐":"");
-  q("questionText").textContent=qu.question;
-  q("explanationBox").classList.remove("show");
+  el("questionNum").innerHTML=
+    "<span>Question "+(g.idx+1)+" / "+g.qs.length+"</span>"
+    +"<span style='color:"+(isMarked?"#9C27B0":"#ccc")+"'>⭐ "+(isMarked?"Marked":"Mark")+
+    " ("+g.marked.length+")</span>";
 
-  // Update mark button
-  q("btnMark").textContent=g.marked.indexOf(g.idx)>-1?"⭐ Marked":"⭐ Mark";
-  q("btnNext").textContent=g.answered?(g.idx+1<g.qs.length?"Next →":"View Results"):"Save & Next";
+  el("questionText").textContent=qu.question;
+  el("btnMark").textContent=isMarked?"⭐ Unmark":"⭐ Mark";
+  el("btnNext").textContent=g.idx+1<g.qs.length?"Save & Next":"Save & Submit";
 
-  var list=q("optionsList");list.innerHTML="";
+  var list=el("optionsList");list.innerHTML="";
   qu.options.forEach(function(opt,i){
-    var el=document.createElement("div");el.className="opt";
-    el.innerHTML="<div class='opt-lbl'>"+LABS[i]+"</div><div>"+opt+"</div>";
-    if(g.answered){
-      el.classList.add("disabled");
-      if(i===qu.correct)el.classList.add("correct");
-      else if(i===g.sel)el.classList.add("wrong");
-    } else if(i===g.sel){
-      el.classList.add("selected");
-    }
-    el.onclick=function(){selectOpt(i,el);};
-    list.appendChild(el);
+    var e=document.createElement("div");
+    e.className="opt"+(i===savedSel?" selected":"");
+    e.innerHTML="<div class='opt-lbl'>"+LABS[i]+"</div><div>"+opt+"</div>";
+    e.onclick=function(){
+      g.answers[g.idx].selected=i;
+      document.querySelectorAll(".opt").forEach(function(d){d.classList.remove("selected");});
+      e.classList.add("selected");
+      updatePalette();
+    };
+    list.appendChild(e);
   });
-
-  if(g.answered&&qu.explanation){
-    q("explanationText").textContent=qu.explanation;
-    q("explanationBox").classList.add("show");
-  }
+  updatePalette();
 }
 
-// ── SELECT ──
-function selectOpt(idx,el){
-  if(g.answered)return;
-  g.sel=idx;g.answers[g.idx].selected=idx;
-  document.querySelectorAll(".opt").forEach(function(d){d.classList.remove("selected");});
-  el.classList.add("selected");
-}
-
-// ── NEXT ──
+/* ── SAVE & NEXT (no answer reveal) ── */
 function nextQ(){
-  if(!g.answered){
-    if(g.sel===null){alert("Please select an answer or use Submit to end the test.");return;}
-    checkAnswer();
+  // just move — selection already saved by click, null = skipped
+  if(g.idx+1>=g.qs.length){
+    clearInterval(g.timer);
+    showResults();
   } else {
     g.idx++;
-    if(g.idx>=g.qs.length){clearInterval(g.timer);showResults();}
-    else renderQ();
+    renderQ();
   }
 }
 
-function checkAnswer(){
-  g.answered=true;
-  g.answers[g.idx].answered=true;
-  var qu=g.qs[g.idx];
-  document.querySelectorAll(".opt").forEach(function(el,i){
-    el.classList.add("disabled");
-    if(i===qu.correct)el.classList.add("correct");
-    else if(i===g.sel)el.classList.add("wrong");
-  });
-  if(g.sel===qu.correct)g.score++;else g.wrongs++;
-  if(qu.explanation){q("explanationText").textContent=qu.explanation;q("explanationBox").classList.add("show");}
-  q("btnNext").textContent=(g.idx+1<g.qs.length)?"Next →":"View Results";
-}
-
-// ── RESULTS ──
+/* ── RESULTS ── */
 function showResults(){
   clearInterval(g.timer);
-  // Count unattempted
-  var attempted=0;
-  g.answers.forEach(function(a){if(a.answered)attempted++;});
-  var skipped=g.qs.length-attempted;
+  var correct=0,wrong=0,skipped=0;
+  g.qs.forEach(function(qu,i){
+    var s=g.answers[i].selected;
+    if(s===null)skipped++;
+    else if(s===qu.correct)correct++;
+    else wrong++;
+  });
   var total=g.qs.length;
-  var pct=total?Math.round((g.score/total)*100):0;
+  var pct=Math.round((correct/total)*100);
 
-  q("scoreDisp").textContent=g.score+"/"+total;
-  q("resCorrect").textContent=g.score;
-  q("resWrong").textContent=g.wrongs;
-  q("resSkipped").textContent=skipped;
-  q("resPct").textContent=pct+"%";
-  q("resultsMsg").textContent=pct>=80?"🌟 Excellent! Well prepared!":pct>=60?"👍 Good! Keep practicing.":pct>=40?"📖 Not bad, more practice needed.":"💪 Keep learning, you'll improve!";
-  // Show marked button only if user marked questions
-  q("btnMarkedReview").style.display=g.marked.length>0?"inline-block":"none";
-  showScreen("resultsScreen");
+  el("scoreDisp").textContent=correct+"/"+total;
+  el("resCorrect").textContent=correct;
+  el("resWrong").textContent=wrong;
+  el("resSkipped").textContent=skipped;
+  el("resMarked").textContent=g.marked.length;
+  el("resPct").textContent=pct+"%";
+  el("resultsMsg").textContent=
+    pct>=80?"🌟 Excellent! You're well prepared!":
+    pct>=60?"👍 Good job! Keep practicing.":
+    pct>=40?"📖 Not bad! More practice needed.":
+    "💪 Keep learning! You'll get there!";
+
+  el("btnMarkedReview").style.display=g.marked.length>0?"inline-block":"none";
+  show("resultsScreen");
 }
 
-// ── REVIEW ──
-function openReview(markedOnly){
-  q("reviewTitle").textContent=markedOnly?"⭐ Marked Questions Review":"📋 Full Question Review";
-  // Set active filter
-  setFilter(markedOnly?"marked":"all");
-  q("reviewScreen").style.display="block";
-  ["categoryScreen","topicScreen","quizScreen","resultsScreen"].forEach(function(s){q(s).style.display="none";});
+/* ── REVIEW ── */
+function openReview(startFilter){
+  hideAll();
+  el("reviewScreen").style.display="block";
+  setFilter(startFilter||"all");
   window.scrollTo(0,0);
 }
-
-var currentFilter="all";
+var curFilter="all";
 function setFilter(f){
-  currentFilter=f;
-  document.querySelectorAll(".filter-tab").forEach(function(btn){
-    btn.classList.toggle("active",btn.getAttribute("data-filter")===f);
+  curFilter=f;
+  document.querySelectorAll(".filter-tab").forEach(function(b){
+    b.classList.toggle("active",b.getAttribute("data-filter")===f);
   });
   renderReview();
 }
-
 function renderReview(){
-  var list=q("reviewList");list.innerHTML="";
+  var list=el("reviewList");list.innerHTML="";
   var shown=0;
   g.qs.forEach(function(qu,i){
-    var ans=g.answers[i];
-    var isCorrect=ans.answered&&ans.selected===qu.correct;
-    var isWrong=ans.answered&&ans.selected!==qu.correct;
-    var isUnattempted=!ans.answered;
+    var sel=g.answers[i].selected;
+    var isCorrect=sel!==null&&sel===qu.correct;
+    var isWrong=sel!==null&&sel!==qu.correct;
+    var isSkipped=sel===null;
     var isMarked=g.marked.indexOf(i)>-1;
 
-    var status=isCorrect?"correct":isWrong?"wrong":"unattempted";
-
-    // Filter
-    if(currentFilter==="correct"&&!isCorrect)return;
-    if(currentFilter==="wrong"&&!isWrong)return;
-    if(currentFilter==="unattempted"&&!isUnattempted)return;
-    if(currentFilter==="marked"&&!isMarked)return;
-
+    if(curFilter==="correct"&&!isCorrect)return;
+    if(curFilter==="wrong"&&!isWrong)return;
+    if(curFilter==="unattempted"&&!isSkipped)return;
+    if(curFilter==="marked"&&!isMarked)return;
     shown++;
-    var card=document.createElement("div");
-    card.className="review-card "+(isCorrect?"correct-card":isWrong?"wrong-card":"unattempted-card");
 
-    var badgeClass=isCorrect?"badge-correct":isWrong?"badge-wrong":"badge-unattempted";
-    var badgeText=isCorrect?"✅ Correct":isWrong?"❌ Wrong":"⏭ Skipped";
-
-    var headerHtml="<div class='review-q-header'>"
-      +"<span class='review-q-num "+badgeClass+"'>Q"+(i+1)+" — "+badgeText+"</span>"
-      +(isMarked?"<span class='badge-marked'>⭐ Marked</span>":"")
-      +"</div>";
+    var cardCls="review-card "+(isCorrect?"correct-card":isWrong?"wrong-card":"unattempted-card");
+    var badgeCls=isCorrect?"badge-correct":isWrong?"badge-wrong":"badge-unattempted";
+    var badgeTxt=isCorrect?"✅ Correct":isWrong?"❌ Wrong":"⏭ Skipped";
 
     var optsHtml="";
     qu.options.forEach(function(opt,j){
       var cls="review-opt";
-      if(j===qu.correct)cls+=" r-correct";
-      else if(ans.answered&&j===ans.selected&&j!==qu.correct)cls+=" r-wrong";
-      optsHtml+="<div class='"+cls+"'><div class='review-opt-lbl'>"+LABS[j]+"</div><div>"+opt+"</div></div>";
+      var isCorrectOpt=j===qu.correct;
+      var isYours=j===sel&&sel!==null;
+      if(isCorrectOpt)cls+=" r-correct";
+      if(isYours&&!isCorrectOpt)cls+=" r-wrong";
+      // show dashed border if this was user's choice
+      var yoursMark=(isYours&&!isCorrectOpt)?" r-yours":"";
+      optsHtml+="<div class='"+cls+yoursMark+"'>"
+        +"<div class='review-opt-lbl'>"+LABS[j]+"</div>"
+        +"<div>"+opt+(isCorrectOpt?" ✓":"")+(isYours&&!isCorrectOpt?" ← Your answer":"")+
+        (isYours&&isCorrectOpt?" ← Your answer ✓":"")+"</div></div>";
     });
 
     var explHtml=qu.explanation
       ?"<div class='review-explanation'><strong>💡 Explanation:</strong>"+qu.explanation+"</div>":"";
 
-    card.innerHTML=headerHtml
+    var card=document.createElement("div");
+    card.className=cardCls;
+    card.innerHTML=
+      "<div class='review-q-header'>"
+        +"<span class='review-q-num "+badgeCls+"'>Q"+(i+1)+" — "+badgeTxt+"</span>"
+        +(isMarked?"<span class='badge-marked'>⭐ Marked</span>":"")
+      +"</div>"
       +"<div class='review-q-text'>"+(i+1)+". "+qu.question+"</div>"
       +optsHtml+explHtml;
-
     list.appendChild(card);
   });
-
-  if(shown===0){
-    list.innerHTML="<div class='no-results'>No questions in this category.</div>";
-  }
+  if(!shown)list.innerHTML="<div class='no-results'>No questions match this filter.</div>";
 }
 
-// ── EVENTS ──
-q("btnBack").onclick=loadCategories;
-q("btnMark").onclick=function(){
+/* ── EVENTS ── */
+el("btnBack").onclick=loadCategories;
+el("btnMark").onclick=function(){
   var idx=g.marked.indexOf(g.idx);
-  if(idx>-1){g.marked.splice(idx,1);}else{g.marked.push(g.idx);}
-  q("btnMark").textContent=g.marked.indexOf(g.idx)>-1?"⭐ Marked":"⭐ Mark";
-  q("questionNum").textContent="Question "+(g.idx+1)+" / "+g.qs.length+(g.marked.indexOf(g.idx)>-1?" ⭐":"");
+  if(idx>-1)g.marked.splice(idx,1);else g.marked.push(g.idx);
+  renderQ(); // re-render to update button + palette
 };
-q("btnNext").onclick=nextQ;
-q("btnSubmit").onclick=function(){
-  if(confirm("Submit the test now? Unanswered questions will be marked as skipped.")){clearInterval(g.timer);showResults();}
+el("btnNext").onclick=nextQ;
+el("btnSubmit").onclick=function(){
+  if(confirm("Submit test now?\n\nUnanswered questions will be marked as Skipped.")){
+    clearInterval(g.timer);showResults();
+  }
 };
-q("btnReview").onclick=function(){openReview(false);};
-q("btnMarkedReview").onclick=function(){openReview(true);};
-q("btnRestart").onclick=loadCategories;
-q("btnReviewBack").onclick=function(){showScreen("resultsScreen");};
-
+el("btnReview").onclick=function(){openReview("all");};
+el("btnMarkedReview").onclick=function(){openReview("marked");};
+el("btnRestart").onclick=loadCategories;
+el("btnReviewBack").onclick=function(){show("resultsScreen");};
 document.querySelectorAll(".filter-tab").forEach(function(btn){
   btn.onclick=function(){setFilter(btn.getAttribute("data-filter"));};
 });
 
-// ── START ──
+/* ── INIT ── */
 loadCategories();
 </script>
 </body>
