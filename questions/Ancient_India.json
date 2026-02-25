@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Who was the founder of the Maurya Empire? / मौर्य साम्राज्य की स्थापना किसने की थी?",
+    "options": ["Ashoka / अशोक", "Bindusara / बिंदुसार", "Chandragupta Maurya / चंद्रगुप्त मौर्य", "Bimbisara / बिंबिसार"],
+    "correct": 2,
+    "explanation": "Chandragupta Maurya founded the Maurya Empire around 321 BCE with the help of Chanakya. / चंद्रगुप्त मौर्य ने चाणक्य की सहायता से लगभग 321 ईसा पूर्व मौर्य साम्राज्य की स्थापना की।"
+  },
+  {
+    "question": "Which is the oldest civilization found in the Indian subcontinent? / भारतीय उपमहाद्वीप में सबसे पुरानी सभ्यता कौन-सी है?",
+    "options": ["Vedic Civilization / वैदिक सभ्यता", "Indus Valley Civilization / सिंधु घाटी सभ्यता", "Maurya Civilization / मौर्य सभ्यता", "Gupta Civilization / गुप्त सभ्यता"],
+    "correct": 1,
+    "explanation": "The Indus Valley Civilization is the oldest known urban civilization of the Indian subcontinent, dating to around 2500 BCE. / सिंधु घाटी सभ्यता भारतीय उपमहाद्वीप की सबसे पुरानी नगरीय सभ्यता है, जो लगभग 2500 ईसा पूर्व की है।"
+  },
+  {
+    "question": "The Ajanta Caves are associated with which religion? / अजंता की गुफाएं किस धर्म से संबंधित हैं?",
+    "options": ["Hinduism / हिंदू धर्म", "Jainism / जैन धर्म", "Buddhism / बौद्ध धर्म", "Sikhism / सिख धर्म"],
+    "correct": 2,
+    "explanation": "The Ajanta Caves are Buddhist rock-cut monuments dating from the 2nd century BCE, famous for paintings and sculptures. / अजंता गुफाएं दूसरी शताब्दी ईसा पूर्व की बौद्ध शैलकृत स्मारक हैं, जो चित्रकारी और मूर्तिकला के लिए प्रसिद्ध हैं।"
+  },
+  {
+    "question": "Which ancient text was written by Kautilya (Chanakya)? / कौटिल्य (चाणक्य) द्वारा कौन-सा प्राचीन ग्रंथ लिखा गया था?",
+    "options": ["Mahabharata / महाभारत", "Arthashastra / अर्थशास्त्र", "Ramayana / रामायण", "Manusmriti / मनुस्मृति"],
+    "correct": 1,
+    "explanation": "The Arthashastra is an ancient treatise on statecraft and economic policy written by Chanakya, advisor to Chandragupta Maurya. / अर्थशास्त्र चंद्रगुप्त मौर्य के सलाहकार चाणक्य द्वारा लिखित राजनीति और आर्थिक नीति पर एक प्राचीन ग्रंथ है।"
+  },
+  {
+    "question": "Which emperor spread Buddhism across Asia through missionaries? / किस सम्राट ने मिशनरियों के माध्यम से एशिया में बौद्ध धर्म फैलाया?",
+    "options": ["Chandragupta Maurya / चंद्रगुप्त मौर्य", "Bindusara / बिंदुसार", "Ashoka / अशोक", "Harsha / हर्ष"],
+    "correct": 2,
+    "explanation": "Emperor Ashoka embraced Buddhism after the Kalinga War and sent missionaries to spread it across Asia. / सम्राट अशोक ने कलिंग युद्ध के बाद बौद्ध धर्म अपनाया और एशिया में इसे फैलाने के लिए मिशनरी भेजे।"
+  },
+  {
+    "question": "Nalanda University was located in present-day which state? / नालंदा विश्वविद्यालय वर्तमान में किस राज्य में स्थित था?",
+    "options": ["Uttar Pradesh / उत्तर प्रदेश", "Bihar / बिहार", "West Bengal / पश्चिम बंगाल", "Madhya Pradesh / मध्य प्रदेश"],
+    "correct": 1,
+    "explanation": "Nalanda University was in present-day Bihar, a famous center of Buddhist learning that attracted scholars from across Asia. / नालंदा विश्वविद्यालय वर्तमान बिहार में था, जो बौद्ध शिक्षा का प्रसिद्ध केंद्र था और पूरे एशिया से विद्वानों को आकर्षित करता था।"
+  },
+  {
+    "question": "The Upanishads are primarily concerned with which subject? / उपनिषद मुख्य रूप से किस विषय से संबंधित हैं?",
+    "options": ["Military tactics / सैन्य रणनीति", "Trade and commerce / व्यापार और वाणिज्य", "Philosophy and spirituality / दर्शन और आध्यात्मिकता", "Agriculture / कृषि"],
+    "correct": 2,
+    "explanation": "The Upanishads are ancient Sanskrit texts focused on philosophical and spiritual concepts like Brahman and Atman. / उपनिषद प्राचीन संस्कृत ग्रंथ हैं जो ब्रह्म और आत्मा जैसी दार्शनिक और आध्यात्मिक अवधारणाओं पर केंद्रित हैं।"
+  },
+  {
+    "question": "The game of Chess (Chaturanga) is believed to have originated in which civilization? / शतरंज (चतुरंग) का खेल किस सभ्यता में उत्पन्न हुआ माना जाता है?",
+    "options": ["Chinese / चीनी", "Egyptian / मिस्री", "Indian / भारतीय", "Greek / यूनानी"],
+    "correct": 2,
+    "explanation": "Chess, originally called Chaturanga, is believed to have originated in ancient India during the Gupta period around the 6th century CE. / शतरंज, जिसे मूल रूप से चतुरंग कहा जाता था, की उत्पत्ति गुप्त काल में लगभग 6ठी शताब्दी ई. में प्राचीन भारत में हुई मानी जाती है।"
+  },
+  {
+    "question": "Sangam literature belongs to which region of ancient India? / संगम साहित्य प्राचीन भारत के किस क्षेत्र से संबंधित है?",
+    "options": ["North India / उत्तर भारत", "East India / पूर्वी भारत", "South India / दक्षिण भारत", "West India / पश्चिम भारत"],
+    "correct": 2,
+    "explanation": "Sangam literature is classical Tamil literature from South India created during the Sangam period (300 BCE to 300 CE). / संगम साहित्य दक्षिण भारत का शास्त्रीय तमिल साहित्य है जो संगम काल (300 ईसा पूर्व से 300 ई.) के दौरान रचा गया था।"
+  },
+  {
+    "question": "Which ancient port was a major trade center in South India? / दक्षिण भारत में कौन-सा प्राचीन बंदरगाह प्रमुख व्यापार केंद्र था?",
+    "options": ["Lothal / लोथल", "Tamralipti / ताम्रलिप्ति", "Puhar (Kaveripattinam) / पुहार (कावेरीपट्टिनम)", "Bharuch / भड़ौच"],
+    "correct": 2,
+    "explanation": "Puhar (Kaveripattinam) was a major ancient seaport in Tamil Nadu and capital of the Chola kingdom, mentioned in Sangam literature. / पुहार (कावेरीपट्टिनम) तमिलनाडु का एक प्रमुख प्राचीन बंदरगाह और चोल राज्य की राजधानी था, जो संगम साहित्य में उल्लिखित है।"
+  }
+]
