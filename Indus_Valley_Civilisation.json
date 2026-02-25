@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Where was the Indus Valley Civilization first discovered? / सिंधु घाटी सभ्यता की खोज सबसे पहले कहाँ हुई थी?",
+    "options": ["Mohenjo-daro / मोहनजोदड़ो", "Harappa / हड़प्पा", "Lothal / लोथल", "Kalibangan / कालीबंगन"],
+    "correct": 1,
+    "explanation": "The Indus Valley Civilization was first discovered at Harappa in 1921 by Daya Ram Sahni, which is why it is also called the Harappan Civilization. / सिंधु घाटी सभ्यता की खोज सबसे पहले 1921 में दया राम साहनी द्वारा हड़प्पा में हुई थी, इसीलिए इसे हड़प्पा सभ्यता भी कहते हैं।"
+  },
+  {
+    "question": "The Great Bath of the Indus Valley Civilization was found at which site? / सिंधु घाटी सभ्यता का महान स्नानागार किस स्थल पर पाया गया?",
+    "options": ["Harappa / हड़प्पा", "Lothal / लोथल", "Mohenjo-daro / मोहनजोदड़ो", "Dholavira / धोलावीरा"],
+    "correct": 2,
+    "explanation": "The Great Bath, one of the earliest public water tanks, was discovered at Mohenjo-daro and is considered a major archaeological find of the civilization. / महान स्नानागार, जो सबसे पुराने सार्वजनिक जल कुंडों में से एक है, मोहनजोदड़ो में खोजा गया था और सभ्यता की एक प्रमुख पुरातात्विक खोज मानी जाती है।"
+  },
+  {
+    "question": "Which of the following was the main occupation of the people of the Indus Valley Civilization? / निम्नलिखित में से सिंधु घाटी सभ्यता के लोगों का मुख्य व्यवसाय क्या था?",
+    "options": ["Hunting / शिकार", "Agriculture and Trade / कृषि और व्यापार", "Fishing / मछली पकड़ना", "Warfare / युद्ध"],
+    "correct": 1,
+    "explanation": "Agriculture and trade were the primary occupations of the Indus Valley people; they traded with Mesopotamia and grew crops like wheat and barley. / कृषि और व्यापार सिंधु घाटी के लोगों के प्राथमिक व्यवसाय थे; वे मेसोपोटामिया के साथ व्यापार करते थे और गेहूं और जौ जैसी फसलें उगाते थे।"
+  },
+  {
+    "question": "Which metal was NOT known to the people of the Indus Valley Civilization? / निम्नलिखित में से कौन-सी धातु सिंधु घाटी सभ्यता के लोगों को ज्ञात नहीं थी?",
+    "options": ["Copper / तांबा", "Bronze / कांसा", "Gold / सोना", "Iron / लोहा"],
+    "correct": 3,
+    "explanation": "The Indus Valley people used copper, bronze, silver, and gold but had no knowledge of iron, which is why this period is classified as a Bronze Age civilization. / सिंधु घाटी के लोग तांबा, कांसा, चांदी और सोना उपयोग करते थे लेकिन उन्हें लोहे का ज्ञान नहीं था, इसीलिए इस काल को कांस्य युग सभ्यता के रूप में वर्गीकृत किया जाता है।"
+  },
+  {
+    "question": "The script of the Indus Valley Civilization is described as which of the following? / सिंधु घाटी सभ्यता की लिपि को निम्नलिखित में से किस रूप में वर्णित किया जाता है?",
+    "options": ["Fully deciphered / पूरी तरह पढ़ी जा चुकी है", "Undeciphered / अभी तक पढ़ी नहीं गई", "Written in Sanskrit / संस्कृत में लिखी गई", "Written left to right / बाएं से दाएं लिखी गई"],
+    "correct": 1,
+    "explanation": "The Indus script has not been deciphered yet, making it one of the great unsolved mysteries of ancient history. / सिंधु लिपि को अभी तक पढ़ा नहीं जा सका है, जो इसे प्राचीन इतिहास के महान अनसुलझे रहस्यों में से एक बनाती है।"
+  },
+  {
+    "question": "Which Indus Valley site is located in present-day Gujarat, India? / निम्नलिखित में से कौन-सा सिंधु घाटी स्थल वर्तमान गुजरात, भारत में स्थित है?",
+    "options": ["Harappa / हड़प्पा", "Mohenjo-daro / मोहनजोदड़ो", "Lothal / लोथल", "Kot Diji / कोट दीजी"],
+    "correct": 2,
+    "explanation": "Lothal is an important Indus Valley site located in present-day Gujarat, India, known for its ancient dockyard and trade connections. / लोथल वर्तमान गुजरात, भारत में स्थित एक महत्वपूर्ण सिंधु घाटी स्थल है, जो अपनी प्राचीन गोदी और व्यापारिक संबंधों के लिए जाना जाता है।"
+  },
+  {
+    "question": "The Indus Valley Civilization belongs to which age? / सिंधु घाटी सभ्यता किस युग से संबंधित है?",
+    "options": ["Stone Age / पाषाण युग", "Iron Age / लौह युग", "Bronze Age / कांस्य युग", "Copper Age / ताम्र युग"],
+    "correct": 2,
+    "explanation": "The Indus Valley Civilization is classified as a Bronze Age civilization as its people extensively used bronze for making tools and weapons. / सिंधु घाटी सभ्यता को कांस्य युग सभ्यता के रूप में वर्गीकृत किया गया है क्योंकि इसके लोग औजार और हथियार बनाने के लिए बड़े पैमाने पर कांसे का उपयोग करते थे।"
+  },
+  {
+    "question": "Which of the following animals was NOT depicted on the seals of the Indus Valley Civilization? / निम्नलिखित में से कौन-सा जानवर सिंधु घाटी सभ्यता की मुहरों पर चित्रित नहीं था?",
+    "options": ["Bull / बैल", "Elephant / हाथी", "Unicorn / एकशृंग", "Horse / घोड़ा"],
+    "correct": 3,
+    "explanation": "The horse was not depicted on Indus Valley seals, suggesting horses were not a significant part of their culture, unlike bull, elephant, and the mythical unicorn. / घोड़े को सिंधु घाटी की मुहरों पर चित्रित नहीं किया गया था, जो बताता है कि घोड़े उनकी संस्कृति का महत्वपूर्ण हिस्सा नहीं थे, बैल, हाथी और पौराणिक एकशृंग के विपरीत।"
+  },
+  {
+    "question": "Who discovered Mohenjo-daro in 1922? / 1922 में मोहनजोदड़ो की खोज किसने की?",
+    "options": ["Daya Ram Sahni / दया राम साहनी", "R. D. Banerji / आर. डी. बनर्जी", "John Marshall / जॉन मार्शल", "Mortimer Wheeler / मोर्टिमर व्हीलर"],
+    "correct": 1,
+    "explanation": "Mohenjo-daro was discovered in 1922 by R. D. Banerji, an officer of the Archaeological Survey of India, while Harappa was discovered by Daya Ram Sahni in 1921. / मोहनजोदड़ो की खोज 1922 में भारतीय पुरातत्व सर्वेक्षण के अधिकारी आर. डी. बनर्जी ने की थी, जबकि हड़प्पा की खोज 1921 में दया राम साहनी ने की थी।"
+  },
+  {
+    "question": "The town planning of the Indus Valley Civilization was characterized by which feature? / सिंधु घाटी सभ्यता की नगर योजना की विशेषता कौन-सी थी?",
+    "options": ["Circular streets / गोलाकार सड़कें", "Grid pattern streets / ग्रिड पैटर्न की सड़कें", "Random layout / अव्यवस्थित बनावट", "No planned layout / कोई योजना नहीं"],
+    "correct": 1,
+    "explanation": "The Indus Valley cities had a remarkable grid pattern of streets cutting at right angles, with advanced drainage systems showing excellent urban planning. / सिंधु घाटी के शहरों में समकोण पर कटती सड़कों का उल्लेखनीय ग्रिड पैटर्न था, जिसमें उन्नत जल निकासी प्रणाली थी जो उत्कृष्ट नगर नियोजन को दर्शाती है।"
+  }
+]
