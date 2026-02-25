@@ -179,12 +179,83 @@ button{padding:11px 18px;border:none;border-radius:8px;cursor:pointer;font-size:
 <script>
 var BASE="https://raw.githubusercontent.com/indian786786/Claude-newbot/refs/heads/main/questions";
 var CATS={
-  "Polity":{icon:"⚖️",topics:["Central_Government","Constitutional_Bodies","DPSP","Fundamental_Duties","Fundamental_Rights","Governor","Important_Acts","Important_Amendments","Important_Articles","Judiciary","Local_Government","Making_Constitution","Non_Constitutional_Bodies","Parliament","Parts_Schedules","Political_Dimensions","President","State_Government","State_Legislature"]},
-  "History":{icon:"🏛️",topics:["Lodi_Dynasty","Mughal_Empire","Independence_Movement"]},
-  "Geography":{icon:"🌍",topics:["Indian_Rivers","World_Geography"]},
-  "Mathematics":{icon:"🔢",topics:["Ratio_Proportion","Algebra"]},
-  "Science":{icon:"🔬",topics:["Physics","Chemistry","Biology"]},
-  "Economics":{icon:"💰",topics:["Indian_Economy","Banking"]}
+  "Polity":{icon:"⚖️",maths:false,topics:["Central_Government","Constitutional_Bodies","DPSP","Fundamental_Duties","Fundamental_Rights","Governor","Important_Acts","Important_Amendments","Important_Articles","Judiciary","Local_Government","Making_Constitution","Non_Constitutional_Bodies","Parliament","Parts_Schedules","Political_Dimensions","President","State_Government","State_Legislature"]},
+
+  "History":{icon:"🏛️",maths:false,topics:[
+    "Ancient_India","Indus_Valley_Civilisation","Vedic_Period","Maurya_Empire","Gupta_Empire",
+    "Medieval_India","Delhi_Sultanate","Lodi_Dynasty","Mughal_Empire","Vijayanagara_Empire",
+    "Maratha_Empire","Sikh_Empire",
+    "Modern_India","British_East_India_Company","Governor_Generals_Viceroys",
+    "Revolt_of_1857","Indian_National_Congress","Independence_Movement",
+    "Gandhi_and_Civil_Disobedience","Partition_and_Independence",
+    "Art_and_Culture","Religious_Movements"
+  ]},
+
+  "Geography":{icon:"🌍",maths:false,topics:[
+    "Indian_Physical_Features","Himalayas","Peninsular_Plateau","Coastal_Plains",
+    "Indian_Rivers","Lakes_and_Wetlands","Climate_of_India","Soils_of_India",
+    "Natural_Vegetation","Wildlife_and_Biosphere_Reserves",
+    "Indian_States_and_UTs","Important_Cities","Transport_in_India",
+    "World_Physical_Geography","World_Continents","World_Oceans_and_Seas",
+    "World_Rivers","World_Mountains","World_Deserts",
+    "World_Geography","Economic_Geography","Population_and_Census"
+  ]},
+
+  "Mathematics":{icon:"🔢",maths:true,topics:[
+    "Number_System","HCF_and_LCM","Simplification","Percentage",
+    "Profit_and_Loss","Discount","Simple_Interest","Compound_Interest",
+    "Ratio_Proportion","Partnership","Average","Mixture_and_Alligation",
+    "Time_and_Work","Pipes_and_Cisterns","Time_Speed_Distance",
+    "Trains","Boats_and_Streams","Algebra","Linear_Equations",
+    "Quadratic_Equations","Mensuration_2D","Mensuration_3D",
+    "Geometry","Triangles","Circles","Trigonometry","Height_and_Distance",
+    "Statistics","Data_Interpretation","Permutation_and_Combination",
+    "Probability","Number_Series","Surds_and_Indices"
+  ]},
+
+  "Science":{icon:"🔬",maths:false,topics:[
+    "Physics","Chemistry","Biology","Environmental_Science"
+  ]},
+
+  "Economics":{icon:"💰",maths:false,topics:[
+    "Indian_Economy","Economic_Planning","Five_Year_Plans","NITI_Aayog",
+    "National_Income","Inflation","Money_and_Banking","Banking",
+    "RBI_and_Monetary_Policy","Financial_Institutions","Budget_and_Fiscal_Policy",
+    "Taxation","International_Trade","Balance_of_Payments",
+    "Agriculture_in_India","Industry_in_India","Services_Sector",
+    "Poverty_and_Unemployment","Human_Development","Economic_Reforms_1991",
+    "Indian_Financial_Market","Stock_Market_Basics"
+  ]},
+
+  "English":{icon:"📝",maths:false,topics:[
+    "Synonyms","Antonyms","One_Word_Substitution","Idioms_and_Phrases",
+    "Fill_in_the_Blanks","Error_Spotting","Sentence_Improvement",
+    "Active_Passive_Voice","Direct_Indirect_Speech","Reading_Comprehension",
+    "Cloze_Test","Para_Jumbles","Spelling_Correction","Vocabulary"
+  ]},
+
+  "Reasoning":{icon:"🧩",maths:false,topics:[
+    "Analogies","Classification","Series_Completion","Coding_Decoding",
+    "Blood_Relations","Direction_Sense","Ranking_and_Order",
+    "Seating_Arrangement","Syllogism","Statement_and_Conclusions",
+    "Venn_Diagrams","Cubes_and_Dice","Mirror_and_Water_Images",
+    "Paper_Folding_Cutting","Embedded_Figures","Non_Verbal_Reasoning",
+    "Mathematical_Operations","Number_Puzzles"
+  ]},
+
+  "GK_Current_Affairs":{icon:"🌐",maths:false,topics:[
+    "January_2025","February_2025","March_2025","April_2025",
+    "May_2025","June_2025","July_2025","August_2025",
+    "September_2025","October_2025","November_2025","December_2025",
+    "January_2026","February_2026"
+  ]},
+
+  "Computer":{icon:"💻",maths:false,topics:[
+    "Computer_Basics","Input_Output_Devices","Memory_Storage",
+    "Operating_Systems","MS_Office","Internet_and_Networking",
+    "Computer_Shortcuts","Database_Basics","Cyber_Security",
+    "Programming_Basics","Number_Systems_in_Computer"
+  ]}
 };
 var LABS=["A","B","C","D"];
 
@@ -226,7 +297,7 @@ function openCat(name){
   var list=el("topicsList");list.innerHTML="";
   CATS[name].topics.forEach(function(file){
     var e=document.createElement("div");e.className="topic-card";
-    var mins=name==="Mathematics"?"10 min":"5 min";
+    var mins=CATS[name].maths?"10 min":"5 min";
     e.innerHTML="<div><div class='topic-name'>"+nice(file)+"</div><div class='topic-sub'>10 Questions · "+mins+"</div></div><div class='topic-arrow'>→</div>";
     e.onclick=function(){startQuiz(file);};
     list.appendChild(e);
@@ -256,7 +327,7 @@ function startQuiz(file){
     g.idx=0;
     g.marked=[];
     g.answers=g.qs.map(function(){return{selected:null};});
-    g.timeLeft=g.cat==="Mathematics"?600:300;
+    g.timeLeft=CATS[g.cat].maths?600:300;
     clearInterval(g.timer);
     startTimer();
     buildPalette();
@@ -381,91 +452,4 @@ function openReview(startFilter){
   hideAll();
   el("reviewScreen").style.display="block";
   setFilter(startFilter||"all");
-  window.scrollTo(0,0);
-}
-var curFilter="all";
-function setFilter(f){
-  curFilter=f;
-  document.querySelectorAll(".filter-tab").forEach(function(b){
-    b.classList.toggle("active",b.getAttribute("data-filter")===f);
-  });
-  renderReview();
-}
-function renderReview(){
-  var list=el("reviewList");list.innerHTML="";
-  var shown=0;
-  g.qs.forEach(function(qu,i){
-    var sel=g.answers[i].selected;
-    var isCorrect=sel!==null&&sel===qu.correct;
-    var isWrong=sel!==null&&sel!==qu.correct;
-    var isSkipped=sel===null;
-    var isMarked=g.marked.indexOf(i)>-1;
-
-    if(curFilter==="correct"&&!isCorrect)return;
-    if(curFilter==="wrong"&&!isWrong)return;
-    if(curFilter==="unattempted"&&!isSkipped)return;
-    if(curFilter==="marked"&&!isMarked)return;
-    shown++;
-
-    var cardCls="review-card "+(isCorrect?"correct-card":isWrong?"wrong-card":"unattempted-card");
-    var badgeCls=isCorrect?"badge-correct":isWrong?"badge-wrong":"badge-unattempted";
-    var badgeTxt=isCorrect?"✅ Correct":isWrong?"❌ Wrong":"⏭ Skipped";
-
-    var optsHtml="";
-    qu.options.forEach(function(opt,j){
-      var cls="review-opt";
-      var isCorrectOpt=j===qu.correct;
-      var isYours=j===sel&&sel!==null;
-      if(isCorrectOpt)cls+=" r-correct";
-      if(isYours&&!isCorrectOpt)cls+=" r-wrong";
-      // show dashed border if this was user's choice
-      var yoursMark=(isYours&&!isCorrectOpt)?" r-yours":"";
-      optsHtml+="<div class='"+cls+yoursMark+"'>"
-        +"<div class='review-opt-lbl'>"+LABS[j]+"</div>"
-        +"<div>"+opt+(isCorrectOpt?" ✓":"")+(isYours&&!isCorrectOpt?" ← Your answer":"")+
-        (isYours&&isCorrectOpt?" ← Your answer ✓":"")+"</div></div>";
-    });
-
-    var explHtml=qu.explanation
-      ?"<div class='review-explanation'><strong>💡 Explanation:</strong>"+qu.explanation+"</div>":"";
-
-    var card=document.createElement("div");
-    card.className=cardCls;
-    card.innerHTML=
-      "<div class='review-q-header'>"
-        +"<span class='review-q-num "+badgeCls+"'>Q"+(i+1)+" — "+badgeTxt+"</span>"
-        +(isMarked?"<span class='badge-marked'>⭐ Marked</span>":"")
-      +"</div>"
-      +"<div class='review-q-text'>"+(i+1)+". "+qu.question+"</div>"
-      +optsHtml+explHtml;
-    list.appendChild(card);
-  });
-  if(!shown)list.innerHTML="<div class='no-results'>No questions match this filter.</div>";
-}
-
-/* ── EVENTS ── */
-el("btnBack").onclick=loadCategories;
-el("btnMark").onclick=function(){
-  var idx=g.marked.indexOf(g.idx);
-  if(idx>-1)g.marked.splice(idx,1);else g.marked.push(g.idx);
-  renderQ(); // re-render to update button + palette
-};
-el("btnNext").onclick=nextQ;
-el("btnSubmit").onclick=function(){
-  if(confirm("Submit test now?\n\nUnanswered questions will be marked as Skipped.")){
-    clearInterval(g.timer);showResults();
-  }
-};
-el("btnReview").onclick=function(){openReview("all");};
-el("btnMarkedReview").onclick=function(){openReview("marked");};
-el("btnRestart").onclick=loadCategories;
-el("btnReviewBack").onclick=function(){show("resultsScreen");};
-document.querySelectorAll(".filter-tab").forEach(function(btn){
-  btn.onclick=function(){setFilter(btn.getAttribute("data-filter"));};
-});
-
-/* ── INIT ── */
-loadCategories();
-</script>
-</body>
-</html>
+  
