@@ -452,4 +452,98 @@ function showResults(){
 function openReview(startFilter){
   hideAll();
   el("reviewScreen").style.display="block";
- 
+  setFilter(startFilter||"all");
+  window.scrollTo(0,0);
+}
+var curFilter="all";
+function setFilter(f){
+  curFilter=f;
+  document.querySelectorAll(".filter-tab").forEach(function(b){
+    b.classList.toggle("active",b.getAttribute("data-filter")===f);
+  });
+  renderReview();
+}
+function renderReview(){
+  var list=el("reviewList");list.innerHTML="";
+  var shown=0;
+  g.qs.forEach(function(qu,i){
+    var sel=g.answers[i].selected;
+    var isCorrect=sel!==null&&sel===qu.correct;
+    var isWrong=sel!==null&&sel!==qu.correct;
+    var isSkipped=sel===null;
+    var isMarked=g.marked.indexOf(i)>-1;
+
+    if(curFilter==="correct"&&!isCorrect)return;
+    if(curFilter==="wrong"&&!isWrong)return;
+    if(curFilter==="unattempted"&&!isSkipped)return;
+    if(curFilter==="marked"&&!isMarked)return;
+    shown++;
+
+    var cardCls="review-card "+(isCorrect?"correct-card":isWrong?"wrong-card":"unattempted-card");
+    var badgeCls=isCorrect?"badge-correct":isWrong?"badge-wrong":"badge-unattempted";
+    var badgeTxt=isCorrect?"✅ Correct":isWrong?"❌ Wrong":"⏭ Skipped";
+
+    var optsHtml="";
+    qu.options.forEach(function(opt,j){
+      var cls="review-opt";
+      var isCorrectOpt=j===qu.correct;
+      var isYours=j===sel&&sel!==null;
+      if(isCorrectOpt)cls+=" r-correct";
+      if(isYours&&!isCorrectOpt)cls+=" r-wrong";
+      // show dashed border if this was user's choice
+      var yoursMark=(isYours&&!isCorrectOpt)?" r-yours":"";
+      optsHtml+="<div class='"+cls+yoursMark+"'>"
+        +"<div class='review-opt-lbl'>"+LABS[j]+"</div>"
+        +"<div>"+opt+(isCorrectOpt?" ✓":"")+(isYours&&!isCorrectOpt?" ← Your answer":"")+
+        (isYours&&isCorrectOpt?" ← Your answer ✓":"")+"</div></div>";
+    });
+
+    var explHtml=qu.explanation
+      ?"<div class='review-explanation'><strong>💡 Explanation:</strong>"+qu.explanation+"</div>":"";
+
+    var card=document.createElement("div");
+    card.className=cardCls;
+    card.innerHTML=
+      "<div class='review-q-header'>"
+        +"<span class='review-q-num "+badgeCls+"'>Q"+(i+1)+" — "+badgeTxt+"</span>"
+        +(isMarked?"<span class='badge-marked'>⭐ Marked</span>":"")
+      +"</div>"
+      +"<div class='review-q-text'>"+(i+1)+". "+qu.question+"</div>"
+      +optsHtml+explHtml;
+    list.appendChild(card);
+  });
+  if(!shown)list.innerHTML="<div class='no-results'>No questions match this filter.</div>";
+}
+
+/* ── EVENTS ── */
+el("btnBack").onclick=loadCategories;
+el("btnMark").onclick=function(){
+  var idx=g.marked.indexOf(g.idx);
+  if(idx>-1)g.marked.splice(idx,1);else g.marked.push(g.idx);
+  renderQ(); // re-render to update button + palette
+};
+el("btnNext").onclick=nextQ;
+el("btnSubmit").onclick=function(){
+  if(confirm("Submit test now?\n\nUnanswered questions will be marked as Skipped.")){
+    clearInterval(g.timer);showResults();
+  }
+};
+el("btnReview").onclick=function(){openReview("all");};
+el("btnMarkedReview").onclick=function(){openReview("marked");};
+el("btnRestart").onclick=loadCategories;
+el("btnReviewBack").onclick=function(){show("resultsScreen");};
+document.querySelectorAll(".filter-tab").forEach(function(btn){
+  btn.onclick=function(){setFilter(btn.getAttribute("data-filter"));};
+});
+
+/* ── INIT ── */
+try {
+  loadCategories();
+} catch(e) {
+  document.body.innerHTML = '<div style="padding:30px;color:red;font-family:Arial">'
+    + '<h2>⚠️ Error</h2><p>' + e.message + '</p>'
+    + '<pre style="font-size:12px;margin-top:10px">' + e.stack + '</pre></div>';
+}
+</script>
+</body>
+</html>
