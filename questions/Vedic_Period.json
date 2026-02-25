@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Which is the oldest of the four Vedas? / चार वेदों में सबसे पुराना कौन-सा है?",
+    "options": ["Samaveda / सामवेद", "Yajurveda / यजुर्वेद", "Rigveda / ऋग्वेद", "Atharvaveda / अथर्ववेद"],
+    "correct": 2,
+    "explanation": "The Rigveda is the oldest of the four Vedas, composed around 1500 BCE, and contains hymns dedicated to various deities. / ऋग्वेद चार वेदों में सबसे पुराना है, जो लगभग 1500 ईसा पूर्व रचा गया था और इसमें विभिन्न देवताओं को समर्पित भजन हैं।"
+  },
+  {
+    "question": "The Vedic period is broadly divided into how many phases? / वैदिक काल को मोटे तौर पर कितने चरणों में विभाजित किया गया है?",
+    "options": ["Two / दो", "Three / तीन", "Four / चार", "Five / पांच"],
+    "correct": 0,
+    "explanation": "The Vedic period is broadly divided into two phases: the Early Vedic Period (1500-1000 BCE) and the Later Vedic Period (1000-600 BCE). / वैदिक काल को मोटे तौर पर दो चरणों में विभाजित किया गया है: पूर्व वैदिक काल (1500-1000 ईसा पूर्व) और उत्तर वैदिक काल (1000-600 ईसा पूर्व)।"
+  },
+  {
+    "question": "The famous 'Gayatri Mantra' is found in which Veda? / प्रसिद्ध 'गायत्री मंत्र' किस वेद में पाया जाता है?",
+    "options": ["Atharvaveda / अथर्ववेद", "Samaveda / सामवेद", "Yajurveda / यजुर्वेद", "Rigveda / ऋग्वेद"],
+    "correct": 3,
+    "explanation": "The Gayatri Mantra is found in the Rigveda (Mandala 3, hymn 62, verse 10) and is one of the most sacred mantras in Hinduism. / गायत्री मंत्र ऋग्वेद (मंडल 3, सूक्त 62, श्लोक 10) में पाया जाता है और हिंदू धर्म के सबसे पवित्र मंत्रों में से एक है।"
+  },
+  {
+    "question": "What was the basic unit of society during the Early Vedic Period? / पूर्व वैदिक काल में समाज की मूल इकाई क्या थी?",
+    "options": ["Village / ग्राम", "Family (Kula) / परिवार (कुल)", "Kingdom / राज्य", "Tribe / जनजाति"],
+    "correct": 1,
+    "explanation": "The family (Kula) was the basic unit of Vedic society, with the eldest male (Kulapa) as its head. Several families formed a village (Grama). / परिवार (कुल) वैदिक समाज की मूल इकाई था, जिसमें सबसे बड़ा पुरुष (कुलपति) इसका प्रमुख होता था। कई परिवार मिलकर एक ग्राम बनाते थे।"
+  },
+  {
+    "question": "Which river is most frequently mentioned in the Rigveda? / ऋग्वेद में किस नदी का सबसे अधिक उल्लेख है?",
+    "options": ["Ganga / गंगा", "Yamuna / यमुना", "Saraswati / सरस्वती", "Sindhu (Indus) / सिंधु"],
+    "correct": 3,
+    "explanation": "The Sindhu (Indus) River is the most frequently mentioned river in the Rigveda, reflecting the geographical location of the early Vedic people. / सिंधु नदी ऋग्वेद में सबसे अधिक उल्लिखित नदी है, जो प्रारंभिक वैदिक लोगों के भौगोलिक स्थान को दर्शाती है।"
+  },
+  {
+    "question": "Which Veda contains information about music and melodies? / किस वेद में संगीत और धुनों के बारे में जानकारी है?",
+    "options": ["Rigveda / ऋग्वेद", "Samaveda / सामवेद", "Yajurveda / यजुर्वेद", "Atharvaveda / अथर्ववेद"],
+    "correct": 1,
+    "explanation": "The Samaveda is considered the Veda of melodies and chants. Most of its verses are derived from the Rigveda but are set to musical notations. / सामवेद को धुनों और मंत्रोच्चार का वेद माना जाता है। इसके अधिकांश श्लोक ऋग्वेद से लिए गए हैं लेकिन उन्हें संगीत स्वरों में सजाया गया है।"
+  },
+  {
+    "question": "The term 'Varna' in the Vedic period referred to which of the following? / वैदिक काल में 'वर्ण' शब्द निम्नलिखित में से किसे संदर्भित करता था?",
+    "options": ["Color / रंग", "Social division / सामाजिक विभाजन", "Language / भाषा", "Region / क्षेत्र"],
+    "correct": 1,
+    "explanation": "Varna in the Vedic period referred to the social division of society into four groups: Brahmin, Kshatriya, Vaishya, and Shudra, originally based on occupation. / वैदिक काल में वर्ण समाज के चार समूहों में सामाजिक विभाजन को संदर्भित करता था: ब्राह्मण, क्षत्रिय, वैश्य और शूद्र, जो मूल रूप से व्यवसाय पर आधारित था।"
+  },
+  {
+    "question": "Which of the following was the assembly of the common people in the Vedic period? / वैदिक काल में सामान्य लोगों की सभा निम्नलिखित में से कौन-सी थी?",
+    "options": ["Sabha / सभा", "Samiti / समिति", "Parishad / परिषद", "Gana / गण"],
+    "correct": 1,
+    "explanation": "The Samiti was a large general assembly of the common people, while the Sabha was a smaller council of elders and nobles in the Vedic political system. / समिति सामान्य लोगों की एक बड़ी आम सभा थी, जबकि सभा वैदिक राजनीतिक व्यवस्था में बुजुर्गों और कुलीनों की एक छोटी परिषद थी।"
+  },
+  {
+    "question": "The Later Vedic Period saw the rise of which system of philosophy? / उत्तर वैदिक काल में किस दर्शन प्रणाली का उदय हुआ?",
+    "options": ["Buddhism / बौद्ध धर्म", "Jainism / जैन धर्म", "Upanishadic Philosophy / उपनिषद दर्शन", "Charvaka / चार्वाक"],
+    "correct": 2,
+    "explanation": "The Later Vedic Period saw the composition of the Upanishads, which introduced philosophical ideas about Brahman, Atman, and the nature of existence. / उत्तर वैदिक काल में उपनिषदों की रचना हुई, जिन्होंने ब्रह्म, आत्मा और अस्तित्व की प्रकृति के बारे में दार्शनिक विचार प्रस्तुत किए।"
+  },
+  {
+    "question": "Which animal was considered most sacred and valuable during the Vedic period? / वैदिक काल में कौन-सा पशु सबसे पवित्र और मूल्यवान माना जाता था?",
+    "options": ["Horse / घोड़ा", "Elephant / हाथी", "Cow / गाय", "Buffalo / भैंस"],
+    "correct": 2,
+    "explanation": "The cow was considered the most sacred animal during the Vedic period and was used as a measure of wealth. Wars were often fought over cattle. / वैदिक काल में गाय को सबसे पवित्र पशु माना जाता था और इसे संपत्ति के माप के रूप में उपयोग किया जाता था। युद्ध अक्सर मवेशियों के लिए लड़े जाते थे।"
+  }
+]
